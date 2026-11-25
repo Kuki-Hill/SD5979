@@ -1,0 +1,998 @@
+{
+ "lecture": "L10",
+ "source_file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L10.pdf",
+ "sha256": "ea86ab38694c5398c9d68b9b7245357dae80faf3b67312a25b1da0896686c157",
+ "page_count": 83,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 10: t-tests and (M)ANOVA\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 10: t-tests and (M)ANOVA 1",
+   "char_count": 137,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "Contents of today\nConfirmatory data analysis\nParametric testing and deduction\nResults depend on test theory chosen\nFrequentism (or Bayesian?)\nWhen to decide there is an effect?\nSo what is reliability, confidence, significance?\n2/83\n",
+   "text_norm": "Contents of today Confirmatory data analysis Parametric testing and deduction Results depend on test theory chosen Frequentism (or Bayesian?) When to decide there is an effect? So what is reliability, confidence, significance? 2/83",
+   "char_count": 237,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-002.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 3,
+   "text": "Confirmatory data analysis\n●Test theory (frequentism)\nNull and Alternative\n●Signal detection\nType I, Type II errors\n●Student’s t\nOne-sample t-test\nTwo-sample t-test\nPaired-samples t-test\n●Analysis of Variance\nOneway ANOVA\n2 2 ANOVA\nMultiple sources of variance\nGeneral Linear Model\nRepeated Measures\nMain lesson: Frequentism is but one view on the \ndata. It cannot do more than rejecting ‘no difference’ \nor fail to do so. It cannot confirm ‘there is an effect’\n3/83\n",
+   "text_norm": "Confirmatory data analysis ●Test theory (frequentism) Null and Alternative ●Signal detection Type I, Type II errors ●Student’s t One-sample t-test Two-sample t-test Paired-samples t-test ●Analysis of Variance Oneway ANOVA 2 2 ANOVA Multiple sources of variance General Linear Model Repeated Measures Main lesson: Frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’ or fail to do so. It cannot confirm ‘there is an effect’ 3/83",
+   "char_count": 476,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-003.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 4,
+   "text": "The four quadrants of testing\nConcrete:\nField strategies\nAbstract:\nTheoretical strategies \nLaboratory\nexperiment\nSample surveys\nObtrusive:\nRespondent\nstrategies\nUnobtrusive:\nObservation \nstrategies\nFormal\ntheory\nComputer\nsimulation\nEthnography\nContent \nanalysis\nField\nexperiment\nFocus groups\nInterviews\nJudgment \nstudies\nSingle cases\nHigh on realism\nRich data (qualitative)\nUnstructured\nGeneralizable\nHigh on precision\nFocused data\n(quantitative)\nStructured\nRetake on McGrath (1995)\nt-tests and Analysis of \nVariance\nt-tests and Analysis of \nVariance\n4/83\n",
+   "text_norm": "The four quadrants of testing Concrete: Field strategies Abstract: Theoretical strategies Laboratory experiment Sample surveys Obtrusive: Respondent strategies Unobtrusive: Observation strategies Formal theory Computer simulation Ethnography Content analysis Field experiment Focus groups Interviews Judgment studies Single cases High on realism Rich data (qualitative) Unstructured Generalizable High on precision Focused data (quantitative) Structured Retake on McGrath (1995) t-tests and Analysis of Variance t-tests and Analysis of Variance 4/83",
+   "char_count": 557,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-004.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 5,
+   "text": "Confirmatory data analysis\nDeductive approach — inferential statistics\nLooks for definite answers to specific questions\nOften uses probability models and numerical calculations\nGiven a hypothesis determined at the outset, do the data support our hypothesis?\nConfirmatory data analysis uses Descriptives to summarize and describe a \ngroup of numbers from a research study, but that’s just the start\nInferential statistics are used to draw conclusions and to make inferences that \ngo beyond the individual cases\nAllows researchers to make inferences about a large group of individuals (i.e., \npopulation) based on a research study in which a much smaller number of \nindividuals (i.e., sample) took part\nLecture 09: Experiment Design\n5/83\n",
+   "text_norm": "Confirmatory data analysis Deductive approach — inferential statistics Looks for definite answers to specific questions Often uses probability models and numerical calculations Given a hypothesis determined at the outset, do the data support our hypothesis? Confirmatory data analysis uses Descriptives to summarize and describe a group of numbers from a research study, but that’s just the start Inferential statistics are used to draw conclusions and to make inferences that go beyond the individual cases Allows researchers to make inferences about a large group of individuals (i.e., population) based on a research study in which a much smaller number of individuals (i.e., sample) took part Lecture 09: Experiment Design 5/83",
+   "char_count": 735,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-005.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 6,
+   "text": "Confirmatory data analysis\nTesting the H0 Can ‘no notable difference’ be refuted?\nStatistically, we can never demonstrate that anything is ‘correct’ or ‘true,’ \nonly that it is very likely to be correct: “Most swans are white”\nStatistics can also underscore that something is very likely to be false, \nfinding a number of swans that are not white\nThe stronger the statement, the less sophisticated statistics I need:             \n“All cats are white” and “Anything white is a cat” are easily falsified by \nfinding one counter-example (cf. Karl Popper)\nThe Null is conservative and only rejected if it is significantly unlikely that no-\ndifference / no-effect occurred\nA white dog is a \ncat too (because \nwhite)\nLakkaraju, H., Kamar, E., Caruana, R., & \nHorvitz, E. (2017). Identifying unknown \nunknowns in the open world: Representations \nand policies for guided exploration. In S. Singh \n& S. Markovitch (Eds.), Proceedings of the 31st\nAAAI Conference on Artificial Intelligence, Feb. \n4-7, 2017, SF, CA (pp. 2124–2132). Palo Alto, \nCA: AAAI.\nLecture 09: Experiment Design\n6/83\n",
+   "text_norm": "Confirmatory data analysis Testing the H0 Can ‘no notable difference’ be refuted? Statistically, we can never demonstrate that anything is ‘correct’ or ‘true,’ only that it is very likely to be correct: “Most swans are white” Statistics can also underscore that something is very likely to be false, finding a number of swans that are not white The stronger the statement, the less sophisticated statistics I need: “All cats are white” and “Anything white is a cat” are easily falsified by finding one counter-example (cf. Karl Popper) The Null is conservative and only rejected if it is significantly unlikely that nodifference / no-effect occurred A white dog is a cat too (because white) Lakkaraju, H., Kamar, E., Caruana, R., & Horvitz, E. (2017). Identifying unknown unknowns in the open world: Representations and policies for guided exploration. In S. Singh & S. Markovitch (Eds.), Proceedings of the 31st AAAI Conference on Artificial Intelligence, Feb. 4-7, 2017, SF, CA (pp. 2124–2132). Palo Alto, CA: AAAI. Lecture 09: Experiment Design 6/83",
+   "char_count": 1057,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-006.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "The central tendency of a group of scores (a distribution) refers to the middle of the \ngroup of scores\nMean, written as M, , or X (X-bar)\nX stands for the scores in the distribution of the variable X\nN or n stands for the number of scores in a distribution\nMode\nThe mode is the most common single value in a distribution\nMedian\nIf you line up all the scores from lowest to highest, the middle score is the median\nIf there are two middle scores, the median is the average of the two\nCentral tendencies\n_\nLecture 09: Experiment Design\n7/83\n",
+   "text_norm": "The central tendency of a group of scores (a distribution) refers to the middle of the group of scores Mean, written as M, , or X (X-bar) X stands for the scores in the distribution of the variable X N or n stands for the number of scores in a distribution Mode The mode is the most common single value in a distribution Median If you line up all the scores from lowest to highest, the middle score is the median If there are two middle scores, the median is the average of the two Central tendencies _ Lecture 09: Experiment Design 7/83",
+   "char_count": 544,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-007.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "Visual inspection of central tendencies is not reliable\nGiven any set of collected data, there will almost always be some variation\nDifferences between data sets may be due to just normal variation!\nTwo sets of ten tosses with different but fair dice\n– First dice gives\n6, 2, 4, 4, 2, 6, 4, 2, 5, 6 (M = 4.1)\n– Second dice gives\n6, 4, 4, 5, 4, 4, 2, 1, 4, 5 (M = 3.9)\nIf they are both fair dice, shouldn’t their outputs have the same probability? \nDoes this mean that the dice are not fair? Given any set of data (even dice \nthrows), there will always be some variation\nThe question is whether this variation is explainable by normal variation\n(Do you believe that the world is fixed and stable or that everything\nmoves and changes?)\nIs a difference of 0.2 explainable? Is the average stable enough? What about \n1000 attempts?\nLecture 09: Experiment Design\n8/83\n",
+   "text_norm": "Visual inspection of central tendencies is not reliable Given any set of collected data, there will almost always be some variation Differences between data sets may be due to just normal variation! Two sets of ten tosses with different but fair dice – First dice gives 6, 2, 4, 4, 2, 6, 4, 2, 5, 6 (M = 4.1) – Second dice gives 6, 4, 4, 5, 4, 4, 2, 1, 4, 5 (M = 3.9) If they are both fair dice, shouldn’t their outputs have the same probability? Does this mean that the dice are not fair? Given any set of data (even dice throws), there will always be some variation The question is whether this variation is explainable by normal variation (Do you believe that the world is fixed and stable or that everything moves and changes?) Is a difference of 0.2 explainable? Is the average stable enough? What about 1000 attempts? Lecture 09: Experiment Design 8/83",
+   "char_count": 861,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-008.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 9,
+   "text": "How spread out are the scores in a distribution?\nX stands for the scores in the distribution of the variable X\nM, , or X is the mean\nN or n stands for the number of scores in a distribution\nStandard deviation (, S, or SD)\nThe square root of variance \nVariance\nVariance\nStandard deviation\nPopulation\nSample\n2 = i = 1\nN\n(xi - )2\nN\n=\ni = 1\nN\n(xi - )2\nN\n\nS 2 = i = 1\nn\n(xi - X)2\nS  =\ni = 1\nn\n(xi - X)2\nn – 1\n\n_\n_\n_\nn – 1\nThe divisor n – 1 makes the result slightly larger, compensating for the \nunderestimation by the sample mean of the population SD\nLecture 09: Experiment Design\n9/83\n",
+   "text_norm": "How spread out are the scores in a distribution? X stands for the scores in the distribution of the variable X M, , or X is the mean N or n stands for the number of scores in a distribution Standard deviation (, S, or SD) The square root of variance Variance Variance Standard deviation Population Sample 2 = i = 1 N (xi - )2 N = i = 1 N (xi - )2 N  S 2 = i = 1 n (xi - X)2 S = i = 1 n (xi - X)2 n – 1  _ _ _ n – 1 The divisor n – 1 makes the result slightly larger, compensating for the underestimation by the sample mean of the population SD Lecture 09: Experiment Design 9/83",
+   "char_count": 595,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-009.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 10,
+   "text": "2 is the population variance. It tells you how spread out the numbers in the entire population are\nxi are the individual data points in your population\nis the population mean, or average. It’s the central value of your data set\nN is the total number of data points in the population. It’s how many data points you have\nmeans “sum up” or “add together.” You’re adding up all the values that follow it\n(xi - )2 calculates the squared difference between each data point and the mean. It shows how far \neach data point is from the average, squared to ensure all differences are positive\nVariance is the mean (sum of differences from the mean)\nPopulation variance gives you an idea of how much the data points in a population differ from the \naverage value\n2 = i = 1\nN\n(xi - )2\nN\nVariance\n10/83\n",
+   "text_norm": "2 is the population variance. It tells you how spread out the numbers in the entire population are xi are the individual data points in your population is the population mean, or average. It’s the central value of your data set N is the total number of data points in the population. It’s how many data points you have means “sum up” or “add together.” You’re adding up all the values that follow it (xi - )2 calculates the squared difference between each data point and the mean. It shows how far each data point is from the average, squared to ensure all differences are positive Variance is the mean (sum of differences from the mean) Population variance gives you an idea of how much the data points in a population differ from the average value 2 = i = 1 N (xi - )2 N Variance 10/83",
+   "char_count": 795,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-010.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 11,
+   "text": "(not squared!) is the population standard deviation. It tells you, on average, how far each data \npoint is from the mean. It’s a measure of the spread of the data in the same units as the data itself\nxi are the individual data points in your population\nis the population mean, or average. It’s the central value of your data set\nN is the total number of data points in the population. It’s how many data points you have\nmeans “sum up” or “add together.” You’re adding up all the values that follow it\n(xi - )2 calculates the squared difference between each data point and the mean. It shows how far \neach data point is from the average, squared to ensure all differences are positive\nis the square root symbol. After calculating the variance (the average of the squared differences), \nyou take the square root to bring the measure back to the original units of the data\nPopulation standard deviation gives you a sense of how much the data points in a population \ntypically deviate from the average value: so variance = SD squared!!\nStandard deviation\n=\ni = 1\nN\n(xi - )2\nN\n\n11/83\n",
+   "text_norm": "(not squared!) is the population standard deviation. It tells you, on average, how far each data point is from the mean. It’s a measure of the spread of the data in the same units as the data itself xi are the individual data points in your population is the population mean, or average. It’s the central value of your data set N is the total number of data points in the population. It’s how many data points you have means “sum up” or “add together.” You’re adding up all the values that follow it (xi - )2 calculates the squared difference between each data point and the mean. It shows how far each data point is from the average, squared to ensure all differences are positive is the square root symbol. After calculating the variance (the average of the squared differences), you take the square root to bring the measure back to the original units of the data Population standard deviation gives you a sense of how much the data points in a population typically deviate from the average value: so variance = SD squared!! Standard deviation = i = 1 N (xi - )2 N  11/83",
+   "char_count": 1084,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "Variance, some examples for different distributions\nPeaked\nNormal\nFlat \nSlightly peaked\nLecture 09: Experiment Design\n12/83\n",
+   "text_norm": "Variance, some examples for different distributions Peaked Normal Flat Slightly peaked Lecture 09: Experiment Design 12/83",
+   "char_count": 123,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-012.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 13,
+   "text": "Mean and variance\nThere are two separate issues here: the mean, or the average, and the variability, or the \nstandard deviation\nThe difference between the means of the two curves is the same in all three above \nsituations. However, they certainly do not look alike!\nMean\nMean\nLow variability\nMedium variability\nHigh variability\nLecture 09: Experiment Design\n13/83\n",
+   "text_norm": "Mean and variance There are two separate issues here: the mean, or the average, and the variability, or the standard deviation The difference between the means of the two curves is the same in all three above situations. However, they certainly do not look alike! Mean Mean Low variability Medium variability High variability Lecture 09: Experiment Design 13/83",
+   "char_count": 362,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L10/slide-013.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 14,
+   "text": "Signal versus noise\nGiven two datasets, the difference between their means is the “signal”\nThe change that we think that we introduced into the dataset by manipulating \nthe independent variables\nThe variability is the “noise” that is introduced by random factors beyond our control\nGiven any dataset, there will always be some “noise,” so we cannot trust that \nthe “signal” tells the story 100%\nThe question is: How much noise can we expect to encounter in a normal situation?\nMeaning: When can we trust that the difference that we’re seeing is a reliable \ndifference, and not just because of noise?\n14/83\n",
+   "text_norm": "Signal versus noise Given two datasets, the difference between their means is the “signal” The change that we think that we introduced into the dataset by manipulating the independent variables The variability is the “noise” that is introduced by random factors beyond our control Given any dataset, there will always be some “noise,” so we cannot trust that the “signal” tells the story 100% The question is: How much noise can we expect to encounter in a normal situation? Meaning: When can we trust that the difference that we’re seeing is a reliable difference, and not just because of noise? 14/83",
+   "char_count": 606,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-014.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 15,
+   "text": "Signal = mean, noise = variance\nIntuitively, we can trust that the difference we are seeing really is a difference \nwhen:\nWe have more observations in our sample\n– A political poll of 10,000 people that gives Candidate A an average rating of \n36 is more believable than a poll of only 100 people\nThe datasets themselves have smaller variability\nHong Kong Island\nSuppose prices in Shop A vary between $10-$12 \nand in Shop B between                              $12-$14\nPrices don’t overlap, Shop A is cheaper than Shop B\nSham Shui Po\nShop A’s prices are between $  8-$12\nand Shop B’s are between     $10-$14\nHarder to tell whether Shop A is cheaper or not\nA\nB\nA\nB\n$12\n$12\n$10\n15/83\n",
+   "text_norm": "Signal = mean, noise = variance Intuitively, we can trust that the difference we are seeing really is a difference when: We have more observations in our sample – A political poll of 10,000 people that gives Candidate A an average rating of 36 is more believable than a poll of only 100 people The datasets themselves have smaller variability Hong Kong Island Suppose prices in Shop A vary between $10-$12 and in Shop B between $12-$14 Prices don’t overlap, Shop A is cheaper than Shop B Sham Shui Po Shop A’s prices are between $ 8-$12 and Shop B’s are between $10-$14 Harder to tell whether Shop A is cheaper or not A B A B $12 $12 $10 15/83",
+   "char_count": 646,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-015.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 16,
+   "text": "Student’s t and signal to noise ratio\nDeveloped by William Sealy Gosset over \n100 years ago!\nThe t-test was originally used by \nGosset to compare differences in \nbarley yields (for a beer brewery)\nThe idea is to calculate the signal (mean \ndifference) to noise (variability) ratio\nA large part of Western-based science is \nindebted to the t-test and related \ntechniques such as (M)ANOVA\n16/83\n",
+   "text_norm": "Student’s t and signal to noise ratio Developed by William Sealy Gosset over 100 years ago! The t-test was originally used by Gosset to compare differences in barley yields (for a beer brewery) The idea is to calculate the signal (mean difference) to noise (variability) ratio A large part of Western-based science is indebted to the t-test and related techniques such as (M)ANOVA 16/83",
+   "char_count": 388,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-016.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 17,
+   "text": "A statistical test that compares the difference between the means of two groups of \ndata, taking the variability of the two groups into account\nCalculates a t-value which gives us the signal-noise ratio\nIf this ratio is high enough (we have enough “signal” to compensate for the “noise”), \nthen we can be more confident that the signal is trustworthy\nt-test (independent samples)\nDifference between group means\nVariability of groups\nSignal\nNoise\n𝑥̅ଵെ𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑛ଵ\n൅𝑆ଶ\nଶ\n𝑛ଶ\n17/83\n",
+   "text_norm": "A statistical test that compares the difference between the means of two groups of data, taking the variability of the two groups into account Calculates a t-value which gives us the signal-noise ratio If this ratio is high enough (we have enough “signal” to compensate for the “noise”), then we can be more confident that the signal is trustworthy t-test (independent samples) Difference between group means Variability of groups Signal Noise 𝑥̅ଵെ𝑥̅ଶ 𝑆ଵ ଶ 𝑛ଵ ൅𝑆ଶ ଶ 𝑛ଶ 17/83",
+   "char_count": 475,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-017.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 18,
+   "text": "A statistical test that compares the difference between the means of two groups of \ndata, taking the variability of the two groups into account\nCalculates a t-value which gives us the signal-noise ratio\nIf this ratio is high enough (we have enough “signal” to compensate for the “noise”), \nthen we can be more confident that the signal is trustworthy\nt-test (independent samples)\nDifference between group means\nVariability of groups\nSignal\nNoise\n𝑡ൌ𝑥̅ଵെ𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑛ଵ൅𝑆ଶ\nଶ\n𝑛ଶ\n=\n=\nNumerator\nDenominator\nS is the standard deviation,\nso S2 is the variance \n𝑥̅ଵ\n𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑆ଶ\nଶ\n18/83\n",
+   "text_norm": "A statistical test that compares the difference between the means of two groups of data, taking the variability of the two groups into account Calculates a t-value which gives us the signal-noise ratio If this ratio is high enough (we have enough “signal” to compensate for the “noise”), then we can be more confident that the signal is trustworthy t-test (independent samples) Difference between group means Variability of groups Signal Noise 𝑡ൌ𝑥̅ଵെ𝑥̅ଶ 𝑆ଵ ଶ 𝑛ଵ൅𝑆ଶ ଶ 𝑛ଶ = = Numerator Denominator S is the standard deviation, so S2 is the variance 𝑥̅ଵ 𝑥̅ଶ 𝑆ଵ ଶ 𝑆ଶ ଶ 18/83",
+   "char_count": 571,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-018.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 19,
+   "text": "t-test: different types\nIndependent samples t-test (a.k.a., two-samples t-test)\nCompares the difference between the means of two groups of data, taking the variability \nof the two groups into account\nOne-sample t-test\nTests the mean of a single group against a known value\nPaired samples t-test\nCompares means from the same group at different times (e.g., before-after treatment) or \ndifferent conditions in a within-subjects experiment (e.g., working with an avatar vs a robot, \norder effects, or measuring happy versus sad)\n𝑡ൌ𝑥̅ଵെ𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑛ଵ൅𝑆ଶ\nଶ\n𝑛ଶ\nThis is the equation we just discussed\n19/83\n",
+   "text_norm": "t-test: different types Independent samples t-test (a.k.a., two-samples t-test) Compares the difference between the means of two groups of data, taking the variability of the two groups into account One-sample t-test Tests the mean of a single group against a known value Paired samples t-test Compares means from the same group at different times (e.g., before-after treatment) or different conditions in a within-subjects experiment (e.g., working with an avatar vs a robot, order effects, or measuring happy versus sad) 𝑡ൌ𝑥̅ଵെ𝑥̅ଶ 𝑆ଵ ଶ 𝑛ଵ൅𝑆ଶ ଶ 𝑛ଶ This is the equation we just discussed 19/83",
+   "char_count": 597,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-019.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 20,
+   "text": "One-sample t-test\nTests the mean of a single group against a known value\n0 is the known value\nS/sqrt(n) is the Standard Error of the Mean (SEM), indicating how \naccurately your sample estimates the mean of the population\nt-test: one sample\n𝑆𝐸𝑀ൌ𝑠\n√𝑛\n𝑡ൌ𝑥̅ െ𝑢଴\n𝑠/√𝑛\nExample: Does the mean IQ score of COMP students significantly differ from the \npopulation average (which is 98, the known value)\n(The answer is ‘yes’)\n20/83\n",
+   "text_norm": "One-sample t-test Tests the mean of a single group against a known value 0 is the known value S/sqrt(n) is the Standard Error of the Mean (SEM), indicating how accurately your sample estimates the mean of the population t-test: one sample 𝑆𝐸𝑀ൌ𝑠 √𝑛 𝑡ൌ𝑥̅ െ𝑢଴ 𝑠/√𝑛 Example: Does the mean IQ score of COMP students significantly differ from the population average (which is 98, the known value) (The answer is ‘yes’) 20/83",
+   "char_count": 421,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-020.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 21,
+   "text": "t-test: paired samples\nPaired-samples t-test compares means from the same group at different times (e.g., one \nyear apart) or different within-experiment conditions (e.g., using both iPhone and \nBlackberry)\nInterestingly, paired samples t-test and one sample t-test are mathematically \nequivalent\n– Known mean is 0\n– Single group is now the group of the differences\n𝑡ൌ𝑥̅ଵെ𝑥̅ଶ\n𝑠௫̅\nEstimated Standard Error of the Mean\n𝑠௫̅ ൌ𝑠ௗ௜௙௙\n√𝑛\n𝑡ൌሺ𝑥̅ଵെ𝑥̅ଶሻെ0\n𝑠௫̅\nSEM of the new group\nThe sample standard deviation of \nthe differences\n21/83\n",
+   "text_norm": "t-test: paired samples Paired-samples t-test compares means from the same group at different times (e.g., one year apart) or different within-experiment conditions (e.g., using both iPhone and Blackberry) Interestingly, paired samples t-test and one sample t-test are mathematically equivalent – Known mean is 0 – Single group is now the group of the differences 𝑡ൌ𝑥̅ଵെ𝑥̅ଶ 𝑠௫̅ Estimated Standard Error of the Mean 𝑠௫̅ ൌ𝑠ௗ௜௙௙ √𝑛 𝑡ൌሺ𝑥̅ଵെ𝑥̅ଶሻെ0 𝑠௫̅ SEM of the new group The sample standard deviation of the differences 21/83",
+   "char_count": 523,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-021.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 22,
+   "text": "The role of the normal distribution in a t-test\nThe normal distribution allows the t-test to say something about how likely it is that \nthe differences between the means of the two groups are systematic, or just \nhappened by matter of chance\nDefault is the Null (H0) = observed differences are chance occurrences\nGiven enough data, or a small enough variability, we can reject the Null in favor \nof the Alternative (HA or H1) if:\n– There is probably a systematic difference between the means, and\n– I am so-and-so much confident in my decision (e.g., 95% convinced)\nIf the t-test shows that the difference between the means (the signal) is more \nthan what would be expected purely by chance,\n– then we say that the difference is statistically significant\n– Certain researchers would then reject H0 and accept H1\nBe aware that the ‘frequentist approach’ illustrated here can only reject the Null or \nfail to do so; it cannot demonstrate the Alternative. Moreover, detecting no notable \ndifference does not say that there is no difference. It also does not say that the two \nsamples were drawn from the same population!\n22/83\n",
+   "text_norm": "The role of the normal distribution in a t-test The normal distribution allows the t-test to say something about how likely it is that the differences between the means of the two groups are systematic, or just happened by matter of chance Default is the Null (H0) = observed differences are chance occurrences Given enough data, or a small enough variability, we can reject the Null in favor of the Alternative (HA or H1) if: – There is probably a systematic difference between the means, and – I am so-and-so much confident in my decision (e.g., 95% convinced) If the t-test shows that the difference between the means (the signal) is more than what would be expected purely by chance, – then we say that the difference is statistically significant – Certain researchers would then reject H0 and accept H1 Be aware that the ‘frequentist approach’ illustrated here can only reject the Null or fail to do so; it cannot demonstrate the Alternative. Moreover, detecting no notable difference does not say that there is no difference. It also does not say that the two samples were drawn from the same population! 22/83",
+   "char_count": 1120,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-022.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 23,
+   "text": "Significance: degrees of freedom and rejection area\nIf the t-test shows that the difference between the means (the signal) is more than \nwhat would be expected purely by chance, then we say that the difference is \nstatistically significant. How does the t-test “show” us this with a value?\nThe numerator of the t-value is the difference between the means of the groups\nThe denominator is the variability of the groups\nIntuitively, the larger the t-value is, the more significant the difference (or the signal) is, \ncompared to the noise\nSignificance depends on the size of the dataset (the degrees of freedom)\n(i.e., the number of scores that are free to vary, see next slide)\nAnd on the risk level (or alpha level or rejection area) that we set: = .05\n– Gives the level of confidence we want to have before making a judgement\n– Usually set at 95% (or a 5% chance that we might be wrong): p < .05\n– But that is pretty arbitrary and depends on the situation\n(10% patients cured may not be ‘significant’ but may save thousands of lives)\n23/83\n",
+   "text_norm": "Significance: degrees of freedom and rejection area If the t-test shows that the difference between the means (the signal) is more than what would be expected purely by chance, then we say that the difference is statistically significant. How does the t-test “show” us this with a value? The numerator of the t-value is the difference between the means of the groups The denominator is the variability of the groups Intuitively, the larger the t-value is, the more significant the difference (or the signal) is, compared to the noise Significance depends on the size of the dataset (the degrees of freedom) (i.e., the number of scores that are free to vary, see next slide) And on the risk level (or alpha level or rejection area) that we set: = .05 – Gives the level of confidence we want to have before making a judgement – Usually set at 95% (or a 5% chance that we might be wrong): p < .05 – But that is pretty arbitrary and depends on the situation (10% patients cured may not be ‘significant’ but may save thousands of lives) 23/83",
+   "char_count": 1043,
+   "has_image": true,
+   "image_count": 352,
+   "png": "assets/img/L10/slide-023.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 24,
+   "text": "Significance: degrees of freedom (df)\nN = 200\nMale, n1 = 98\nFemale, n2 = 102\nIndependent samples t-test: df = n1 + n2 − 2\nEffect of Males versus Females, t(df) = t(198) = 5.49 or whatever…\nBonus points for doing more observations (cf. G*Power analysis)\nDegrees of freedom are the maximum number of values that you can freely vary \nin a data sample while keeping the same mean\nCalculated as the sample size minus the number of restrictions\n– One-sample t-test:\ndf = n − 1\n– Independent samples t-test:\ndf = n1 + n2 − 2\nSuppose I have three scores with Mean = 5. Two of the values are 4 and 6, \nso the third value has to be 5. The scores 4 and 6 could also be 3 and 7 but \nI need to fix 5 or else Mean 5. With 3 scores of which 2 are free to vary, \ndf = 3 – 1 = 2 (so if you only have one sample, df = n − 1)\n24/83\n",
+   "text_norm": "Significance: degrees of freedom (df) N = 200 Male, n1 = 98 Female, n2 = 102 Independent samples t-test: df = n1 + n2 − 2 Effect of Males versus Females, t(df) = t(198) = 5.49 or whatever… Bonus points for doing more observations (cf. G*Power analysis) Degrees of freedom are the maximum number of values that you can freely vary in a data sample while keeping the same mean Calculated as the sample size minus the number of restrictions – One-sample t-test: df = n − 1 – Independent samples t-test: df = n1 + n2 − 2 Suppose I have three scores with Mean = 5. Two of the values are 4 and 6, so the third value has to be 5. The scores 4 and 6 could also be 3 and 7 but I need to fix 5 or else Mean 5. With 3 scores of which 2 are free to vary, df = 3 – 1 = 2 (so if you only have one sample, df = n − 1) 24/83",
+   "char_count": 812,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-024.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 25,
+   "text": "Significance: degrees of freedom (df)\nLevel of significance, then, is the t-statistics in relation to the degrees of freedom\nMore degrees of freedom and the t-value can be lower to establish a \nsignificant effect\nFewer degrees of freedom and the t-value has to be very high to establish a \nsignificant effect\nPut more formally, if you know X with the sample size n and if you know the scores X1, \nX2, …, Xn – 1, then you can calculate the value of Xn\nIn other words, X has n – 1 degrees of freedom\n_\n_\nXn = n (X ) –Xi\n_\nn – 1\ni = 1\n25/83\n",
+   "text_norm": "Significance: degrees of freedom (df) Level of significance, then, is the t-statistics in relation to the degrees of freedom More degrees of freedom and the t-value can be lower to establish a significant effect Fewer degrees of freedom and the t-value has to be very high to establish a significant effect Put more formally, if you know X with the sample size n and if you know the scores X1, X2, …, Xn – 1, then you can calculate the value of Xn In other words, X has n – 1 degrees of freedom _ _ Xn = n (X ) –Xi _ n – 1 i = 1 25/83",
+   "char_count": 538,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-025.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "Table of significance for a two-tailed t-test \nHere we have an array of degrees of freedom\nHow many people in this \nexperiment?\nHow many people in this \nexperiment?\n2\n21\n26/83\n",
+   "text_norm": "Table of significance for a two-tailed t-test Here we have an array of degrees of freedom How many people in this experiment? How many people in this experiment? 2 21 26/83",
+   "char_count": 173,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-026.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 27,
+   "text": "Table of significance for a two-tailed t-test \nThese are levels of significance (the error we are willing to tolerate)\n= 0.20 means I accept to be 20% of the times wrong\n= 0.05 means I accept to be 5% of the times wrong\nSo the probability p that my effect is not systematic and unreliable \nshould be smaller than 5%\nSo it must be that p < = .05 before I reject the H0 (and accept the HA)\n20% error\n10% error\n5% error\nI accept \nonly 2%\nChance is \nthat I am \n1% wrong\n27/83\n",
+   "text_norm": "Table of significance for a two-tailed t-test These are levels of significance (the error we are willing to tolerate) = 0.20 means I accept to be 20% of the times wrong = 0.05 means I accept to be 5% of the times wrong So the probability p that my effect is not systematic and unreliable should be smaller than 5% So it must be that p < = .05 before I reject the H0 (and accept the HA) 20% error 10% error 5% error I accept only 2% Chance is that I am 1% wrong 27/83",
+   "char_count": 470,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-027.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 28,
+   "text": "Minimal t-values we need, given number of observations (df) and error \nmargin (significance level)\nThese t-values are the critical minimum signal-to-noise ratios\n28/83\n",
+   "text_norm": "Minimal t-values we need, given number of observations (df) and error margin (significance level) These t-values are the critical minimum signal-to-noise ratios 28/83",
+   "char_count": 166,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-028.png",
+   "flags": []
+  },
+  {
+   "slide": 29,
+   "text": "Table of significance for a two-tailed t-test \nWith more observations, t-value can be lower\n29/83\n",
+   "text_norm": "Table of significance for a two-tailed t-test With more observations, t-value can be lower 29/83",
+   "char_count": 97,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-029.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 30,
+   "text": "Table of significance for a two-tailed t-test \nWith less acceptance of doubtful effects, t-value must go up\n30/83\n",
+   "text_norm": "Table of significance for a two-tailed t-test With less acceptance of doubtful effects, t-value must go up 30/83",
+   "char_count": 113,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-030.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 31,
+   "text": "SPSS, R, or Excel (and other spreadsheets and statistical packages) calculate the \nprobability = p-value for us\nThe p-value gives us the confidence that the Null hypothesis is valid\nFor instance, a p-value of 0.30 means that we are 30% sure that there is no \nsignificant difference between the two datasets\nTherefore, we reject the Null hypothesis if the p-value is less than or equal to our \nrequired significance value -- i.e., the amount of error that we are willing to \ntolerate under the level of confidence that we require\nFor instance, if we are using a significance value of 0.05 (or we want a \nconfidence of 95%), we reject the Null hypothesis if the p-value is 0.05 or less\nProbability: tolerance of error, level of confidence\n31/83\n",
+   "text_norm": "SPSS, R, or Excel (and other spreadsheets and statistical packages) calculate the probability = p-value for us The p-value gives us the confidence that the Null hypothesis is valid For instance, a p-value of 0.30 means that we are 30% sure that there is no significant difference between the two datasets Therefore, we reject the Null hypothesis if the p-value is less than or equal to our required significance value -- i.e., the amount of error that we are willing to tolerate under the level of confidence that we require For instance, if we are using a significance value of 0.05 (or we want a confidence of 95%), we reject the Null hypothesis if the p-value is 0.05 or less Probability: tolerance of error, level of confidence 31/83",
+   "char_count": 740,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-031.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 32,
+   "text": "Probability: tolerance of error, level of confidence\nProbability\nbased on frequency of occurrence\nRange of possible results\nMost likely observations\nUnlikely\nobservations\nUnlikely\nobservations\nLeft tail\nRight tail\nMeasured value\n(observed data point)\n\np-value\np-value tells the probability you \nfound the result by chance – how \nprobable it is that the observed or \neven a more extreme value will occur\n32/83\n",
+   "text_norm": "Probability: tolerance of error, level of confidence Probability based on frequency of occurrence Range of possible results Most likely observations Unlikely observations Unlikely observations Left tail Right tail Measured value (observed data point)  p-value p-value tells the probability you found the result by chance – how probable it is that the observed or even a more extreme value will occur 32/83",
+   "char_count": 407,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-032.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 33,
+   "text": "ttest(array1, array2, tails, type)\narray1: The first data set\narray2:  The second data set\ntails: number of distribution tails\n1: one-tailed \n2: two-tailed \ntype : The kind of t-test to perform\n1: paired test\n2: two-sample equal variance \n3: two-sample unequal variance \nt-test in Excell\n33/83\n",
+   "text_norm": "ttest(array1, array2, tails, type) array1: The first data set array2: The second data set tails: number of distribution tails 1: one-tailed 2: two-tailed type : The kind of t-test to perform 1: paired test 2: two-sample equal variance 3: two-sample unequal variance t-test in Excell 33/83",
+   "char_count": 289,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-033.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 34,
+   "text": "The t-test is very widely used, but it does have some limitations:\nData points of each sample are normally distributed\nNot always the case, but t-test very robust in practice, due to Central \nLimit Theorem (CLT)\nPopulation variances assumed equal\nt-test reasonably robust for differing variance, however, does deserve \nconsideration, may use F-test to validate (ANOVA / MANOVA)\nIndividual observations of data points in sample should be independent\nSignificance level\nDecide upon the level before you do the test!\nTypically stated at the .05 or .01 level\nSome limitations of the t-test\nCLT: A sample approximates normal distribution as the sample size gets larger (i.e., \naim for n 50 in each Between-Ss condition to avoid trouble)\n34/83\n",
+   "text_norm": "The t-test is very widely used, but it does have some limitations: Data points of each sample are normally distributed Not always the case, but t-test very robust in practice, due to Central Limit Theorem (CLT) Population variances assumed equal t-test reasonably robust for differing variance, however, does deserve consideration, may use F-test to validate (ANOVA / MANOVA) Individual observations of data points in sample should be independent Significance level Decide upon the level before you do the test! Typically stated at the .05 or .01 level Some limitations of the t-test CLT: A sample approximates normal distribution as the sample size gets larger (i.e., aim for n 50 in each Between-Ss condition to avoid trouble) 34/83",
+   "char_count": 740,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-034.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 35,
+   "text": "The t-test gives us the probability that the difference that we’re seeing between the \ndata sets is not due to pure chance\nWhat sort of significance value should we aim for? Is 95% too high?\nThere are two types of mistakes we might make\nType I error: Null hypothesis is true, but we reject it by mistake (false alarm)\nType II error: Null hypothesis is false, but we accept it by mistake (missed signal)\nEffects of the level of significance\nIf we set our confidence level too high (e.g., p < 0.0001), we run a greater \nchance of Type II errors\nIf we set our confidence level too low (e.g., p > 0.1), then we run a greater \nchance of Type I errors\nReality\nNull hypothesis is \ntrue\nNull hypothesis is \nfalse\nExperiment\nNull hypothesis is \ntrue\nAccurate\nType II error\nNull hypothesis is \nfalse\nType I error\nAccurate\nFalse alarms (Type I error) and Missed signals (Type II error)\none ten-thousandth\nfalse alarm!\nmissed signal!\n35/83\n",
+   "text_norm": "The t-test gives us the probability that the difference that we’re seeing between the data sets is not due to pure chance What sort of significance value should we aim for? Is 95% too high? There are two types of mistakes we might make Type I error: Null hypothesis is true, but we reject it by mistake (false alarm) Type II error: Null hypothesis is false, but we accept it by mistake (missed signal) Effects of the level of significance If we set our confidence level too high (e.g., p < 0.0001), we run a greater chance of Type II errors If we set our confidence level too low (e.g., p > 0.1), then we run a greater chance of Type I errors Reality Null hypothesis is true Null hypothesis is false Experiment Null hypothesis is true Accurate Type II error Null hypothesis is false Type I error Accurate False alarms (Type I error) and Missed signals (Type II error) one ten-thousandth false alarm! missed signal! 35/83",
+   "char_count": 926,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-035.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 36,
+   "text": "In most scientific studies, Type I errors are generally considered to be worse because \nthe hypothesis is the current state-of-the-art theory. Therefore, people expect a high \nconfidence level if you’re going to overturn it\nFor example, if it’s “presumed innocent till proven guilty,” you need an \noverwhelming vote in a jury to convict a serious crime (e.g., 7:2 or 8:1)\nFalse alarms (Type I error) and Missed signals (Type II error)\nHowever, you must use your judgement to assess the actual risk of being wrong, \ngiven your context\nMaybe in threatening \ncircumstances you should be \ncautious at the risk of calling \nout a false alarm (but may \ncause alert fatigue) \n36/83\n",
+   "text_norm": "In most scientific studies, Type I errors are generally considered to be worse because the hypothesis is the current state-of-the-art theory. Therefore, people expect a high confidence level if you’re going to overturn it For example, if it’s “presumed innocent till proven guilty,” you need an overwhelming vote in a jury to convict a serious crime (e.g., 7:2 or 8:1) False alarms (Type I error) and Missed signals (Type II error) However, you must use your judgement to assess the actual risk of being wrong, given your context Maybe in threatening circumstances you should be cautious at the risk of calling out a false alarm (but may cause alert fatigue)  36/83",
+   "char_count": 668,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-036.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 37,
+   "text": "http://sunnyday.mit.edu/accidents/calirep.html\nSearleman, 2007\n37/83\n",
+   "text_norm": "http://sunnyday.mit.edu/accidents/calirep.html Searleman, 2007 37/83",
+   "char_count": 68,
+   "has_image": true,
+   "image_count": 209,
+   "png": "assets/img/L10/slide-037.png",
+   "flags": []
+  },
+  {
+   "slide": 38,
+   "text": "Pilots manually navigate only during takeoff, landing, bad weather, emergencies\nNavigate by traveling between beacons\nFlight Management System is never changed upon pilots’ request (better safe than sorry)\nSearleman, 2007\n38/83\n",
+   "text_norm": "Pilots manually navigate only during takeoff, landing, bad weather, emergencies Navigate by traveling between beacons Flight Management System is never changed upon pilots’ request (better safe than sorry) Searleman, 2007 38/83",
+   "char_count": 230,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L10/slide-038.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 39,
+   "text": "ROZO\nBut plane navigated to ROMEO beacon \nROMEO\nPush       to navigate to ROZO beacon\nNo feedback on chosen beacon\nPlane headed in \nthe wrong \ndirection, \neventually \ncrashing on a \nmountain\nSpeed brakes not \ndisengaged when \ntrying to accelerate\nSearleman, 2007\n39/83\n",
+   "text_norm": "ROZO But plane navigated to ROMEO beacon ROMEO Push to navigate to ROZO beacon No feedback on chosen beacon Plane headed in the wrong direction, eventually crashing on a mountain Speed brakes not disengaged when trying to accelerate Searleman, 2007 39/83",
+   "char_count": 254,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L10/slide-039.png",
+   "flags": []
+  },
+  {
+   "slide": 40,
+   "text": "Mercedes Johnson survived \nthe American Airlines Flight \n965, which crashed into a \nColombian mountain in \n1995. Out of 159 onboard, \nonly four lived\nOfficial cause: “pilot error”\nActual cause: poorly designed HCI\nhttp://www.pilotfriend.com/disasters/crash/images/29.jpg\nhttp://news.bbc.co.uk/2/low/uk_news/magazine/5402342.stm\n40/83\n",
+   "text_norm": "Mercedes Johnson survived the American Airlines Flight 965, which crashed into a Colombian mountain in 1995. Out of 159 onboard, only four lived Official cause: “pilot error” Actual cause: poorly designed HCI http://www.pilotfriend.com/disasters/crash/images/29.jpg http://news.bbc.co.uk/2/low/uk_news/magazine/5402342.stm 40/83",
+   "char_count": 328,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-040.png",
+   "flags": []
+  },
+  {
+   "slide": 41,
+   "text": "With respect to False alarms (Type I error) and Missed signals (Type II error) (Lecture 10: t-tests and \n(M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic \nProxy\nWhat is the consequence of making a Type I or II error, if we consider user performance in terms of accuracy?\nH0: Using the new touch panel does not result in more correct user responses\nH1: The new touch panel leads to more correct responses\nExam Sample Item, “Application,” Open-ended question\nFitts´ Law!!\n41/83\n",
+   "text_norm": "With respect to False alarms (Type I error) and Missed signals (Type II error) (Lecture 10: t-tests and (M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic Proxy What is the consequence of making a Type I or II error, if we consider user performance in terms of accuracy? H0: Using the new touch panel does not result in more correct user responses H1: The new touch panel leads to more correct responses Exam Sample Item, “Application,” Open-ended question Fitts´ Law!! 41/83",
+   "char_count": 530,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-041.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 42,
+   "text": "A Type I error would mean that the new FMS does not give us better performance, but we \nchange it anyway. Consequence: We spend extra resources developing the software, and our pilots \nmust learn a new GUI for no benefit\nA Type II error would mean that the new FMS will give us a more accurate performance, but \nwe stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more \nerrors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the \ninterface is already familiar to them\nTesting may save lives\nExam Sample Item, “Application,” Open-ended question\n42/83\n",
+   "text_norm": "A Type I error would mean that the new FMS does not give us better performance, but we change it anyway. Consequence: We spend extra resources developing the software, and our pilots must learn a new GUI for no benefit A Type II error would mean that the new FMS will give us a more accurate performance, but we stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more errors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the interface is already familiar to them Testing may save lives Exam Sample Item, “Application,” Open-ended question 42/83",
+   "char_count": 616,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-042.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "Evidence of existence through absence\nSocratic discussion\nSocrates\nWhen data are incapable of refuting the Null, does that \nmean a drug is safe?\nThe concept of “evidence of existence through absence” \nsuggests that the absence of something can itself be \nevidence that something exists or has occurred (Latin: \nargumentum ex silentio or argument from silence)\nThe lack of something indicates the presence or truth of \nsomething else\nYou cannot find proof but does that mean it is not \nthere? Maybe your sensors are not sensitive enough \n(subtleties are not acknowledged by frequentism)\nThat two things have similar or no effects does not \nmean they are the same thing (H0 not refuted)\nSame = no difference. No difference same\n43/83\n",
+   "text_norm": "Evidence of existence through absence Socratic discussion Socrates When data are incapable of refuting the Null, does that mean a drug is safe? The concept of “evidence of existence through absence” suggests that the absence of something can itself be evidence that something exists or has occurred (Latin: argumentum ex silentio or argument from silence) The lack of something indicates the presence or truth of something else You cannot find proof but does that mean it is not there? Maybe your sensors are not sensitive enough (subtleties are not acknowledged by frequentism) That two things have similar or no effects does not mean they are the same thing (H0 not refuted) Same = no difference. No difference same 43/83",
+   "char_count": 726,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-043.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "Theoretical particles that escape observation (e.g., the \ntachyonic particle, traveling faster than light)\nEvents that have been forgotten (e.g., Henry of \nMalacca first circumvented Earth, the slave of Magellan, \nnot Magellan who died on the way)\nThat rainforest tribes have no chemical drugs does \nthat mean they are primitive? (They prepare medicine \nfrom the rainforest unheard of by Western medicine)\nThat Western doctors have no idea about rainforest \nmedication, does that mean they are unnatural healers?\nWhen biologists discover a new species, does that \nmean the species did not exist before?\nThat you do not have an alibi, does that mean you are \nguilty?\nReversely, how to prove that you did not lie, cheat, steal \n(because you have to prove something that did not \nhappen). How to prove the absence of an event?\nEvidence of existence through absence\nSocrates\n44/83\n",
+   "text_norm": "Theoretical particles that escape observation (e.g., the tachyonic particle, traveling faster than light) Events that have been forgotten (e.g., Henry of Malacca first circumvented Earth, the slave of Magellan, not Magellan who died on the way) That rainforest tribes have no chemical drugs does that mean they are primitive? (They prepare medicine from the rainforest unheard of by Western medicine) That Western doctors have no idea about rainforest medication, does that mean they are unnatural healers? When biologists discover a new species, does that mean the species did not exist before? That you do not have an alibi, does that mean you are guilty? Reversely, how to prove that you did not lie, cheat, steal (because you have to prove something that did not happen). How to prove the absence of an event? Evidence of existence through absence Socrates 44/83",
+   "char_count": 873,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-044.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 45,
+   "text": "However, there may be conditional utility:\nIn a controlled scientific experiment, the absence \nof an expected outcome can challenge a hypothesis \n(HA not accepted)\nAbsence of evidence may conditionally suggest the \nexistence or occurrence but requires:\n– reluctant interpretation\n– awareness of assumptions and biases\n– understanding of context and limitations\nIncomplete information defies straightforward \nreasoning as it introduces probability\nEvidence of existence through absence\nSocratic discussion\nSocrates\n45/83\n",
+   "text_norm": "However, there may be conditional utility: In a controlled scientific experiment, the absence of an expected outcome can challenge a hypothesis (HA not accepted) Absence of evidence may conditionally suggest the existence or occurrence but requires: – reluctant interpretation – awareness of assumptions and biases – understanding of context and limitations Incomplete information defies straightforward reasoning as it introduces probability Evidence of existence through absence Socratic discussion Socrates 45/83",
+   "char_count": 517,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "Break\n",
+   "text_norm": "Break",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 4,
+   "png": "assets/img/L10/slide-046.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 47,
+   "text": "Calculating main and interaction effects\nMain effects\nFactor Agency (Robot vs Human)\nFactor AI (With vs Without)\nMain effect of Agency:\n①+③– ②+④\n= (120 + 80) – (140 + 100)\n= 200 – 240 = – 40\nThere is a main effect of Agency:\nRobots (200) are less intelligent \nthan Humans (240)\nIntelligence\nRobots\nHumans\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\n80 –\n100 –\n120 –\n140 –\n47/83\n",
+   "text_norm": "Calculating main and interaction effects Main effects Factor Agency (Robot vs Human) Factor AI (With vs Without) Main effect of Agency: ①+③– ②+④ = (120 + 80) – (140 + 100) = 200 – 240 = – 40 There is a main effect of Agency: Robots (200) are less intelligent than Humans (240) Intelligence Robots Humans With AI ① Without AI ③ With AI ② Without AI ④ 80 – 100 – 120 – 140 – 47/83",
+   "char_count": 380,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-047.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 48,
+   "text": "Calculating main and interaction effects\nMain effects\nFactor Agency (Robot vs Human)\nFactor AI (With vs Without)\nMain effect of Agency:\n①+③– ②+④\n= (120 + 80) – (140 + 100)\n= 200 – 240 = – 40\nThere is a main effect of Agency:\nRobots (200) are less intelligent \nthan Humans (240)\nIntelligence\nRobots\nHumans\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\n80 –\n100 –\n120 –\n140 –\n48/83\n",
+   "text_norm": "Calculating main and interaction effects Main effects Factor Agency (Robot vs Human) Factor AI (With vs Without) Main effect of Agency: ①+③– ②+④ = (120 + 80) – (140 + 100) = 200 – 240 = – 40 There is a main effect of Agency: Robots (200) are less intelligent than Humans (240) Intelligence Robots Humans With AI ① Without AI ③ With AI ② Without AI ④ 80 – 100 – 120 – 140 – 48/83",
+   "char_count": 380,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-048.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 49,
+   "text": "Calculating main and interaction effects\nMain effects\nFactor Agency (Robot vs Human)\nFactor AI (With vs Without)\nMain effect of AI:\n①+②– ③+④\n= (120 + 140) – (80 + 100)\n= 260 – 180 = 80\nThere is a main effect of AI:\nAgencies are more intelligent With \n(260) than Without AI (180)\nIntelligence\nRobots\nHumans\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\n80 –\n100 –\n120 –\n140 –\n49/83\n",
+   "text_norm": "Calculating main and interaction effects Main effects Factor Agency (Robot vs Human) Factor AI (With vs Without) Main effect of AI: ①+②– ③+④ = (120 + 140) – (80 + 100) = 260 – 180 = 80 There is a main effect of AI: Agencies are more intelligent With (260) than Without AI (180) Intelligence Robots Humans With AI ① Without AI ③ With AI ② Without AI ④ 80 – 100 – 120 – 140 – 49/83",
+   "char_count": 381,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-049.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 50,
+   "text": "Calculating main and interaction effects\nMain effects\nFactor Agency (Robot vs Human)\nFactor AI (With vs Without)\nMain effect of AI:\n①+②– ③+④\n= (120 + 140) – (80 + 100)\n= 260 – 180 = 80\nThere is a main effect of AI:\nAgencies are more intelligent With \n(260) than Without AI (180)\nIntelligence\nRobots\nHumans\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\n80 –\n100 –\n120 –\n140 –\nMain effects are typically tested with t-tests\n50/83\n",
+   "text_norm": "Calculating main and interaction effects Main effects Factor Agency (Robot vs Human) Factor AI (With vs Without) Main effect of AI: ①+②– ③+④ = (120 + 140) – (80 + 100) = 260 – 180 = 80 There is a main effect of AI: Agencies are more intelligent With (260) than Without AI (180) Intelligence Robots Humans With AI ① Without AI ③ With AI ② Without AI ④ 80 – 100 – 120 – 140 – Main effects are typically tested with t-tests 50/83",
+   "char_count": 428,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-050.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 51,
+   "text": "Calculating main and interaction effects\nInteraction effects\n– Catalytic\nOnly the combination works\n(no main effects)\n①–②– ③–④\n= (80 – 140) – (80 – 80)\n= – 60 – 0\nThere is a catalytic interaction \neffect between Agency and AI:\nOnly Humans become more \nintelligent with AI\nIntelligence\nRobots\nHumans\nWith\nAI\n①\nWith\nAI\n②\nWithout\nAI\n④\n80 –\n100 –\n120 –\n140 –\nWithout\nAI\n③\nThe difference \nbetween \ndifferences\n51/83\n",
+   "text_norm": "Calculating main and interaction effects Interaction effects – Catalytic Only the combination works (no main effects) ①–②– ③–④ = (80 – 140) – (80 – 80) = – 60 – 0 There is a catalytic interaction effect between Agency and AI: Only Humans become more intelligent with AI Intelligence Robots Humans With AI ① With AI ② Without AI ④ 80 – 100 – 120 – 140 – Without AI ③ The difference between differences 51/83",
+   "char_count": 408,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-051.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 52,
+   "text": "Calculating main and interaction effects\nInteraction effects\n– Antagonistic (cross-over)\nThe combination (Human+AI) is \nless effective than the separate \ntreatments (weak main effects, \nstrong interaction)\n①–②– ③–④\n= (120 – 100) – (80 – 140)\n= 20 – (–60) = 80\nThere is a antagonistic cross-over \neffect between Agency and AI:\nHumans become less intelligent \nwith AI\nIntelligence\nRobots\nHumans\n80 –\n100 –\n120 –\n140 –\nWith\nAI\n①\nWithout\nAI\n③\nWithout\nAI\n④\nWith\nAI\n②\n52/83\n",
+   "text_norm": "Calculating main and interaction effects Interaction effects – Antagonistic (cross-over) The combination (Human+AI) is less effective than the separate treatments (weak main effects, strong interaction) ①–②– ③–④ = (120 – 100) – (80 – 140) = 20 – (–60) = 80 There is a antagonistic cross-over effect between Agency and AI: Humans become less intelligent with AI Intelligence Robots Humans 80 – 100 – 120 – 140 – With AI ① Without AI ③ Without AI ④ With AI ② 52/83",
+   "char_count": 464,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-052.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 53,
+   "text": "Calculating main and interaction effects\nInteraction effects\n– Terminative\nThe combination (Human+AI) is not \nmore effective than the separate \ntreatments (no interaction)\n①–②– ③–④\n= (120 – 120) – (80 – 80)\n= 0 – 0\nThere is a terminative interaction \neffect between Agency and AI:\nWith AI is more effective no matter \nwhich Agency (= main effect)\nIntelligence\nRobots\nHumans\n80 –\n100 –\n120 –\n140 –\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\n53/83\n",
+   "text_norm": "Calculating main and interaction effects Interaction effects – Terminative The combination (Human+AI) is not more effective than the separate treatments (no interaction) ①–②– ③–④ = (120 – 120) – (80 – 80) = 0 – 0 There is a terminative interaction effect between Agency and AI: With AI is more effective no matter which Agency (= main effect) Intelligence Robots Humans 80 – 100 – 120 – 140 – With AI ① Without AI ③ With AI ② Without AI ④ 53/83",
+   "char_count": 446,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-053.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 54,
+   "text": "Calculating main and interaction effects\nInteraction effects\n– Synergistic\nThe combination (Human+AI) is \nmuch more effective than the sum \nof the separate treatments\n①–②– ③–④\n= (100 – 140) – (80 – 100)\n= – 40 – (–20)\nThere is a synergistic interaction \neffect between Agency and AI:\nThe difference (–20) between \nRobots and Humans becomes \nincreasingly bigger with AI (–40)\nIntelligence\nRobots\nHumans\n80 –\n100 –\n120 –\n140 –\nWith\nAI\n①\nWithout\nAI\n③\nWith\nAI\n②\nWithout\nAI\n④\nThe difference \ngrows\n54/83\n",
+   "text_norm": "Calculating main and interaction effects Interaction effects – Synergistic The combination (Human+AI) is much more effective than the sum of the separate treatments ①–②– ③–④ = (100 – 140) – (80 – 100) = – 40 – (–20) There is a synergistic interaction effect between Agency and AI: The difference (–20) between Robots and Humans becomes increasingly bigger with AI (–40) Intelligence Robots Humans 80 – 100 – 120 – 140 – With AI ① Without AI ③ With AI ② Without AI ④ The difference grows 54/83",
+   "char_count": 494,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-054.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 55,
+   "text": "Synergistic interaction and creativity\nCreativity is the combination of \ninitially unrelated elements such \nthat the resultant is different \nfrom the component parts\n(Hoorn, 2014)\nH2 + O2 H2O\nNa+ + Cl– NaCl\nSodium is poisonous\nChlorine is poisonous\nSodium Chloride is table salt\nChange in properties\n80 –\n100 –\n120 –\n140 –\nAdd\nH2\n①\nNot add\nH2\n③\nAdd\nH2\n②\nNot add\nH2\n④\nHydrogen\nOxygen\nNot catalytic. Adding \ngas changes molecule \nmotion paths. May \nbecome liquid\nHighly \ninflammable \ngasses\nWater!!\nThe fire \nextinguisher\nOxygen starts at a higher \nlevel than hydrogen \nbecause it may change its \nmagnetic properties\n55/83\n",
+   "text_norm": "Synergistic interaction and creativity Creativity is the combination of initially unrelated elements such that the resultant is different from the component parts (Hoorn, 2014) H2 + O2 H2O Na+ + Cl– NaCl Sodium is poisonous Chlorine is poisonous Sodium Chloride is table salt Change in properties 80 – 100 – 120 – 140 – Add H2 ① Not add H2 ③ Add H2 ② Not add H2 ④ Hydrogen Oxygen Not catalytic. Adding gas changes molecule motion paths. May become liquid Highly inflammable gasses Water!! The fire extinguisher Oxygen starts at a higher level than hydrogen because it may change its magnetic properties 55/83",
+   "char_count": 611,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L10/slide-055.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 56,
+   "text": "Calculating main and interaction effects\nMain effects\nInteraction effects\n– Catalytic\n– Antagonistic\n– Terminative\n– Synergistic\nMain effects are typically tested with t-tests\nInteraction effects with F-tests\nTo get rid of t-values that are negative, F-statistic simply squares the t-value and \nlooks at data sets overall, not into any direction\nThus,\nt2 = F\nand\nF = t\nThe way to report significant effects:\nAccording to multivariate tests, the interaction between Agency and AI was significant: F(df1, df2) = \n12.23, p = .001, 2\np = .61, supported by the significant main effect of Agency: t(df) = 9.42, p = .000, \nshowing that Humans working With AI scored higher (MWithAI = 139, SD = 1.10) on a standard \nIntelligence test than Robots did (MWithAI = 90, SD = .98).\n56/83\n",
+   "text_norm": "Calculating main and interaction effects Main effects Interaction effects – Catalytic – Antagonistic – Terminative – Synergistic Main effects are typically tested with t-tests Interaction effects with F-tests To get rid of t-values that are negative, F-statistic simply squares the t-value and looks at data sets overall, not into any direction Thus, t2 = F and F = t The way to report significant effects: According to multivariate tests, the interaction between Agency and AI was significant: F(df1, df2) = 12.23, p = .001, 2 p = .61, supported by the significant main effect of Agency: t(df) = 9.42, p = .000, showing that Humans working With AI scored higher (MWithAI = 139, SD = 1.10) on a standard Intelligence test than Robots did (MWithAI = 90, SD = .98). 56/83",
+   "char_count": 775,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-056.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 57,
+   "text": "Calculating main and interaction effects\nThe F-distribution has no \nnegative values so it is skewed \nto the right. Therefore, the \nlarger variance goes into the \nnumerator and the smaller is \nthe denominator\nDifference between group means\nVariability of groups\nSignal\nNoise\n𝑡ൌ𝑥̅ଵെ𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑛ଵ൅𝑆ଶ\nଶ\n𝑛ଶ\n=\n=\nNumerator\nDenominator\nS is the standard deviation,\nso S2 is the variance \n𝑥̅ଵ\n𝑥̅ଶ\n𝑆ଵ\nଶ\n𝑆ଶ\nଶ\nt-value, how was it again?\n𝑆ଵ\nଶ\n𝑆ଶ\nଶ\nF =\nthe larger variance\nthe smaller variance\nwhere S2 = (𝑥െ𝑥̅௜)2\nni – 1\ndegrees of freedom\n57/83\n",
+   "text_norm": "Calculating main and interaction effects The F-distribution has no negative values so it is skewed to the right. Therefore, the larger variance goes into the numerator and the smaller is the denominator Difference between group means Variability of groups Signal Noise 𝑡ൌ𝑥̅ଵെ𝑥̅ଶ 𝑆ଵ ଶ 𝑛ଵ൅𝑆ଶ ଶ 𝑛ଶ = = Numerator Denominator S is the standard deviation, so S2 is the variance 𝑥̅ଵ 𝑥̅ଶ 𝑆ଵ ଶ 𝑆ଶ ଶ t-value, how was it again? 𝑆ଵ ଶ 𝑆ଶ ଶ F = the larger variance the smaller variance where S2 = (𝑥െ𝑥̅௜)2 ni – 1 degrees of freedom 57/83",
+   "char_count": 526,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-057.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 58,
+   "text": "Matrix algebra\nMANOVA Ls Ms As Lp Mp Ap\n/TRANSFORM=SPECIAL(1 1 1 1 1 1\n1  1  1 ‐1 ‐1 ‐1\n1 ‐1  0  1 ‐1  0\n1  0 ‐1  1  0 ‐1\n1 ‐1  0 ‐1  1  0\n1  0 ‐1 ‐1  0  1)\n/ANALYSIS=(T1/T2/T3 T4/T5 T6)\n/PRINT = CELLINFO (MEANS, COV)\nSIGNIF (EFSIZE)\nTRANSFORM DESIGN\nPARAMETERS (ESTIM)\n/DESIGN = CONSTANT.\nMANOVA Ls Ms As Lp Mp Ap\n/TRANSFORM=SPECIAL(1 1 1 1 1 1\n1  1  1 ‐1 ‐1 ‐1\n1 ‐1  0  1 ‐1  0\n0  1 ‐1  0  1 ‐1\n1 ‐1  0 ‐1  1  0\n0  1 ‐1  0 ‐1  1)\n/ANALYSIS=(T1/T2/T3 T4/T5 T6)\n/PRINT = CELLINFO (MEANS, COV)\nSIGNIF (EFSIZE)\nTRANSFORM DESIGN\nPARAMETERS (ESTIM)\n/DESIGN = CONSTANT.\nL  M  A  L  M  A\n1  1  1  1  1  1\n1  1  1 ‐1 ‐1 ‐1\n1 ‐1  0  1 ‐1  0\n1  0 ‐1  1  0 ‐1\n1 ‐1  0 ‐1  1  0\n1  0 ‐1 ‐1  0  1\nSingle line\nWith poem\ny-intercept\nMain effect of Context\nMain effect of L vs M\nMain effect of L vs A\nInteraction L vs M in Context\nInteraction L vs A in Context\nL  M  A  L  M  A\n1  1  1  1  1  1\n1  1  1 ‐1 ‐1 ‐1\n1 ‐1  0  1 ‐1  0\n0  1 ‐1  0  1 ‐1\n1 ‐1  0 ‐1  1  0\n0  1 ‐1  0 ‐1  1\nMain effect of M vs A\nInteraction M vs A in Context\nL = Literal\nM = Metaphor\nA = Anomaly\nContext\nDependent variables:\nNumber of associations\nReaction time\nEEG (i.e., N400)\n58/83\n",
+   "text_norm": "Matrix algebra MANOVA Ls Ms As Lp Mp Ap /TRANSFORM=SPECIAL(1 1 1 1 1 1 1 1 1 ‐1 ‐1 ‐1 1 ‐1 0 1 ‐1 0 1 0 ‐1 1 0 ‐1 1 ‐1 0 ‐1 1 0 1 0 ‐1 ‐1 0 1) /ANALYSIS=(T1/T2/T3 T4/T5 T6) /PRINT = CELLINFO (MEANS, COV) SIGNIF (EFSIZE) TRANSFORM DESIGN PARAMETERS (ESTIM) /DESIGN = CONSTANT. MANOVA Ls Ms As Lp Mp Ap /TRANSFORM=SPECIAL(1 1 1 1 1 1 1 1 1 ‐1 ‐1 ‐1 1 ‐1 0 1 ‐1 0 0 1 ‐1 0 1 ‐1 1 ‐1 0 ‐1 1 0 0 1 ‐1 0 ‐1 1) /ANALYSIS=(T1/T2/T3 T4/T5 T6) /PRINT = CELLINFO (MEANS, COV) SIGNIF (EFSIZE) TRANSFORM DESIGN PARAMETERS (ESTIM) /DESIGN = CONSTANT. L M A L M A 1 1 1 1 1 1 1 1 1 ‐1 ‐1 ‐1 1 ‐1 0 1 ‐1 0 1 0 ‐1 1 0 ‐1 1 ‐1 0 ‐1 1 0 1 0 ‐1 ‐1 0 1 Single line With poem y-intercept Main effect of Context Main effect of L vs M Main effect of L vs A Interaction L vs M in Context Interaction L vs A in Context L M A L M A 1 1 1 1 1 1 1 1 1 ‐1 ‐1 ‐1 1 ‐1 0 1 ‐1 0 0 1 ‐1 0 1 ‐1 1 ‐1 0 ‐1 1 0 0 1 ‐1 0 ‐1 1 Main effect of M vs A Interaction M vs A in Context L = Literal M = Metaphor A = Anomaly Context Dependent variables: Number of associations Reaction time EEG (i.e., N400) 58/83",
+   "char_count": 1066,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L10/slide-058.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 59,
+   "text": "Ss\nCond1\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nDV7\nDV8\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n2\n1\n4\n3\n5\n0\n3\n4\nt-test\n03\n2\n3\n5\n3\n1\n5\n3\n5\n3\n04\n2\n2\n0\n4\n4\n5\n1\n2\n4\n05\n3\n2\n0\n4\n3\n5\n2\n5\n3\n06\n3\n4\n3\n5\n0\n3\n4\n2\n4\nSingle source of variance Within-Ss\n59/83\n",
+   "text_norm": "Ss Cond1 DV1 DV2 DV3 DV4 DV5 DV6 DV7 DV8 01 1 1 5 2 0 4 3 5 2 02 1 2 1 4 3 5 0 3 4 t-test 03 2 3 5 3 1 5 3 5 3 04 2 2 0 4 4 5 1 2 4 05 3 2 0 4 3 5 2 5 3 06 3 4 3 5 0 3 4 2 4 Single source of variance Within-Ss 59/83",
+   "char_count": 216,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-059.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 60,
+   "text": "Single source of variance Within-Ss\nSs\nCond1\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nDV7\nDV8\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n2\n1\n4\n3\n5\n0\n3\n4\n03\n2\n3\n5\n3\n1\n5\n3\n5\n3\n04\n2\n2\n0\n4\n4\n5\n1\n2\n4\n05\n3\n2\n0\n4\n3\n5\n2\n5\n3\n06\n3\n4\n3\n5\n0\n3\n4\n2\n4\nOneway ANOVA compares means of one dependent variable across 3 groups\nAnalysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to \nsee if at least one of them is significantly different. Are observed differences among \nsample means due to actual differences in the population means or just random variation?\n60/83\n",
+   "text_norm": "Single source of variance Within-Ss Ss Cond1 DV1 DV2 DV3 DV4 DV5 DV6 DV7 DV8 01 1 1 5 2 0 4 3 5 2 02 1 2 1 4 3 5 0 3 4 03 2 3 5 3 1 5 3 5 3 04 2 2 0 4 4 5 1 2 4 05 3 2 0 4 3 5 2 5 3 06 3 4 3 5 0 3 4 2 4 Oneway ANOVA compares means of one dependent variable across 3 groups Analysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to see if at least one of them is significantly different. Are observed differences among sample means due to actual differences in the population means or just random variation? 60/83",
+   "char_count": 538,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-060.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 61,
+   "text": "A\nOneway ANOVA compares means of 3 dependent variables across one\nindependent variable\nB\nOneway ANOVA compares means of one dependent variable across 3 groups\nC\nOneway ANOVA compares means of 2 dependent variables across 3 groups\nD\nOneway ANOVA compares means of 2 dependent variables across one\nindependent variable\nExam Sample Item\nCategory “Knowledge”\nIn Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset \nof scores. Which of the following definitions is correct?\n61/83\n",
+   "text_norm": "A Oneway ANOVA compares means of 3 dependent variables across one independent variable B Oneway ANOVA compares means of one dependent variable across 3 groups C Oneway ANOVA compares means of 2 dependent variables across 3 groups D Oneway ANOVA compares means of 2 dependent variables across one independent variable Exam Sample Item Category “Knowledge” In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset of scores. Which of the following definitions is correct? 61/83",
+   "char_count": 520,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-061.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 62,
+   "text": "A\nOneway ANOVA compares means of 3 dependent variables across one\nindependent variable\nB\nOneway ANOVA compares means of one dependent variable across 3 groups\nC\nOneway ANOVA compares means of 2 dependent variables across 3 groups\nD\nOneway ANOVA compares means of 2 dependent variables across one\nindependent variable\nExam Sample Item\nCategory “Knowledge”\nIn Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset \nof scores. Which of the following definitions is correct?\n\n62/83\n",
+   "text_norm": "A Oneway ANOVA compares means of 3 dependent variables across one independent variable B Oneway ANOVA compares means of one dependent variable across 3 groups C Oneway ANOVA compares means of 2 dependent variables across 3 groups D Oneway ANOVA compares means of 2 dependent variables across one independent variable Exam Sample Item Category “Knowledge” In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset of scores. Which of the following definitions is correct?  62/83",
+   "char_count": 522,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-062.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 63,
+   "text": "Ss\nCond1\nCond2\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nDV7\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n1\n1\n4\n3\n5\n0\n3\n4\n03\n1\n2\n5\n3\n1\n5\n3\n5\n3\n04\n1\n2\n0\n4\n4\n5\n1\n2\n4\n05\n2\n1\n0\n4\n3\n5\n2\n5\n3\n06\n2\n1\n3\n5\n0\n3\n4\n2\n4\n07\n2\n2\n5\n3\n5\n3\n1\n5\n5\n08\n2\n2\n0\n4\n0\n4\n4\n5\n1\n2 2 ANOVA\nSingle source of variance Within-Ss\n2-way ANOVA compares means across two independent variables and can also assess \ninteraction effects between them (t-tests and Oneway cannot)\n63/83\n",
+   "text_norm": "Ss Cond1 Cond2 DV1 DV2 DV3 DV4 DV5 DV6 DV7 01 1 1 5 2 0 4 3 5 2 02 1 1 1 4 3 5 0 3 4 03 1 2 5 3 1 5 3 5 3 04 1 2 0 4 4 5 1 2 4 05 2 1 0 4 3 5 2 5 3 06 2 1 3 5 0 3 4 2 4 07 2 2 5 3 5 3 1 5 5 08 2 2 0 4 0 4 4 5 1 2 2 ANOVA Single source of variance Within-Ss 2-way ANOVA compares means across two independent variables and can also assess interaction effects between them (t-tests and Oneway cannot) 63/83",
+   "char_count": 405,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-063.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 64,
+   "text": "Multiple sources of variance Within-Ss\nSs\nCond1\nCond2\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nDV7\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n1\n1\n4\n3\n5\n0\n3\n4\n03\n1\n2\n5\n3\n1\n5\n3\n5\n3\n04\n1\n2\n0\n4\n4\n5\n1\n2\n4\n05\n2\n1\n0\n4\n3\n5\n2\n5\n3\n06\n2\n1\n3\n5\n0\n3\n4\n2\n4\n07\n2\n2\n5\n3\n5\n3\n1\n5\n5\n08\n2\n2\n0\n4\n0\n4\n4\n5\n1\nMANOVA\nMANOVA (Multivariate Analysis of Variance) extends ANOVA by allowing for the comparison of \nmultiple dependent variables simultaneously. It assesses whether the mean vectors of the groups \nare significantly different\n64/83\n",
+   "text_norm": "Multiple sources of variance Within-Ss Ss Cond1 Cond2 DV1 DV2 DV3 DV4 DV5 DV6 DV7 01 1 1 5 2 0 4 3 5 2 02 1 1 1 4 3 5 0 3 4 03 1 2 5 3 1 5 3 5 3 04 1 2 0 4 4 5 1 2 4 05 2 1 0 4 3 5 2 5 3 06 2 1 3 5 0 3 4 2 4 07 2 2 5 3 5 3 1 5 5 08 2 2 0 4 0 4 4 5 1 MANOVA MANOVA (Multivariate Analysis of Variance) extends ANOVA by allowing for the comparison of multiple dependent variables simultaneously. It assesses whether the mean vectors of the groups are significantly different 64/83",
+   "char_count": 478,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-064.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 65,
+   "text": "MANOVA example\nEffects of Literal, Metaphor, and Anomaly read as \na Single sentence (s) or in the Poem (p)\nMANOVA Ls Ms As Lp Mp Ap\n/TRANSFORM=SPECIAL(1 1 1 1 1 1\n1  1  1 ‐1 ‐1 ‐1\n1 ‐1  0  1 ‐1  0\n1  0 ‐1  1  0 ‐1\n1 ‐1  0 ‐1  1  0\n1  0 ‐1 ‐1  0  1)\n/ANALYSIS=(T1/T2/T3 T4/T5 T6)\n/PRINT = CELLINFO (MEANS, COV)\nSIGNIF (EFSIZE)\nTRANSFORM DESIGN\nPARAMETERS (ESTIM)\n/DESIGN = CONSTANT.\nStatistics is a ____\nzilch\ndrag\nskill\nL\nM\nMetaphor\nLiteral\nA\nAnomaly\n65/83\n",
+   "text_norm": "MANOVA example Effects of Literal, Metaphor, and Anomaly read as a Single sentence (s) or in the Poem (p) MANOVA Ls Ms As Lp Mp Ap /TRANSFORM=SPECIAL(1 1 1 1 1 1 1 1 1 ‐1 ‐1 ‐1 1 ‐1 0 1 ‐1 0 1 0 ‐1 1 0 ‐1 1 ‐1 0 ‐1 1 0 1 0 ‐1 ‐1 0 1) /ANALYSIS=(T1/T2/T3 T4/T5 T6) /PRINT = CELLINFO (MEANS, COV) SIGNIF (EFSIZE) TRANSFORM DESIGN PARAMETERS (ESTIM) /DESIGN = CONSTANT. Statistics is a ____ zilch drag skill L M Metaphor Literal A Anomaly 65/83",
+   "char_count": 441,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L10/slide-065.png",
+   "flags": []
+  },
+  {
+   "slide": 66,
+   "text": "Ss\nCond1\nCond2\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nCovar\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n1\n1\n4\n3\n5\n0\n3\n4\n03\n1\n2\n5\n3\n1\n5\n3\n5\n3\n04\n1\n2\n0\n4\n4\n5\n1\n2\n4\n05\n2\n1\n0\n4\n3\n5\n2\n5\n3\n06\n2\n1\n3\n5\n0\n3\n4\n2\n4\n07\n2\n2\n5\n3\n5\n3\n1\n5\n5\n08\n2\n2\n0\n4\n0\n4\n4\n5\n1\nMANCOVA\nIf some DV is a covariate (e.g., \na control, not theoretically of \ninterest)\nMANCOVA (Multivariate Analysis of Covariance) is MANOVA with covariate/s, continuous \nvariables that you want to control for, to reduce error variance and increase statistical \npower. Example: Comparing the effect of different diets on weight loss and cholesterol \nlevels while controlling for age and exercise\nMultiple sources \nof variance \nWithin-Ss\n66/83\n",
+   "text_norm": "Ss Cond1 Cond2 DV1 DV2 DV3 DV4 DV5 DV6 Covar 01 1 1 5 2 0 4 3 5 2 02 1 1 1 4 3 5 0 3 4 03 1 2 5 3 1 5 3 5 3 04 1 2 0 4 4 5 1 2 4 05 2 1 0 4 3 5 2 5 3 06 2 1 3 5 0 3 4 2 4 07 2 2 5 3 5 3 1 5 5 08 2 2 0 4 0 4 4 5 1 MANCOVA If some DV is a covariate (e.g., a control, not theoretically of interest) MANCOVA (Multivariate Analysis of Covariance) is MANOVA with covariate/s, continuous variables that you want to control for, to reduce error variance and increase statistical power. Example: Comparing the effect of different diets on weight loss and cholesterol levels while controlling for age and exercise Multiple sources of variance Within-Ss 66/83",
+   "char_count": 649,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-066.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 67,
+   "text": "Ss\nCond1\nCond2\nDV1\nDV2\nDV3\nDV4\nDV5\nDV6\nCovar\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n1\n1\n4\n3\n5\n0\n3\n4\n03\n1\n2\n5\n3\n1\n5\n3\n5\n3\n04\n1\n2\n0\n4\n4\n5\n1\n2\n4\n05\n2\n1\n0\n4\n3\n5\n2\n5\n3\n06\n2\n1\n3\n5\n0\n3\n4\n2\n4\n07\n2\n2\n5\n3\n5\n3\n1\n5\n5\n08\n2\n2\n0\n4\n0\n4\n4\n5\n1\nGeneral Linear Model (GLM) encompasses all of the previous techniques\nMultiple sources of variance Within-Ss\nGLM generalizes various linear models, including ANOVA, ANCOVA, MANOVA, and MANCOVA. \nAllows for modeling of relationships between multiple dependent and independent variables, \nincluding continuous and categorical predictors. Example: The relationship between user \nexperience (dependent variable) and education level, age, and gender (independent variables)\n67/83\n",
+   "text_norm": "Ss Cond1 Cond2 DV1 DV2 DV3 DV4 DV5 DV6 Covar 01 1 1 5 2 0 4 3 5 2 02 1 1 1 4 3 5 0 3 4 03 1 2 5 3 1 5 3 5 3 04 1 2 0 4 4 5 1 2 4 05 2 1 0 4 3 5 2 5 3 06 2 1 3 5 0 3 4 2 4 07 2 2 5 3 5 3 1 5 5 08 2 2 0 4 0 4 4 5 1 General Linear Model (GLM) encompasses all of the previous techniques Multiple sources of variance Within-Ss GLM generalizes various linear models, including ANOVA, ANCOVA, MANOVA, and MANCOVA. Allows for modeling of relationships between multiple dependent and independent variables, including continuous and categorical predictors. Example: The relationship between user experience (dependent variable) and education level, age, and gender (independent variables) 67/83",
+   "char_count": 685,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-067.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 68,
+   "text": "Multiple sources of variance Within-Ss\nSs\nCond1\nCond2\nDV1t1\nDV1t2\nDV1t3\nDV2t1\nDV2t2\nDV2t3\nCovar\n01\n1\n1\n5\n2\n0\n4\n3\n5\n2\n02\n1\n1\n1\n4\n3\n5\n0\n3\n4\n03\n1\n2\n5\n3\n1\n5\n3\n5\n3\n04\n1\n2\n0\n4\n4\n5\n1\n2\n4\n05\n2\n1\n0\n4\n3\n5\n2\n5\n3\n06\n2\n1\n3\n5\n0\n3\n4\n2\n4\n07\n2\n2\n5\n3\n5\n3\n1\n5\n5\n08\n2\n2\n0\n4\n0\n4\n4\n5\n1\nGLM Repeated Measures: DVs measured at different timepoints\nGLM Repeated Measures is an extension of GLM that is used when the same subjects are \nmeasured multiple times. It accounts for the correlation between repeated measurements on the \nsame subjects. Example: Measuring the effect of a security algorithm on user trust at multiple time \npoints (e.g., baseline, 1 month, 3 months)\n68/83\n",
+   "text_norm": "Multiple sources of variance Within-Ss Ss Cond1 Cond2 DV1t1 DV1t2 DV1t3 DV2t1 DV2t2 DV2t3 Covar 01 1 1 5 2 0 4 3 5 2 02 1 1 1 4 3 5 0 3 4 03 1 2 5 3 1 5 3 5 3 04 1 2 0 4 4 5 1 2 4 05 2 1 0 4 3 5 2 5 3 06 2 1 3 5 0 3 4 2 4 07 2 2 5 3 5 3 1 5 5 08 2 2 0 4 0 4 4 5 1 GLM Repeated Measures: DVs measured at different timepoints GLM Repeated Measures is an extension of GLM that is used when the same subjects are measured multiple times. It accounts for the correlation between repeated measurements on the same subjects. Example: Measuring the effect of a security algorithm on user trust at multiple time points (e.g., baseline, 1 month, 3 months) 68/83",
+   "char_count": 652,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-068.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 69,
+   "text": "Step-by-step click paths to access the General Linear Model (GLM) in SPSS\n1. Open SPSS: Start SPSS and open your dataset\n2. Analyze Menu: Click on the Analyze menu at the top of the SPSS window\n3. General Linear Model: Hover over General Linear Model in the drop-down menu. This will expand to show more options\n4. Choose the Type of GLM:\nUnivariate: For a single dependent variable\nMultivariate: For multiple dependent variables\nRepeated Measures: For repeated measures data\nVariance Components: For variance components analysis\nMore detailed path for each type:\nUnivariate GLM:\n1. Analyze > General Linear Model > Univariate...\n2. In the dialog box that appears, specify your dependent variable and fixed factors (independent variables)\nMultivariate GLM:\n1. Analyze > General Linear Model > Multivariate...\n2. In the dialog box that appears, specify your dependent variables and fixed factors\nRepeated Measures GLM:\n1. Analyze > General Linear Model > Repeated Measures...\n2. Define your within-subject factor(s) and then click Define to specify the dependent variables and other factors\nVariance Components:\n1. Analyze > General Linear Model > Variance Components...\n2. Specify your model in the dialog box that appears\nExample for Univariate GLM:\n1. Analyze > General Linear Model > Univariate...\n2. In the \"Univariate\" dialog box:\nMove your dependent variable to the Dependent Variable box\nMove your independent variables to the Fixed Factor(s) box\nOptionally, you can add covariates by moving them to the Covariate(s) box\n3. Click on Model to specify the model if needed\n4. Click on Options to select additional statistics or plots\n5. Click OK to run the analysis\nThis will run the GLM analysis and provide you with the output, including tables and charts, based on your specifications\n69/83\n",
+   "text_norm": "Step-by-step click paths to access the General Linear Model (GLM) in SPSS 1. Open SPSS: Start SPSS and open your dataset 2. Analyze Menu: Click on the Analyze menu at the top of the SPSS window 3. General Linear Model: Hover over General Linear Model in the drop-down menu. This will expand to show more options 4. Choose the Type of GLM: Univariate: For a single dependent variable Multivariate: For multiple dependent variables Repeated Measures: For repeated measures data Variance Components: For variance components analysis More detailed path for each type: Univariate GLM: 1. Analyze > General Linear Model > Univariate... 2. In the dialog box that appears, specify your dependent variable and fixed factors (independent variables) Multivariate GLM: 1. Analyze > General Linear Model > Multivariate... 2. In the dialog box that appears, specify your dependent variables and fixed factors Repeated Measures GLM: 1. Analyze > General Linear Model > Repeated Measures... 2. Define your within-subject factor(s) and then click Define to specify the dependent variables and other factors Variance Components: 1. Analyze > General Linear Model > Variance Components... 2. Specify your model in the dialog box that appears Example for Univariate GLM: 1. Analyze > General Linear Model > Univariate... 2. In the \"Univariate\" dialog box: Move your dependent variable to the Dependent Variable box Move your independent variables to the Fixed Factor(s) box Optionally, you can add covariates by moving them to the Covariate(s) box 3. Click on Model to specify the model if needed 4. Click on Options to select additional statistics or plots 5. Click OK to run the analysis This will run the GLM analysis and provide you with the output, including tables and charts, based on your specifications 69/83",
+   "char_count": 1804,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-069.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 70,
+   "text": "ummary\nConfirmatory data analysis is parametric and a deductive \napproach to hypothesis testing. The inferential statistics \nlook for definite answers to specific questions, relying on \nprobability models and numerical calculations\nThe central tendency of a group of scores (a distribution), \nreferring to the middle of the group of scores. Techniques \nlike t-tests and (M)ANOVA assess whether variation of \nvalues around the mean is explained from normal \nvariation or that there is a systematic effect\nThe t-test and (M)ANOVA work from signal-detection \ntheory, assuming the mean to be the signal and variance \nto be the noise, testing the signal-to-noise ratio\nSocrates\nDifference between group means\nVariability of groups\nSignal\nNoise\n=\n70/83\n",
+   "text_norm": "ummary Confirmatory data analysis is parametric and a deductive approach to hypothesis testing. The inferential statistics look for definite answers to specific questions, relying on probability models and numerical calculations The central tendency of a group of scores (a distribution), referring to the middle of the group of scores. Techniques like t-tests and (M)ANOVA assess whether variation of values around the mean is explained from normal variation or that there is a systematic effect The t-test and (M)ANOVA work from signal-detection theory, assuming the mean to be the signal and variance to be the noise, testing the signal-to-noise ratio Socrates Difference between group means Variability of groups Signal Noise = 70/83",
+   "char_count": 738,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-070.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 71,
+   "text": "ummary\nIndependent samples t-test (a.k.a., two-samples t-test) \ncompares the difference between the means of two \ngroups of data, taking the variability of the two groups \ninto account\nOne-sample t-test assesses the mean of a single group \nagainst a known value\nPaired-samples t-test compares means from the same \ngroup at different times or different within-experiment \nconditions\nSignificance of an effect depends on the number of \nobservations (df1, df2) and risk level (= .05 and p < .05 \nis the standard cut-off). Degrees of freedom (df) are the \nmaximum number of values that you can freely vary in a \ndata sample while keeping the same mean\nSocrates\n71/83\n",
+   "text_norm": "ummary Independent samples t-test (a.k.a., two-samples t-test) compares the difference between the means of two groups of data, taking the variability of the two groups into account One-sample t-test assesses the mean of a single group against a known value Paired-samples t-test compares means from the same group at different times or different within-experiment conditions Significance of an effect depends on the number of observations (df1, df2) and risk level (= .05 and p < .05 is the standard cut-off). Degrees of freedom (df) are the maximum number of values that you can freely vary in a data sample while keeping the same mean Socrates 71/83",
+   "char_count": 657,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-071.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 72,
+   "text": "ummary\nType I error: You think there is an effect but it is a false \nalarm (mistakenly rejecting H0)\nType II error: You overlooked there was an effect and \nmissed the signal (failing to reject the H0)\nIf we are designing for a widely used application (e.g., \nFirefox, Brave, or Google Chrome), then perhaps a Type II \nerror (e.g., less efficiency, but more familiarity) is \npreferable to a Type I error (i.e., make users learn a new \nthing with no performance benefit)\nYet, if we are designing a niche application for expert \nusers (e.g., AutoCAD or OmniGraffle), and the tasks \ninvolve extremely frequent menu selections, then \nperhaps a Type I error (e.g., more efficiency, at the cost of \nhaving to learn a new interface) is preferable to a Type II \nerror\nSocrates\n72/83\n",
+   "text_norm": "ummary Type I error: You think there is an effect but it is a false alarm (mistakenly rejecting H0) Type II error: You overlooked there was an effect and missed the signal (failing to reject the H0) If we are designing for a widely used application (e.g., Firefox, Brave, or Google Chrome), then perhaps a Type II error (e.g., less efficiency, but more familiarity) is preferable to a Type I error (i.e., make users learn a new thing with no performance benefit) Yet, if we are designing a niche application for expert users (e.g., AutoCAD or OmniGraffle), and the tasks involve extremely frequent menu selections, then perhaps a Type I error (e.g., more efficiency, at the cost of having to learn a new interface) is preferable to a Type II error Socrates 72/83",
+   "char_count": 763,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-072.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 73,
+   "text": "ummary\nt-test: Compares means of two groups\nOneway ANOVA: Compares means of three groups\n2-way ANOVA: Compares means of four or more groups\nMANOVA: Compares means of multiple dependent \nvariables across groups\nMANCOVA: Similar to MANOVA but includes covariates\nGLM: A flexible framework for modeling relationships \nbetween variables\nGLM Repeated Measures: Used for repeated \nmeasurements on the same subjects (often time-related)\nEach of these methods has its specific use cases and \nassumptions, and the choice of method depends on the \nresearch question and your data structure\nSocrates\n73/83\n",
+   "text_norm": "ummary t-test: Compares means of two groups Oneway ANOVA: Compares means of three groups 2-way ANOVA: Compares means of four or more groups MANOVA: Compares means of multiple dependent variables across groups MANCOVA: Similar to MANOVA but includes covariates GLM: A flexible framework for modeling relationships between variables GLM Repeated Measures: Used for repeated measurements on the same subjects (often time-related) Each of these methods has its specific use cases and assumptions, and the choice of method depends on the research question and your data structure Socrates 73/83",
+   "char_count": 597,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-073.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 74,
+   "text": "Exam Sample Item\nCategory “Insight”\nIf t = 63.657 is minimally required to establish a significant effect, \nthis means that:\nA\nThe degrees of freedom must be few\nB\nThe rejection area must be small \nC\nis large\nD\nBoth A and B may play a role\n74/83\n",
+   "text_norm": "Exam Sample Item Category “Insight” If t = 63.657 is minimally required to establish a significant effect, this means that: A The degrees of freedom must be few B The rejection area must be small C is large D Both A and B may play a role 74/83",
+   "char_count": 244,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-074.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 75,
+   "text": "Exam Sample Item\nCategory “Insight”\nIf t = 63.657 is minimally required to establish a significant effect, \nthis means that:\nA\nThe degrees of freedom must be few\nB\nThe rejection area must be small \nC\nis large\nD\nBoth A and B may play a role\n\n75/83\n",
+   "text_norm": "Exam Sample Item Category “Insight” If t = 63.657 is minimally required to establish a significant effect, this means that: A The degrees of freedom must be few B The rejection area must be small C is large D Both A and B may play a role  75/83",
+   "char_count": 246,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-075.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 76,
+   "text": "Table of significance for a two-tailed t-test \nRejection area or set to \n1% chance we may be \nwrong\nMerely two observations\n76/83\n",
+   "text_norm": "Table of significance for a two-tailed t-test Rejection area or set to 1% chance we may be wrong Merely two observations 76/83",
+   "char_count": 127,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L10/slide-076.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 77,
+   "text": "Exam sample item\nCategory “Application” \nDuring the pandemic, a student of Media Entertainment investigated \nthe effect of two types of VR helmets on body temperature. The VR \nwas supposed to counter boredom but wearing it should not be at \nthe cost of increasing the user’s face temperature \nFor her measurements, the student used several Heaco MDI908 \nmedical non-contact infrared thermometers, which she calibrated \nagainst one another, finding for all devices systematically \ntemperatures of 37.0 Cwith a standard deviation of around 0.5 C\nThe student sampled 220 participants, 110 for each VR helmet, with a \nG*power of about 80% to 90% of correctly rejecting the Null\nLuckily and as expected, using different infrared thermometers did \nnot yield a significant effect. In addition, two-group independent \nsamples t-test also showed no significant effect for VR headset: t(219) = \n-.05, p = .896, showing that VR helmet 1 (MVRh1 = 36.9, SD = .20) nor \nVR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on \nthe users’ facial temperature\nThe student concluded that both helmets are safe to use, not causing \nany extra inconvenience during those already stressful times\nDoes anyone have a \nproblem with that \nconclusion?\n",
+   "text_norm": "Exam sample item Category “Application” During the pandemic, a student of Media Entertainment investigated the effect of two types of VR helmets on body temperature. The VR was supposed to counter boredom but wearing it should not be at the cost of increasing the user’s face temperature For her measurements, the student used several Heaco MDI908 medical non-contact infrared thermometers, which she calibrated against one another, finding for all devices systematically temperatures of 37.0 Cwith a standard deviation of around 0.5 C The student sampled 220 participants, 110 for each VR helmet, with a G*power of about 80% to 90% of correctly rejecting the Null Luckily and as expected, using different infrared thermometers did not yield a significant effect. In addition, two-group independent samples t-test also showed no significant effect for VR headset: t(219) = -.05, p = .896, showing that VR helmet 1 (MVRh1 = 36.9, SD = .20) nor VR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on the users’ facial temperature The student concluded that both helmets are safe to use, not causing any extra inconvenience during those already stressful times Does anyone have a problem with that conclusion?",
+   "char_count": 1219,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-077.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 78,
+   "text": "Exam sample item\nBrowsing through the qualitative data, \nthe student finds throughout people \ncomplaining that both helmets were \ntoo hot in the warm and humid climate \nof Hong Kong, particularly in July, when \nthe study was conducted. Outlier \nanalysis of the quantitative data, \nhowever, does not show that any of \nthese people had extreme \ntemperatures\nThe student reports that certain people \nmay have experienced a sense of heat \nwhile wearing the VR devices, which \nmay have been auto-suggestion, \nbecause there were no systematic \nresults supporting that idea\nCategory “Application” \nDoes anyone have issues with these conclusions?\n78/83\n",
+   "text_norm": "Exam sample item Browsing through the qualitative data, the student finds throughout people complaining that both helmets were too hot in the warm and humid climate of Hong Kong, particularly in July, when the study was conducted. Outlier analysis of the quantitative data, however, does not show that any of these people had extreme temperatures The student reports that certain people may have experienced a sense of heat while wearing the VR devices, which may have been auto-suggestion, because there were no systematic results supporting that idea Category “Application” Does anyone have issues with these conclusions? 78/83",
+   "char_count": 629,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-078.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 79,
+   "text": "Exam sample item\nAfter having published her results in a peer reviewed journal, the student, after graduation, is surfing the \nInternet and stumbles upon https://thesun.my/style-life/going-viral/buyers-realise-thermometer-is-fake-after-\nalways-showing-37c-CE2251994\nThe infrared board is not connected to the mainboard, so it “works” even without the IR sensor… The student \nis decent enough to retract her paper\nCategory “Application” \nThe Heaco MDI908 medical \nnon-contact infrared \nthermometer turns out to \nbe a black box, telling you \nwhat you want to hear\nIt has a random number \ngenerator within the range \n[36.7 - 37.2]\nNo one ill. All happy customers\nThe H0 could never be refuted\n79/83\n",
+   "text_norm": "Exam sample item After having published her results in a peer reviewed journal, the student, after graduation, is surfing the Internet and stumbles upon https://thesun.my/style-life/going-viral/buyers-realise-thermometer-is-fake-afteralways-showing-37c-CE2251994 The infrared board is not connected to the mainboard, so it “works” even without the IR sensor… The student is decent enough to retract her paper Category “Application” The Heaco MDI908 medical non-contact infrared thermometer turns out to be a black box, telling you what you want to hear It has a random number generator within the range [36.7 - 37.2] No one ill. All happy customers The H0 could never be refuted 79/83",
+   "char_count": 684,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-079.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 80,
+   "text": "Exam sample item\nA student of Innovative Multimedia \nEntertainment (MSc) investigates \nnegative emotions in MOBA games \n(Multiplayer Online Battle Arena)\nFor her measurements, the student \nuses an EMOTIV 14-Channel Wireless \nEEG Headset, while EMOTIV’s cutting-\nedge BCI software converts brain \nactivity data, facial expressions, and \nhead movements into digital signals \nthat indicate the gamers’ intentions, \nemotions, and facial expressions\nThe student sampled 220 \nparticipants, 110 for each gaming \ncondition (with or without the help \nof an AI teammate), with a G*power \nof about 80% to 90% of correctly \nrejecting the Null\n80/83\n",
+   "text_norm": "Exam sample item A student of Innovative Multimedia Entertainment (MSc) investigates negative emotions in MOBA games (Multiplayer Online Battle Arena) For her measurements, the student uses an EMOTIV 14-Channel Wireless EEG Headset, while EMOTIV’s cuttingedge BCI software converts brain activity data, facial expressions, and head movements into digital signals that indicate the gamers’ intentions, emotions, and facial expressions The student sampled 220 participants, 110 for each gaming condition (with or without the help of an AI teammate), with a G*power of about 80% to 90% of correctly rejecting the Null 80/83",
+   "char_count": 620,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-080.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 81,
+   "text": "Exam sample item\nA student of Innovative Multimedia \nEntertainment (MSc) investigates \nnegative emotions in MOBA games \n(Multiplayer Online Battle Arena)\nFor her measurements, the student \nuses an EMOTIV 14-Channel Wireless \nEEG Headset, while EMOTIV’s cutting-\nedge BCI software converts brain \nactivity data, facial expressions, and \nhead movements into digital signals \nthat indicate the gamers’ intentions, \nemotions, and facial expressions\nThe student sampled 220 \nparticipants, 110 for each gaming \ncondition (with or without the help \nof an AI teammate), with a G*power \nof about 80% to 90% of correctly \nrejecting the Null\nAfter statistical analysis, the student concludes that MOBA games \nwith AI helper show significant decreases in negative emotions as \nindicated by less activation of the amygdala, fewer and smoother \nhead movements, and more zygomaticus muscle motion associated \nwith positive valence and less corrugator muscle activity as related \nto negative valence emotions. The inverse was found for gamers \nwithout AI helper\nThe student publishes a paper in International Journal of Advanced \nGaming Studies, stating that AI teammates in MOBA games counter \nnegative mood as indicated by psychophysiological indicators\nDoes anyone have a \nproblem with this \npublication?\n81/83\n",
+   "text_norm": "Exam sample item A student of Innovative Multimedia Entertainment (MSc) investigates negative emotions in MOBA games (Multiplayer Online Battle Arena) For her measurements, the student uses an EMOTIV 14-Channel Wireless EEG Headset, while EMOTIV’s cuttingedge BCI software converts brain activity data, facial expressions, and head movements into digital signals that indicate the gamers’ intentions, emotions, and facial expressions The student sampled 220 participants, 110 for each gaming condition (with or without the help of an AI teammate), with a G*power of about 80% to 90% of correctly rejecting the Null After statistical analysis, the student concludes that MOBA games with AI helper show significant decreases in negative emotions as indicated by less activation of the amygdala, fewer and smoother head movements, and more zygomaticus muscle motion associated with positive valence and less corrugator muscle activity as related to negative valence emotions. The inverse was found for gamers without AI helper The student publishes a paper in International Journal of Advanced Gaming Studies, stating that AI teammates in MOBA games counter negative mood as indicated by psychophysiological indicators Does anyone have a problem with this publication? 81/83",
+   "char_count": 1271,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L10/slide-081.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 82,
+   "text": "Exam sample item\nEMOTIV’s cutting-edge BCI \nsoftware is a black box, \ntelling you what you want \nto hear\nHow does the machine \ncome to its interpretations? \nWhat are the algorithms? \nWhat are its cut-off points? \nWhen is it ‘confident’ that \nthis muscle motion means \n‘fear’ and that motion ‘joy?’\nThrowing the oracle bones\n82/83\n",
+   "text_norm": "Exam sample item EMOTIV’s cutting-edge BCI software is a black box, telling you what you want to hear How does the machine come to its interpretations? What are the algorithms? What are its cut-off points? When is it ‘confident’ that this muscle motion means ‘fear’ and that motion ‘joy?’ Throwing the oracle bones 82/83",
+   "char_count": 320,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L10/slide-082.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 83,
+   "text": "References\nAron, A., & Aron, E. N. (1999). Statistics for psychology. Prentice-Hall, Inc.\nMcGrath, J. E. (1995). Methodology matters: Doing research in the behavioral and social \nsciences. In R. M. Baecker, et al. (Eds.), Readings in Human–Computer Interaction (pp. 152-\n169). Morgan Kaufmann.\nSolomon, R. L. (1949). An extension of control group design. Psychological Bulletin, 46(2), 137–\n150. doi: 10.1037/h0062958\nStudent (1908). The probable error of a mean. Biometrika, 6(1), 1-25.\n",
+   "text_norm": "References Aron, A., & Aron, E. N. (1999). Statistics for psychology. Prentice-Hall, Inc. McGrath, J. E. (1995). Methodology matters: Doing research in the behavioral and social sciences. In R. M. Baecker, et al. (Eds.), Readings in Human–Computer Interaction (pp. 152169). Morgan Kaufmann. Solomon, R. L. (1949). An extension of control group design. Psychological Bulletin, 46(2), 137– 150. doi: 10.1037/h0062958 Student (1908). The probable error of a mean. Biometrika, 6(1), 1-25.",
+   "char_count": 484,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L10/slide-083.png",
+   "flags": []
+  }
+ ]
+}

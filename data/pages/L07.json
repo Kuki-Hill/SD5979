@@ -1,0 +1,789 @@
+{
+ "lecture": "L07",
+ "source_file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L07.pdf",
+ "sha256": "0a3a18840fe3b3347a9a22764c9bd4768e2485a003e088d8220b529e03c410ec",
+ "page_count": 66,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 07: Correlations\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 07: Correlations 1",
+   "char_count": 129,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "Contents of today\nCorrelations\nSpurious correlations\nPearson Product-Moment Correlation (r)\nCohen’s kappa (κ), Krippendorff’s alpha ()\nCronbach’s \nSpearman-Brown coefficient ρ (split-half)\nSpearman’s rho (ρ) (rank order)\nConvergent / divergent validity\nPrincipal Component Analysis (PCA)\n2/66\n",
+   "text_norm": "Contents of today Correlations Spurious correlations Pearson Product-Moment Correlation (r) Cohen’s kappa (κ), Krippendorff’s alpha () Cronbach’s  Spearman-Brown coefficient ρ (split-half) Spearman’s rho (ρ) (rank order) Convergent / divergent validity Principal Component Analysis (PCA) 2/66",
+   "char_count": 303,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-002.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 3,
+   "text": "3/66\nhttps://www.etymonline.com/word/statistics\nStatistics. Word first recorded in 1770. Referred to the science of \ncollecting data about the condition of a state or community\nFrom the German word Statistik. Popularised, possibly coined, by \npolitical scientist Gottfried Achenwall in his 1748 work Vorbereitung zur\nStaatswissenschaft [Preparation to Statecraft]\nStatistik derives from the Modern Latin phrase statisticum collegium, \nmeaning a lecture course on state affairs. This is linked to the Italian \nword statista, meaning a person skilled in statecraft\nStatista comes from the Latin status, meaning position, condition, \npublic order, or community organisation. Status derives from stare, \nmeaning to stand, which can be traced to the Proto-Indo-European root \nsta-, meaning to stand or be firm. We make our claims firm through \nstatistics!!!\nStatistics = statecraft\nStatistics is the science of the state, \ntrying to map out the “average” \ncitizen, so it can control, box, and \nregulate populations\nThe Oxford English Dictionary notes that Achenwall did not appear to regard Statistik as a new term, although its \ncurrent use can be traced to him\nBy 1829, statistics had acquired the broader meaning of numerical data collected and classified systematically. It also \ncame to describe the study of subjects through extensive numerical analysis. That’s what we are going to learn in the \nnext 5 weeks!\nThe abbreviation stats was recorded by 1961 and is now widely used in both formal and informal contexts\n",
+   "text_norm": "3/66 https://www.etymonline.com/word/statistics Statistics. Word first recorded in 1770. Referred to the science of collecting data about the condition of a state or community From the German word Statistik. Popularised, possibly coined, by political scientist Gottfried Achenwall in his 1748 work Vorbereitung zur Staatswissenschaft [Preparation to Statecraft] Statistik derives from the Modern Latin phrase statisticum collegium, meaning a lecture course on state affairs. This is linked to the Italian word statista, meaning a person skilled in statecraft Statista comes from the Latin status, meaning position, condition, public order, or community organisation. Status derives from stare, meaning to stand, which can be traced to the Proto-Indo-European root sta-, meaning to stand or be firm. We make our claims firm through statistics!!! Statistics = statecraft Statistics is the science of the state, trying to map out the “average” citizen, so it can control, box, and regulate populations The Oxford English Dictionary notes that Achenwall did not appear to regard Statistik as a new term, although its current use can be traced to him By 1829, statistics had acquired the broader meaning of numerical data collected and classified systematically. It also came to describe the study of subjects through extensive numerical analysis. That’s what we are going to learn in the next 5 weeks! The abbreviation stats was recorded by 1961 and is now widely used in both formal and informal contexts",
+   "char_count": 1501,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-003.png",
+   "flags": []
+  },
+  {
+   "slide": 4,
+   "text": "Correlations\nGreat for control\nObscuring results\nWhy? Because they occur so quickly\nMulticollinearity!!\nWhat correlations show us is that everything is \nrelated to everything else, which philosophically is an \nendearing thought because it makes us connected to \neach other and to the universe\nHowever, everything is related to everything else,\nbut not in equal measures!\nCorrelations are weak ties\nYou can infer correlation from causation\nbut you cannot infer causation from correlation\n4/66\n“When we try to pick out anything by itself, we find it hitched to \neverything else in the universe.” Muir, J. (1894). The mountains of \nCalifornia. New York: The Century Co.\n",
+   "text_norm": "Correlations Great for control Obscuring results Why? Because they occur so quickly Multicollinearity!! What correlations show us is that everything is related to everything else, which philosophically is an endearing thought because it makes us connected to each other and to the universe However, everything is related to everything else, but not in equal measures! Correlations are weak ties You can infer correlation from causation but you cannot infer causation from correlation 4/66 “When we try to pick out anything by itself, we find it hitched to everything else in the universe.” Muir, J. (1894). The mountains of California. New York: The Century Co.",
+   "char_count": 664,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-004.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 5,
+   "text": "Correlation asks whether two variables vary together, either:\nWhen one goes up, so does the other (both go up or down)\n(called a ‘positive’ correlation)\nWhen one goes up, the other goes down (one up, one down)\n(called a ‘negative’ correlation)\nCorrelation expresses things that co-occur, that happen together:\nMutual relationship\nCovariation\nAssociation \nFor example: Low income is correlated with more frequent use of community services:\nIncome down and use frequency up, a negative correlation (Aand B)\nHowever, we cannot claim that: When A, then B\nCorrelation does not express causation!!\nAn often made mistake, also in Machine Learning\nCorrelations\n“John and Mary walk together“\n“John makes Mary walk together“\n5/66\n",
+   "text_norm": "Correlation asks whether two variables vary together, either: When one goes up, so does the other (both go up or down) (called a ‘positive’ correlation) When one goes up, the other goes down (one up, one down) (called a ‘negative’ correlation) Correlation expresses things that co-occur, that happen together: Mutual relationship Covariation Association For example: Low income is correlated with more frequent use of community services: Income down and use frequency up, a negative correlation (Aand B) However, we cannot claim that: When A, then B Correlation does not express causation!! An often made mistake, also in Machine Learning Correlations “John and Mary walk together“ “John makes Mary walk together“ 5/66",
+   "char_count": 728,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-005.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 6,
+   "text": "“When the sun shines, \nI am happy,\nbecause I am in love!“\nWhat is correlation, what causation?\nCorrelations\n6/66\nMulticollinearity: Sun, happiness, you, and love are all intercorrelated \nbut in many different ways\n",
+   "text_norm": "“When the sun shines, I am happy, because I am in love!“ What is correlation, what causation? Correlations 6/66 Multicollinearity: Sun, happiness, you, and love are all intercorrelated but in many different ways",
+   "char_count": 212,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-006.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "Correlations\nMain lesson: Correlation is not causation no matter how Big the Data are\nActually, with more data, significant but meaningless correlations are likelier to occur\nWe call that spurious correlations\nObesity\nCancer\nSugar intake\n(not fat)\nFor 90% related, so what are you going to \nfight? Obesity, cancer, or both?\nWhy we do research:\nTo find the root cause of correlations\nCorrelations do not ‘test’ anything; they indicate relationship. You cannot infer from correlations. They \nare non-parametric measures and hence, are not meant for Hypotheses testing. For that, you need t-\ntests and Analysis of Variance (Lecture 10), or Bayesian statistics (Lecture 11). Those are parametric tests\n7/66\n",
+   "text_norm": "Correlations Main lesson: Correlation is not causation no matter how Big the Data are Actually, with more data, significant but meaningless correlations are likelier to occur We call that spurious correlations Obesity Cancer Sugar intake (not fat) For 90% related, so what are you going to fight? Obesity, cancer, or both? Why we do research: To find the root cause of correlations Correlations do not ‘test’ anything; they indicate relationship. You cannot infer from correlations. They are non-parametric measures and hence, are not meant for Hypotheses testing. For that, you need ttests and Analysis of Variance (Lecture 10), or Bayesian statistics (Lecture 11). Those are parametric tests 7/66",
+   "char_count": 699,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L07/slide-007.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "How about usability, and user \nexperience of this algorithm?\nYou are a pedestrian only near a \ncrosswalk\nAlgorithm must be correlational\nCorrelations wrongly applied in automotive design\n8/66\n",
+   "text_norm": "How about usability, and user experience of this algorithm? You are a pedestrian only near a crosswalk Algorithm must be correlational Correlations wrongly applied in automotive design 8/66",
+   "char_count": 190,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-008.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 9,
+   "text": "Spurious correlations\n“I always have bad luck at board games. I never roll a 6.”\nRecognizable? Anyone?\nThis is the remarkable ‘decrease effect,’ which is not so \nremarkable at all\nBased on pure chance and with a fair die:\nAbout half (½) of the players roll low (one, two, or three)\nand the other half (½) roll high (four, five, six)\nOn a second throw, half of those high throwers throw high again: \na quarter (¼) of the total\nOn a third throw it is one eighth (⅛)\nOn the fourth throw it is one sixteenth (1/16)\nThe group that consistently throws high becomes smaller and \nsmaller and eventually ceases to exist (the deceasing effect)\n9/66\n",
+   "text_norm": "Spurious correlations “I always have bad luck at board games. I never roll a 6.” Recognizable? Anyone? This is the remarkable ‘decrease effect,’ which is not so remarkable at all Based on pure chance and with a fair die: About half (½) of the players roll low (one, two, or three) and the other half (½) roll high (four, five, six) On a second throw, half of those high throwers throw high again: a quarter (¼) of the total On a third throw it is one eighth (⅛) On the fourth throw it is one sixteenth (1/16) The group that consistently throws high becomes smaller and smaller and eventually ceases to exist (the deceasing effect) 9/66",
+   "char_count": 636,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-009.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 10,
+   "text": "Spurious correlations\n“I always have bad luck at board games. I never roll a 6.”\nRecognizable? Anyone?\nYet, the group that always throws low (you!) also becomes \nsmaller with each throw, which we may call an ‘increasing effect,’ \nbecause you will throw higher than before every now and then\nThis increase (“ Now you will throw high!”) can ‘magically’ be \npredicted without having to roll the dice a thousand times\nBeforehand, you do not know where the correlation will show \nup, only that it will show up somewhere if you include enough \nvariables in the comparison\nDeviations from the average are always there, so if you compare \nenough variables you will always find something that sticks \ntogether – a spurious correlation\nOnly if predictable and reproducible will you know where the correlation should appear and is it genuine\n",
+   "text_norm": "Spurious correlations “I always have bad luck at board games. I never roll a 6.” Recognizable? Anyone? Yet, the group that always throws low (you!) also becomes smaller with each throw, which we may call an ‘increasing effect,’ because you will throw higher than before every now and then This increase (“ Now you will throw high!”) can ‘magically’ be predicted without having to roll the dice a thousand times Beforehand, you do not know where the correlation will show up, only that it will show up somewhere if you include enough variables in the comparison Deviations from the average are always there, so if you compare enough variables you will always find something that sticks together – a spurious correlation Only if predictable and reproducible will you know where the correlation should appear and is it genuine",
+   "char_count": 824,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-010.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 11,
+   "text": "In general, correlations usually take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositive?\nNo correlation?\nNegative?\nCorrelations\n11/66\n",
+   "text_norm": "In general, correlations usually take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness                       Positive? No correlation? Negative? Correlations 11/66",
+   "char_count": 374,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "In general, correlations usually take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositive\nNo correlation?\nNegative?\nCorrelations\n12/66\n",
+   "text_norm": "In general, correlations usually take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness                       Positive No correlation? Negative? Correlations 12/66",
+   "char_count": 373,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-012.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 13,
+   "text": "In general, correlations usually take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\nPositive?\nNo correlation?\nNegative?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrelations\n13/66\n",
+   "text_norm": "In general, correlations usually take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness Positive? No correlation? Negative?                            Correlations 13/66",
+   "char_count": 379,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-013.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 14,
+   "text": "In general, correlations take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\nPositive?\nNo correlation?\nNegative\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrelations\n14/66\n",
+   "text_norm": "In general, correlations take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness Positive? No correlation? Negative                            Correlations 14/66",
+   "char_count": 370,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-014.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 15,
+   "text": "In general, correlations usually take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositive?\nNo correlation?\nNegative?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrelations\n15/66\n",
+   "text_norm": "In general, correlations usually take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness                Positive? No correlation? Negative?                          Correlations 15/66",
+   "char_count": 410,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-015.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 16,
+   "text": "In general, correlations usually take on values between -1.00 and +1.00\n+1 a perfect positive linear relationship between two variables\n0 no linear relationship between variables\n‐1 a perfect negative linear relationship\nx-axis\ny-axis\nUser experience\nHuman-likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositive?\nNo correlation\nNegative?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrelations\n16/66\n",
+   "text_norm": "In general, correlations usually take on values between -1.00 and +1.00 +1 a perfect positive linear relationship between two variables 0 no linear relationship between variables ‐1 a perfect negative linear relationship x-axis y-axis User experience Human-likeness                Positive? No correlation Negative?                          Correlations 16/66",
+   "char_count": 409,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-016.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 17,
+   "text": "The sign (positive or negative) gives you the direction of the relationship\nThe magnitude (how close the value is to 1.00 or -1.00) gives you the strength of the relationship\nHowever, a correlation does not provide information about the slope of the line that best fits the \ndata (that would be the regression coefficient in linear regression, Lecture 08)\nCorrelations\nx-axis\ny-axis\nUser experience\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA regression line\nSlope\na\nIntercept\nb\nEven correlation = 1 does not mean that one causes the other!\nHuman-likeness\n17/66\n",
+   "text_norm": "The sign (positive or negative) gives you the direction of the relationship The magnitude (how close the value is to 1.00 or -1.00) gives you the strength of the relationship However, a correlation does not provide information about the slope of the line that best fits the data (that would be the regression coefficient in linear regression, Lecture 08) Correlations x-axis y-axis User experience                       A regression line Slope a Intercept b Even correlation = 1 does not mean that one causes the other! Human-likeness 17/66",
+   "char_count": 569,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-017.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 18,
+   "text": "The four quadrants of research\nConcrete:\nField strategies\nAbstract:\nTheoretical strategies \nLaboratory\nexperiment\nSample surveys\nObtrusive:\nRespondent\nstrategies\nUnobtrusive:\nObservation \nstrategies\nFormal\ntheory\nComputer\nsimulation\nEthnography\nContent \nanalysis\nField\nexperiment\nFocus groups\nInterviews\nJudgment \nstudies\nSingle cases\nHigh on realism\nRich data (qualitative)\nUnstructured\nGeneralizable\nHigh on precision\nFocused data\n(quantitative)\nStructured\nRetake on McGrath (1995)\nPearson’s r\nCohen’s κ\nKrippendorff’s \nCronbach’s \nSpearman-Brown ρ\nPearson’s r\nPCA\nPearson’s r\nSpearman’s rank correlation\n18/66\n",
+   "text_norm": "The four quadrants of research Concrete: Field strategies Abstract: Theoretical strategies Laboratory experiment Sample surveys Obtrusive: Respondent strategies Unobtrusive: Observation strategies Formal theory Computer simulation Ethnography Content analysis Field experiment Focus groups Interviews Judgment studies Single cases High on realism Rich data (qualitative) Unstructured Generalizable High on precision Focused data (quantitative) Structured Retake on McGrath (1995) Pearson’s r Cohen’s κ Krippendorff’s  Cronbach’s  Spearman-Brown ρ Pearson’s r PCA Pearson’s r Spearman’s rank correlation 18/66",
+   "char_count": 627,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-018.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 19,
+   "text": "Pearson correlation coefficient\nCorrelation coefficient\nPearson’s r\nMeasure of the strength and direction of association between two continuous variables,\ndenoted by correlation coefficient r\nPearson Product-Moment Correlation (r)\nr\nPearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: Cambridge University.\nr =\nSummation symbol, \nindicating that you sum \nover all the data points\nThe ‘hat’ on a \nsymbol means it is \nthe mean value\nMean value of \nvariable y\nValue i of variable \nx in a sample\nValue i of variable y\nin a sample\nMean value of \nvariable x\n",
+   "text_norm": "Pearson correlation coefficient Correlation coefficient Pearson’s r Measure of the strength and direction of association between two continuous variables, denoted by correlation coefficient r Pearson Product-Moment Correlation (r) r Pearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: Cambridge University. r = Summation symbol, indicating that you sum over all the data points The ‘hat’ on a symbol means it is the mean value Mean value of variable y Value i of variable x in a sample Value i of variable y in a sample Mean value of variable x",
+   "char_count": 609,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-019.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 20,
+   "text": "Pearson correlation coefficient\nCorrelation coefficient\nPearson’s r\nMeasure of the strength and direction of association between two continuous variables,\ndenoted by correlation coefficient r\nPearson Product-Moment Correlation (r)\nr\nPearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: Cambridge University.\nr =\n+ would be just total variance\n= covariance\nStandard deviation of x\nStandard deviation of y\nThe nominator measures how \nmuch xi and yi deviate from their \nmeans together\no\nPositive value when both xi and yi are \nabove or both are below group means \n(indicating a positive relationship)\no\nNegative value when one is above and the \nother is below their group mean \n(indicating a negative relationship)\n",
+   "text_norm": "Pearson correlation coefficient Correlation coefficient Pearson’s r Measure of the strength and direction of association between two continuous variables, denoted by correlation coefficient r Pearson Product-Moment Correlation (r) r Pearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: Cambridge University. r = + would be just total variance = covariance Standard deviation of x Standard deviation of y The nominator measures how much xi and yi deviate from their means together o Positive value when both xi and yi are above or both are below group means (indicating a positive relationship) o Negative value when one is above and the other is below their group mean (indicating a negative relationship)",
+   "char_count": 770,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-020.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 21,
+   "text": "Pearson’s r is used to quantify the degree to which two variables are \nlinearly related\nr\nPearson Product-Moment Correlation (r)\nIt is used for:\nStudying relationships between variables\nExploring data for patterns (e.g., Machine Learning, Neural Networks)\nAs a diagnostic for checking assumptions in other analyses, such as regression (Lecture 08)\nKarl Pearson was a mathematician and biostatistician\nCo-founder of the field of statistics\nApart from pmcc, he developed the chi-squared test and the \nmethod of ‘moments’ for the estimation of population parameters\n21/66\n",
+   "text_norm": "Pearson’s r is used to quantify the degree to which two variables are linearly related r Pearson Product-Moment Correlation (r) It is used for: Studying relationships between variables Exploring data for patterns (e.g., Machine Learning, Neural Networks) As a diagnostic for checking assumptions in other analyses, such as regression (Lecture 08) Karl Pearson was a mathematician and biostatistician Co-founder of the field of statistics Apart from pmcc, he developed the chi-squared test and the method of ‘moments’ for the estimation of population parameters 21/66",
+   "char_count": 570,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-021.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 22,
+   "text": "22/66\n",
+   "text_norm": "22/66",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-022.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 23,
+   "text": "κ\nCohen’s kappa (κ)\nMeasure of inter-rater reliability (or agreement) for categorical items. It is \ngenerally thought to be a more robust measure than simple percent agreement \ncalculation since κ takes into account the agreement occurring by chance\nCohen’s kappa is used for assessing the reliability of agreement between two \nraters (or judges, observers, etc.) who each classify items into mutually exclusive \ncategories. It is applicable when the data are nominal (i.e., categories do not \nhave a natural order) and the number of raters is two\nCohen’s κ is one way to quantify qualitative data \n(see Lecture 3)\nThe question would be whether another analyst \ncomes up with the same classification\n23/66\n",
+   "text_norm": "κ Cohen’s kappa (κ) Measure of inter-rater reliability (or agreement) for categorical items. It is generally thought to be a more robust measure than simple percent agreement calculation since κ takes into account the agreement occurring by chance Cohen’s kappa is used for assessing the reliability of agreement between two raters (or judges, observers, etc.) who each classify items into mutually exclusive categories. It is applicable when the data are nominal (i.e., categories do not have a natural order) and the number of raters is two Cohen’s κ is one way to quantify qualitative data (see Lecture 3) The question would be whether another analyst comes up with the same classification 23/66",
+   "char_count": 699,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-023.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 24,
+   "text": "κ\nCohen’s kappa (κ)\nHypothetical probability \nof chance agreement\nRelative observed agreement \namong raters (the proportion of \nitems that the raters agree on)\nUses the observed data \nto calculate the \nprobabilities of each \nobserver randomly \nsaying each category\n(The probability of agreement) (the probability of random agreement)\ndivided by\n1 (the probability of random agreement)\nRange: [-1, 1]\n+1 perfect agreement\n0 agreement no better than chance (a roll of the dice)\n‐1 less agreement than by chance\nPerfect agreement\nκ\nCohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 37-46.\n24/66\n",
+   "text_norm": "κ Cohen’s kappa (κ) Hypothetical probability of chance agreement Relative observed agreement among raters (the proportion of items that the raters agree on) Uses the observed data to calculate the probabilities of each observer randomly saying each category (The probability of agreement) (the probability of random agreement) divided by 1 (the probability of random agreement) Range: [-1, 1] +1 perfect agreement 0 agreement no better than chance (a roll of the dice) ‐1 less agreement than by chance Perfect agreement κ Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 37-46. 24/66",
+   "char_count": 655,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-024.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 25,
+   "text": "The magnitude of κ gives you a measure of the agreement between raters, \ncorrected for chance\nThe sign and magnitude of κ can help you understand the level of \nagreement, with higher positive values indicating stronger agreement\n(e.g., κ = .30 is little agreement)\nJacob Cohen, a psychologist, also worked on statistical \npower analysis and effect size: how many participants \ndo you need in an experiment for effects to be more \nmeaningful than just ‘significant’ or not\nκ\nCohen’s kappa (κ)\nCohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 37-46.\nCohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. doi: 10.1037/0003-066X.49.12.997\n25/66\n",
+   "text_norm": "The magnitude of κ gives you a measure of the agreement between raters, corrected for chance The sign and magnitude of κ can help you understand the level of agreement, with higher positive values indicating stronger agreement (e.g., κ = .30 is little agreement) Jacob Cohen, a psychologist, also worked on statistical power analysis and effect size: how many participants do you need in an experiment for effects to be more meaningful than just ‘significant’ or not κ Cohen’s kappa (κ) Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 37-46. Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. doi: 10.1037/0003-066X.49.12.997 25/66",
+   "char_count": 739,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-025.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "Measure of agreement or reliability among raters, observers, or measurement \ninstruments that assess a set of items. It is a generalization of several specialized \nagreement measures, such as Cohen’s κ, and can handle any number of raters, \ndifferent scales of measurement (nominal, ordinal, interval, ratio), missing data, \nand sample sizes\nα\nKrippendorff’s alpha ()\nKrippendorff’s is used for assessing the \nconsistency or reliability of data when data \nare collected from different sources, such as \nmultiple raters, content analysis, or coding of \ntextual materials (Lecture 03)\nParticularly useful in content analysis studies \nwhere human coders classify text into \ncategories, and in situations where the \nmeasurement of agreement is complex due to \nthe aforementioned factors\n",
+   "text_norm": "Measure of agreement or reliability among raters, observers, or measurement instruments that assess a set of items. It is a generalization of several specialized agreement measures, such as Cohen’s κ, and can handle any number of raters, different scales of measurement (nominal, ordinal, interval, ratio), missing data, and sample sizes α Krippendorff’s alpha () Krippendorff’s is used for assessing the consistency or reliability of data when data are collected from different sources, such as multiple raters, content analysis, or coding of textual materials (Lecture 03) Particularly useful in content analysis studies where human coders classify text into categories, and in situations where the measurement of agreement is complex due to the aforementioned factors",
+   "char_count": 773,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-026.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 27,
+   "text": "The formula may vary depending on the type of data and the scale of \nmeasurement, but the general form is:\nα\nKrippendorff’s alpha ()\nObserved disagreement among \nthe units being coded or rated\nDisagreement expected by \nchance, given the marginal \nfrequencies of the categories\nRange: [-1, 1]\n1 reliable, unanimous agreement\n0 no agreement beyond chance\n‐1 systematic disagreement\nThe magnitude of gives you a measure of the reliability of the data, considering the level of \nagreement among the different sources\nHigher values of indicate higher reliability, while lower values suggest that the data may \nnot be sufficiently reliable for drawing conclusions or making decisions based on it\nKrippendorff, K. (1970). Estimating the reliability, systematic error and random error of interval data. Educational and psychological measurement, 30(1), 61-70.\n27/66\nPerfect agreement\n",
+   "text_norm": "The formula may vary depending on the type of data and the scale of measurement, but the general form is: α Krippendorff’s alpha () Observed disagreement among the units being coded or rated Disagreement expected by chance, given the marginal frequencies of the categories Range: [-1, 1] 1 reliable, unanimous agreement 0 no agreement beyond chance ‐1 systematic disagreement The magnitude of gives you a measure of the reliability of the data, considering the level of agreement among the different sources Higher values of indicate higher reliability, while lower values suggest that the data may not be sufficiently reliable for drawing conclusions or making decisions based on it Krippendorff, K. (1970). Estimating the reliability, systematic error and random error of interval data. Educational and psychological measurement, 30(1), 61-70. 27/66 Perfect agreement",
+   "char_count": 878,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-027.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 28,
+   "text": "Klaus Krippendorff (1970) \nCommunication scientist\n28/66\n",
+   "text_norm": "Klaus Krippendorff (1970) Communication scientist 28/66",
+   "char_count": 55,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-028.png",
+   "flags": []
+  },
+  {
+   "slide": 29,
+   "text": "α\nCronbach’s \nMeasure of internal consistency, which is how closely related a set of items are \nas a group. It is considered a measure of scale reliability. A psychometric scale \nrefers to multiple questions or items that, when combined, measure a particular \nconcept or construct. Cronbach requires at least 3 items on a scale\nCronbach’s assesses the reliability, or internal consistency, of a set of scale or test items\nEvaluates whether several items that propose to gauge the same general construct produce \nsimilar scores. It is commonly used in the development of structured questionnaires (Lecture 04)\nIs there consistency in \nthe scores?\nCronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555\n29/66\n",
+   "text_norm": "α Cronbach’s  Measure of internal consistency, which is how closely related a set of items are as a group. It is considered a measure of scale reliability. A psychometric scale refers to multiple questions or items that, when combined, measure a particular concept or construct. Cronbach requires at least 3 items on a scale Cronbach’s assesses the reliability, or internal consistency, of a set of scale or test items Evaluates whether several items that propose to gauge the same general construct produce similar scores. It is commonly used in the development of structured questionnaires (Lecture 04) Is there consistency in the scores? Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555 29/66",
+   "char_count": 780,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-029.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 30,
+   "text": "i\nα\nCronbach’s \nAlternative definition:\nCronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555\nNumber of scale items\n(sometimes N is used)\nVariance () related to \nitem i\nVariance of observed total scores\nAverage of all inter-item covariances among items\n(= covariances between all possible item-pairs)\nAverage variance of each item\n30/66\n",
+   "text_norm": "i α Cronbach’s  Alternative definition: Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555 Number of scale items (sometimes N is used) Variance () related to item i Variance of observed total scores Average of all inter-item covariances among items (= covariances between all possible item-pairs) Average variance of each item 30/66",
+   "char_count": 415,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-030.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 31,
+   "text": "α\nCronbach’s \nTakes the average covariance divided by the average total variance\nFor a high -value, covariance must be high relative to item variance\nThus, the relationships / consistency among questionnaire items account for \nmost of the overall variability\nA higher suggests that the items have shared commonality and are likely measuring the same \nunderlying concept\nA lower suggests that the items are measuring different constructs or that the scale is heterogeneous\nCorrected Item-Total Correlations: Items correlating < .01 with the scale total should be removed from \nthat scale\nCronbach’s indicates reliability and should be > .60 for new scales, and > .70 for existing scales\nCronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555\nRange: [0, 1]\n1 high level of internal consistency\n0 low level of internal consistency\nIt is important to note that a very high Cronbach’s alpha (e.g., above 0.9) might indicate redundancy \namong items, as they are very similar to one other\n31/66\n",
+   "text_norm": "α Cronbach’s  Takes the average covariance divided by the average total variance For a high -value, covariance must be high relative to item variance Thus, the relationships / consistency among questionnaire items account for most of the overall variability A higher suggests that the items have shared commonality and are likely measuring the same underlying concept A lower suggests that the items are measuring different constructs or that the scale is heterogeneous Corrected Item-Total Correlations: Items correlating < .01 with the scale total should be removed from that scale Cronbach’s indicates reliability and should be > .60 for new scales, and > .70 for existing scales Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297–334. doi: 10.1007/BF02310555 Range: [0, 1] 1 high level of internal consistency 0 low level of internal consistency It is important to note that a very high Cronbach’s alpha (e.g., above 0.9) might indicate redundancy among items, as they are very similar to one other 31/66",
+   "char_count": 1071,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-031.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 32,
+   "text": "Lee J. Cronbach, educational psychologist\nIt is an embarrassment to me that the formula \nbecame conventionally known as “Cronbach’s α.”\n32/66\n",
+   "text_norm": "Lee J. Cronbach, educational psychologist It is an embarrassment to me that the formula became conventionally known as “Cronbach’s α.” 32/66",
+   "char_count": 140,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-032.png",
+   "flags": []
+  },
+  {
+   "slide": 33,
+   "text": "Break\n",
+   "text_norm": "Break",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 4,
+   "png": "assets/img/L07/slide-033.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 34,
+   "text": "ρ\nSpearman-Brown coefficient ρ (split-half)\nCronbach is for 3 or more items. If you have but 2 items, Spearman-Brown \ncomes into play\nSpearman-Brown split-half coefficient ρ (rho) checks the reliability of a test that has been split into \ntwo halves. It is used to estimate the reliability of the full test from the reliability of half the test\nIn our case, one item is tested against the other to obtain inter-item reliability\nFirst half\n(item 1)\nSecond half\n(item 2)\nPearson correlation \nbetween the split-halves\nFrom the reliability of \nhalf the test, ρ predicts \nor estimates what the \nreliability would be for \nthe full test\nSpearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271.\nBrown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, 1904-1920, 3(3), 296-322.\n34/66\n",
+   "text_norm": "ρ Spearman-Brown coefficient ρ (split-half) Cronbach is for 3 or more items. If you have but 2 items, Spearman-Brown comes into play Spearman-Brown split-half coefficient ρ (rho) checks the reliability of a test that has been split into two halves. It is used to estimate the reliability of the full test from the reliability of half the test In our case, one item is tested against the other to obtain inter-item reliability First half (item 1) Second half (item 2) Pearson correlation between the split-halves From the reliability of half the test, ρ predicts or estimates what the reliability would be for the full test Spearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271. Brown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, 1904-1920, 3(3), 296-322. 34/66",
+   "char_count": 876,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-034.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 35,
+   "text": "A higher ρ indicates that the test is likely to be reliable if given as a whole\nA lower ρ suggests that the test may not yield consistent results across different \nadministrations or that the items may not all be measuring the same construct\nRange: [0, 1]\n1 high level of internal consistency, reliable test\n0 low level of internal consistency, unreliable test\nρ\nSpearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271.\nBrown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, 1904-1920, 3(3), 296-322.\nSpearman-Brown coefficient ρ (split-half)\nHow about this example? Would split-half say this 2-item scale is reliable?\nThe stimulus is pure black\ndisagree  0—1—2—3—4—5  agree\nThe stimulus is pure white\ndisagree  0—1—2—3—4—5  agree\nRecode the values of the counter-indication: 0 5, 1 4, 2 3, 3 2, 4 1, 5 0\nThen ρ = 1.00\n35/66\n",
+   "text_norm": "A higher ρ indicates that the test is likely to be reliable if given as a whole A lower ρ suggests that the test may not yield consistent results across different administrations or that the items may not all be measuring the same construct Range: [0, 1] 1 high level of internal consistency, reliable test 0 low level of internal consistency, unreliable test ρ Spearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271. Brown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, 1904-1920, 3(3), 296-322. Spearman-Brown coefficient ρ (split-half) How about this example? Would split-half say this 2-item scale is reliable? The stimulus is pure black disagree 0—1—2—3—4—5 agree The stimulus is pure white disagree 0—1—2—3—4—5 agree Recode the values of the counter-indication: 0 5, 1 4, 2 3, 3 2, 4 1, 5 0 Then ρ = 1.00 35/66",
+   "char_count": 939,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-035.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 36,
+   "text": "The Spearman-Brown coefficient is \nnamed after Charles Spearman (1910), \nwho first proposed the concept of split-\nhalf reliability, and William Brown \n(1910), who later derived the formula \nto correct the reliability estimate for the \nfull test length\n“Every normal man, woman, and child is … a genius \nat something … It remains to discover at what …”\nCharles Spearman, psychologist\n36/66\n",
+   "text_norm": "The Spearman-Brown coefficient is named after Charles Spearman (1910), who first proposed the concept of splithalf reliability, and William Brown (1910), who later derived the formula to correct the reliability estimate for the full test length “Every normal man, woman, and child is … a genius at something … It remains to discover at what …” Charles Spearman, psychologist 36/66",
+   "char_count": 380,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-036.png",
+   "flags": []
+  },
+  {
+   "slide": 37,
+   "text": "Ordinal scale\nClassifies data points into ordered categories, but differences between each category\nare unknown \n- Ordered but unequal steps\n- Distances between steps bear no meaning\nExamples: SFQ scores, user preferences (e.g., I like Apple more than MS)\nAllowable manipulations: Counting number of data points in a given category,\nmerging adjacent classes (e.g., number of users who are satisfied with your design)\nStatistics: median, mode, percentiles (30% of users were satisfied)\nType of conclusion: “People were more likely to be satisfied with browsing the Internet \non an iPhone than on an Android machine” but you cannot say how much more likely\nRemember Lecture 02: Theory before Methods?\nOrder based\non length\n37/66\n",
+   "text_norm": "Ordinal scale Classifies data points into ordered categories, but differences between each category are unknown - Ordered but unequal steps - Distances between steps bear no meaning Examples: SFQ scores, user preferences (e.g., I like Apple more than MS) Allowable manipulations: Counting number of data points in a given category, merging adjacent classes (e.g., number of users who are satisfied with your design) Statistics: median, mode, percentiles (30% of users were satisfied) Type of conclusion: “People were more likely to be satisfied with browsing the Internet on an iPhone than on an Android machine” but you cannot say how much more likely Remember Lecture 02: Theory before Methods? Order based on length 37/66",
+   "char_count": 729,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-037.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 38,
+   "text": "Ordinal scale\nWhat if I have two rank-orders, at time point 1 and 2? Did the group grow significantly?\nDid every member keep the same position? Or are there other winners and losers?\n38/66\n",
+   "text_norm": "Ordinal scale What if I have two rank-orders, at time point 1 and 2? Did the group grow significantly? Did every member keep the same position? Or are there other winners and losers? 38/66",
+   "char_count": 189,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-038.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 39,
+   "text": "ρ\nSpearman’s rho (ρ) for rank-order correlations\nSpearman’s rho (ρ), also known as Spearman’s rank-order correlation coefficient, \nis a nonparametric measure of the strength and direction of association that \nexists between two variables measured on at least an ordinal scale. It assesses \nhow well the relationship between two variables can be described using a \nmonotonic function\nSpearman’s rho is used when the assumptions of the Pearson correlation coefficient are not met, \nparticularly when the data are not normally distributed, when the sample size is small, or when \nthere are outliers that might distort the correlation if Pearson’s r were used. It is also the \nappropriate correlation measure when the variables are measured on an ordinal scale (where the \ndata can be ranked but the intervals between data points are not necessarily equal)\nhttps://www.sapaviva.com/\n39/66\n",
+   "text_norm": "ρ Spearman’s rho (ρ) for rank-order correlations Spearman’s rho (ρ), also known as Spearman’s rank-order correlation coefficient, is a nonparametric measure of the strength and direction of association that exists between two variables measured on at least an ordinal scale. It assesses how well the relationship between two variables can be described using a monotonic function Spearman’s rho is used when the assumptions of the Pearson correlation coefficient are not met, particularly when the data are not normally distributed, when the sample size is small, or when there are outliers that might distort the correlation if Pearson’s r were used. It is also the appropriate correlation measure when the variables are measured on an ordinal scale (where the data can be ranked but the intervals between data points are not necessarily equal) https://www.sapaviva.com/ 39/66",
+   "char_count": 877,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-039.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 40,
+   "text": "Spearman’s rho (ρ) for rank-order correlations\n(1) Newton, for establishing the laws of \nmotion and gravity;\n(2) Einstein, for the theories of relativity;\n(3) Bohr, for discovering how the atom \nworks\nhttps://www.sapaviva.com/\n40/66\n",
+   "text_norm": "Spearman’s rho (ρ) for rank-order correlations (1) Newton, for establishing the laws of motion and gravity; (2) Einstein, for the theories of relativity; (3) Bohr, for discovering how the atom works https://www.sapaviva.com/ 40/66",
+   "char_count": 231,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-040.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 41,
+   "text": "ρ\nSpearman’s rho (ρ) for rank-order correlations\nSometimes written \nas rs\nDifference d\nbetween ranks of \neach observation i\nEinstein 2nd and 5th\nplace, d = -3\nnumber of \nobservations\nSometimes written \nas (n³ n)\nMeasures the strength of association between two variables without making \nassumptions about the form of the relationship or the distribution of the data\nLooks at the difference between the ranks of corresponding variables relative \nto the number of observations (how many items in the ranking list)\nPerfect positive \nmonotonic relationship\nSpearman, C. (1904). The proof and measurement of association between two things. The American Journal of Psychology, 15(1), 72–101. doi: 10.2307/1412159\n41/66\n",
+   "text_norm": "ρ Spearman’s rho (ρ) for rank-order correlations Sometimes written as rs Difference d between ranks of each observation i Einstein 2nd and 5th place, d = -3 number of observations Sometimes written as (n³ n) Measures the strength of association between two variables without making assumptions about the form of the relationship or the distribution of the data Looks at the difference between the ranks of corresponding variables relative to the number of observations (how many items in the ranking list) Perfect positive monotonic relationship Spearman, C. (1904). The proof and measurement of association between two things. The American Journal of Psychology, 15(1), 72–101. doi: 10.2307/1412159 41/66",
+   "char_count": 707,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-041.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 42,
+   "text": "The sign (positive or negative) indicates the direction of the association between the variables\nThe magnitude (how close the value is to +1 or -1) indicates the strength of the association\nSpearman, C. (1904). The proof and measurement of association between two things. The American Journal of Psychology, 15(1), 72–101. doi: 10.2307/1412159\nRange: [-1, 1]\n+1 perfect positive monotonic relationship (rankings are the same)\n0 no monotonic relationship\n‐1 perfect negative monotonic relationship (rankings are opposite)\nρ\nSpearman’s rho (ρ) for rank-order correlations\nRemember that Spearman’s ρ measures monotonic relationships, not just linear \nrelationships, so it can capture more types of association than Pearson’s r\nMonotonic: The size of one variable increases as the other variable also increases, or where \nthe size of one variable increases as the other variable also decreases. Variables have the \nsame relative direction, but not necessarily at a constant rate (can be non-linear)\nIn a linear relationship, the variables move in the same direction at a constant rate\n42/66\n",
+   "text_norm": "The sign (positive or negative) indicates the direction of the association between the variables The magnitude (how close the value is to +1 or -1) indicates the strength of the association Spearman, C. (1904). The proof and measurement of association between two things. The American Journal of Psychology, 15(1), 72–101. doi: 10.2307/1412159 Range: [-1, 1] +1 perfect positive monotonic relationship (rankings are the same) 0 no monotonic relationship ‐1 perfect negative monotonic relationship (rankings are opposite) ρ Spearman’s rho (ρ) for rank-order correlations Remember that Spearman’s ρ measures monotonic relationships, not just linear relationships, so it can capture more types of association than Pearson’s r Monotonic: The size of one variable increases as the other variable also increases, or where the size of one variable increases as the other variable also decreases. Variables have the same relative direction, but not necessarily at a constant rate (can be non-linear) In a linear relationship, the variables move in the same direction at a constant rate 42/66",
+   "char_count": 1089,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-042.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "“… one can talk about mind power in much the \nsame manner as about horse power”\nCharles Spearman, psychologist\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonotone\n43/66\n",
+   "text_norm": "“… one can talk about mind power in much the same manner as about horse power” Charles Spearman, psychologist                       Linear                        Monotone 43/66",
+   "char_count": 232,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-043.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "Convergent and divergent (or discriminant) validity\nCronbach (3 items) and Spearman-Brown (2 items) are used to evaluate convergent validity of \na psychometric scale\nAffordances\nPossible use\nClear how to use\nOptions for action\nFunctionality\nSuited to serve\nHaving purpose\nPracticality\nUtility\nUseful\nFits a need\nMeans to an end\nCronbach’s =\n.92\nCronbach’s =\n.86\nCronbach’s =\n.79\nThree reliable scales, internally consistent, with high convergent validity each\nBut what is the issue?\n44/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Cronbach (3 items) and Spearman-Brown (2 items) are used to evaluate convergent validity of a psychometric scale Affordances Possible use Clear how to use Options for action Functionality Suited to serve Having purpose Practicality Utility Useful Fits a need Means to an end Cronbach’s = .92 Cronbach’s = .86 Cronbach’s = .79 Three reliable scales, internally consistent, with high convergent validity each But what is the issue? 44/66",
+   "char_count": 492,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-044.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 45,
+   "text": "Convergent and divergent (or discriminant) validity\nCronbach (3 items) and Spearman-Brown (2 items) are used to establish convergent validity of \na psychometric scale\nAffordances+Functionality+Utility\nPossible use\nClear how to use\nOptions for action\nSuited to serve\nHaving purpose\nPracticality\nUseful\nFits a need\nMeans to an end\nCronbach’s =\n.96\nAlso internally consistent!!\nYou either measured the same thing thrice, \nusing different synonyms (in fact, many \n‘distinctive’ theories are like that, just \nreformulations of something existing)\n…or, the academic subtleties no matter how \ncorrect are just one big blur in the minds of \nyour participants (they are not as sophisticated \nthinkers as an academic)\nEither way, you measured a lot of redundancy\n45/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Cronbach (3 items) and Spearman-Brown (2 items) are used to establish convergent validity of a psychometric scale Affordances+Functionality+Utility Possible use Clear how to use Options for action Suited to serve Having purpose Practicality Useful Fits a need Means to an end Cronbach’s = .96 Also internally consistent!! You either measured the same thing thrice, using different synonyms (in fact, many ‘distinctive’ theories are like that, just reformulations of something existing) …or, the academic subtleties no matter how correct are just one big blur in the minds of your participants (they are not as sophisticated thinkers as an academic) Either way, you measured a lot of redundancy 45/66",
+   "char_count": 754,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "Convergent and divergent (or discriminant) validity\nNow what can we do? Could Pearson Product-Moment Correlation (r) be of any use? \nAffordances\nPossible use\nClear how to use\nOptions for action\nFunctionality\nSuited to serve\nHaving purpose\nPracticality\nUtility\nUseful\nFits a need\nMeans to an end\nYes! Because this is a prime example why you sometimes do NOT want an effect to be significant!\n46/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Now what can we do? Could Pearson Product-Moment Correlation (r) be of any use? Affordances Possible use Clear how to use Options for action Functionality Suited to serve Having purpose Practicality Utility Useful Fits a need Means to an end Yes! Because this is a prime example why you sometimes do NOT want an effect to be significant! 46/66",
+   "char_count": 396,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-046.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 47,
+   "text": "Convergent and divergent (or discriminant) validity\nAffordances\nPossible use\nClear how to use\nOptions for action\nFunctionality\nSuited to serve\nHaving purpose\nPracticality\nUtility\nUseful\nFits a need\nMeans to an end\nYes! Because this is a prime example why you sometimes do NOT want an effect to be significant!\nr = .02\nr = .10\nr = -.07\nWe have found near-perfect divergent (or discriminant) validity: They are different concepts!\n47/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Affordances Possible use Clear how to use Options for action Functionality Suited to serve Having purpose Practicality Utility Useful Fits a need Means to an end Yes! Because this is a prime example why you sometimes do NOT want an effect to be significant! r = .02 r = .10 r = -.07 We have found near-perfect divergent (or discriminant) validity: They are different concepts! 47/66",
+   "char_count": 435,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-047.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 48,
+   "text": "Convergent and divergent (or discriminant) validity\nFunctionality\nSuited to serve\nHaving purpose\nPracticality\nUtility\nUseful\nFits a need\nMeans to an end\nr = -.70\nWhy is a significant negative correlation also no good?\n48/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Functionality Suited to serve Having purpose Practicality Utility Useful Fits a need Means to an end r = -.70 Why is a significant negative correlation also no good? 48/66",
+   "char_count": 224,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-048.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 49,
+   "text": "Convergent and divergent (or discriminant) validity\nBlack\nOn\nGood\nAccept\nWhite\nOff\nBad\nReject\nr = -1.00\nIt means that one is the contra-indication of the other \nand should be recoded to be treated as one dimension \nwith opposite ends\n49/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Black On Good Accept White Off Bad Reject r = -1.00 It means that one is the contra-indication of the other and should be recoded to be treated as one dimension with opposite ends 49/66",
+   "char_count": 238,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-049.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 50,
+   "text": "Convergent and divergent (or discriminant) validity\nComplication. If you want to calculate correlations (r) between mean scale values, you should \nalso calculate them between each item on one scale and the mean of the other \nScale01\n01Item01\n01Item02\n01Item03\nScale02\n02Item01\n02Item02\n02Item03\nScale03\n03Item01\n03Item02\n03Item03\nNot only\nM_Scale01\nwith\nM_Scale02\nand with M_Scale03, etc……..\nbut also item-scale correlations\n01Item01\nwith\nM_Scale02\n01Item02\nwith\nM_Scale02\n01Item03\nwith\nM_Scale02\n02Item01\nwith\netc……\netc……\nHow about 12 scales with \n6 items each? Enjoy!\n50/66\n",
+   "text_norm": "Convergent and divergent (or discriminant) validity Complication. If you want to calculate correlations (r) between mean scale values, you should also calculate them between each item on one scale and the mean of the other Scale01 01Item01 01Item02 01Item03 Scale02 02Item01 02Item02 02Item03 Scale03 03Item01 03Item02 03Item03 Not only M_Scale01 with M_Scale02 and with M_Scale03, etc…….. but also item-scale correlations 01Item01 with M_Scale02 01Item02 with M_Scale02 01Item03 with M_Scale02 02Item01 with etc…… etc…… How about 12 scales with 6 items each? Enjoy! 50/66",
+   "char_count": 573,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-050.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 51,
+   "text": "The item killer!!!\nPrincipal Component Analysis (PCA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScale0n\nScale0m\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nWe have many data points from many \nitems, all correlated one way or the other\nr\nitem 01\nPossible use\nitem 02\nUseful\nr = .90\nPearson, K. (1901). LIII. On lines and planes of closest \nfit to systems of points in space. The London, \nEdinburgh, and Dublin philosophical magazine and \njournal of science, 2(11), 559-572. \nhttps://t.co/EOI6PUDmo4\n51/66\n",
+   "text_norm": "The item killer!!! Principal Component Analysis (PCA)                        Scale0n Scale0m items items items items items items items items items r r r r r r r r r r r r r We have many data points from many items, all correlated one way or the other r item 01 Possible use item 02 Useful r = .90 Pearson, K. (1901). LIII. On lines and planes of closest fit to systems of points in space. The London, Edinburgh, and Dublin philosophical magazine and journal of science, 2(11), 559-572. https://t.co/EOI6PUDmo4 51/66",
+   "char_count": 544,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-051.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 52,
+   "text": "The item killer!!!\nPrincipal Component Analysis (PCA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScale0n\nScale0m\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nWe have many data points from many \nitems, all correlated one way or the other\nr\nWhat we want is to get rid of lists of correlations \nand see which items explain the most variance in \nthe scatterplot but we want to preserve the \nrelation between each pair of items\nWe do that by using vectors\nitem 01\nPossible use\nitem 02\nUseful\nr = .90\nAffordances\nUtility\nitem 01\nPossible use\nitem 02\nUseful\n\n\nThus, correlations become coordinates\n52/66\n",
+   "text_norm": "The item killer!!! Principal Component Analysis (PCA)                        Scale0n Scale0m items items items items items items items items items r r r r r r r r r r r r r We have many data points from many items, all correlated one way or the other r What we want is to get rid of lists of correlations and see which items explain the most variance in the scatterplot but we want to preserve the relation between each pair of items We do that by using vectors item 01 Possible use item 02 Useful r = .90 Affordances Utility item 01 Possible use item 02 Useful   Thus, correlations become coordinates 52/66",
+   "char_count": 638,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-052.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 53,
+   "text": "Principal Component Analysis (PCA)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScale0n\nScale0m\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nitems\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nr\nAffordances\nUtility\nitem 01\nPossible use\nitem 02\nUseful\n\n\nTurning correlations into coordinates is called ‘orthogonal transformation’\nOrthogonal transformation is a linear self-mapping, preserving the lengths and distances of \nvectors, keeping the ‘sizes’ constant, and so the angle between them\nNow we can twist and turn vectors of all the items such that they together cover the most data \npoints in the scatter plot as long as vectors remain constant size and stay under the same angle\n",
+   "text_norm": "Principal Component Analysis (PCA)                        Scale0n Scale0m items items items items items items items items items r r r r r r r r r r r r r r Affordances Utility item 01 Possible use item 02 Useful   Turning correlations into coordinates is called ‘orthogonal transformation’ Orthogonal transformation is a linear self-mapping, preserving the lengths and distances of vectors, keeping the ‘sizes’ constant, and so the angle between them Now we can twist and turn vectors of all the items such that they together cover the most data points in the scatter plot as long as vectors remain constant size and stay under the same angle",
+   "char_count": 673,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-053.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 54,
+   "text": "Principal Component Analysis (PCA)\nThus, PCA executes an orthogonal transformation to convert a set of observations of possibly \ncorrelated variables into a set of values of linearly uncorrelated variables called Principal Components. \nThe number of principal components is less than or equal to the number of original variables\nPCA is a means of data reduction, placing items together such that the greatest variance by any \nprojection of the data comes to lie on the 1st coordinate (i.e., Principal Component 1)\nThe second greatest variance comes on the 2nd coordinate (i.e., Principal Component 2), etc.\nPCA does not care where your items come from. It may place all items in Component 1 except for one \nitem that may form Component 2 or 3 all by itself\nComponent 1\nComponent 2\nComponent 3\nPossible use\nClear how to use\nOptions for action\nSuited to serve\nHaving purpose\nPracticality\nUseful\nFits a need\nMeans to an end\nPCA can be used as a test on the divergent \n(discriminant) validity of measurement scales\n54/66\n",
+   "text_norm": "Principal Component Analysis (PCA) Thus, PCA executes an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called Principal Components. The number of principal components is less than or equal to the number of original variables PCA is a means of data reduction, placing items together such that the greatest variance by any projection of the data comes to lie on the 1st coordinate (i.e., Principal Component 1) The second greatest variance comes on the 2nd coordinate (i.e., Principal Component 2), etc. PCA does not care where your items come from. It may place all items in Component 1 except for one item that may form Component 2 or 3 all by itself Component 1 Component 2 Component 3 Possible use Clear how to use Options for action Suited to serve Having purpose Practicality Useful Fits a need Means to an end PCA can be used as a test on the divergent (discriminant) validity of measurement scales 54/66",
+   "char_count": 1012,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-054.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 55,
+   "text": "Thus, Component 1 accounts for as much of the variability in the data as possible, and each \nsucceeding component accounts for as much of the remaining variability as possible\nPCA is used for several purposes in statistics:\nDimensionality reduction: Reducing the number of variables while retaining most of the original\nvariability\nData compression: Making data easier to explore and visualize\nFeature extraction: Creating new uncorrelated variables that can be used in subsequent analysis\n(i.e., Machine Learning)\nNoise reduction: By capturing the main variance in the data, PCA can help to identify and discard noise\nMultivariate data analysis: Understanding the structure of high-dimensional data\nPrincipal Component Analysis (PCA)\nThe principal components represent the directions in the data that maximize variance\n(i.e., the “most important“ directions)\nThe eigenvalues associated with each principal component indicate the amount of\nvariance accounted for by that component\nThe loadings (the coefficients of the linear combination) can be interpreted as the\nweights by which each standardized original variable should be multiplied to get the\ncomponent score\n55/66\n",
+   "text_norm": "Thus, Component 1 accounts for as much of the variability in the data as possible, and each succeeding component accounts for as much of the remaining variability as possible PCA is used for several purposes in statistics: Dimensionality reduction: Reducing the number of variables while retaining most of the original variability Data compression: Making data easier to explore and visualize Feature extraction: Creating new uncorrelated variables that can be used in subsequent analysis (i.e., Machine Learning) Noise reduction: By capturing the main variance in the data, PCA can help to identify and discard noise Multivariate data analysis: Understanding the structure of high-dimensional data Principal Component Analysis (PCA) The principal components represent the directions in the data that maximize variance (i.e., the “most important“ directions) The eigenvalues associated with each principal component indicate the amount of variance accounted for by that component The loadings (the coefficients of the linear combination) can be interpreted as the weights by which each standardized original variable should be multiplied to get the component score 55/66",
+   "char_count": 1179,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-055.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 56,
+   "text": "PCA is sensitive to the relative scaling of the original variables, so data are usually standardized \n(e.g., z-scored) before applying PCA if the variables are measured on different scales\nPrincipal Component Analysis (PCA)\nWhat are z-scores? They are there to \nmake different measures comparable\nFor instance, a\n6-point rating scale\nand a school mark\n1 to 10\nOr, a reaction time\nand an error rate\nRaw score\nPopulation\nmean\nPopulation standard \ndeviation\n56/66\n\nWhy we need to calibrate\n",
+   "text_norm": "PCA is sensitive to the relative scaling of the original variables, so data are usually standardized (e.g., z-scored) before applying PCA if the variables are measured on different scales Principal Component Analysis (PCA) What are z-scores? They are there to make different measures comparable For instance, a 6-point rating scale and a school mark 1 to 10 Or, a reaction time and an error rate Raw score Population mean Population standard deviation 56/66  Why we need to calibrate",
+   "char_count": 485,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-056.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 57,
+   "text": "The origins of PCA are often attributed to Karl Pearson, later developed and extended by Harold \nHotelling (1933), introducing the term “principal component“\nHotelling, H. (1933). Analysis of a complex of statistical variables into principal \ncomponents. Journal of educational psychology, 24(6), 417-441. doi: \n10.1037/h0071325 \n57/66\n",
+   "text_norm": "The origins of PCA are often attributed to Karl Pearson, later developed and extended by Harold Hotelling (1933), introducing the term “principal component“ Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of educational psychology, 24(6), 417-441. doi: 10.1037/h0071325 57/66",
+   "char_count": 331,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-057.png",
+   "flags": []
+  },
+  {
+   "slide": 58,
+   "text": "To run a bivariate Pearson Correlation or Spearman in SPSS, click Analyze > \nCorrelate > Bivariate. The Bivariate Correlations window opens, where you will \nspecify the variables to be used in the analysis\nhttps://libguides.library.kent.edu/SPSS/PearsonCorr#:~:text=To%20run%20a%20bivariate%20Pearson,list%20on%20the%20left%20side.\n58/66\n",
+   "text_norm": "To run a bivariate Pearson Correlation or Spearman in SPSS, click Analyze > Correlate > Bivariate. The Bivariate Correlations window opens, where you will specify the variables to be used in the analysis https://libguides.library.kent.edu/SPSS/PearsonCorr#:~:text=To%20run%20a%20bivariate%20Pearson,list%20on%20the%20left%20side. 58/66",
+   "char_count": 335,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-058.png",
+   "flags": []
+  },
+  {
+   "slide": 59,
+   "text": "59/66\nPrincipal Component Analysis\n",
+   "text_norm": "59/66 Principal Component Analysis",
+   "char_count": 34,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-059.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 60,
+   "text": "ummary\nSocrates\n60/66\nCorrelations. We have seen that they indicate events \nor data points that are associated, but do not say \nanything about the nature of that relationship\nBecause correlations are easily established, spurious \ncorrelations may be significant (the dice just rolled 6 \ntimes 6) but empirically, that means nothing\nPearson Product-Moment Correlation (r) is the most \ncommon, used to assess the degree of relatedness on \nsome dimension but also to show that data points are \nunrelated (e.g., as control, or for discriminant validity)\nCohen’s kappa (κ) and Krippendorff’s alpha () are \ntypically for testing inter-rater reliabilities (e.g., in \ncontent analysis)\n",
+   "text_norm": "ummary Socrates 60/66 Correlations. We have seen that they indicate events or data points that are associated, but do not say anything about the nature of that relationship Because correlations are easily established, spurious correlations may be significant (the dice just rolled 6 times 6) but empirically, that means nothing Pearson Product-Moment Correlation (r) is the most common, used to assess the degree of relatedness on some dimension but also to show that data points are unrelated (e.g., as control, or for discriminant validity) Cohen’s kappa (κ) and Krippendorff’s alpha () are typically for testing inter-rater reliabilities (e.g., in content analysis)",
+   "char_count": 674,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-060.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 61,
+   "text": "Socrates\nummary\nCronbach’s is to evaluate the reliability \n(convergent validity) of the items on a psychometric \nmeasurement scale (#items should be ≥ 3, cut-off \npoint for reliability usually > .70)\nSpearman-Brown coefficient ρ (split-half) serves the \nsame purpose but for #items = 2\nSpearman’s rho (ρ) (rank order) is to compare lists of \nitems that at least are measured on an ordinal scale \n(e.g., annual university rankings)\nConvergent validity tells in how far items indicate\nthe same construct; divergent validity tells in how far \nitems (of another scale) indicate different constructs\nPrincipal Component Analysis (PCA) can be used to \ngauge divergent (or discriminant) validity (but \ninsignificant Pearson’s r would also do the trick)\n",
+   "text_norm": "Socrates ummary Cronbach’s is to evaluate the reliability (convergent validity) of the items on a psychometric measurement scale (#items should be ≥ 3, cut-off point for reliability usually > .70) Spearman-Brown coefficient ρ (split-half) serves the same purpose but for #items = 2 Spearman’s rho (ρ) (rank order) is to compare lists of items that at least are measured on an ordinal scale (e.g., annual university rankings) Convergent validity tells in how far items indicate the same construct; divergent validity tells in how far items (of another scale) indicate different constructs Principal Component Analysis (PCA) can be used to gauge divergent (or discriminant) validity (but insignificant Pearson’s r would also do the trick)",
+   "char_count": 744,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L07/slide-061.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 62,
+   "text": "Exam Sample Item\nCategory “Insight“\nObesity\nCancer\nSugar intake\n(not fat)\nIn Lecture 07: Correlations, a co-occurrence between Obesity and \nCancer was considered, stating that both were the result of the same \nroot cause: sugar intake. Would you say that apart from Obesity and \nCancer, Sugar intake is also correlated to the two diseases or is Sugar \nmerely the cause of the two?\nA\nSugar must be correlated because the relationship is causal\nB\nCausation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated\nC\nMore data are needed. With more data, significant correlations are likelier to occur\nD\nNonsense. In this case, interdependence of variable quantities was not established\n62/66\n",
+   "text_norm": "Exam Sample Item Category “Insight“ Obesity Cancer Sugar intake (not fat) In Lecture 07: Correlations, a co-occurrence between Obesity and Cancer was considered, stating that both were the result of the same root cause: sugar intake. Would you say that apart from Obesity and Cancer, Sugar intake is also correlated to the two diseases or is Sugar merely the cause of the two? A Sugar must be correlated because the relationship is causal B Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated C More data are needed. With more data, significant correlations are likelier to occur D Nonsense. In this case, interdependence of variable quantities was not established 62/66",
+   "char_count": 712,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-062.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 63,
+   "text": "Exam Sample Item\nCategory “Insight“\nObesity\nCancer\nSugar intake\n(not fat)\nIn Lecture 07: Correlations, a co-occurrence between Obesity and \nCancer was considered, stating that both were the result of the same \nroot cause: sugar intake. Would you say that apart from Obesity and \nCancer, Sugar intake is also correlated to the two diseases or is Sugar \nmerely the cause of the two?\nA\nSugar must be correlated because the relationship is causal\nB\nCausation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated\nC\nMore data are needed. With more data, significant correlations are likelier to occur\nD\nNonsense. In this case, interdependence of variable quantities was not established\n\n63/66\n",
+   "text_norm": "Exam Sample Item Category “Insight“ Obesity Cancer Sugar intake (not fat) In Lecture 07: Correlations, a co-occurrence between Obesity and Cancer was considered, stating that both were the result of the same root cause: sugar intake. Would you say that apart from Obesity and Cancer, Sugar intake is also correlated to the two diseases or is Sugar merely the cause of the two? A Sugar must be correlated because the relationship is causal B Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated C More data are needed. With more data, significant correlations are likelier to occur D Nonsense. In this case, interdependence of variable quantities was not established  63/66",
+   "char_count": 714,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-063.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 64,
+   "text": "In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the \nreliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average \nscores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would \nsplit-half say this 2-item scale is reliable? Why?\nStatistics is engaging\ndisagree  0—1—2—3—4—5  agree\nStatistics is boring\ndisagree  0—1—2—3—4—5  agree\nA\nThe two items show opposite averages, so there is perfect misalignment\nB\nReliable. One should recode the contra-indication and then scores match\nC\nUnreliable. The psychological meaning of this scale is highly controversial\nD\nM = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,\nso the correlation is 0 \nExam Sample Item\nCategory “Application“\n64/66\n",
+   "text_norm": "In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would split-half say this 2-item scale is reliable? Why? Statistics is engaging disagree 0—1—2—3—4—5 agree Statistics is boring disagree 0—1—2—3—4—5 agree A The two items show opposite averages, so there is perfect misalignment B Reliable. One should recode the contra-indication and then scores match C Unreliable. The psychological meaning of this scale is highly controversial D M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral, so the correlation is 0 Exam Sample Item Category “Application“ 64/66",
+   "char_count": 798,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-064.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 65,
+   "text": "In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the \nreliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average \nscores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would \nsplit-half say this 2-item scale is reliable? Why?\nStatistics is engaging\ndisagree  0—1—2—3—4—5  agree\nStatistics is boring\ndisagree  0—1—2—3—4—5  agree\nA\nThe two items show opposite averages, so there is perfect misalignment\nB\nReliable. One should recode the contra-indication and then scores match\nC\nUnreliable. The psychological meaning of this scale is highly controversial\nD\nM = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,\nso the correlation is 0 \nExam Sample Item\nCategory “Application“\n\n65/66\n",
+   "text_norm": "In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would split-half say this 2-item scale is reliable? Why? Statistics is engaging disagree 0—1—2—3—4—5 agree Statistics is boring disagree 0—1—2—3—4—5 agree A The two items show opposite averages, so there is perfect misalignment B Reliable. One should recode the contra-indication and then scores match C Unreliable. The psychological meaning of this scale is highly controversial D M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral, so the correlation is 0 Exam Sample Item Category “Application“  65/66",
+   "char_count": 800,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L07/slide-065.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 66,
+   "text": "References \nBrown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, \n1904-1920, 3(3), 296-322.\nCohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 37-\n46.\nCronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297-334. doi: \n10.1007/BF02310555\nHotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of educational \npsychology, 24(6), 417-441. doi: 10.1037/h0071325 \nKrippendorff, K. (1970). Estimating the reliability, systematic error and random error of interval data. Educational and \npsychological measurement, 30(1), 61-70.\nKrippendorff, K. (2018). Content analysis: An introduction to its methodology. New York: Sage.\nPearson, K. (1901). LIII. On lines and planes of closest fit to systems of points in space. The London, Edinburgh, and \nDublin philosophical magazine and journal of science, 2(11), 559-572. https://t.co/EOI6PUDmo4\nPearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: \nCambridge University.\nSpearman, C. (1904). The proof and measurement of association between two things. The American Journal of \nPsychology, 15(1), 72-101. doi: 10.2307/1412159\nSpearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271.\n",
+   "text_norm": "References Brown, W. (1910). Some experimental results in the correlation of mental abilities 1. British Journal of Psychology, 1904-1920, 3(3), 296-322. Cohen, J. (1960). A coefficient of agreement for nominal scales. Educational and psychological measurement, 20(1), 3746. Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16, 297-334. doi: 10.1007/BF02310555 Hotelling, H. (1933). Analysis of a complex of statistical variables into principal components. Journal of educational psychology, 24(6), 417-441. doi: 10.1037/h0071325 Krippendorff, K. (1970). Estimating the reliability, systematic error and random error of interval data. Educational and psychological measurement, 30(1), 61-70. Krippendorff, K. (2018). Content analysis: An introduction to its methodology. New York: Sage. Pearson, K. (1901). LIII. On lines and planes of closest fit to systems of points in space. The London, Edinburgh, and Dublin philosophical magazine and journal of science, 2(11), 559-572. https://t.co/EOI6PUDmo4 Pearson, K. (1904). On the theory of contingency and its relation to association and normal correlation. London: Cambridge University. Spearman, C. (1904). The proof and measurement of association between two things. The American Journal of Psychology, 15(1), 72-101. doi: 10.2307/1412159 Spearman, C. (1910). Correlation calculated from faulty data. British journal of psychology, 3(3), 271.",
+   "char_count": 1437,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L07/slide-066.png",
+   "flags": []
+  }
+ ]
+}

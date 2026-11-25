@@ -1,0 +1,10 @@
+# Large share zips / temp build artifacts (not part of the web site)
+output/
+__pycache__/
+*.pyc
+.workbuddy/
+data/wp/
+data/ego/
+data/reports/revision-*.png
+.DS_Store
+Thumbs.db

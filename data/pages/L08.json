@@ -1,0 +1,618 @@
+{
+ "lecture": "L08",
+ "source_file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L08.pdf",
+ "sha256": "53c405db5568980419a72e75b3ab87e1b43007a0afcad39e5c47b17519058e81",
+ "page_count": 51,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 08: (Multiple) regression\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 08: (Multiple) regression 1",
+   "char_count": 138,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L08/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "Contents of today\nCorrelations and regression equations\nLinear regression\nMultiple linear regression\nMultiple linear regression and Neural \nNetworks (NNs)\nSupervised Learning\nNeural Networks and feedback of error so to \n‘learn’\nLogistic regression (actually: Logistic classification)\nMediation-moderation analysis\nStructural Equation Modelling\n2/51\n",
+   "text_norm": "Contents of today Correlations and regression equations Linear regression Multiple linear regression Multiple linear regression and Neural Networks (NNs) Supervised Learning Neural Networks and feedback of error so to ‘learn’ Logistic regression (actually: Logistic classification) Mediation-moderation analysis Structural Equation Modelling 2/51",
+   "char_count": 355,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-002.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 3,
+   "text": "Correlations and regression equations\nCorrelation techniques often encountered in\ndata analysis and data mining:\nPearson’s correlation coefficient\nhttps://en.wikipedia.org/wiki/Pearson_correlation_coefficient\nSpearman’s rank correlation\nhttps://simple.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient\nKendall’s Tau rank distance\nhttps://en.wikipedia.org/wiki/Kendall_tau_distance \nx-axis\ny-axis\nUser experience\nHuman likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWith more human likeness,\nuser experience improves\nbut also (it’s a correlation):\nWith better user experience,\nhuman likeness increases\nIssue: How do we get to\n“With more human likeness,\nuser experience improves”\nWhen A, then B\nAnswer: Linear regression\n3/51\n",
+   "text_norm": "Correlations and regression equations Correlation techniques often encountered in data analysis and data mining: Pearson’s correlation coefficient https://en.wikipedia.org/wiki/Pearson_correlation_coefficient Spearman’s rank correlation https://simple.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient Kendall’s Tau rank distance https://en.wikipedia.org/wiki/Kendall_tau_distance x-axis y-axis User experience Human likeness                       With more human likeness, user experience improves but also (it’s a correlation): With better user experience, human likeness increases Issue: How do we get to “With more human likeness, user experience improves” When A, then B Answer: Linear regression 3/51",
+   "char_count": 751,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-003.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 4,
+   "text": "Linear regression\nFor regression analysis, you need more precise theory than for correlations. You must state why one \nvariable is responsible for explaining the other, for example:\n“Anthropomorphism determines experience” (Zip & Zilch, 1001)\nYou understand this is a fake citation\nTherefore, Human likeness (x) determines User experience (y)\nThe input variable is the predictor (x), the output to be predicted is the dependent (y): predictor \ndependent (A B). We can do inference, provided that the theoretical assumptions are empirically valid\nx-axis\ny-axis\nUser experience\nHuman likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredictor is the independent variable (x in maths, A in \nlogics), the changes of which have effect on the:\nDependent variable/s (y in maths, B in logics), the \nvalues of which can be estimated from the predictor/s\n4/51\n",
+   "text_norm": "Linear regression For regression analysis, you need more precise theory than for correlations. You must state why one variable is responsible for explaining the other, for example: “Anthropomorphism determines experience” (Zip & Zilch, 1001) You understand this is a fake citation Therefore, Human likeness (x) determines User experience (y) The input variable is the predictor (x), the output to be predicted is the dependent (y): predictor  dependent (A B). We can do inference, provided that the theoretical assumptions are empirically valid x-axis y-axis User experience Human likeness                       Predictor is the independent variable (x in maths, A in logics), the changes of which have effect on the: Dependent variable/s (y in maths, B in logics), the values of which can be estimated from the predictor/s 4/51",
+   "char_count": 859,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-004.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 5,
+   "text": "Linear regression\nLinear regression tries to fit as many data points as possible on one straight line with the \nleast possible deviations from that ‘regression line.’ From the coordinates, it tries to \nformulate a linear equation that describes that ‘best-fit’ line:\ny = ax + b + error\nx-axis\ny-axis\nUser experience\nHuman likeness\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA regression line\nSlope\n(weight)\nSlope\na\nIntercept\n(start value, offset, bias)\nIntercept\nb\nRelationship between values \nof x (input) and target values \ny (output) is assumed more-\nor-less linear\nThe mean value of y equals \nthe weighted sum of the \nvalues of x. Slope a provides \nthe weight\nBy the way, there are also \nnon-linear, polynomial, \ncurvilinear equations\nwe will get to that later\nIn Machine Learning, bias is a \nconstant value to avoid ‘overfitting’\n5/51\nOutput = slope input + starting point\n",
+   "text_norm": "Linear regression Linear regression tries to fit as many data points as possible on one straight line with the least possible deviations from that ‘regression line.’ From the coordinates, it tries to formulate a linear equation that describes that ‘best-fit’ line: y = ax + b + error x-axis y-axis User experience Human likeness                       A regression line Slope (weight) Slope a Intercept (start value, offset, bias) Intercept b Relationship between values of x (input) and target values y (output) is assumed moreor-less linear The mean value of y equals the weighted sum of the values of x. Slope a provides the weight By the way, there are also non-linear, polynomial, curvilinear equations we will get to that later In Machine Learning, bias is a constant value to avoid ‘overfitting’ 5/51 Output = slope input + starting point",
+   "char_count": 875,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-005.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 6,
+   "text": "R2\nLinear regression\nR2 or R-squared indicates the amount of variation in a regression model\nWhen you add a predictor to the model, R2 should increase (more variation \nexplained) or remain as is (the new factor does not explain much extra)\nR2\nadj or Adjusted R-squared tells you the variation for a multiple regression \nmodel, pointing out goodness of fit (how well your sample represents the actual \npopulation data)\nError\nResidual Sum of Squares (RSS)\nSum of Squared Residuals (SSR)\nSum of Squared estimate of Errors (SSE)\nDeviation of the model from the empirical data\nSmall error means tightly fitting data\nSample size\nNumber of parameters in the model\n6/51\n",
+   "text_norm": "R2 Linear regression R2 or R-squared indicates the amount of variation in a regression model When you add a predictor to the model, R2 should increase (more variation explained) or remain as is (the new factor does not explain much extra) R2 adj or Adjusted R-squared tells you the variation for a multiple regression model, pointing out goodness of fit (how well your sample represents the actual population data) Error Residual Sum of Squares (RSS) Sum of Squared Residuals (SSR) Sum of Squared estimate of Errors (SSE) Deviation of the model from the empirical data Small error means tightly fitting data Sample size Number of parameters in the model 6/51",
+   "char_count": 662,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-006.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "7/51\n",
+   "text_norm": "7/51",
+   "char_count": 4,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-007.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "Multiple linear regression\nMultiple linear regression handles more than one predictor x1, …, n (input variables) to \nestimate the fluctuation of the targeted output variable y\ny = a1x1 + a2x2 + … + anxn + b + error\nx1\nx2\nx3\ny\nUser experience\nHuman likeness\nPolite behavior\nTask efficiency\ny = 2x + .89\ny = 1x + 3\ny = 3x + 1.2\nFrom the related statistics (R2), you \ncan tell which input variable (aspect \nof the robot) is most influential for \nthe user experience\nIn terms of Neural Networks, this one \nlayer may be regarded as a ‘perceptron’ \n(but without an activation function)\n8/51\n",
+   "text_norm": "Multiple linear regression Multiple linear regression handles more than one predictor x1, …, n (input variables) to estimate the fluctuation of the targeted output variable y y = a1x1 + a2x2 + … + anxn + b + error x1 x2 x3 y User experience Human likeness Polite behavior Task efficiency y = 2x + .89 y = 1x + 3 y = 3x + 1.2 From the related statistics (R2), you can tell which input variable (aspect of the robot) is most influential for the user experience In terms of Neural Networks, this one layer may be regarded as a ‘perceptron’ (but without an activation function) 8/51",
+   "char_count": 579,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L08/slide-008.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 9,
+   "text": "Multiple linear regression and Neural Networks\nNow it has become a Neural Network (N is ‘node’ or ‘connection point’)\nx1\nx2\nx3\ny\nUser experience\nN1\nN2\nN3\nN4\ny = a1x1 + a2x2 + … + anxn + b1 + error\ny = a1x1 + a2x2 + … + anxn + bn + error\ny = a1x1 + a2x2 + … + anxn + b2 + error\ny = a1x1 + a2x2 + … + anxn + b3 + error\nSo they are not really neurons \nbut little equations\nthat do ‘curve fitting’\na1 a2\na3\nHuman likeness\nPolite behavior\nTask efficiency\n9/51\n",
+   "text_norm": "Multiple linear regression and Neural Networks Now it has become a Neural Network (N is ‘node’ or ‘connection point’) x1 x2 x3 y User experience N1 N2 N3 N4 y = a1x1 + a2x2 + … + anxn + b1 + error y = a1x1 + a2x2 + … + anxn + bn + error y = a1x1 + a2x2 + … + anxn + b2 + error y = a1x1 + a2x2 + … + anxn + b3 + error So they are not really neurons but little equations that do ‘curve fitting’ a1 a2 a3 Human likeness Polite behavior Task efficiency 9/51",
+   "char_count": 454,
+   "has_image": true,
+   "image_count": 212,
+   "png": "assets/img/L08/slide-009.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 10,
+   "text": "Multiple linear regression and Neural Networks\nWith more hidden layers added, it becomes ‘Deep’ learning. With so many hidden layers, it \nis harder to get on what grounds DL takes a decision: empirical utility high, theoretical \nunderstanding low (Cooper, 2021) \nx1\nx2\nx3\ny\ndots\nlines\nedges\nIt’s a \nrobot!\npictures\n(pixel sets)\n10/51\n",
+   "text_norm": "Multiple linear regression and Neural Networks With more hidden layers added, it becomes ‘Deep’ learning. With so many hidden layers, it is harder to get on what grounds DL takes a decision: empirical utility high, theoretical understanding low (Cooper, 2021) x1 x2 x3 y dots lines edges It’s a robot! pictures (pixel sets) 10/51",
+   "char_count": 330,
+   "has_image": true,
+   "image_count": 211,
+   "png": "assets/img/L08/slide-010.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 11,
+   "text": "11\n(Multiple) linear regression and Neural Networks (Supervised Learning)\nx-axis\ny-axis\nUser experience\nVR \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA regression line\nSlope\na\nIntercept\nb\nNeural Networks will tweak the weight/s (a) \nand the bias (b) such that on average the \nregression line (whether linear or not) fits \nthe dataset in the best possible way\nThat is called ‘training’ the network\ny = ax + b\ny = ax + b\ny = ax + b\n11\nHumanlike \nUser\nexperience\n(y)\n11/51\n",
+   "text_norm": "11 (Multiple) linear regression and Neural Networks (Supervised Learning) x-axis y-axis User experience VR                       A regression line Slope a Intercept b Neural Networks will tweak the weight/s (a) and the bias (b) such that on average the regression line (whether linear or not) fits the dataset in the best possible way That is called ‘training’ the network y = ax + b y = ax + b y = ax + b 11 Humanlike User experience (y) 11/51",
+   "char_count": 473,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L08/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "(Multiple) linear regression and Neural Networks (Supervised Learning)\ny-axis\nUser experience\nVR \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman likeness \nNot every value falls exactly on the \nregression line. There will always be \nsome difference left. We call that:\nError\nStandard deviation\nVariance\nResidue\nTension\nThe loss function\nDeviations may lie above the line, other below. We get rid of negative values by squaring \nthe error and then calculate their sum: the sum of squared error (SSE) or of residual \n(SSR), telling the difference between the observed values and the predicted values. In \nNNs, they call it the ‘loss function’ between input and expected output\nThat’s why we write:\ny = a1x1 + a2x2 + … + anxn + b + error\nMuch of the literature in ML and \nDeep Learning is about reducing \nthe loss function\n12/51\n",
+   "text_norm": "(Multiple) linear regression and Neural Networks (Supervised Learning) y-axis User experience VR                       Human likeness Not every value falls exactly on the regression line. There will always be some difference left. We call that: Error Standard deviation Variance Residue Tension The loss function Deviations may lie above the line, other below. We get rid of negative values by squaring the error and then calculate their sum: the sum of squared error (SSE) or of residual (SSR), telling the difference between the observed values and the predicted values. In NNs, they call it the ‘loss function’ between input and expected output That’s why we write: y = a1x1 + a2x2 + … + anxn + b + error Much of the literature in ML and Deep Learning is about reducing the loss function 12/51",
+   "char_count": 825,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-012.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 13,
+   "text": "Neural Networks and feedback of error so to ‘learn’\nx1\nx2\nx3\ny\nN1\nN2\nN3\nN4\ny = a1x1 + a2x2 + … + anxn + bn + error\nbn\n\nerrorn\nThis loop is called a back propagation \nfunction. The error or ‘loss’ is fed back \nto the bias (offset value) so weights can \nbe adapted to reduce error. This is \n‘learning’ (cf. Reinforcement Learning)\nError = loss function = the \ndifference between two layers. \nBeware: In DL, layers do not \nreceive errors from the lowest \nlayers, just from the previous one\n13/51\n",
+   "text_norm": "Neural Networks and feedback of error so to ‘learn’ x1 x2 x3 y N1 N2 N3 N4 y = a1x1 + a2x2 + … + anxn + bn + error bn  errorn This loop is called a back propagation function. The error or ‘loss’ is fed back to the bias (offset value) so weights can be adapted to reduce error. This is ‘learning’ (cf. Reinforcement Learning) Error = loss function = the difference between two layers. Beware: In DL, layers do not receive errors from the lowest layers, just from the previous one 13/51",
+   "char_count": 486,
+   "has_image": true,
+   "image_count": 213,
+   "png": "assets/img/L08/slide-013.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 14,
+   "text": "Logistic regression (actually: Logistic classification)\nIn linear regression, the logistic function is a kind of sigmoid (S-curve), typically used for \ndata classification (this is a fish, that is a hat)\nf(x) = 1 / 1 + e-x\nLinear regression uses the full range of continuous data\nLogistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and \ntries to predict the category with a certain probability value\nThat makes life easier but mind you, regression told us life is more complex than a simple \nbinary classification: in or out (e.g., some hats are modeled after fish)\nhttps://en.wikipedia.org/wiki/Logistic_function\nThe Euler number e is a constant of about \n2.72 and the base of natural logarithms \nhttps://en.wikipedia.org/wiki/E_(mathematical_constant)\nx-axis\ny-axis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMore into the in-class direction\nMore into the out-of-class direction\nLogistic classification only uses extreme values\n0\n1\nCriterion/threshold\nCriterion/threshold\n14/51\n",
+   "text_norm": "Logistic regression (actually: Logistic classification) In linear regression, the logistic function is a kind of sigmoid (S-curve), typically used for data classification (this is a fish, that is a hat) f(x) = 1 / 1 + e-x Linear regression uses the full range of continuous data Logistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and tries to predict the category with a certain probability value That makes life easier but mind you, regression told us life is more complex than a simple binary classification: in or out (e.g., some hats are modeled after fish) https://en.wikipedia.org/wiki/Logistic_function The Euler number e is a constant of about 2.72 and the base of natural logarithms https://en.wikipedia.org/wiki/E_(mathematical_constant) x-axis y-axis                       More into the in-class direction More into the out-of-class direction Logistic classification only uses extreme values 0 1 Criterion/threshold Criterion/threshold 14/51",
+   "char_count": 1021,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-014.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 15,
+   "text": "x1 is color, x2 is shape\nAdapt the intercept (b) for better fit\nLogistic regression (actually: Logistic classification)\nThere are more classifiers than the logistic function (e.g., the Hyperbolic Tangent (tanh) \nfunction). By the end of the day, classifiers want to split a data set in two or more groups, \nusing the regression line as decision boundary or ‘hyperplane’\nExample: Distinguish fish from hats based on color and shape\nAs an aside, the decision boundary could also be curvilinear\nclassification\nmistake\n15/51\n",
+   "text_norm": "x1 is color, x2 is shape Adapt the intercept (b) for better fit Logistic regression (actually: Logistic classification) There are more classifiers than the logistic function (e.g., the Hyperbolic Tangent (tanh) function). By the end of the day, classifiers want to split a data set in two or more groups, using the regression line as decision boundary or ‘hyperplane’ Example: Distinguish fish from hats based on color and shape As an aside, the decision boundary could also be curvilinear classification mistake 15/51",
+   "char_count": 519,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L08/slide-015.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 16,
+   "text": "So how to classify this ‘fish’?\n‘Jawesome:’ Classify under Jaw or under Awesome?\nLight-Up Angler Fish Jawesome Costume Hat for Adults\nhttps://www.halloweencostumes.com\n16/51\n",
+   "text_norm": "So how to classify this ‘fish’? ‘Jawesome:’ Classify under Jaw or under Awesome? Light-Up Angler Fish Jawesome Costume Hat for Adults https://www.halloweencostumes.com 16/51",
+   "char_count": 173,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-016.png",
+   "flags": []
+  },
+  {
+   "slide": 17,
+   "text": "0\nKelvin\n\nMeasurement quality\nCareful: Classifiers in NNs may reduce measurement quality!\n“Monkey”\n“Human”\nThere are four major scales of measurement (Lecture 02):\nNominal\nOrdinal\nInterval\nRatio\nThis is what many classifiers do:\nThey ignore the intermediate values\n17/51\n",
+   "text_norm": "0 Kelvin  Measurement quality Careful: Classifiers in NNs may reduce measurement quality! “Monkey” “Human” There are four major scales of measurement (Lecture 02): Nominal Ordinal Interval Ratio This is what many classifiers do: They ignore the intermediate values 17/51",
+   "char_count": 276,
+   "has_image": true,
+   "image_count": 236,
+   "png": "assets/img/L08/slide-017.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 18,
+   "text": "Break\n",
+   "text_norm": "Break",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 4,
+   "png": "assets/img/L08/slide-018.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 19,
+   "text": "Mediation-moderation analysis\nTells the processes and conditions under which certain effects occur\nDirect effects: predictor X causes dependent variable Y\nX Y\nMediation: relationship between an independent predictor X and a\ndependent variable Y is explained by a third variable, mediator M\nX M Y\nModeration: strength or direction of the relationship between X and Y\nchanges depending on the level of a third variable, moderator or weight W, \nX Y\nthe ‘interaction term’\nModeration tells when or under what conditions an effect occurs\n\nW\nDirect effect\nRegression equation\nor ‘path’\nAffordances\nInvolvement\nY\nX\n19/51\n",
+   "text_norm": "Mediation-moderation analysis Tells the processes and conditions under which certain effects occur Direct effects: predictor X causes dependent variable Y X Y Mediation: relationship between an independent predictor X and a dependent variable Y is explained by a third variable, mediator M X M Y Moderation: strength or direction of the relationship between X and Y changes depending on the level of a third variable, moderator or weight W, X Y the ‘interaction term’ Moderation tells when or under what conditions an effect occurs  W Direct effect Regression equation or ‘path’ Affordances Involvement Y X 19/51",
+   "char_count": 621,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-019.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 20,
+   "text": "Mediation-moderation analysis\nDiagram description\nPath a: the effect of the independent variable X on the mediator M\nPath b: the effect of the mediator M on the dependent variable Y\nPath c’: the direct effect of the independent variable X on the dependent variable Y, not \nmediated by M\nAffordances\nInvolvement\nX\nY\nRelevance\nM\na\nb\nc'\nMediation\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n20/51\n",
+   "text_norm": "Mediation-moderation analysis Diagram description Path a: the effect of the independent variable X on the mediator M Path b: the effect of the mediator M on the dependent variable Y Path c’: the direct effect of the independent variable X on the dependent variable Y, not mediated by M Affordances Involvement X Y Relevance M a b c' Mediation Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 20/51",
+   "char_count": 516,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-020.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 21,
+   "text": "Mediation-moderation analysis\nDiagram description\nPath a: the effect of the independent variable X on the mediator M (e.g., R2 = .59)\nPath b: the effect of the mediator M on the dependent variable Y (e.g., R2 = .40)\nPath c’: the direct effect of the independent variable X on the dependent variable Y, not \nmediated by M (e.g., R2 = .01)\nAffordances\nInvolvement\nX\nY\nRelevance\nM\na\nb\nFull \nmediation\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n21/51\n",
+   "text_norm": "Mediation-moderation analysis Diagram description Path a: the effect of the independent variable X on the mediator M (e.g., R2 = .59) Path b: the effect of the mediator M on the dependent variable Y (e.g., R2 = .40) Path c’: the direct effect of the independent variable X on the dependent variable Y, not mediated by M (e.g., R2 = .01) Affordances Involvement X Y Relevance M a b Full mediation Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 21/51",
+   "char_count": 569,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-021.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 22,
+   "text": "Mediation-moderation analysis\nDiagram description\nPath a: interaction effect between independent variable X and moderator W on dependent Y\nPath b: main effect of moderator W on dependent variable Y\nPath c’: main effect of the independent variable X on the dependent variable Y\nAffordances\nInvolvement\nX\nY\nRelevance\nW\na\nb\nc'\nModeration\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n22/51\n",
+   "text_norm": "Mediation-moderation analysis Diagram description Path a: interaction effect between independent variable X and moderator W on dependent Y Path b: main effect of moderator W on dependent variable Y Path c’: main effect of the independent variable X on the dependent variable Y Affordances Involvement X Y Relevance W a b c' Moderation Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 22/51",
+   "char_count": 508,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-022.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 23,
+   "text": "Mediation-moderation analysis\nDiagram description\nPath a: interaction effect between independent variable X and moderator W on dependent Y (e.g., R2 = .60)\nPath b: Main effect of moderator W on dependent variable Y (e.g., R2 = .01)\nPath c’: main effect of the independent variable X on the dependent variable Y (e.g., R2 = .39)\nAffordances\nInvolvement\nX\nY\nRelevance\nW\na\nc'\nFull moderation\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n23/51\n",
+   "text_norm": "Mediation-moderation analysis Diagram description Path a: interaction effect between independent variable X and moderator W on dependent Y (e.g., R2 = .60) Path b: Main effect of moderator W on dependent variable Y (e.g., R2 = .01) Path c’: main effect of the independent variable X on the dependent variable Y (e.g., R2 = .39) Affordances Involvement X Y Relevance W a c' Full moderation Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 23/51",
+   "char_count": 562,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-023.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 24,
+   "text": "Moderated Mediation: the indirect effect of X on Y through M (mediation effect) is conditional on the \nlevel of a moderator W. Moderator W affects the strength or direction of the mediation effect\nPath a and b are\nmoderated (show stronger,\nweaker correlations)\ndue to Gender\nMediation-moderation analysis: more complex relationships\nAffordances\nInvolvement\nX\nY\nRelevance\nM\na\nb\nc'\nMediation\nGender\nW\nModeration\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n24/51\n",
+   "text_norm": "Moderated Mediation: the indirect effect of X on Y through M (mediation effect) is conditional on the level of a moderator W. Moderator W affects the strength or direction of the mediation effect Path a and b are moderated (show stronger, weaker correlations) due to Gender Mediation-moderation analysis: more complex relationships Affordances Involvement X Y Relevance M a b c' Mediation Gender W Moderation Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 24/51",
+   "char_count": 583,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-024.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 25,
+   "text": "Mediated Moderation: the interaction between X and W on Y (moderation effect) is itself mediated \nby another variable M. Interaction between X and W influences M, which in turn affects Y\nThe moderation has\na mediation in it: Gender\nonly if Relevant for that\nAffordance\nMediation-moderation analysis: more complex relationships\nAffordances\nInvolvement\nX\nY\nRelevance\nM\nc'\nGender\nW\nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press.\n25/51\n",
+   "text_norm": "Mediated Moderation: the interaction between X and W on Y (moderation effect) is itself mediated by another variable M. Interaction between X and W influences M, which in turn affects Y The moderation has a mediation in it: Gender only if Relevant for that Affordance Mediation-moderation analysis: more complex relationships Affordances Involvement X Y Relevance M c' Gender W Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. 25/51",
+   "char_count": 552,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-025.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "Exam sample item, Open-ended question, Category “Application”\nThis question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a \nVR health app X on user experience Y, and you suspect that this effect is mediated by increased \nhealth knowledge M. Additionally, you think that how the app is experienced might also depend on \nthe level of user motivation W to live healthily\nDescribe the path for:\nA. Mediation:\nB. Moderation:\nC. Moderated Mediation:\nD. Mediated Moderation:\nOakwood Medical Avatar (3-D Healthy Selfie)\n26/51\n",
+   "text_norm": "Exam sample item, Open-ended question, Category “Application” This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a VR health app X on user experience Y, and you suspect that this effect is mediated by increased health knowledge M. Additionally, you think that how the app is experienced might also depend on the level of user motivation W to live healthily Describe the path for: A. Mediation: B. Moderation: C. Moderated Mediation: D. Mediated Moderation: Oakwood Medical Avatar (3-D Healthy Selfie) 26/51",
+   "char_count": 554,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-026.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 27,
+   "text": "Exam sample item, Open-ended question, Category “Application”\nThis question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a \nVR health app X on user experience Y, and you suspect that this effect is mediated by increased \nhealth knowledge M. Additionally, you think that how the app is experienced might also depend on \nthe level of user motivation W to live healthily\nDescribe the path for:\nA. Mediation: VR health app X Health knowledge M User experience Y\n27/51\nX\nM\nY\nB. So how about Moderation?\n",
+   "text_norm": "Exam sample item, Open-ended question, Category “Application” This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a VR health app X on user experience Y, and you suspect that this effect is mediated by increased health knowledge M. Additionally, you think that how the app is experienced might also depend on the level of user motivation W to live healthily Describe the path for: A. Mediation: VR health app X Health knowledge M User experience Y 27/51 X M Y B. So how about Moderation?",
+   "char_count": 536,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-027.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 28,
+   "text": "Exam sample item, Open-ended question, Category “Application”\nThis question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a \nVR health app X on user experience Y, and you suspect that this effect is mediated by increased \nhealth knowledge M. Additionally, you think that how the app is experienced might also depend on \nthe level of user motivation W to live healthily\nDescribe the path for:\nB. Moderation: The effect of the VR health app X on User experience Y depends on\nUser motivation W\n28/51\nX\nY\nW\nC. Moderated Mediation: \n",
+   "text_norm": "Exam sample item, Open-ended question, Category “Application” This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a VR health app X on user experience Y, and you suspect that this effect is mediated by increased health knowledge M. Additionally, you think that how the app is experienced might also depend on the level of user motivation W to live healthily Describe the path for: B. Moderation: The effect of the VR health app X on User experience Y depends on User motivation W 28/51 X Y W C. Moderated Mediation:",
+   "char_count": 562,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-028.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 29,
+   "text": "Exam sample item, Open-ended question, Category “Application”\nThis question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a \nVR health app X on user experience Y, and you suspect that this effect is mediated by increased \nhealth knowledge M. Additionally, you think that how the app is experienced might also depend on \nthe level of user motivation W to live healthily\nDescribe the path for:\nC. Moderated Mediation:\nThe mediation effect of\nHealth knowledge M on the relationship between\nthe VR health app X and User experience Y\ndepends on user motivation W\n29/51\nX\nM\nY\nW\nD. Mediated Moderation:\n",
+   "text_norm": "Exam sample item, Open-ended question, Category “Application” This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a VR health app X on user experience Y, and you suspect that this effect is mediated by increased health knowledge M. Additionally, you think that how the app is experienced might also depend on the level of user motivation W to live healthily Describe the path for: C. Moderated Mediation: The mediation effect of Health knowledge M on the relationship between the VR health app X and User experience Y depends on user motivation W 29/51 X M Y W D. Mediated Moderation:",
+   "char_count": 631,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-029.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 30,
+   "text": "Exam sample item, Open-ended question, Category “Application”\nThis question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a \nVR health app X on user experience Y, and you suspect that this effect is mediated by increased \nhealth knowledge M. Additionally, you think that how the app is experienced might also depend on \nthe level of user motivation W to live healthily\nDescribe the path for:\nD. Mediated Moderation:\nThe interaction between\nthe VR health app X and User motivation W\ninfluences Health knowledge M, which in turn \naffects User experience Y\n30/51\nX\nY\nM\nW\n",
+   "text_norm": "Exam sample item, Open-ended question, Category “Application” This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a VR health app X on user experience Y, and you suspect that this effect is mediated by increased health knowledge M. Additionally, you think that how the app is experienced might also depend on the level of user motivation W to live healthily Describe the path for: D. Mediated Moderation: The interaction between the VR health app X and User motivation W influences Health knowledge M, which in turn affects User experience Y 30/51 X Y M W",
+   "char_count": 602,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-030.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 31,
+   "text": "Various statistical packages can be used to conduct mediation-moderation analysis, including:\nRegression Analysis in SPSS: can be used to test for mediation and moderation effects\nPROCESS Macro for SPSS and SAS: a popular tool developed by Andrew F. Hayes (2022) that \nsimplifies the computation of mediation, moderation, and moderated mediation models\nDefinitely go here: https://www.processmacro.org/index.html\nStructural Equation Modeling (SEM) or AMOS in SPSS: a more advanced technique that can \nsimultaneously test multiple relationships and is particularly useful for complex models\nMediation-moderation analysis\n31/51\n",
+   "text_norm": "Various statistical packages can be used to conduct mediation-moderation analysis, including: Regression Analysis in SPSS: can be used to test for mediation and moderation effects PROCESS Macro for SPSS and SAS: a popular tool developed by Andrew F. Hayes (2022) that simplifies the computation of mediation, moderation, and moderated mediation models Definitely go here: https://www.processmacro.org/index.html Structural Equation Modeling (SEM) or AMOS in SPSS: a more advanced technique that can simultaneously test multiple relationships and is particularly useful for complex models Mediation-moderation analysis 31/51",
+   "char_count": 627,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-031.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 32,
+   "text": "Structural Equation Modeling\n\n= + + \nPromise\nConcern\nJöreskog, K. G., & Sörbom, D. (1984). Advances in factor analysis and structural equation models. Lanham: Rowman & Littlefield Publishers.\n",
+   "text_norm": "Structural Equation Modeling  = + +  Promise Concern Jöreskog, K. G., & Sörbom, D. (1984). Advances in factor analysis and structural equation models. Lanham: Rowman & Littlefield Publishers.",
+   "char_count": 202,
+   "has_image": true,
+   "image_count": 217,
+   "png": "assets/img/L08/slide-032.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 33,
+   "text": "Used for complex relationships among variables, combining aspects of factor analysis and multiple \nregression (Jöreskog & Sörbom, 1984). Analyses both direct and indirect relationships between \nobserved and latent variables. Note: you need a huge sample to run SEM (else, go to PROCESS)\nObserved Variables: variables that can be directly measured or observed in the study, also referred \nto as manifest variables\nLatent Variables: variables not directly observed but inferred from observed variables. They \nrepresent underlying constructs or factors\nMeasurement Model: this part of SEM specifies how latent variables are measured by the \nobserved variables. It is essentially a confirmatory factor analysis (CFA) that defines the \nrelationships between latent variables and their indicators. Tells whether you measured things well\nStructural Model: this part specifies the relationships among latent variables. It is similar to a path \nanalysis we saw previously and shows how latent variables influence one another. Tells in how far \nthe data fit with your ideas\nStructural Equation Modeling\n33/51\n",
+   "text_norm": "Used for complex relationships among variables, combining aspects of factor analysis and multiple regression (Jöreskog & Sörbom, 1984). Analyses both direct and indirect relationships between observed and latent variables. Note: you need a huge sample to run SEM (else, go to PROCESS) Observed Variables: variables that can be directly measured or observed in the study, also referred to as manifest variables Latent Variables: variables not directly observed but inferred from observed variables. They represent underlying constructs or factors Measurement Model: this part of SEM specifies how latent variables are measured by the observed variables. It is essentially a confirmatory factor analysis (CFA) that defines the relationships between latent variables and their indicators. Tells whether you measured things well Structural Model: this part specifies the relationships among latent variables. It is similar to a path analysis we saw previously and shows how latent variables influence one another. Tells in how far the data fit with your ideas Structural Equation Modeling 33/51",
+   "char_count": 1091,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-033.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 34,
+   "text": "Model Specification: define the hypothesised relationships among variables. This involves creating a \ndiagram that visually represents the model, including both measurement and structural components\nModel Identification: ensure that the model is mathematically identifiable, meaning there are enough data \npoints to estimate the model parameters (hence, the huge sample)\nModel Estimation: use statistical software to estimate the parameters of the model. Common estimation \nmethods include Maximum Likelihood (ML), Generalized Least Squares (GLS), and Weighted Least Squares \n(WLS)\nModel Evaluation: assess the fit of the model using various fit indices. Common fit indices include the Chi-\nSquare Test, Root Mean Square Error of Approximation (RMSEA), Comparative Fit Index (CFI), and Tucker-\nLewis Index (TLI)\nModel Modification: if the initial model does not fit well, make modifications based on theoretical \nconsiderations and modification indices provided by the software\nModel Interpretation: interpret the estimated parameters to understand the relationships among \nvariables. This includes examining direct, indirect, and total effects\nStructural Equation Modeling: Steps to take\n34/51\n",
+   "text_norm": "Model Specification: define the hypothesised relationships among variables. This involves creating a diagram that visually represents the model, including both measurement and structural components Model Identification: ensure that the model is mathematically identifiable, meaning there are enough data points to estimate the model parameters (hence, the huge sample) Model Estimation: use statistical software to estimate the parameters of the model. Common estimation methods include Maximum Likelihood (ML), Generalized Least Squares (GLS), and Weighted Least Squares (WLS) Model Evaluation: assess the fit of the model using various fit indices. Common fit indices include the ChiSquare Test, Root Mean Square Error of Approximation (RMSEA), Comparative Fit Index (CFI), and TuckerLewis Index (TLI) Model Modification: if the initial model does not fit well, make modifications based on theoretical considerations and modification indices provided by the software Model Interpretation: interpret the estimated parameters to understand the relationships among variables. This includes examining direct, indirect, and total effects Structural Equation Modeling: Steps to take 34/51",
+   "char_count": 1185,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-034.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 35,
+   "text": "Attitude to\nAI\ne2\ne4\nBeneficial\nEtc.\ne1\ne3\nInteresting\nQuality\nof life\n1\n1\n1\n1\n1\ne6\ne8\nBoring\nEtc.\ne5\ne7\nDangerous\nEtc.\n1\n1\n1\n1\n1\nPromise\ne2\ne4\nCure\nEtc.\ne1\ne3\nWork\nBetter\nproducts\n1\n1\n1\n1\n1\nConcern\ne6\ne8\nLaziness\nEtc.\ne5\ne7\nMad\nscientists\nEtc.\n1\n1\n1\n1\n1\nz1\nItems + scores\ndisagree  0--1--2--3--4--5  agree\nz2\nz3\n\nSingle-headed arrows \nindicate dependency or \ncausality or ‘loading’ (path \ncoefficient = regression \nweight = standardized \nregression coefficient)\nDouble-headed arrows\nindicate covariance (correlation)\nNo dependency\nStructural Equation Modeling\n35/51\n",
+   "text_norm": "Attitude to AI e2 e4 Beneficial Etc. e1 e3 Interesting Quality of life 1 1 1 1 1 e6 e8 Boring Etc. e5 e7 Dangerous Etc. 1 1 1 1 1 Promise e2 e4 Cure Etc. e1 e3 Work Better products 1 1 1 1 1 Concern e6 e8 Laziness Etc. e5 e7 Mad scientists Etc. 1 1 1 1 1 z1 Items + scores disagree 0--1--2--3--4--5 agree z2 z3  Single-headed arrows indicate dependency or causality or ‘loading’ (path coefficient = regression weight = standardized regression coefficient) Double-headed arrows indicate covariance (correlation) No dependency Structural Equation Modeling 35/51",
+   "char_count": 561,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-035.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 36,
+   "text": "êta1\n1\ny1\ny2\ny3\ny4\ny5\ny6\ny7\ny8\ny9\ny10\ny11\ny12\ny13\ny14\ny15\ny16\nzêta1\n1\ncovariance\ne2\ne4\ne1\ne3\ne10\ne12\ne9\ne11\ne14\ne16\ne13\ne15\nError terms related\nto each questionnaire\nitem\nêta2\n2\nêta3\n3\nzêta2\n2\nzêta3\n3\nUnexplained variance\nor error term\nError terms of different\ndependents are allowed to\ncorrelate\nThe path coefficient for the effect\nbetween two\nerror terms is called (psi)\nThe path coefficient for\nthe relation between two \ndependents is called (beta),\nindicating in how far\n1 is explained by 2\n12 = .59\n(subscript 12 means from 2 to 1\n13 means from 3to 1)\n12 (arrow base stands right,\narrow target stands left)\n21 is not present in this model\n36/51\n",
+   "text_norm": "êta1 1 y1 y2 y3 y4 y5 y6 y7 y8 y9 y10 y11 y12 y13 y14 y15 y16 zêta1 1 covariance e2 e4 e1 e3 e10 e12 e9 e11 e14 e16 e13 e15 Error terms related to each questionnaire item êta2 2 êta3 3 zêta2 2 zêta3 3 Unexplained variance or error term Error terms of different dependents are allowed to correlate The path coefficient for the effect between two error terms is called (psi) The path coefficient for the relation between two dependents is called (beta), indicating in how far 1 is explained by 2 12 = .59 (subscript 12 means from 2 to 1 13 means from 3to 1) 12 (arrow base stands right, arrow target stands left) 21 is not present in this model 36/51",
+   "char_count": 667,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-036.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 37,
+   "text": "Attitude\nto AI\nêta1\n1\nGender\nksi1\n1\nEducation\nksi2\n2\nPromise\nêta2\n2\nConcern\nêta3\n3\nzêta1\n1\nzêta2\n2\nzêta3\n3\n21\n31\n22\n32\n12\n13\n1 = 122 + 133 + 1\n2 = 211 + 222 + 2\n3 = 311 + 322 + 3\nNote: structural equations have the\nsame form as multiple-regression equations\nGeneral equation:\n= + + \nStructural Equation Modeling\n37/51\n",
+   "text_norm": "Attitude to AI êta1 1 Gender ksi1 1 Education ksi2 2 Promise êta2 2 Concern êta3 3 zêta1 1 zêta2 2 zêta3 3 21 31 22 32 12 13 1 = 122 + 133 + 1 2 = 211 + 222 + 2 3 = 311 + 322 + 3 Note: structural equations have the same form as multiple-regression equations General equation: = + +  Structural Equation Modeling 37/51",
+   "char_count": 364,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-037.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 38,
+   "text": " \n1 \n2 \n3 \n1 \n0 \n12 \n13 \n2 \n0 \n0 \n0 \n3 \n0 \n0 \n0 \n \n \n1\n2\n1\n0\n0\n2\n21\n22\n3\n31\n32\n1\n2\n3\n1\n11\n0\n0\n2\n0\n22\n0\n3\n0\n0\n33\nGeneral equation:\n= + + \nSpecification of the path model requires three matrices:\nEffects\nEffects\n(Co)variance\nBeta ()\nGamma ()\nPsi ()\nStructural Equation Modeling\n38/51\nzêta\nksi\n",
+   "text_norm": "1 2 3 1 0 12 13 2 0 0 0 3 0 0 0 1 2 1 0 0 2 21 22 3 31 32 1 2 3 1 11 0 0 2 0 22 0 3 0 0 33 General equation: = + +  Specification of the path model requires three matrices: Effects Effects (Co)variance Beta () Gamma () Psi () Structural Equation Modeling 38/51 zêta ksi",
+   "char_count": 307,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-038.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 39,
+   "text": " \n1 \n2 \n3 \n1 \n0 \n12 \n13 \n2 \n0 \n0 \n0 \n3 \n0 \n0 \n0 \n \n \n1\n2\n1\n0\n0\n2\n21\n22\n3\n31\n32\n1\n2\n3\n1\n11\n0\n0\n2\n0\n22\n0\n3\n0\n0\n33\nGeneral equation:\n= + + \nSpecification of the path model requires three matrices:\nEffects\nEffects\n(Co)variance\nBeta ()\nGamma ()\nPsi ()\nStructural Equation Modeling\n39/51\nksi\nzêta\n",
+   "text_norm": "1 2 3 1 0 12 13 2 0 0 0 3 0 0 0 1 2 1 0 0 2 21 22 3 31 32 1 2 3 1 11 0 0 2 0 22 0 3 0 0 33 General equation: = + +  Specification of the path model requires three matrices: Effects Effects (Co)variance Beta () Gamma () Psi () Structural Equation Modeling 39/51 ksi zêta",
+   "char_count": 307,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-039.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 40,
+   "text": " \n1 \n2 \n3 \n1 \n0 \n12 \n13 \n2 \n0 \n0 \n0 \n3 \n0 \n0 \n0 \n \n \n1\n2\n1\n0\n0\n2\n21\n22\n3\n31\n32\n1\n2\n3\n1\n11\n0\n0\n2\n0\n22\n0\n3\n0\n0\n33\nGeneral equation:\n= + + \nSpecification of the path model requires three matrices:\nEffects\nEffects\n(Co)variance\nBeta ()\nGamma ()\nPsi ()\nThe zeros mean that the \nmodel predicts there is \nno relation between \nvariables\nIf you do not fill in a value\nthe program will do a\nfree parameter estimation\nDifferent from conventional path analysis,\nerror terms are allowed to be correlated\n(no zeros). If variance is highly correlated,\nan undefined theoretical variable is interfering\nStructural Equation Modeling\n40/51\nksi\nzêta\n",
+   "text_norm": "1 2 3 1 0 12 13 2 0 0 0 3 0 0 0 1 2 1 0 0 2 21 22 3 31 32 1 2 3 1 11 0 0 2 0 22 0 3 0 0 33 General equation: = + +  Specification of the path model requires three matrices: Effects Effects (Co)variance Beta () Gamma () Psi () The zeros mean that the model predicts there is no relation between variables If you do not fill in a value the program will do a free parameter estimation Different from conventional path analysis, error terms are allowed to be correlated (no zeros). If variance is highly correlated, an undefined theoretical variable is interfering Structural Equation Modeling 40/51 ksi zêta",
+   "char_count": 642,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-040.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 41,
+   "text": "AI\nrequirements\ne2\ne4\nQari2\nQari4\ne1\ne3\nQari1\nQari3\n1\n1\n1\n1\n1\ne6\ne8\nQarc2\nQarc4\ne5\ne7\nQarc1\nQarc3\n1\n1\n1\n1\n1\nRelevance\nof AI features\ne2\ne4\nQrei2\nQrec2\ne1\ne3\nQrei1\nQrec1\n1\n1\n1\n1\n1\nValence\ntowards AI\nfeatures\ne6\ne8\nQvai2\nQvac2\ne5\ne7\nQvai1\nQvac1\n1\n1\n1\n1\n1\nz1\n2 indicative items\n2 contra-indicative items\n2 indicative items\n2 contra-indicative items\nGenerated content is important to me\nGenerated content is trivial\nGenerated content helps me\nGenerated content hinders me\n4 indicative items\n4 contra-indicative items\nThe system should produce\ngenerated content\nThe system should refrain from\ngenerated content\nrating scale\nagree  0--1--2--3--4--5  disagree\nz2\nz3\n41/51\n",
+   "text_norm": "AI requirements e2 e4 Qari2 Qari4 e1 e3 Qari1 Qari3 1 1 1 1 1 e6 e8 Qarc2 Qarc4 e5 e7 Qarc1 Qarc3 1 1 1 1 1 Relevance of AI features e2 e4 Qrei2 Qrec2 e1 e3 Qrei1 Qrec1 1 1 1 1 1 Valence towards AI features e6 e8 Qvai2 Qvac2 e5 e7 Qvai1 Qvac1 1 1 1 1 1 z1 2 indicative items 2 contra-indicative items 2 indicative items 2 contra-indicative items Generated content is important to me Generated content is trivial Generated content helps me Generated content hinders me 4 indicative items 4 contra-indicative items The system should produce generated content The system should refrain from generated content rating scale agree 0--1--2--3--4--5 disagree z2 z3 41/51",
+   "char_count": 662,
+   "has_image": true,
+   "image_count": 262,
+   "png": "assets/img/L08/slide-041.png",
+   "flags": []
+  },
+  {
+   "slide": 42,
+   "text": "Simultaneous Analysis: SEM allows for the simultaneous analysis of multiple relationships, \nproviding a more comprehensive understanding of the data\nLatent Variables: it can incorporate latent variables, which represent underlying constructs that are \nnot directly measurable\nComplex Models: SEM can handle complex models that include multiple dependent variables, \nmediators, and moderators\nMeasurement Error: it accounts for measurement error, providing more accurate estimates of \nrelationships among variables\nStructural Equation Modeling: advantages\n42/51\n",
+   "text_norm": "Simultaneous Analysis: SEM allows for the simultaneous analysis of multiple relationships, providing a more comprehensive understanding of the data Latent Variables: it can incorporate latent variables, which represent underlying constructs that are not directly measurable Complex Models: SEM can handle complex models that include multiple dependent variables, mediators, and moderators Measurement Error: it accounts for measurement error, providing more accurate estimates of relationships among variables Structural Equation Modeling: advantages 42/51",
+   "char_count": 561,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L08/slide-042.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "AMOS: a user-friendly software that integrates with SPSS\nLISREL: one of the earliest and most comprehensive SEM software packages\nMplus: known for its flexibility and ability to handle complex models\nR (lavaan package): an open-source option that is highly customisable\nStructural Equation Modeling: software\n43/51\n",
+   "text_norm": "AMOS: a user-friendly software that integrates with SPSS LISREL: one of the earliest and most comprehensive SEM software packages Mplus: known for its flexibility and ability to handle complex models R (lavaan package): an open-source option that is highly customisable Structural Equation Modeling: software 43/51",
+   "char_count": 315,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-043.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "ummary\nCorrelation and regression gauge the relationship \nbetween two or more variables. Correlation measures \nthe strength of a linear relationship between two \nvariables. Regressions estimate how two or more \nvariables have an effect on each other (i.e., regression is \ninferential)\nWith more predictors (independent variables), you use \nMultiple linear regression. Those independents can either \nbe continuous or nominal (i.e., qualitative data). Yet, the \ndependent variable is measured on a continuous scale\nRegression can be used for Neural Networks to model the \nrelationship between a dependent variable and one or \nmore independents. However, Neural Networks have \nmore layers of regression so that ‘learning’ (= updating \nweights) can take place of more complex relationships \nbetween inputs and outputs\nSocrates\n44/51\n",
+   "text_norm": "ummary Correlation and regression gauge the relationship between two or more variables. Correlation measures the strength of a linear relationship between two variables. Regressions estimate how two or more variables have an effect on each other (i.e., regression is inferential) With more predictors (independent variables), you use Multiple linear regression. Those independents can either be continuous or nominal (i.e., qualitative data). Yet, the dependent variable is measured on a continuous scale Regression can be used for Neural Networks to model the relationship between a dependent variable and one or more independents. However, Neural Networks have more layers of regression so that ‘learning’ (= updating weights) can take place of more complex relationships between inputs and outputs Socrates 44/51",
+   "char_count": 816,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L08/slide-044.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 45,
+   "text": "ummary\nBased on a data set of independent variables, logistic \nregression tries to predict whether an item is in-class or \nout. It is a crude measure that cuts away all intermediate \nvalues, reducing interval measurement to nominal scale. \nSome older Neural Networks make use of logistic \nregression\nMediation-moderation analysis provides a nuanced \nunderstanding of the relationships between variables, \nhelping researchers and practitioners identify not just \nwhether an effect exists, but also how, why, and under \nwhat conditions it occurs\nTypes of effects\nDirect effect\nMediation effect\nModeration effect\nMediated moderation\nModerated mediation\nSocrates\n45/51\n",
+   "text_norm": "ummary Based on a data set of independent variables, logistic regression tries to predict whether an item is in-class or out. It is a crude measure that cuts away all intermediate values, reducing interval measurement to nominal scale. Some older Neural Networks make use of logistic regression Mediation-moderation analysis provides a nuanced understanding of the relationships between variables, helping researchers and practitioners identify not just whether an effect exists, but also how, why, and under what conditions it occurs Types of effects Direct effect Mediation effect Moderation effect Mediated moderation Moderated mediation Socrates 45/51",
+   "char_count": 661,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L08/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "ummary\nStructural Equation Modeling is a powerful and flexible \nstatistical technique that allows researchers to test \ncomplex theoretical models. By incorporating both \nobserved and latent variables and accounting for \nmeasurement error, SEM provides a robust framework for \nunderstanding the relationships among variables in \nvarious fields of study\nKey concepts\nObserved variables\nLatent variables\nMeasurement model\nStructural model\nSocrates\n46/51\n",
+   "text_norm": "ummary Structural Equation Modeling is a powerful and flexible statistical technique that allows researchers to test complex theoretical models. By incorporating both observed and latent variables and accounting for measurement error, SEM provides a robust framework for understanding the relationships among variables in various fields of study Key concepts Observed variables Latent variables Measurement model Structural model Socrates 46/51",
+   "char_count": 449,
+   "has_image": true,
+   "image_count": 2,
+   "png": "assets/img/L08/slide-046.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 47,
+   "text": "Exam Sample Item\nCategory “Insight“\nThis item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear \nregression? In linear regression, is the statement correct that correlation between dependent and \nindependent variable comes from causation?\nA\nNo. Arguing from correlation to cause may be reasonable under the correct conditions; \notherwise, it is a fallacious inference\nB\nYes. Changes in the dependent variable are predicted from and tested against changes\nin the independent variable\nC\nYes, by employing defeasible reasoning, inductive arguments can be raised based on\ncorrelational data\nD\nNo. Regression should account for measurement error, providing more accurate estimates\nof relationships among variables\n47/51\n",
+   "text_norm": "Exam Sample Item Category “Insight“ This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear regression? In linear regression, is the statement correct that correlation between dependent and independent variable comes from causation? A No. Arguing from correlation to cause may be reasonable under the correct conditions; otherwise, it is a fallacious inference B Yes. Changes in the dependent variable are predicted from and tested against changes in the independent variable C Yes, by employing defeasible reasoning, inductive arguments can be raised based on correlational data D No. Regression should account for measurement error, providing more accurate estimates of relationships among variables 47/51",
+   "char_count": 757,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-047.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 48,
+   "text": "Exam Sample Item\nCategory “Insight“\nThis item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear \nregression? In linear regression, is the statement correct that correlation between dependent and \nindependent variable comes from causation?\nA\nNo. Arguing from correlation to cause may be reasonable under the correct conditions; \notherwise, it is a fallacious inference\nB\nYes. Changes in the dependent variable are predicted from and tested against changes\nin the independent variable\nC\nYes, by employing defeasible reasoning, inductive arguments can be raised based on\ncorrelational data\nD\nNo. Regression should account for measurement error, providing more accurate estimates\nof relationships among variables\n\n48/51\n",
+   "text_norm": "Exam Sample Item Category “Insight“ This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear regression? In linear regression, is the statement correct that correlation between dependent and independent variable comes from causation? A No. Arguing from correlation to cause may be reasonable under the correct conditions; otherwise, it is a fallacious inference B Yes. Changes in the dependent variable are predicted from and tested against changes in the independent variable C Yes, by employing defeasible reasoning, inductive arguments can be raised based on correlational data D No. Regression should account for measurement error, providing more accurate estimates of relationships among variables  48/51",
+   "char_count": 759,
+   "has_image": true,
+   "image_count": 203,
+   "png": "assets/img/L08/slide-048.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 49,
+   "text": "Exam Sample Item\nCategory “Insight“\nIn Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog\nand Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly \nmeasurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by \ninferring the cause (latent variable) from the effects (item scores)?\nA\nYes. From X Y does not follow Y X\nB\nNo. From Y X does not follow X Y\nC\nNo. The latent variable is predicted from observables and \nthen tested, allowing for a margin of unexplained variance (zêta2)\nD\nYes. Because of the error in measurement (e9, …, 12), one \ncannot be sure that items y9, …, 12 come from êta2\n49/51\n",
+   "text_norm": "Exam Sample Item Category “Insight“ In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by inferring the cause (latent variable) from the effects (item scores)? A Yes. From X Y does not follow Y X B No. From Y X does not follow X Y C No. The latent variable is predicted from observables and then tested, allowing for a margin of unexplained variance (zêta2) D Yes. Because of the error in measurement (e9, …, 12), one cannot be sure that items y9, …, 12 come from êta2 49/51",
+   "char_count": 729,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-049.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 50,
+   "text": "Exam Sample Item\nCategory “Insight“\nIn Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog\nand Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly \nmeasurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by \ninferring the cause (latent variable) from the effects (item scores)?\nA\nYes. From X Y does not follow Y X\nB\nNo. From Y X does not follow X Y\nC\nNo. The latent variable is predicted from observables and \nthen tested, allowing for a margin of unexplained variance (zêta2)\nD\nYes. Because of the error in measurement (e9, …, 12), one \ncannot be sure that items y9, …, 12 come from êta2\n\n50/51\n",
+   "text_norm": "Exam Sample Item Category “Insight“ In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by inferring the cause (latent variable) from the effects (item scores)? A Yes. From X Y does not follow Y X B No. From Y X does not follow X Y C No. The latent variable is predicted from observables and then tested, allowing for a margin of unexplained variance (zêta2) D Yes. Because of the error in measurement (e9, …, 12), one cannot be sure that items y9, …, 12 come from êta2  50/51",
+   "char_count": 731,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L08/slide-050.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 51,
+   "text": "References \nHayes, A. F. (2022). Introduction to mediation, moderation, and conditional process \nanalysis: A regression-based approach (3rd edition). New York: The Guilford Press.\nJöreskog, K. G., & Sörbom, D. (1984). Advances in factor analysis and structural \nequation models. Lanham: Rowman & Littlefield Publishers.\n51/51\n",
+   "text_norm": "References Hayes, A. F. (2022). Introduction to mediation, moderation, and conditional process analysis: A regression-based approach (3rd edition). New York: The Guilford Press. Jöreskog, K. G., & Sörbom, D. (1984). Advances in factor analysis and structural equation models. Lanham: Rowman & Littlefield Publishers. 51/51",
+   "char_count": 322,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L08/slide-051.png",
+   "flags": []
+  }
+ ]
+}

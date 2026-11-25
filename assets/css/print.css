@@ -1,0 +1,10 @@
+/* print-only overrides */
+@media print{
+  a{color:inherit;text-decoration:none}
+  .term{background:#fff2d6!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .hero{background:#2b5fa8!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;color:#fff!important}
+  .tbl th{background:#eef3fa!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .more{display:block}
+  .more .tbl{display:table}
+  details>summary{list-style:none}
+}

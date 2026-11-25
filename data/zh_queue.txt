@@ -1,0 +1,325 @@
+0|H0|零假设（原假设）|verbatim|H0 : You are not a robot
+1|alternative hypothesis|备择假设|verbatim|The Null and the Alternative hypothesis: H0 and HA The hypotheses we formulate are commonly about expected effects
+2|HA|备择假设|verbatim|HA : You are a robot
+3|H1|备择假设|verbatim|H1: human being H2: an animal
+4|RQ|研究问题|verbatim|RQ: In what manner does the language used in local narratives reflect and reinforce the traditional
+5|confirmatory data analysis|验证性数据分析|verbatim|Confirmatory data analysis is parametric and a deductive
+6|exploratory data analysis|探索性数据分析|occurrence_only|hypothesis testing (H0 vs H1) through confirmative statistics and not ‘just’ exploratory data analysis
+7|statistical hypothesis testing|统计假设检验|verbatim|hypothesis, it merely indicates a degree of confidence in the result My machine is similar to a...
+8|statistical significance|统计显著性|verbatim|The probability that our claims are correct • “statistical significance”
+9|significant|显著（的）|verbatim|significant difference between the two datasets Therefore, we reject the Null hypothesis if the p-value is less than or 
+10|significance level|显著性水平|verbatim|valid effect, less vulnerable to random and systematic error Power is mainly affected by sample size, effect size, and s
+11|p-value|p 值|verbatim|p-value p-value tells the probability you
+12|degrees of freedom|自由度|verbatim|Degrees of freedom are the maximum number of values that you can freely vary
+13|df|自由度|verbatim|df = n1 + n2 − 2 Suppose I have three scores with Mean = 5. Two of the values are 4 and 6,
+14|level of confidence|置信水平|verbatim|required significance value -- i.e., the amount of error that we are willing to tolerate under the level of confidence t
+15|false alarm|误报（假警报）|verbatim|There are two types of mistakes we might make Type I error: Null hypothesis is true, but we reject it by mistake (false
+16|frequentism|频率主义 / 频率学派统计|verbatim|Frequentism is but one view on the data. It cannot do
+17|falsify|证伪|verbatim|Open Question C) Although the statement in B is so easy to falsify, then why does not the network
+18|counter-example|反例|verbatim|“All cats are white” and “Anything white is a cat” are easily falsified by finding one counter-example (cf. Karl Popper)
+19|inductive approach|归纳法|occurrence_only|Inductive approach, “descriptive statistics”
+20|deductive approach|演绎法|verbatim|Deductive approach — inferential statistics
+21|inferential statistics|推断统计|verbatim|Inferential statistics are used to draw conclusions and to make inferences that
+22|descriptive statistics|描述统计|occurrence_only|SPSS Statistics, IBM Corporation Analyze > Descriptive Statistics > Crosstabs
+23|parametric testing|参数检验|occurrence_only|Parametric testing and deduction
+24|experiment design|实验设计|occurrence_only|09 Experiment design 10 t-tests and (M)ANOVA
+25|laboratory experiment|实验室实验|verbatim|●Laboratory experiments are systematic trials and
+26|field experiment|现场实验|occurrence_only|Field experiment
+27|IV|自变量|verbatim|but on all the distinctive features in the data sets that are assessed as ‘positive’. In other words, the
+28|dependent variable|因变量|verbatim|dependent variable is measured on a continuous scale
+29|DV|因变量|verbatim|MANCOVA If some DV is a covariate (e.g.,
+30|treatment|处理（实验条件）|verbatim|- Before-after treatment (medication, washing powder, robot intervention) - With FinTech, handling your finance is easie
+31|condition|实验条件|verbatim|Condition 2 is the most difficult because you have to take action without being warned
+32|between-subjects|被试间设计（组间设计）|verbatim|• Between-subjects for the independent variable: Mario vs AC
+33|within-subjects|被试内设计（重复测量设计）|verbatim|• Within-subjects for dependent measures: feeling involved, feeling distant
+34|repeated-measures|被试内设计（重复测量设计）|occurrence_only|●Between-subjects (or between-groups) ●Within-subjects (or repeated-measures)
+35|confound|混淆（变量 / 效应）|verbatim|Confound: test threat
+36|order effect|顺序效应|verbatim|Group 2: tries Keypad Layout B first, and then Layout A If there is an order effect, this distributes the effect across 
+37|novelty effect|新奇效应|occurrence_only|some other factor in the experiment (e.g., attitude, profession, or a novelty effect)
+38|fatigue|疲劳|verbatim|tasks that are done later are more prone to fatigue and boredom
+39|control group|对照组|occurrence_only|References Solomon, R. L. (1949). An extension of control group design. Psychological Bulletin, 46(2), 137–
+40|pretest|前测|verbatim|The effect of the Treatment while controlling the effect of the Pretest is the difference between G1after and G3after
+41|posttest|后测|verbatim|do the Posttest The effect of the Pretest itself (without Treatment) is
+42|test threat|测验威胁|verbatim|No. Because apart from the effects of time, there is also something called test threat
+43|between-group|组间|occurrence_only|●Between-subjects (or between-groups)
+44|ecological validity|生态效度|occurrence_only|High on precision, low on ecological validity ●Experimental design (Between-Ss, Within-Ss) tells
+45|statistical power|统计功效|verbatim|convey social and cultural meanings. It goes beyond the literal meaning of words to understand the implicit messages, so
+46|effect size|效应量|verbatim|valid effect, less vulnerable to random and systematic error Power is mainly affected by sample size, effect size, and s
+47|convenience sampling|便利抽样（方便抽样）|verbatim|How data sets relate to one another • Whether we are “sampling” from the same or different distributions
+48|experimenter bias|实验者偏差|occurrence_only| Solomon 4-group design  Confounds, experimenter bias, pseudo-randomization
+49|subject bias|被试偏差|occurrence_only|Experimenter/subject bias
+50|Ss|被试|verbatim|Three days in advance, you write to me the issues that you still have, which I will explain again in class. That means y
+51|ethnography|民族志|verbatim|We have seen, for instance, ethnography, thematic analysis, discourse analysis, grounded theory, but there is
+52|focus group|焦点小组|verbatim|interest are covered Select a moderator: Choose a skilled individual to lead the focus group. The moderator
+53|judgment studies|判断研究|occurrence_only|Judgment studies
+54|computer simulation|计算机模拟|occurrence_only|Computer simulation
+55|central tendency|集中趋势|occurrence_only|The central tendency of a group of scores (a distribution) refers to the middle of the
+56|mode|众数|verbatim|mode is the number that occurs most often
+57|median|中位数|verbatim|median is the middle value in a data set
+58|standard deviation|标准差|verbatim|standard deviation The difference between the means of the two curves is the same in all three above
+59|SD|标准差|occurrence_only|other value in the data set Standard Deviation (SD): Tells the distribution of a set of data points in relation to
+60|population|总体|verbatim|population average (which is 98, the known value)
+61|normal variation|正常波动（随机变异）|verbatim|throws), there will always be some variation The question is whether this variation is explainable by normal variation (
+62|distribution|分布|verbatim|Mode The mode is the most common single value in a distribution
+63|skewed|偏态（偏斜）|verbatim|data and are ‘normally’ bell-shaped. However, distributions can be ‘skewed,’ have a peak on the left
+64|peaked|尖峰（的）|occurrence_only|the mean value, expressed as ‘the square root of the variance’ Peaked distribution
+65|flat|平缓（的）|occurrence_only|SD around 1 Flat distribution
+66|signal-to-noise ratio|信噪比|verbatim|Which part of this signal is the most
+67|curve fitting|曲线拟合|occurrence_only|• To find the relation between similarity and liking, plot the data points • Do curve fitting, using SPSS: Analyze > Reg
+68|parabola|抛物线|occurrence_only|– It’s a parabola – We found an optimum hypothesis
+69|independent samples t-test|独立样本 t 检验（双样本 t 检验）|verbatim|Independent samples t-test: df = n1 + n2 − 2
+70|paired samples t-test|配对样本 t 检验|verbatim|Paired samples t-test Compares means from the same group at different times (e.g., before-after treatment) or
+71|t-value|t 值|verbatim|Calculates a t-value which gives us the signal-noise ratio If this ratio is high enough (we have enough “signal” to comp
+72|Standard Error of the Mean|均值标准误（SEM）|verbatim|from an error, attitude indicated on a rating scale A dependent variable is the variable that changes as a result of the
+73|SEM|均值标准误（SEM）|verbatim|Structural Equation Modeling (SEM) or AMOS in SPSS: a more advanced technique that can simultaneously test multiple rel
+74|Central Limit Theorem|中心极限定理|occurrence_only|Not always the case, but t-test very robust in practice, due to Central Limit Theorem (CLT)
+75|CLT|中心极限定理|verbatim|CLT: A sample approximates normal distribution as the sample size gets larger (i.e.,
+76|Analysis of Variance|方差分析|verbatim|Analysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to see if at least one of them is signif
+77|ANCOVA|协方差分析|verbatim|MANCOVA If some DV is a covariate (e.g.,
+78|General Linear Model|一般线性模型|verbatim|• Time Tpos needed to complete the task is linear
+79|GLM|一般线性模型|verbatim|GLM: A flexible framework for modeling relationships
+80|Variance Components|方差成分|verbatim|Variance Components: For variance components analysis
+81|main effect|主效应|verbatim|Main effects are typically tested with t-tests
+82|interaction effect|交互效应|verbatim|There is a catalytic interaction effect between Agency and AI:
+83|catalytic interaction|催化型交互|verbatim|= – 60 – 0 There is a catalytic interaction
+84|antagonistic|拮抗型（交叉）交互|verbatim|– Antagonistic (cross-over) The combination (Human+AI) is
+85|terminative interaction|终止型交互|verbatim|= 0 – 0 There is a terminative interaction
+86|synergistic interaction|协同型交互|verbatim|Synergistic interaction and creativity Creativity is the combination of
+87|F-test|F 检验 / F 统计量 / F 分布|occurrence_only|t-test reasonably robust for differing variance, however, does deserve consideration, may use F-test to validate (ANOVA
+88|numerator|分子 / 分母|verbatim|numerator and the smaller is
+89|multiple sources of variance|多方差来源|verbatim|Measures Variance: How much each score is different from the mean and thus from every
+90|single source of variance|单一方差来源|verbatim|Single source of variance Within-Ss 2-way ANOVA compares means across two independent variables and can also assess
+91|covariate|协变量|verbatim|MANCOVA If some DV is a covariate (e.g.,
+92|fixed factor|固定因子|occurrence_only|Move your dependent variable to the Dependent Variable box Move your independent variables to the Fixed Factor(s) box
+93|matrix algebra|矩阵代数|occurrence_only|Matrix algebra MANOVA Ls Ms As Lp Mp Ap
+94|multivariate tests|多元检验|occurrence_only|According to multivariate tests, the interaction between Agency and AI was significant: F(df1, df2) =
+95|Human–Computer Interaction|人机交互|verbatim|Derived from the RQ, a hypothesis is a precise problem statement about a topic (e.g., about a physical system, a comput
+96|HCI|人机交互|occurrence_only|Official cause: “pilot error” Actual cause: poorly designed HCI
+97|Flight Management System|飞行管理系统|verbatim|Flight Management System is never changed upon pilots’ request (better safe than sorry)
+98|FMS|飞行管理系统|verbatim|(M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic
+99|beacon|信标|occurrence_only|ROZO But plane navigated to ROMEO beacon
+100|black box|黑箱|verbatim|EMOTIV’s cutting-edge BCI software is a black box,
+101|GUI|图形用户界面|occurrence_only|change it anyway. Consequence: We spend extra resources developing the software, and our pilots must learn a new GUI for
+102|Fitts' Law|费茨定律|verbatim|Fitts' Law The channel is characteristic of
+103|Sparse Haptic Proxy|稀疏触觉代理|verbatim|(M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic Proxy
+104|argument from silence|沉默论证（无证据之证据）|occurrence_only|argumentum ex silentio or argument from silence)
+105|argumentum ex silentio|沉默论证（无证据之证据）|occurrence_only|argumentum ex silentio or argument from silence)
+106|evidence of existence through absence|由缺失推断存在|occurrence_only|Evidence of existence through absence
+107|peer reviewed journal|同行评审期刊|verbatim|After having published her results in a peer reviewed journal, the student, after graduation, is surfing the
+108|BCI|脑机接口|verbatim|• Emotion interpretation is nonsense (too context dependent) Brain-Computer Interfaces (BCI) for navigating VR and game
+109|EEG|脑电图|verbatim|Physiological: ECG, EEG, fMRI, Galvanic skin response The Null predicts there is no noticeable difference
+110|amygdala|杏仁核|occurrence_only|with AI helper show significant decreases in negative emotions as indicated by less activation of the amygdala, fewer an
+111|zygomaticus muscle|颧肌|occurrence_only|indicated by less activation of the amygdala, fewer and smoother head movements, and more zygomaticus muscle motion asso
+112|corrugator muscle|皱眉肌|occurrence_only|head movements, and more zygomaticus muscle motion associated with positive valence and less corrugator muscle activity 
+113|MOBA|多人在线战术竞技游戏|occurrence_only|Entertainment (MSc) investigates negative emotions in MOBA games
+114|Multiplayer Online Battle Arena|多人在线战术竞技游戏|occurrence_only|negative emotions in MOBA games (Multiplayer Online Battle Arena)
+115|measurement|黑箱（测量工具）|verbatim|Measurement quality. There are four major scales of
+116|sensory|传感器灵敏度|verbatim|ERPs (Event-Related Potentials): Specific brain responses that are the direct result of a particular sensory, cognitive
+117|infrared thermometer|红外温度计|occurrence_only|non-contact infrared thermometer turns out to
+118|calibration|校准|occurrence_only|The complexity of mapping eye movement data onto the underlying cognitive processes The need for precise calibration a
+119|auto-suggestion|自我暗示|occurrence_only|while wearing the VR devices, which may have been auto-suggestion,
+120|Socratic discussion|苏格拉底式讨论|occurrence_only|Evidence of existence through absence Socratic discussion
+121|circularity|循环论证|verbatim|In 4% of the cases, the disk is formatted wrongly However, there is a problem of circularity with one of the items. Plea
+122|overgeneralisation|过度推广|occurrence_only|Example: Counting flies on zebras Moreover, overgeneralisation based on comparison with totally different eye
+123|Solomon 4-group|所罗门四组设计|verbatim|Solomon 4-group design Example: counting flies on zebras
+124|APA||occurrence_only|13 Final exam (07-12) Technical Report (APA style guide)
+125|RT|被试|verbatim|participant the same set of questions in the same order, ensuring consistency and comparability of the data collected. T
+126|ECG||verbatim|Physiological: ECG, EEG, fMRI, Galvanic skin response The Null predicts there is no noticeable difference
+127|PCA||verbatim|PCA is a means of data reduction, placing items together such that the greatest variance by any
+128|Spearman-Brown||verbatim|Spearman-Brown coefficient ρ (split-half) Cronbach is for 3 or more items. If you have but 2 items, Spearman-Brown
+129|AMOS||verbatim|AMOS: a user-friendly software that integrates with SPSS
+130|H2||verbatim|H2: an animal H3: a plant
+131|H3||verbatim|H3: a plant For instance,
+132|My machine||verbatim|My machine is similar to a...
+133|Insight||occurrence_only|●Three types of questions: Knowledge, Application, Insight
+134|Gemini August||occurrence_only|Gemini August
+135|Deputy Chief Editor of Light||verbatim|Deputy Chief Editor of Light: Science & Applications
+136|Design/engineering||verbatim|Design/engineering = know how:
+137|Humans have higher scores on standardised IQ||verbatim|- Humans have higher scores on standardised IQ tests than does AI
+138|Ubisoft||verbatim|“Compared to Mario Kart, the learning curve for AC is steeper for newbies than for hardcore gamers” Basim. Assassin’s Cr
+139|Nintendo||occurrence_only|Basim. Assassin’s Creed Mirage, Ubisoft (2023) Mario. Mario Kart 8, Nintendo (2014)
+140|depends||verbatim|different perspectives on the data) What is useful depends on culture
+141|hits||occurrence_only|time: Web logs, transaction logs, number of “hits” to Help system,
+142|Monkey||occurrence_only|“Monkey”
+143|Allowable manipulations||verbatim|Allowable manipulations: add, subtract
+144|zero||verbatim|Interval scale Similar to Ratio scale, but the “zero” point is arbitrary
+145|Ethnographical observations on the work floor||verbatim|Ethnographical observations on the work floor are
+146|fMRI||verbatim|Physiological: ECG, EEG, fMRI, Galvanic skin response The Null predicts there is no noticeable difference
+147|Application||verbatim|as it is the researcher deciding when an effect counts or not, based on current knowledge, test theory, mathematical app
+148|Usability testing||verbatim|Usability testing: formative / summative
+149|Grady||occurrence_only|O’Grady, L., Witteman, H., Bender, J. L., Urowitz, S., Wiljer, D., & Jadad, A. R. (2009). Measuring the impact of a
+150|Schellens||occurrence_only|Van den Haak, M. J., De Jong, M. D. T., & Schellens, P. J. (2009). Evaluating municipal websites: A methodological
+151|Select a moderator||verbatim|Select a moderator: Choose a skilled individual to lead the focus group. The moderator
+152|Conduct the focus group||verbatim|Conduct the focus group: The moderator leads the session, asking questions and prompting
+153|Analyse the data||verbatim|Analyse the data: Transcribe the recordings and analyse the content. Look for patterns, themes,
+154|Quantitative data||verbatim|Quantitative data: The structured nature of these interviews makes them well-suited for
+155|Preparation||verbatim|Preparation: Developing a structured interview guide is a crucial step. This guide outlines all
+156|Design the interview guide||verbatim|Design the interview guide: Create a structured interview guide that includes all the questions
+157|Pilot test||verbatim|Pilot test: Conduct a pilot test with a small number of participants to ensure questions are
+158|Conduct interviews||verbatim|Conduct interviews: Carry out the interviews according to the structured interview guide.
+159|Structured interviews||verbatim|Structured interviews are a valuable tool for researchers aiming to collect quantifiable
+160|Interview guide||verbatim|Interview guide: A semi-structured interview guide is prepared in advance, outlining key
+161|Qualitative data||verbatim|Qualitative data: This method is geared towards collecting rich, qualitative data that can
+162|Develop the interview guide||verbatim|Develop the interview guide: Create a guide that includes a list of questions or topics to be
+163|Braun||occurrence_only|Clarke, V., & Braun, V. (2022). Thematic analysis, a practical guide. Thousand Oaks, CA: Sage.
+164|Familiarising yourself with the data||verbatim|Familiarising yourself with the data: This initial step involves immersing yourself in the
+165|Generating initial codes||verbatim|Generating initial codes: Coding involves highlighting significant features of the data that are relevant to the researc
+166|Searching for themes||verbatim|Searching for themes: After coding, the next step is to collate codes into potential themes,
+167|Reviewing themes||verbatim|Reviewing themes: This involves checking if the themes work in relation to the coded
+168|Limpaecher||verbatim|the implicit messages, social norms, and power relations that are communicated through language (Ho & Limpaecher, 2023)
+169|Data collection||verbatim|Data collection: Gathering relevant texts or recordings that represent the discourse you
+170|Coding||verbatim|Coding: Identifying patterns, themes, and features in the data (can be combined with
+171|Analysing||verbatim|Analysing: Looking at both the content (what is said) and the context (how, when, where,
+172|Theorising||verbatim|Theorising: Developing theories about the social implications of the discourse
+173|Variety of data||verbatim|Variety of data: The method can be applied to a wide range of data sources, such as media
+174|Theoretical sampling||verbatim|Theoretical sampling: Decide where to find more data based on the emerging theory
+175|Saturation||verbatim|Saturation: When no new information is being found, the data collection phase can end.
+176|Integration of theory|检验理论|verbatim|Integration of theory: Flesh out the theory, filling in categories that need further refinement
+177|Data collection and analysis||verbatim|Data collection and analysis are interconnected: Data collection, analysis, and eventual theory stand
+178|Data collection and analysis are interconnected|内容分析|verbatim|Data collection and analysis are interconnected: Data collection, analysis, and eventual theory stand
+179|Constant comparative method||verbatim|Constant comparative method: This method involves comparing elements present in one data source
+180|Theory development||verbatim|Theory development: The ultimate goal is to develop a theory that offers an explanation about the
+181|ng ng ng||verbatim|Some examples have more weight than other examples: taking care of family (say, importance score 8) is more relevant tha
+182|Faith||verbatim|Faith: Old Mr. Wong, the shoe-fixing man, he sit outside his small-small shop, his fingers moving on old
+183|very important||verbatim|you know, is like saying "family very important," they make not just clothes but also like... how to say, ah,
+184|more important||verbatim|One example from that collection is the story of Kam Po, stating that taking care of family is “more important” (ordinal
+185|Angulo||occurrence_only|Use of coding schemes and calculating inter-rater reliabilities Andrés, Pardo, Díaz, and Angulo (2015), p. 402
+186|Epistemological considerations||verbatim|Epistemological considerations: When to use qualitative
+187|Lab experiments||verbatim|Lab experiments are obtrusive and so people may be
+188|Interpreting qualitative data||verbatim|Interpreting qualitative data is an art rather than a
+189|Rigor in data management||verbatim|Rigor in data management: How to establish
+190|Jaspers||verbatim|Jaspers, M. W. M. (2009). A comparison of usability methods for testing interactive health technologies:
+191|Knowledge||verbatim|knowledge that is as reliable as possible so that
+192|Scale contents and reliability|信度|verbatim|●Scale contents and reliability tests
+193|Empathy||verbatim|“Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…”
+194|Infinite regress||verbatim|Infinite regress: A word is explained by another word, which is explained by a third, ad infinitum
+195|Denzin||verbatim|Denzin (1970, p. 301) discerns four types of triangulation Data triangulation: Different time periods, various spaces, v
+196|Investigator triangulation||occurrence_only|Investigator triangulation: Different researchers doing the same study (cf. replication studies)
+197|Methodological triangulation||verbatim|Methodological triangulation: Different types of data sampled through different kinds of methods
+198|Scale construction||verbatim|Scale construction is a triangulation method to circumvent (up to a degree) the issues with
+199|Hoorn||verbatim|Hoorn argues that all six dimensions are necessary for creative thought to occur. His
+200|Data throughput||verbatim|Data throughput is time-consuming
+201|Fabrigar||occurrence_only|Use [0-5] Krosnick and Fabrigar (1997)
+202|Typical survey item||verbatim|Typical survey item is a question:
+203|Faceted scales||verbatim|Faceted scales are statements that systematically combine multiple measurement scales
+204|dis)agree a little||occurrence_only|Inserting “(dis)agree a little” automatically gives you a 6-point rating scale
+205|I’m neutral||verbatim|(3 + 3 + 2) + (2 + 2 + 3) = 15 / 6 = 2.5, which is scale-midpoint, which means “I’m neutral”
+206|MC|麦格拉思四象限|occurrence_only|E = energy eigenvalue Retake on McGrath (1995)
+207|OQ||occurrence_only|10 Multiple choice (MC) 2 Open-ended questions (OQ)
+208|RGB||verbatim|- No. The RGB values show that dark grey is not equal to pure black. Hence, the
+209|totally disagree||occurrence_only|- 6-point rating scale, starting on the left from 0 = totally disagree
+210|totally agree||occurrence_only|Totally agree Yes, absolutely too many options
+211|Methods class||verbatim|Methods class is… disagree
+212|Fodor||occurrence_only|Famous example The garden-path model of sentence processing by Frazier and Fodor (1978) and Frazier
+213|Rayner||occurrence_only|Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence comprehension: Eye movements in the analy
+214|garden path||occurrence_only|down the “garden path” to an incorrect interpretation, requiring reanalysis upon reaching a disambiguating part of the s
+215|Stroop||verbatim|Stroop task: Naming the colour of ink that words are printed in, while the words
+216|ID|效度|verbatim|ID = log2(A/W + 1), or ID = log2(A/W + 0.5) (when ID < 3 bits)
+217|Fitts’ Law||verbatim|Fitts’ Law is usually written as:
+218|Touch my heart||occurrence_only|“Touch my heart”
+219|transmitting information||occurrence_only|can be sent through a noisy channel). He saw pointing as a process of “transmitting information” from brain to muscles. 
+220|Douglas Engelbart||occurrence_only|Douglas Engelbart (1964), inventor of the mouse and interaction researcher: Which is fastest?
+221|IP|操纵（实验处理）|verbatim|IP = 1/b Reaction times
+222|TP||occurrence_only|device processes the task) The Index of Performance IP (or throughput TP)
+223|Lesson regarding Fitts||verbatim| Lesson regarding Fitts: The wider an interface widget and the closer it is to the pointer, the easier
+224|Gaze duration||verbatim|Gaze duration: The amount of time spent looking at a particular object or area, indicating the
+225|Visual World Paradigm||occurrence_only|Famous example The “Visual World Paradigm” (e.g., Altmann & Kamide, 2007), using eye tracking to investigate real-
+226|UK||verbatim|Health Study - monitored the causes of social inequalities in health in the UK Longitudinally, negative conditions of he
+227|GSR||verbatim|attention What GSR is supposed to indicate
+228|Dawson||occurrence_only|Filion, D. L., Dawson, M. E., & Schell, A. M. (1993). Modification of the acoustic startle-reflex eyeblink: A tool for
+229|John||verbatim|Famous example The P300 component of ERPs, first reported by Sutton, Braren, Zubin, and John (1965), which is
+230|ERP||verbatim|ERPs (Event-Related Potentials): Specific brain responses that are the direct
+231|Regions of the brain that||verbatim|Regions of the brain that are more active during specific cognitive tasks or conditions
+232|Saxe||verbatim|Saxe, R., Carey, S., & Kanwisher, N. (2004). Understanding other minds: Linking developmental
+233|Kragel||occurrence_only|Kragel, P. A., Knodt, A. R., Hariri, A. R., & LaBar, K. S. (2016). Decoding spontaneous emotional states in the human
+234|February||occurrence_only|mystery: how the brain really works. By Carl Zimmer. Photographs by Robert Clark. National Geographic, February
+235|CBI||occurrence_only|Brain-Computer Interface (BCI) to Computer-Brain Interface (CBI)
+236|Picard||verbatim|Affective Computing is a concept proposed by Picard (1997) where computers should recognise,
+237|Deviations from the average||verbatim|Deviations from the average are always there, so if you compare
+238|Even correlation||verbatim|Even correlation = 1 does not mean that one causes the other!
+239|Pearson’s r||verbatim|Pearson’s r is used to quantify the degree to which two variables are
+240|Klaus Krippendorff||occurrence_only|Klaus Krippendorff (1970)
+241|Corrected Item-Total Correlations||verbatim|Corrected Item-Total Correlations: Items correlating < .01 with the scale total should be removed from
+242|Cronbach|克朗巴赫 α 系数|verbatim|Cronbach is for 3 or more items. If you have but 2 items, Spearman-Brown
+243|Recode the values of the counter-indication||verbatim|Recode the values of the counter-indication: 0 5, 1 4, 2 3, 3 2, 4 1, 5 0
+244|Charles Spearman||verbatim|The Spearman-Brown coefficient is named after Charles Spearman (1910),
+245|William Brown||occurrence_only|who first proposed the concept of split- half reliability, and William Brown
+246|Spearman’s rho||verbatim|Spearman’s rho is used when the assumptions of the Pearson correlation coefficient are not met,
+247|Turning correlations into coordinates||verbatim| Turning correlations into coordinates is called ‘orthogonal transformation’
+248|Data compression||verbatim|Data compression: Making data easier to explore and visualize
+249|Multivariate data analysis||verbatim|Multivariate data analysis: Understanding the structure of high-dimensional data
+250|Harold Hotelling||verbatim|The origins of PCA are often attributed to Karl Pearson, later developed and extended by Harold Hotelling (1933), introd
+251|Pearson Product-Moment Correlation (r||verbatim|Pearson Product-Moment Correlation (r) It is used for:
+252|Convergent validity||verbatim|Convergent validity tells in how far items indicate
+253|Sugar must be correlated because the relationship||verbatim|Sugar must be correlated because the relationship is causal
+254|Causation||verbatim|Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated
+255|Anthropomorphism determines experience||verbatim|“Anthropomorphism determines experience” (Zip & Zilch, 1001) You understand this is a fake citation
+256|R-squared||occurrence_only|R2 adj or Adjusted R-squared tells you the variation for a multiple regression
+257|Direct effects||verbatim|Direct effects: predictor X causes dependent variable Y
+258|Mediation||verbatim|Mediation: relationship between an independent predictor X and a dependent variable Y is explained by a third variable,
+259|Path a||verbatim|Path a: the effect of the independent variable X on the mediator M
+260|Path b||verbatim|Path b: the effect of the mediator M on the dependent variable Y
+261|Path c’||verbatim|Path c’: the direct effect of the independent variable X on the dependent variable Y, not
+262|Mediated Moderation||verbatim|Mediated Moderation: the interaction between X and W on Y (moderation effect) is itself mediated
+263|Andrew F. Hayes||occurrence_only|Regression Analysis in SPSS: can be used to test for mediation and moderation effects PROCESS Macro for SPSS and SAS: 
+264|Regression Analysis in SPSS||verbatim|Regression Analysis in SPSS: can be used to test for mediation and moderation effects
+265|Observed Variables||verbatim|Observed Variables: variables that can be directly measured or observed in the study, also referred
+266|Latent Variables||verbatim|Latent Variables: it can incorporate latent variables, which represent underlying constructs that are
+267|Structural Model||verbatim|Structural Model: this part specifies the relationships among latent variables. It is similar to a path
+268|Model Specification||verbatim|Model Specification: define the hypothesised relationships among variables. This involves creating a
+269|Model Identification||verbatim|Model Identification: ensure that the model is mathematically identifiable, meaning there are enough data
+270|Model Estimation||verbatim|Model Estimation: use statistical software to estimate the parameters of the model. Common estimation
+271|Model Evaluation||verbatim|Model Evaluation: assess the fit of the model using various fit indices. Common fit indices include the Chi-
+272|Model Modification||verbatim|Model Modification: if the initial model does not fit well, make modifications based on theoretical
+273|Model Interpretation||verbatim|Model Interpretation: interpret the estimated parameters to understand the relationships among
+274|Simultaneous Analysis||verbatim|Simultaneous Analysis: SEM allows for the simultaneous analysis of multiple relationships,
+275|LISREL||verbatim|LISREL: one of the earliest and most comprehensive SEM software packages
+276|Structural Equation Modeling||verbatim|Structural Equation Modeling is a powerful and flexible
+277|frequentist statistics||occurrence_only|t-tests for each stimulus set separately using frequentist statistics
+278|confirm||verbatim|confirm the HA. If we translate the ReCAPTCHA into hypotheses, we find:
+279|reject|拒绝域|verbatim|Default is the Null (H0) = observed differences are chance occurrences Given enough data, or a small enough variabilit
+280|Same participants in all conditions||verbatim|Same participants in all conditions: All participants perform the same task
+281|Usually happens when group division||verbatim|Usually happens when group division is not done properly in between-subject tests
+282|warming up||verbatim|Keypad Layout A is more effective at “warming up” people than Layout B…
+283|Group 1||verbatim|Group 1: tries Keypad Layout A first, and then Layout B
+284|Group 2||verbatim|Group 2: tries Keypad Layout B first, and then Layout A If there is an order effect, this distributes the effect across 
+285|Data mining for pattern discovery||occurrence_only|Data mining for pattern discovery: exploratory or confirmatory?
+286|Parametric / inferential statistics||verbatim|Parametric / inferential statistics are used to draw conclusions and to make
+287|Most swans are white||verbatim|Statistically, we can never demonstrate that anything is ‘correct’ or ‘true,’ only that it is very likely to be correct
+288|All cats are white||verbatim|“All cats are white” and “Anything white is a cat” are easily falsified by
+289|Anything white is a cat||verbatim|“All cats are white” and “Anything white is a cat” are easily falsified by
+290|Statistics can also underscore that something||verbatim|Statistics can also underscore that something is very likely to be false,
+291|Hypotheses (H0 and HA||verbatim|●Hypotheses (H0 and HA) are precise statements that
+292|Scores away from the mean||verbatim|●Scores away from the mean are called variance and the
+293|Randomisation and counter-balancing|随机化 / 随机分配|verbatim|• Randomisation and counter-balancing are ways to mitigate the
+294|Lakkaraju||occurrence_only|white) Lakkaraju, H., Kamar, E., Caruana, R., &
+295|sum up||verbatim|N is the total number of data points in the population. It’s how many data points you have means “sum up” or “add toget
+296|add together||verbatim|N is the total number of data points in the population. It’s how many data points you have means “sum up” or “add toget
+297|Difference between group||verbatim|Difference between group means
+298|Paired-samples t-test compares|t 检验|verbatim|Paired-samples t-test compares means from the same group at different times (e.g., one
+299|show||verbatim|- No. The RGB values show that dark grey is not equal to pure black. Hence, the
+300|Data points of each sample|样本|verbatim|Data points of each sample are normally distributed
+301|presumed innocent till proven guilty||occurrence_only|For example, if it’s “presumed innocent till proven guilty,” you need an overwhelming vote in a jury to convict a serio
+302|play safe||occurrence_only|we stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more
+303|Intelligence test than Robots did (MWithAI||verbatim|Intelligence test than Robots did (MWithAI = 90, SD = .98).
+304|Oneway ANOVA compares|方差分析|verbatim|Oneway ANOVA compares means of one dependent variable across 3 groups
+305|MANCOVA (Multivariate Analysis of Covariance||verbatim|MANCOVA (Multivariate Analysis of Covariance) is MANOVA with covariate/s, continuous
+306|Repeated Measures|一般线性模型重复测量|verbatim|Repeated Measures: For repeated measures data
+307|VR helmet 2 (MVRh2||verbatim|VR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on
+308|works||verbatim|The logarithm in Fitts' Law is there because of how human movement works
+309|Student|学生 t（统计量）|verbatim|How not to answer them Certain students are happy with open questions because they write up everything
+310|Main lesson of Lecture 10||verbatim|Main lesson of Lecture 10: t-test and (M)ANOVA: frequentism is but one view on the data. It cannot
+311|Bayesian analysis exists of three parts|贝叶斯（学派）|verbatim|Bayesian analysis exists of three parts: the prior distribution, the data (the likelihood), and the posterior distributi
+312|Ferguson||occurrence_only|Robot Tutor Interlude Konijn, Van de Schoot, Winter, and Ferguson (2015)
+313|Wagenmakers||occurrence_only|For the meaning and interpretation of BF, we follow Lee and Wagenmakers (2013, p. 122)’s reading of Jeffreys (1961) that
+314|Jeffreys||verbatim|Jeffreys, H. (1961). Theory of probability (3rd ed.). Oxford, UK: Oxford University.
+315|Konijn||occurrence_only|Van Vugt, Hoorn, and Konijn (2009) Prior knowledge: Interactively Perceiving and Experiencing Fictional Characters (I-PE
+316|Pontier||occurrence_only|DIC = 404.40 Hoorn, Konijn, and Pontier (2018)
+317|DIC||verbatim|DIC = 404.40 Hoorn, Konijn, and Pontier (2018)
+318|Shelton||verbatim|References 1 Edwards, C., Edwards, A., Spence, P. R., & Shelton, A. K. (2014). Is that a bot running the social media
+319|Naïve Bayes||verbatim|Naïve Bayes classifier P(c|x) =
+320|Komponisto||occurrence_only|Komponisto (2010, June 3). Bayes' Theorem illustrated (my way). Available from http://lesswrong.com/lw/2b0/bayes_theorem
+321|animal||verbatim|For each hypothesis, there are 3 possible results (“human,” “animal,” “plant”)
+322|plant||verbatim|plant-like You use those data to test your
+323|H1 plus the data||verbatim|That weakens the probability that your hypothesis will be confirmed with 50%. Fifty percent of 30% is 15% chance your “H
+324|Response session||verbatim|Response session: Three days in advance, you write to me the issues that you

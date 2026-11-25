@@ -1,0 +1,590 @@
+[
+ {
+  "lecture": "L01",
+  "slide": 11,
+  "flags": [
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L01",
+  "slide": 18,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L01",
+  "slide": 19,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L02",
+  "slide": 68,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L02",
+  "slide": 69,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L03",
+  "slide": 26,
+  "flags": [
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L03",
+  "slide": 54,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L03",
+  "slide": 55,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L03",
+  "slide": 56,
+  "flags": [
+   "exam_marker"
+  ]
+ },
+ {
+  "lecture": "L03",
+  "slide": 57,
+  "flags": [
+   "exam_marker",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 74,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 75,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 76,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 77,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 78,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 79,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 80,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 81,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 82,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L04",
+  "slide": 83,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 31,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 32,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 41,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 42,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 65,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 96,
+  "flags": [
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 97,
+  "flags": [
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 101,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L05",
+  "slide": 102,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L07",
+  "slide": 62,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L07",
+  "slide": 63,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L07",
+  "slide": 64,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L07",
+  "slide": 65,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 26,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 27,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 28,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 29,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 30,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 47,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 48,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 49,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L08",
+  "slide": 50,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 11,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 12,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 79,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 80,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 81,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 82,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 83,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 84,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 85,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L09",
+  "slide": 86,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 41,
+  "flags": [
+   "exam_marker",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 42,
+  "flags": [
+   "exam_marker",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 61,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 62,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 74,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 75,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 77,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 78,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 79,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 80,
+  "flags": [
+   "exam_marker"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 81,
+  "flags": [
+   "exam_marker"
+  ]
+ },
+ {
+  "lecture": "L10",
+  "slide": 82,
+  "flags": [
+   "exam_marker"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 5,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 6,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 39,
+  "flags": [
+   "exam_marker",
+   "category"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 40,
+  "flags": [
+   "exam_marker",
+   "category",
+   "answer_checkbox"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 57,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ },
+ {
+  "lecture": "L11",
+  "slide": 58,
+  "flags": [
+   "exam_marker",
+   "category",
+   "open_question"
+  ]
+ }
+]

@@ -1,0 +1,429 @@
+{
+ "Multiple sources of variance": {
+  "en": "Multiple sources of variance",
+  "en_definition": "Multiple sources of variance",
+  "source": "01 Σ SD5979 Introduction 2026 08 27.pdf · Slide 15",
+  "kind": "outline",
+  "status": "occurrence_only"
+ },
+ "General Linear Model": {
+  "en": "General Linear Model",
+  "en_definition": "1. Analyze > General Linear Model > Repeated Measures... 2. Define your within-subject factor(s) and then click Define to specify the dependent variables and other factors",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 69",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Repeated Measures": {
+  "en": "Repeated Measures",
+  "en_definition": "Repeated Measures GLM: 1. Analyze > General Linear Model > Repeated Measures...",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 69",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Prior, Data, Posterior": {
+  "en": "Prior, Data, Posterior",
+  "en_definition": "16/49 ●Prior, Data, Posterior",
+  "source": "01 Σ SD5979 Introduction 2026 08 27.pdf · Slide 16",
+  "kind": "outline",
+  "status": "occurrence_only"
+ },
+ "Classification": {
+  "en": "Classification",
+  "en_definition": "Mind you, the type of conclusions you draw are different from frequentism Important notions in Bayesian classification and Bayesian t-test:",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 7",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Bayesian t-test": {
+  "en": "Bayesian t-test",
+  "en_definition": "Mind you, the type of conclusions you draw are different from frequentism Important notions in Bayesian classification and Bayesian t-test:",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 7",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Why we do research": {
+  "en": "Why we do research",
+  "en_definition": "(fuzzy data sets)? All of these are design decisions that determine what solution a designer offers to a client. That is why we do research",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 3",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Why theory comes before methods": {
+  "en": "Why theory comes before methods",
+  "en_definition": "Why theory comes before methods",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "How to build up a theory": {
+  "en": "How to build up a theory",
+  "en_definition": "How to build up a theory",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Different ways to do research": {
+  "en": "Different ways to do research",
+  "en_definition": "Different ways to do research",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Measurement quality": {
+  "en": "Measurement quality",
+  "en_definition": "Measurement quality. There are four major scales of measurement and you have to know them all:",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 67",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Theories and traditions of qualitative research": {
+  "en": "Theories and traditions of qualitative research",
+  "en_definition": "Contents of today Theories and traditions of qualitative research",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Research methods in qualitative research": {
+  "en": "Research methods in qualitative research",
+  "en_definition": "Research methods in qualitative research",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "How to apply qualitative methods": {
+  "en": "How to apply qualitative methods",
+  "en_definition": "How to apply qualitative methods",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Determine when to use qualitative methods": {
+  "en": "Determine when to use qualitative methods",
+  "en_definition": "Determine when to use qualitative methods",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Current debate on qualitative methods": {
+  "en": "Current debate on qualitative methods",
+  "en_definition": "Current debate on qualitative methods",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Qualitative methods": {
+  "en": "Qualitative methods",
+  "en_definition": "Main lesson: Qualitative methods are for idea formation and later can be (should be) quantified.",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 3",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Analysis: Thematic, Discourse, Grounded Theory": {
+  "en": "Analysis: Thematic, Discourse, Grounded Theory",
+  "en_definition": "assumptions, potential biases, and how their involvement might influence the analysis Thematic Analysis is a versatile tool that can provide a rich and detailed, yet complex",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 31",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Quantification of qualitative data": {
+  "en": "Quantification of qualitative data",
+  "en_definition": "Quantification of qualitative data Hayes, A. F., & Krippendorff, K. (2007).",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 48",
+  "kind": "outline",
+  "status": "verbatim"
+ },
+ "Systematic questionnaires": {
+  "en": "Systematic questionnaires",
+  "en_definition": "Contents of today Systematic questionnaires",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Language philosophy": {
+  "en": "Language philosophy",
+  "en_definition": "Language philosophy",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Single-item surveys": {
+  "en": "Single-item surveys",
+  "en_definition": "Single-item surveys",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Requirements on a survey item": {
+  "en": "Requirements on a survey item",
+  "en_definition": "Requirements on a survey item",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Examples of bad questioning": {
+  "en": "Examples of bad questioning",
+  "en_definition": "Examples of bad questioning",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "How to do it right and why": {
+  "en": "How to do it right and why",
+  "en_definition": "How to do it right and why",
+  "source": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Mental chronometry: reading times, reaction times, release time, arrival time": {
+  "en": "Mental chronometry: reading times, reaction times, release time, arrival time",
+  "en_definition": "Mental chronometry: reading times, reaction times, release time, arrival time",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Forced-choice task (2 or 3 options) (decision making)": {
+  "en": "Forced-choice task (2 or 3 options) (decision making)",
+  "en_definition": "reaction times, release time, arrival time Forced-choice task (2 or 3 options)",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Eye-tracking": {
+  "en": "Eye-tracking",
+  "en_definition": "What eye-tracking is supposed to indicate",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 48",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Heart rate, galvanic skin response": {
+  "en": "Heart rate, galvanic skin response",
+  "en_definition": "Heart rate, galvanic skin response",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "EEG (location, time, bandwidths, ERPs) and fMRI": {
+  "en": "EEG (location, time, bandwidths, ERPs) and fMRI",
+  "en_definition": "EEG (location, time, bandwidths, ERPs) and fMRI",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Brain-Computer Interfaces and CBIs": {
+  "en": "Brain-Computer Interfaces and CBIs",
+  "en_definition": "and fMRI Brain-Computer Interfaces and CBIs",
+  "source": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Correlations": {
+  "en": "Correlations",
+  "en_definition": "Main lesson: Correlation is not causation no matter how Big the Data are Actually, with more data, significant but meaningless correlations are likelier to occur",
+  "source": "07 Σ SD5979 Correlations 2026 10 09.pdf · Slide 7",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Spurious correlations": {
+  "en": "Spurious correlations",
+  "en_definition": "Actually, with more data, significant but meaningless correlations are likelier to occur We call that spurious correlations",
+  "source": "07 Σ SD5979 Correlations 2026 10 09.pdf · Slide 7",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Convergent / divergent validity": {
+  "en": "Convergent / divergent validity",
+  "en_definition": "Convergent / divergent validity",
+  "source": "07 Σ SD5979 Correlations 2026 10 09.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Correlations and regression equations": {
+  "en": "Correlations and regression equations",
+  "en_definition": "Contents of today Correlations and regression equations",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Linear regression": {
+  "en": "Linear regression",
+  "en_definition": "Linear regression uses the full range of continuous data Logistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 14",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Multiple linear regression": {
+  "en": "Multiple linear regression",
+  "en_definition": "Multiple linear regression handles more than one predictor x1, …, n (input variables) to estimate the fluctuation of the targeted output variable y",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 8",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Multiple linear regression and Neural Networks (NNs)": {
+  "en": "Multiple linear regression and Neural Networks (NNs)",
+  "en_definition": "Multiple linear regression and Neural Networks (NNs)",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Supervised Learning": {
+  "en": "Supervised Learning",
+  "en_definition": "Networks (NNs) Supervised Learning",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Neural Networks and feedback of error so to ‘learn’": {
+  "en": "Neural Networks and feedback of error so to ‘learn’",
+  "en_definition": "Neural Networks and feedback of error so to ‘learn’",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Logistic regression (actually: Logistic classification)": {
+  "en": "Logistic regression (actually: Logistic classification)",
+  "en_definition": "Logistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and tries to predict the category with a certain probability value",
+  "source": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf · Slide 14",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Hypotheses (H0 and HA)": {
+  "en": "Hypotheses (H0 and HA)",
+  "en_definition": "Good to come up with hypotheses that then later can be / should be tested (provides a hypothesis, not a conclusion)",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 68",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Laboratory experiments": {
+  "en": "Laboratory experiments",
+  "en_definition": "Laboratory experiments",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Experimental design (Between-Ss, Within-Ss)": {
+  "en": "Experimental design (Between-Ss, Within-Ss)",
+  "en_definition": "If the training data in Lakkaraju et al. (2017) are taken as an experimental design, A) Then what are the two conditions?",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 82",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Confounds, order effects": {
+  "en": "Confounds, order effects",
+  "en_definition": "Confounds, order effects",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Example: counting flies on zebras": {
+  "en": "Example: counting flies on zebras",
+  "en_definition": "Example: counting flies on zebras",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Statistical analysis (exploratory, confirmatory)": {
+  "en": "Statistical analysis (exploratory, confirmatory)",
+  "en_definition": "comparability of the data collected. This method is particularly useful for statistical analysis and is often employed when the researcher seeks to quantify variables and generalise findings from",
+  "source": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf · Slide 23",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Central tendencies (mean, mode, median)": {
+  "en": "Central tendencies (mean, mode, median)",
+  "en_definition": "Central tendencies (mean, mode, median)",
+  "source": "09 Σ SD5979 Experiment design 2026 10 28.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Confirmatory data analysis": {
+  "en": "Confirmatory data analysis",
+  "en_definition": "Confirmatory data analysis is parametric and a deductive approach to hypothesis testing. The inferential statistics",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 70",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Parametric testing and deduction": {
+  "en": "Parametric testing and deduction",
+  "en_definition": "Parametric testing and deduction",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Results depend on test theory chosen": {
+  "en": "Results depend on test theory chosen",
+  "en_definition": "Results depend on test theory chosen",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Frequentism (or Bayesian?)": {
+  "en": "Frequentism (or Bayesian?)",
+  "en_definition": "Main lesson: Frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 3",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "When to decide there is an effect?": {
+  "en": "When to decide there is an effect?",
+  "en_definition": "When to decide there is an effect?",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "So what is reliability, confidence, significance?": {
+  "en": "So what is reliability, confidence, significance?",
+  "en_definition": "So what is reliability, confidence, significance? 2/83",
+  "source": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Bayesian statistics": {
+  "en": "Bayesian statistics",
+  "en_definition": "Bayesian statistics are more appropriate than frequentist approaches for use in contemporary",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 59",
+  "kind": "contents",
+  "status": "verbatim"
+ },
+ "Test theory: frequentism vs Bayesianism": {
+  "en": "Test theory: frequentism vs Bayesianism",
+  "en_definition": "Test theory: frequentism vs Bayesianism",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Case: Media Equation falsely refuted": {
+  "en": "Case: Media Equation falsely refuted",
+  "en_definition": "Case: Media Equation falsely refuted",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Bayesian statistics continued": {
+  "en": "Bayesian statistics continued",
+  "en_definition": "Bayesian statistics continued",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Turing Test: speed-dating a robot": {
+  "en": "Turing Test: speed-dating a robot",
+  "en_definition": "Turing Test: speed-dating a robot",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Practicing with Bayesian classification": {
+  "en": "Practicing with Bayesian classification",
+  "en_definition": "Practicing with Bayesian classification 2/65",
+  "source": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf · Slide 2",
+  "kind": "contents",
+  "status": "occurrence_only"
+ },
+ "Test theory (freq. vs Bayes)": {
+  "en": "Test theory (freq. vs Bayes)",
+  "en_definition": "as it is the researcher deciding when an effect counts or not, based on current knowledge, test theory, mathematical approach, application value, and much more",
+  "source": "02 Σ SD5979 Theory before methods 2026 09 10.pdf · Slide 24",
+  "kind": "outline",
+  "status": "verbatim"
+ }
+}

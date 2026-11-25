@@ -1,0 +1,587 @@
+{
+ "lecture": "L01",
+ "source_file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L01.pdf",
+ "sha256": "e6913166ca16e5c737e797a571c14d4794afe2ad9eda460c8113629b9b482056",
+ "page_count": 49,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 01: Introduction to Research Methods\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 01: Introduction to Research Methods 1",
+   "char_count": 149,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "2/49\nResearch Methods for Multimedia Entertainment (SD5979)\nWhat you can expect in the coming months:\n52 hours of teaching\n1 session = 2 hours lecture, 2 hours tutorial\n13 weeks\nMidterm + Final exam\nYou’ll be asked to read papers every now and then (online available)\nand watch ‘how-to’ YouTube clips (online available)\nLecture venue:\nV1102\nData analysis: \nV915\nTime: \n09h30 – 13h30\nGet access to SPSS on your laptop, English settings\n",
+   "text_norm": "2/49 Research Methods for Multimedia Entertainment (SD5979) What you can expect in the coming months: 52 hours of teaching 1 session = 2 hours lecture, 2 hours tutorial 13 weeks Midterm + Final exam You’ll be asked to read papers every now and then (online available) and watch ‘how-to’ YouTube clips (online available) Lecture venue: V1102 Data analysis: V915 Time: 09h30 – 13h30 Get access to SPSS on your laptop, English settings",
+   "char_count": 432,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-002.png",
+   "flags": []
+  },
+  {
+   "slide": 3,
+   "text": "3/49\nCourse overview\nDate\nSession\nSept.   4\n01 Introduction to Research Methods\nSept. 11 \n02 How to build up a theory\nSept. 18\n03 Qualitative methods\nSept. 22\n04 Structured questionnaire design\nOct.     2 \n05 Behavioral and physiological measures\nOct.     9\n06 Midterm (01-05) + Submission Argumentation Assignment\nOct.   16\n07 Correlations\nOct.   23\n08 (Multiple) regression\nOct.   30\n09 Experiment design\nNov.     6\n10 t-tests and (M)ANOVA\nNov.   13\n11 Bayesian statistics\nNov.   20\n12 Response, feedback, and test exam\nNov.   27\n13 Final exam (07-12) + Submission Technical Report\nResearch Methods for Multimedia Entertainment (SD5979)\nWith respect to statistics \nand AI, we will strip \naway the magic and \nreplace it with mastery\n",
+   "text_norm": "3/49 Course overview Date Session Sept. 4 01 Introduction to Research Methods Sept. 11 02 How to build up a theory Sept. 18 03 Qualitative methods Sept. 22 04 Structured questionnaire design Oct. 2 05 Behavioral and physiological measures Oct. 9 06 Midterm (01-05) + Submission Argumentation Assignment Oct. 16 07 Correlations Oct. 23 08 (Multiple) regression Oct. 30 09 Experiment design Nov. 6 10 t-tests and (M)ANOVA Nov. 13 11 Bayesian statistics Nov. 20 12 Response, feedback, and test exam Nov. 27 13 Final exam (07-12) + Submission Technical Report Research Methods for Multimedia Entertainment (SD5979) With respect to statistics and AI, we will strip away the magic and replace it with mastery",
+   "char_count": 702,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-003.png",
+   "flags": []
+  },
+  {
+   "slide": 4,
+   "text": "4/49\nContents of today\nWhy bother about research?\nImportance of research\nLearning objectives\nSneak preview (what do we cover?)\nEthical concerns\nWhat is science?\n",
+   "text_norm": "4/49 Contents of today Why bother about research? Importance of research Learning objectives Sneak preview (what do we cover?) Ethical concerns What is science?",
+   "char_count": 166,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-004.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 5,
+   "text": "●Validate assumptions\n●Discovering new possibilities\n●Closing down options\n●Make informed decisions\nImportance of research\n5/49\nThere\nare\nso\nmany\nanswers\nObservation\nMain lesson: No matter the scientific approach, \nall observation boils down to signal detection\n",
+   "text_norm": "●Validate assumptions ●Discovering new possibilities ●Closing down options ●Make informed decisions Importance of research 5/49 There are so many answers Observation Main lesson: No matter the scientific approach, all observation boils down to signal detection",
+   "char_count": 261,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-005.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 6,
+   "text": "6/49\n02 How to build up a theory\n03 Qualitative methods\n04 Structured questionnaire design\n05 Behavioral and physiological measures\n06 Midterm (01-05)\n07 Correlations\n08 (Multiple) regression\n09 Experiment design\n10 t-tests and (M)ANOVA\n11 Bayesian statistics\n12 Response, feedback, and test exam\n13 Final exam (07-12)\nTechnical Report (APA style guide)\nContents of the coming weeks\n",
+   "text_norm": "6/49 02 How to build up a theory 03 Qualitative methods 04 Structured questionnaire design 05 Behavioral and physiological measures 06 Midterm (01-05) 07 Correlations 08 (Multiple) regression 09 Experiment design 10 t-tests and (M)ANOVA 11 Bayesian statistics 12 Response, feedback, and test exam 13 Final exam (07-12) Technical Report (APA style guide) Contents of the coming weeks",
+   "char_count": 395,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-006.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "02 How to build up a theory \n7/49\n●Question\n●Literature\n●Argumentation\n●Research Question (RQ)\n●Hypotheses\nMain lesson: A precise RQ guides you through the entire research process, because \nyou will be distracted by the many details you encounter and biases you have\nWhy is this not a \nResearch Question?\n",
+   "text_norm": "02 How to build up a theory 7/49 ●Question ●Literature ●Argumentation ●Research Question (RQ) ●Hypotheses Main lesson: A precise RQ guides you through the entire research process, because you will be distracted by the many details you encounter and biases you have Why is this not a Research Question?",
+   "char_count": 302,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-007.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "03 Qualitative methods\n8/49\n●Usability tests\nHeuristic test\nCognitive walkthrough\nThought listing\n●Focus group\nEthnography\n(Occupational) culture\nEthical issues\n●Interview\nUnstructured\nSemi-structured\nStructured\n●Working with raters\nInter-rater reliabilities\n●Thematic Analysis, Discourse Analysis, Grounded Theory Analysis\nMain lesson: Qualitative methods are for idea formation and later can be (should be) quantified. \nQualitative methods do not ‘test’ anything\n",
+   "text_norm": "03 Qualitative methods 8/49 ●Usability tests Heuristic test Cognitive walkthrough Thought listing ●Focus group Ethnography (Occupational) culture Ethical issues ●Interview Unstructured Semi-structured Structured ●Working with raters Inter-rater reliabilities ●Thematic Analysis, Discourse Analysis, Grounded Theory Analysis Main lesson: Qualitative methods are for idea formation and later can be (should be) quantified. Qualitative methods do not ‘test’ anything",
+   "char_count": 474,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-008.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 9,
+   "text": "completely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\nThe interaction with the robot was…\nnice\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nfine\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nmediocre\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nokay\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nso-so\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nordinary\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\n\n04 Structured questionnaire design\n9/49\n●Construction of psychometric scales\n●Infinite regress\n●Frege’s sense and reference\n●Triangulation\nMain lesson: Asking questions is not as easy as it \nseems. You need multiple words for each construct \nbecause you do not know whether people interpret \na word the way you intended\n\n\n\n\n\n",
+   "text_norm": "completely disagree disagree agree agree completely disagree a little a little agree The interaction with the robot was… nice 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 fine 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 mediocre 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 okay 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 so-so 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 ordinary 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5  04 Structured questionnaire design 9/49 ●Construction of psychometric scales ●Infinite regress ●Frege’s sense and reference ●Triangulation Main lesson: Asking questions is not as easy as it seems. You need multiple words for each construct because you do not know whether people interpret a word the way you intended     ",
+   "char_count": 951,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-009.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 10,
+   "text": "05 Behavioral (RT, eye tracking) and physiological measures (ECG, EEG)\n10/49\nMain lesson: Physiological data are NOT objective. They are undifferentiated effects of the body \nwith multiple potential causes. Hypothesize the cause, then predict the effect (not reversely). Use \ntriangulation to make sense of observations \nMeasuring muscle temperature will not help \nthe researcher with the interpretation of \nfacial expressions\nIn 90% of real-life cases, people smile out of \nfrustration. Huge problem for any sentiment-\nanalysis system (Hoque & Picard, 2011)\n",
+   "text_norm": "05 Behavioral (RT, eye tracking) and physiological measures (ECG, EEG) 10/49 Main lesson: Physiological data are NOT objective. They are undifferentiated effects of the body with multiple potential causes. Hypothesize the cause, then predict the effect (not reversely). Use triangulation to make sense of observations Measuring muscle temperature will not help the researcher with the interpretation of facial expressions In 90% of real-life cases, people smile out of frustration. Huge problem for any sentimentanalysis system (Hoque & Picard, 2011)",
+   "char_count": 551,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-010.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 11,
+   "text": "06 Midterm (01-05)\n11/49\n●Not open book\n●Covers everything from Lecture 01 up to 05\n●Three types of questions: Knowledge, Application, Insight\n●10 Multiple Choice items\ntogether worth 5 points\n4 answering options\n●2 Open-ended Questions\ntogether worth 5 points\nmay be subdivided in A., B., C. questions\n●Numerical grade translated into letter grade\nOptional: A maximum \nof 0.5 bonus points \nfor excellent answers\n",
+   "text_norm": "06 Midterm (01-05) 11/49 ●Not open book ●Covers everything from Lecture 01 up to 05 ●Three types of questions: Knowledge, Application, Insight ●10 Multiple Choice items together worth 5 points 4 answering options ●2 Open-ended Questions together worth 5 points may be subdivided in A., B., C. questions ●Numerical grade translated into letter grade Optional: A maximum of 0.5 bonus points for excellent answers",
+   "char_count": 415,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "07 Correlations\n12/49\n●Pearson Product-Moment Correlation (r)\n●Cohen’s kappa (κ), Krippendorff's alpha ()\n●Cronbach’s \n●Spearman-Brown coefficient (split-half)\n●Spearman’s rho (ρ) (rank order)\n●Principal Component Analysis (PCA)\nMain lesson: Correlation is not causation no matter how Big the Data are\n(actually, with more data, significant but meaningless correlations are likelier to occur)\nObesity\nCancer\nSugar intake\n(not fat)\nFor 90% related, so what are you going to \nfight? Obesity, cancer, or both?\nWhy we do research:\nTo find the root cause of correlations\n",
+   "text_norm": "07 Correlations 12/49 ●Pearson Product-Moment Correlation (r) ●Cohen’s kappa (κ), Krippendorff's alpha () ●Cronbach’s  ●Spearman-Brown coefficient (split-half) ●Spearman’s rho (ρ) (rank order) ●Principal Component Analysis (PCA) Main lesson: Correlation is not causation no matter how Big the Data are (actually, with more data, significant but meaningless correlations are likelier to occur) Obesity Cancer Sugar intake (not fat) For 90% related, so what are you going to fight? Obesity, cancer, or both? Why we do research: To find the root cause of correlations",
+   "char_count": 567,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L01/slide-012.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 13,
+   "text": "08 (Multiple) regression\n13/49\n●Linear\n●Multiple\n●Mediation-Moderation Analysis\nHayes’ PROCESS\n●Structural Equation Modeling\nSEM\nAMOS\nMain lesson: Regression techniques tell you which variable is responsible for (explains) an observed \neffect and to what degree. There will always be variance unexplained – those are the things we did not \nkeep under control or the things we have no theory about\nThere\nare\nso\nmany\nanswers\nObservation\n70%\n0.2%\n10%\n5.4%\n3.1%\n",
+   "text_norm": "08 (Multiple) regression 13/49 ●Linear ●Multiple ●Mediation-Moderation Analysis Hayes’ PROCESS ●Structural Equation Modeling SEM AMOS Main lesson: Regression techniques tell you which variable is responsible for (explains) an observed effect and to what degree. There will always be variance unexplained – those are the things we did not keep under control or the things we have no theory about There are so many answers Observation 70% 0.2% 10% 5.4% 3.1%",
+   "char_count": 459,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-013.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 14,
+   "text": "09 Experiment design\n14/49\n●Between-subjects (or between-groups)\n●Within-subjects (or repeated-measures)\n●Confounding effects\n●Solomon 4-group design\n●Measures\nNominal\nInterval\nOrdinal\nRatio\n●Normal distributions\nMean, median, modus\nVariance\nStandard Deviation\n●Sample size\nG*Power analysis\nMain lesson: Hypothesis testing is very precise at the cost of answering but limited aspects of a theory. \nTherefore, do experiments on the crucial assumptions – those that make theories crumble and fall\nAll subjects\nGroup A\nGroup B\nInteract with #1\nInteract with #2\nBetween-subjects \ndesign\nAll subjects\nInteract with #1\nInteract with #2\nWithin-subjects \ndesign\nBeware of order effects!!\n",
+   "text_norm": "09 Experiment design 14/49 ●Between-subjects (or between-groups) ●Within-subjects (or repeated-measures) ●Confounding effects ●Solomon 4-group design ●Measures Nominal Interval Ordinal Ratio ●Normal distributions Mean, median, modus Variance Standard Deviation ●Sample size G*Power analysis Main lesson: Hypothesis testing is very precise at the cost of answering but limited aspects of a theory. Therefore, do experiments on the crucial assumptions – those that make theories crumble and fall All subjects Group A Group B Interact with #1 Interact with #2 Between-subjects design All subjects Interact with #1 Interact with #2 Within-subjects design Beware of order effects!!",
+   "char_count": 685,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-014.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 15,
+   "text": "10 t-tests and (M)ANOVA\n15/49\n●Test theory (frequentism)\nNull and Alternative\n●Signal detection\nType I, Type II errors\n●Student’s t\nOne-sample t-test\nTwo-sample t-test\nPaired-samples t-test\n●Analysis of Variance\nOneway ANOVA\n2 2 ANOVA\nMultiple sources of variance\nGeneral Linear Model\nRepeated Measures\nMain lesson: Frequentism is but one view on the \ndata. It cannot do more than rejecting ‘no difference’ \nor fail to do so. It cannot confirm ‘there is an effect’\n",
+   "text_norm": "10 t-tests and (M)ANOVA 15/49 ●Test theory (frequentism) Null and Alternative ●Signal detection Type I, Type II errors ●Student’s t One-sample t-test Two-sample t-test Paired-samples t-test ●Analysis of Variance Oneway ANOVA 2 2 ANOVA Multiple sources of variance General Linear Model Repeated Measures Main lesson: Frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’ or fail to do so. It cannot confirm ‘there is an effect’",
+   "char_count": 474,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-015.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 16,
+   "text": "11 Bayesian statistics\n16/49\n●Prior, Data, Posterior\n●Classification\n●Bayesian t-test\nMain lesson: Bayes is an alternative (or complement) to frequentism. It does not say yes or no to a \nhypothesis, it merely indicates a degree of confidence in the result\nMy machine is similar to a...\nH1: human being\nH2: an animal\nH3: a plant\nFor instance,\nP(H1) = 50%, P(H2) = 10%, P(H3) = 40%\nIn Bayes, this is your prior knowledge, the knowledge you start from\n",
+   "text_norm": "11 Bayesian statistics 16/49 ●Prior, Data, Posterior ●Classification ●Bayesian t-test Main lesson: Bayes is an alternative (or complement) to frequentism. It does not say yes or no to a hypothesis, it merely indicates a degree of confidence in the result My machine is similar to a... H1: human being H2: an animal H3: a plant For instance, P(H1) = 50%, P(H2) = 10%, P(H3) = 40% In Bayes, this is your prior knowledge, the knowledge you start from",
+   "char_count": 448,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-016.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 17,
+   "text": "12 Response, feedback, and test exam\n17/49\n●Flipped class\n●Write your questions to me 3 days in advance\n●Your feedback\nHow did you like it\nWhat went well\nWhat can be improved\nThree days in advance, you write to me the issues that you still have, which I will explain again \nin class. That means you already studied everything so that your questions are specific and \ninformed\nThis is the time to ask what is main content and what are asides. What is regarded as really \nimportant and what are little sidesteps. Don’t miss that opportunity\nWe will also do a test exam to let you get used to the style of questions\n",
+   "text_norm": "12 Response, feedback, and test exam 17/49 ●Flipped class ●Write your questions to me 3 days in advance ●Your feedback How did you like it What went well What can be improved Three days in advance, you write to me the issues that you still have, which I will explain again in class. That means you already studied everything so that your questions are specific and informed This is the time to ask what is main content and what are asides. What is regarded as really important and what are little sidesteps. Don’t miss that opportunity We will also do a test exam to let you get used to the style of questions",
+   "char_count": 613,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-017.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 18,
+   "text": "13 Final exam (07-12)\n18/49\n●Exam sample-items\n●Calculation of the end grade\n(Midterm + Final) / 2\nTechnical Report\nParticipation and interaction\nThere\nare\nso\nmany\nanswers\nObservation\n70%\n0.2%\n10%\n5.4%\n3.1%\nExam Sample-Item (Category “Insight”)\nWhy don’t the regression coefficients add up to 100%?\nA  Because correlation is not causation \nno matter how large the sample size\nB  Because qualitative data help idea \nformation but do not test anything\nC  Because there is always unexplained \nvariance left\nD  Because psychometric scales should \nconsist of multiple items examining \nthe construct\n",
+   "text_norm": "13 Final exam (07-12) 18/49 ●Exam sample-items ●Calculation of the end grade (Midterm + Final) / 2 Technical Report Participation and interaction There are so many answers Observation 70% 0.2% 10% 5.4% 3.1% Exam Sample-Item (Category “Insight”) Why don’t the regression coefficients add up to 100%? A Because correlation is not causation no matter how large the sample size B Because qualitative data help idea formation but do not test anything C Because there is always unexplained variance left D Because psychometric scales should consist of multiple items examining the construct",
+   "char_count": 588,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-018.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 19,
+   "text": "13 Final exam (07-12)\n19/49\n●Exam sample-items\n●Calculation of the end grade\n(Midterm + Final) / 2\nTechnical Report\nParticipation and interaction\nThere\nare\nso\nmany\nanswers\nObservation\n70%\n0.2%\n10%\n5.4%\n3.1%\nExam Sample-Item (Category “Insight”)\nWhy don’t the regression coefficients add up to 100%?\nA  Because correlation is not causation \nno matter how large the sample size\nB  Because qualitative data help idea \nformation but do not test anything\nC  Because there is always unexplained \nvariance left\nD  Because psychometric scales should \nconsist of multiple items examining \nthe construct\n\n",
+   "text_norm": "13 Final exam (07-12) 19/49 ●Exam sample-items ●Calculation of the end grade (Midterm + Final) / 2 Technical Report Participation and interaction There are so many answers Observation 70% 0.2% 10% 5.4% 3.1% Exam Sample-Item (Category “Insight”) Why don’t the regression coefficients add up to 100%? A Because correlation is not causation no matter how large the sample size B Because qualitative data help idea formation but do not test anything C Because there is always unexplained variance left D Because psychometric scales should consist of multiple items examining the construct ",
+   "char_count": 590,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-019.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 20,
+   "text": "Argumentation Assignment and Technical Report\n20/49\n●APA style guide\n\nFormatting\nIn-text citation\nReferences\n●Purely GPT-generated content is strictly prohibited\n●Cheating = F\nhttps://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatti\nng_and_style_guide/general_format.html\n",
+   "text_norm": "Argumentation Assignment and Technical Report 20/49 ●APA style guide  Formatting In-text citation References ●Purely GPT-generated content is strictly prohibited ●Cheating = F https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatti ng_and_style_guide/general_format.html",
+   "char_count": 291,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-020.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 21,
+   "text": "21/49\nYes, Johan Hoorn’s ACASIA model of creativity is a well-known framework in the field of \ncreativity research. The ACASIA model stands for “Associative, Combinatorial, Analogical, \nSituational, Intentional and Adaptive” and it proposes that creativity arises from the \ninteraction between these six dimensions.\nAccording to Hoorn’s model, associative thinking involves making connections between \nseemingly unrelated ideas or concepts; combinatorial thinking involves combining existing \nideas or concepts in new ways; analogical thinking involves drawing parallels between \ndifferent domains or contexts; situational thinking involves considering the context in \nwhich a problem or idea arises; intentional thinking involves setting goals and directing \nattention towards specific outcomes; and adaptive thinking involves being flexible and \nopen to change.\nHoorn argues that all six dimensions are necessary for creative thought to occur. His \nmodel has been used by researchers to study various aspects of creativity such as \nproblem-solving, innovation, and artistic expression.\n“Do you know anything about Johan Hoorn’s \nACASIA model of creativity as described in his \nbook “Creative Confluence?”\nIssues with GPT for academic writing\nGiovanni LION,\nmy former PhD student\n",
+   "text_norm": "21/49 Yes, Johan Hoorn’s ACASIA model of creativity is a well-known framework in the field of creativity research. The ACASIA model stands for “Associative, Combinatorial, Analogical, Situational, Intentional and Adaptive” and it proposes that creativity arises from the interaction between these six dimensions. According to Hoorn’s model, associative thinking involves making connections between seemingly unrelated ideas or concepts; combinatorial thinking involves combining existing ideas or concepts in new ways; analogical thinking involves drawing parallels between different domains or contexts; situational thinking involves considering the context in which a problem or idea arises; intentional thinking involves setting goals and directing attention towards specific outcomes; and adaptive thinking involves being flexible and open to change. Hoorn argues that all six dimensions are necessary for creative thought to occur. His model has been used by researchers to study various aspects of creativity such as problem-solving, innovation, and artistic expression. “Do you know anything about Johan Hoorn’s ACASIA model of creativity as described in his book “Creative Confluence?” Issues with GPT for academic writing Giovanni LION, my former PhD student",
+   "char_count": 1267,
+   "has_image": true,
+   "image_count": 209,
+   "png": "assets/img/L01/slide-021.png",
+   "flags": []
+  },
+  {
+   "slide": 22,
+   "text": "22/49\nYes, Johan Hoorn’s ACASIA model of creativity is a well-known framework in the field of \ncreativity research. The ACASIA model stands for “Associative, Combinatorial, Analogical, \nSituational, Intentional and Adaptive” and it proposes that creativity arises from the \ninteraction between these six dimensions.\nAccording to Hoorn’s model, associative thinking involves making connections between \nseemingly unrelated ideas or concepts; combinatorial thinking involves combining existing \nideas or concepts in new ways; analogical thinking involves drawing parallels between \ndifferent domains or contexts; situational thinking involves considering the context in \nwhich a problem or idea arises; intentional thinking involves setting goals and directing \nattention towards specific outcomes; and adaptive thinking involves being flexible and \nopen to change.\nHoorn argues that all six dimensions are necessary for creative thought to occur. His \nmodel has been used by researchers to study various aspects of creativity such as \nproblem-solving, innovation, and artistic expression.\n“Do you know anything about Johan Hoorn’s \nACASIA model of creativity as described in his \nbook “Creative Confluence?”\n\n\n\nThat’s not what \nthe theory says\nThat’s not what \nthe theory says\nAll true but not \nwhat the theory \ncovers\nThe theory says \nthese are not \naspects of \ncreativity in the \nstrict sense\nGiovanni LION,\nmy former PhD student\nIssues with GPT for academic writing\n",
+   "text_norm": "22/49 Yes, Johan Hoorn’s ACASIA model of creativity is a well-known framework in the field of creativity research. The ACASIA model stands for “Associative, Combinatorial, Analogical, Situational, Intentional and Adaptive” and it proposes that creativity arises from the interaction between these six dimensions. According to Hoorn’s model, associative thinking involves making connections between seemingly unrelated ideas or concepts; combinatorial thinking involves combining existing ideas or concepts in new ways; analogical thinking involves drawing parallels between different domains or contexts; situational thinking involves considering the context in which a problem or idea arises; intentional thinking involves setting goals and directing attention towards specific outcomes; and adaptive thinking involves being flexible and open to change. Hoorn argues that all six dimensions are necessary for creative thought to occur. His model has been used by researchers to study various aspects of creativity such as problem-solving, innovation, and artistic expression. “Do you know anything about Johan Hoorn’s ACASIA model of creativity as described in his book “Creative Confluence?”    That’s not what the theory says That’s not what the theory says All true but not what the theory covers The theory says these are not aspects of creativity in the strict sense Giovanni LION, my former PhD student Issues with GPT for academic writing",
+   "char_count": 1449,
+   "has_image": true,
+   "image_count": 213,
+   "png": "assets/img/L01/slide-022.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 23,
+   "text": "23/49\nCertainly! Here are some references to scientific articles that discuss Johan Hoorn’s \nACASIA model of creativity:\n1. Hoorn, J. F. (2012). The ACASIA model of creativity: A multidimensional approach. Creativity \nResearch Journal, 24(4), 309-316.\n2. Hoorn, J. F., & Leroy, B. (2012). The role of associative and combinatorial thinking in creative \nproblem solving: An integrative review. Thinking Skills and Creativity, 7(4), 271-287.\n3. Hoorn, J.F., & Van de Ven, A.H.(2017). Analogical reasoning in creative thought: A functional \napproach to the study of analogies in problem-solving contexts.In K.Johnson & M.Goldsmith (Eds.), \nThe Cambridge Handbook of Creativity Across Domains (pp. 139-156). Cambridge University Press.\n4. Leroy, B., & Hoorn, J.F.(2015). Situational factors influencing creativity in organizations: A review and \nintegration of the literature. Journal of Business and Psychology ,30(2),235–254.\nI hope you find these references helpful!\n“Yes, please”\nIf you would like more information on this topic, I can \nprovide you with references to scientific articles that \ndiscuss Hoorn’s ACASIA model in greater detail.\nGiovanni LION,\nmy former PhD student\n",
+   "text_norm": "23/49 Certainly! Here are some references to scientific articles that discuss Johan Hoorn’s ACASIA model of creativity: 1. Hoorn, J. F. (2012). The ACASIA model of creativity: A multidimensional approach. Creativity Research Journal, 24(4), 309-316. 2. Hoorn, J. F., & Leroy, B. (2012). The role of associative and combinatorial thinking in creative problem solving: An integrative review. Thinking Skills and Creativity, 7(4), 271-287. 3. Hoorn, J.F., & Van de Ven, A.H.(2017). Analogical reasoning in creative thought: A functional approach to the study of analogies in problem-solving contexts.In K.Johnson & M.Goldsmith (Eds.), The Cambridge Handbook of Creativity Across Domains (pp. 139-156). Cambridge University Press. 4. Leroy, B., & Hoorn, J.F.(2015). Situational factors influencing creativity in organizations: A review and integration of the literature. Journal of Business and Psychology ,30(2),235–254. I hope you find these references helpful! “Yes, please” If you would like more information on this topic, I can provide you with references to scientific articles that discuss Hoorn’s ACASIA model in greater detail. Giovanni LION, my former PhD student",
+   "char_count": 1170,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L01/slide-023.png",
+   "flags": []
+  },
+  {
+   "slide": 24,
+   "text": "24/49\nCertainly! Here are some references to scientific articles that discuss Johan Hoorn’s \nACASIA model of creativity:\n1. Hoorn, J. F. (2012). The ACASIA model of creativity: A multidimensional approach. Creativity \nResearch Journal, 24(4), 309-316.\n2. Hoorn, J. F., & Leroy, B. (2012). The role of associative and combinatorial thinking in creative \nproblem solving: An integrative review. Thinking Skills and Creativity, 7(4), 271-287.\n3. Hoorn, J.F., & Van de Ven, A.H.(2017). Analogical reasoning in creative thought: A functional \napproach to the study of analogies in problem-solving contexts.In K.Johnson & M.Goldsmith (Eds.), \nThe Cambridge Handbook of Creativity Across Domains (pp. 139-156). Cambridge University Press.\n4. Leroy, B., & Hoorn, J.F.(2015). Situational factors influencing creativity in organizations: A review and \nintegration of the literature. Journal of Business and Psychology ,30(2),235–254.\nI hope you find these references helpful!\n“Yes, please”\nIf you would like more information on this topic, I can \nprovide you with references to scientific articles that \ndiscuss Hoorn’s ACASIA model in greater detail.\nIllusory responses.\nI never knew I did all of \nthese publications… with \nall of those colleagues \nthat I don’t have…\nGiovanni LION,\nmy former PhD student\n",
+   "text_norm": "24/49 Certainly! Here are some references to scientific articles that discuss Johan Hoorn’s ACASIA model of creativity: 1. Hoorn, J. F. (2012). The ACASIA model of creativity: A multidimensional approach. Creativity Research Journal, 24(4), 309-316. 2. Hoorn, J. F., & Leroy, B. (2012). The role of associative and combinatorial thinking in creative problem solving: An integrative review. Thinking Skills and Creativity, 7(4), 271-287. 3. Hoorn, J.F., & Van de Ven, A.H.(2017). Analogical reasoning in creative thought: A functional approach to the study of analogies in problem-solving contexts.In K.Johnson & M.Goldsmith (Eds.), The Cambridge Handbook of Creativity Across Domains (pp. 139-156). Cambridge University Press. 4. Leroy, B., & Hoorn, J.F.(2015). Situational factors influencing creativity in organizations: A review and integration of the literature. Journal of Business and Psychology ,30(2),235–254. I hope you find these references helpful! “Yes, please” If you would like more information on this topic, I can provide you with references to scientific articles that discuss Hoorn’s ACASIA model in greater detail. Illusory responses. I never knew I did all of these publications… with all of those colleagues that I don’t have… Giovanni LION, my former PhD student",
+   "char_count": 1284,
+   "has_image": true,
+   "image_count": 209,
+   "png": "assets/img/L01/slide-024.png",
+   "flags": []
+  },
+  {
+   "slide": 25,
+   "text": "Gemini\nAugust \n2026\n25/49\n",
+   "text_norm": "Gemini August 2026 25/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 83,
+   "png": "assets/img/L01/slide-025.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "Gemini\nAugust \n2026\n26/49\n",
+   "text_norm": "Gemini August 2026 26/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 83,
+   "png": "assets/img/L01/slide-026.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 27,
+   "text": "Gemini\nAugust \n2026\n27/49\n",
+   "text_norm": "Gemini August 2026 27/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 83,
+   "png": "assets/img/L01/slide-027.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 28,
+   "text": "Gemini\nAugust \n2026\n28/49\n",
+   "text_norm": "Gemini August 2026 28/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 82,
+   "png": "assets/img/L01/slide-028.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 29,
+   "text": "Gemini\nAugust \n2026\n29/49\n",
+   "text_norm": "Gemini August 2026 29/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 83,
+   "png": "assets/img/L01/slide-029.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 30,
+   "text": "Gemini\nAugust \n2026\n30/49\n",
+   "text_norm": "Gemini August 2026 30/49",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 82,
+   "png": "assets/img/L01/slide-030.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 31,
+   "text": "Gemini\nAugust \n2026\n... and you’ll get the wrong answer\n31/49\n",
+   "text_norm": "Gemini August 2026 ... and you’ll get the wrong answer 31/49",
+   "char_count": 60,
+   "has_image": true,
+   "image_count": 82,
+   "png": "assets/img/L01/slide-031.png",
+   "flags": []
+  },
+  {
+   "slide": 32,
+   "text": "Nunes Amaral, L. A. (2024). Artificial intelligence needs a scientific method-driven reset. Nature Physics, 20, 523-524. doi: 10.1038/s41567-024-02403-5\n32/49\n",
+   "text_norm": "Nunes Amaral, L. A. (2024). Artificial intelligence needs a scientific method-driven reset. Nature Physics, 20, 523-524. doi: 10.1038/s41567-024-02403-5 32/49",
+   "char_count": 158,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-032.png",
+   "flags": []
+  },
+  {
+   "slide": 33,
+   "text": "33/49\nGPT as teacher as well as pupil\n“I let GPT prepare my \nlectures”\n“I let GPT write my \nassignments”\n●How do you feel about the following?\n●What would be a good way\nto use genAI?\n",
+   "text_norm": "33/49 GPT as teacher as well as pupil “I let GPT prepare my lectures” “I let GPT write my assignments” ●How do you feel about the following? ●What would be a good way to use genAI?",
+   "char_count": 180,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L01/slide-033.png",
+   "flags": []
+  },
+  {
+   "slide": 34,
+   "text": "34/49\nGPT as teacher as well as pupil\n“I let GPT prepare my \nlectures”\n“I let GPT write my \nassignments”\nGPT talking to itself\n●How do you feel about the following?\n●What would be a good way\nto use genAI?\n",
+   "text_norm": "34/49 GPT as teacher as well as pupil “I let GPT prepare my lectures” “I let GPT write my assignments” GPT talking to itself ●How do you feel about the following? ●What would be a good way to use genAI?",
+   "char_count": 202,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L01/slide-034.png",
+   "flags": []
+  },
+  {
+   "slide": 35,
+   "text": "",
+   "text_norm": "",
+   "char_count": 0,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L01/slide-035.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 36,
+   "text": "36/49\nProf. BAI Yuhong, CEO Light Brand\nDeputy Chief Editor of Light: Science & Applications\nNature portfolio\nPersonal communication, August 4, 2025\nGPT as author as well as reviewer\n",
+   "text_norm": "36/49 Prof. BAI Yuhong, CEO Light Brand Deputy Chief Editor of Light: Science & Applications Nature portfolio Personal communication, August 4, 2025 GPT as author as well as reviewer",
+   "char_count": 182,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-036.png",
+   "flags": []
+  },
+  {
+   "slide": 37,
+   "text": "",
+   "text_norm": "",
+   "char_count": 0,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-037.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 38,
+   "text": "38/49\n",
+   "text_norm": "38/49",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-038.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 39,
+   "text": "Abstract\nIn this study, I explored the impact of Generative AI on learning efficacy in academic reading \nmaterials using experimental methods. College-educated participants engaged in three cycles of \nreading and writing tasks. After each cycle, they responded to comprehension questions related \nto the material. After adjusting for background knowledge and demographic factors, complete \nreliance on AI for writing tasks led to a 25.1% reduction in accuracy. In contrast, AI-assisted \nreading resulted in a 12% decline. Interestingly, using AI for summarization significantly \nimproved both quality and output. Accuracy exhibited notable variance in the AI-assisted \nsection. Further analysis revealed that individuals with a robust background in the reading \ntopic and superior reading/writing skills benefitted the most. I conclude the research by \ndiscussing educational policy implications, emphasizing the need for educators to warn students \nabout the dangers of over-dependence on AI and provide guidance on its optimal use in \neducational settings.\nJu, Q. (2023). Experimental Evidence on Negative Impact of Generative AI on Scientific Learning Outcomes. arXiv preprint arXiv:2311.05629.\nWhat do you think: Teachers (robust background, superior skills) can but students cannot use AI? \n39/49\n",
+   "text_norm": "Abstract In this study, I explored the impact of Generative AI on learning efficacy in academic reading materials using experimental methods. College-educated participants engaged in three cycles of reading and writing tasks. After each cycle, they responded to comprehension questions related to the material. After adjusting for background knowledge and demographic factors, complete reliance on AI for writing tasks led to a 25.1% reduction in accuracy. In contrast, AI-assisted reading resulted in a 12% decline. Interestingly, using AI for summarization significantly improved both quality and output. Accuracy exhibited notable variance in the AI-assisted section. Further analysis revealed that individuals with a robust background in the reading topic and superior reading/writing skills benefitted the most. I conclude the research by discussing educational policy implications, emphasizing the need for educators to warn students about the dangers of over-dependence on AI and provide guidance on its optimal use in educational settings. Ju, Q. (2023). Experimental Evidence on Negative Impact of Generative AI on Scientific Learning Outcomes. arXiv preprint arXiv:2311.05629. What do you think: Teachers (robust background, superior skills) can but students cannot use AI? 39/49",
+   "char_count": 1289,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-039.png",
+   "flags": []
+  },
+  {
+   "slide": 40,
+   "text": "40/49\n学霸(top student) 学渣(poor student)\n辛\n苦\n",
+   "text_norm": "40/49 学霸(top student) 学渣(poor student) 辛 苦",
+   "char_count": 42,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-040.png",
+   "flags": []
+  },
+  {
+   "slide": 41,
+   "text": "41/49\nArgumentation Assignment and Technical Report\n●On Bb: Argumentation in Assignments: Instructions, Rubric, and Timeline\n●Deadline: 5 weeks from now, on the day of the Midterm\n●Technical Report: Statistical analyses, deadline: day of the Final exam\nStatement \nArgument 2\nArgument 1\nArgument 3\nEvidence\n5\nEvidence\n6\nEvidence\n4\nEvidence\n8\nEvidence\n9\nEvidence\n7\nEvidence\n2\nEvidence\n3\nEvidence\n1\nType of study\n(e.g., meta-analysis)\nAuthors, year\n(e.g., Ng & Au, 2018)\nType of study\n(e.g., literature review)\nAuthors, year\n(e.g., Xu, Tam, & Po, 2021)\nType of study\n(e.g., quant. experiment)\nAuthors, year\n(e.g., Hardy, 2028)\nType of study\n(e.g., qual. focus group)\nAuthors, year\n(e.g., Shu & Wu, 2033)\nType of study\n(e.g., newspaper article)\nAuthors, year\n(e.g., Takamoto, 2020)\nType of study\n(e.g., urban folk tale)\nAuthors, year\n(e.g., Nerdy, 2025)\nType of study\nAuthors, year\nType of study\nAuthors, year\nType of study\nAuthors, year\n",
+   "text_norm": "41/49 Argumentation Assignment and Technical Report ●On Bb: Argumentation in Assignments: Instructions, Rubric, and Timeline ●Deadline: 5 weeks from now, on the day of the Midterm ●Technical Report: Statistical analyses, deadline: day of the Final exam Statement Argument 2 Argument 1 Argument 3 Evidence 5 Evidence 6 Evidence 4 Evidence 8 Evidence 9 Evidence 7 Evidence 2 Evidence 3 Evidence 1 Type of study (e.g., meta-analysis) Authors, year (e.g., Ng & Au, 2018) Type of study (e.g., literature review) Authors, year (e.g., Xu, Tam, & Po, 2021) Type of study (e.g., quant. experiment) Authors, year (e.g., Hardy, 2028) Type of study (e.g., qual. focus group) Authors, year (e.g., Shu & Wu, 2033) Type of study (e.g., newspaper article) Authors, year (e.g., Takamoto, 2020) Type of study (e.g., urban folk tale) Authors, year (e.g., Nerdy, 2025) Type of study Authors, year Type of study Authors, year Type of study Authors, year",
+   "char_count": 933,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-041.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 42,
+   "text": "Argumentation Assignment and Technical Report\n●Purely generated content\nstrictly prohibited\n●Write yourself, use GPT to\nrephrase your English\n●Cheating = F\n42/49\n",
+   "text_norm": "Argumentation Assignment and Technical Report ●Purely generated content strictly prohibited ●Write yourself, use GPT to rephrase your English ●Cheating = F 42/49",
+   "char_count": 162,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L01/slide-042.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "Argumentation Assignment and Technical Report\n43/49\nGuo, X., Dong, L., & Hao, D. (2024). Cellular functions of \nspermatogonial stem cells in relation to JAK/STAT signaling \npathway. Frontiers in Cell and Developmental Biology, 11, 1339390.\niollotte sserotgomar cell\ntesttomcels\ndck\nGenerated with Midjourney, published in Frontiers\n●Purely generated content\nstrictly prohibited\n●Write yourself, use GPT to\nrephrase your English\n●Cheating = F\n",
+   "text_norm": "Argumentation Assignment and Technical Report 43/49 Guo, X., Dong, L., & Hao, D. (2024). Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling pathway. Frontiers in Cell and Developmental Biology, 11, 1339390. iollotte sserotgomar cell testtomcels dck Generated with Midjourney, published in Frontiers ●Purely generated content strictly prohibited ●Write yourself, use GPT to rephrase your English ●Cheating = F",
+   "char_count": 443,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L01/slide-043.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "Ethical concerns\n44/49\n●Academic conduct\n●Pitfalls of GPT\n●Citing big names, not good thoughts\n●About stealing, copying, not giving credit:\nThat someone gets away with it does not make it right\nIt shows that that person has no ideas of his/her own\nPeople will not work with a cheat one loses face\n●Becoming a PhD is not a prerogative or guarantee\n●Buying authorships, academic degrees, using\nghostwriters is unacceptable\n●We are not that kind of people\nWe look for pleasure in effort\nThe learning itself is the reward\nhttps://www.plag.ai/images/report_screen/en.png?v=4\n",
+   "text_norm": "Ethical concerns 44/49 ●Academic conduct ●Pitfalls of GPT ●Citing big names, not good thoughts ●About stealing, copying, not giving credit: That someone gets away with it does not make it right It shows that that person has no ideas of his/her own People will not work with a cheat one loses face ●Becoming a PhD is not a prerogative or guarantee ●Buying authorships, academic degrees, using ghostwriters is unacceptable ●We are not that kind of people We look for pleasure in effort The learning itself is the reward https://www.plag.ai/images/report_screen/en.png?v=4",
+   "char_count": 574,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L01/slide-044.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 45,
+   "text": "Then what is science?\n45/49\n●Ruthless honesty\n●Complete openness\n●Thinking up explanations (theory)\n●Focus on world and universe\n(structure, behavior)\n●Systematic observation and\nexperimentation\n●Testing predictions against evidence\nObservation\nInduction\nDeduction\nTesting\nEvaluation\nApple falls down\nIt moves towards \nthe larger mass\nSo it is not about \nup or down but \nanything smaller \nmoves towards the \nlarger mass\nMultiple trials with rocks, balls, \npencils, and planets\nCounting how many times small \nmass moves towards large mass \nor reversely in up and down \nsituations draw conclusions\nThe Empirical Cycle\nDe Groot, A. D., & Spiekerman, J. A. (2020). Methodology: Foundations of inference and research in the behavioral sciences (Vol. 6). Berlin, GE: De Gruyter.\nScience is the art to explain most of the\nworld with the least possible words\n",
+   "text_norm": "Then what is science? 45/49 ●Ruthless honesty ●Complete openness ●Thinking up explanations (theory) ●Focus on world and universe (structure, behavior) ●Systematic observation and experimentation ●Testing predictions against evidence Observation Induction Deduction Testing Evaluation Apple falls down It moves towards the larger mass So it is not about up or down but anything smaller moves towards the larger mass Multiple trials with rocks, balls, pencils, and planets Counting how many times small mass moves towards large mass or reversely in up and down situations draw conclusions The Empirical Cycle De Groot, A. D., & Spiekerman, J. A. (2020). Methodology: Foundations of inference and research in the behavioral sciences (Vol. 6). Berlin, GE: De Gruyter. Science is the art to explain most of the world with the least possible words",
+   "char_count": 843,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L01/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "ummary\nWe bother about research because we are in pursuit of \nknowledge that is as reliable as possible so that \neverybody (not just a privileged group) can:\n●Validate assumptions\n●Discover new possibilities\n●Close down options\n●Make informed decisions\nThat is the importance of research\nAll research starts from:\n●Posing a question\n●Reading the literature\n●Build up an argumentation\n●Formulate the Research Question (RQ)\n●Hypotheses\n46/49\nSocrates\n",
+   "text_norm": "ummary We bother about research because we are in pursuit of knowledge that is as reliable as possible so that everybody (not just a privileged group) can: ●Validate assumptions ●Discover new possibilities ●Close down options ●Make informed decisions That is the importance of research All research starts from: ●Posing a question ●Reading the literature ●Build up an argumentation ●Formulate the Research Question (RQ) ●Hypotheses 46/49 Socrates",
+   "char_count": 447,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L01/slide-046.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 47,
+   "text": "ummary\nMain lessons:\nNo matter the scientific approach, all observation boils \ndown to signal detection\nA precise RQ guides you through the entire research \nprocess, because you will be distracted by the many \ndetails you encounter and biases you have\nQualitative methods are for idea formation and later \ncan be (should be) quantified. Qualitative methods do \nnot ‘test’ anything\nAsking questions is not as easy as it seems. You need \nmultiple words for each construct because you do not \nknow whether people interpret a word the way you \nintended\nPhysiological data are NOT objective. They are \nundifferentiated effects of the body with multiple \npotential causes. Hypothesize the cause, then predict \nthe effect (not reversely). Use triangulation to make \nsense of observations\n47/49\nSocrates\n",
+   "text_norm": "ummary Main lessons: No matter the scientific approach, all observation boils down to signal detection A precise RQ guides you through the entire research process, because you will be distracted by the many details you encounter and biases you have Qualitative methods are for idea formation and later can be (should be) quantified. Qualitative methods do not ‘test’ anything Asking questions is not as easy as it seems. You need multiple words for each construct because you do not know whether people interpret a word the way you intended Physiological data are NOT objective. They are undifferentiated effects of the body with multiple potential causes. Hypothesize the cause, then predict the effect (not reversely). Use triangulation to make sense of observations 47/49 Socrates",
+   "char_count": 789,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L01/slide-047.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 48,
+   "text": "ummary\nMain lessons:\nCorrelation is not causation no matter how Big the \nData are (actually, with more data, significant but \nmeaningless correlations are likelier to occur)\nRegression techniques tell you which variable is \nresponsible for (explains) an observed effect and to \nwhat degree. There will always be variance \nunexplained – those are the things we did not keep \nunder control or the things we have no theory about\nHypothesis testing is very precise at the cost of \nanswering but limited aspects of a theory. Therefore, \ndo experiments on the crucial assumptions – those \nthat make theories crumble and fall\nFrequentism is but one view on the data. It cannot do \nmore than rejecting ‘no difference’ or fail to do so. It \ncannot confirm ‘there is an effect’\nBayes is an alternative (or complement) to \nfrequentism. It does not say yes or no to a hypothesis, \nit merely indicates a degree of confidence in the result\n48/49\nSocrates\n",
+   "text_norm": "ummary Main lessons: Correlation is not causation no matter how Big the Data are (actually, with more data, significant but meaningless correlations are likelier to occur) Regression techniques tell you which variable is responsible for (explains) an observed effect and to what degree. There will always be variance unexplained – those are the things we did not keep under control or the things we have no theory about Hypothesis testing is very precise at the cost of answering but limited aspects of a theory. Therefore, do experiments on the crucial assumptions – those that make theories crumble and fall Frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’ or fail to do so. It cannot confirm ‘there is an effect’ Bayes is an alternative (or complement) to frequentism. It does not say yes or no to a hypothesis, it merely indicates a degree of confidence in the result 48/49 Socrates",
+   "char_count": 933,
+   "has_image": true,
+   "image_count": 1,
+   "png": "assets/img/L01/slide-048.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 49,
+   "text": "ummary\nMain lessons:\nGenerated content is highly unreliable\nScience is total honesty and follows the empirical cycle\n49\nSocrates\n",
+   "text_norm": "ummary Main lessons: Generated content is highly unreliable Science is total honesty and follows the empirical cycle 49 Socrates",
+   "char_count": 131,
+   "has_image": true,
+   "image_count": 2,
+   "png": "assets/img/L01/slide-049.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  }
+ ]
+}

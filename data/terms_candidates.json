@@ -1,0 +1,2353 @@
+{
+ "Why bother about research?": {
+  "term": "Why bother about research?",
+  "variants": [
+   "Why bother about research?"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Contents of today Why bother about research?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 4
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Importance of research": {
+  "term": "Importance of research",
+  "variants": [
+   "Importance of research"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "That is the importance of research All research starts from:",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 46
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Sneak preview (what do we cover?)": {
+  "term": "Sneak preview (what do we cover?)",
+  "variants": [
+   "Sneak preview (what do we cover?)",
+   "Sneak preview"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Sneak preview (what do we cover?)",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 4
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Ethical concerns": {
+  "term": "Ethical concerns",
+  "variants": [
+   "Ethical concerns"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Ethical concerns",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 4
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "What is science?": {
+  "term": "What is science?",
+  "variants": [
+   "What is science?"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "What is science?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 4
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Validate assumptions": {
+  "term": "Validate assumptions",
+  "variants": [
+   "Validate assumptions"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Validate assumptions",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 5
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Discovering new possibilities": {
+  "term": "Discovering new possibilities",
+  "variants": [
+   "Discovering new possibilities"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Discovering new possibilities",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 5
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Closing down options": {
+  "term": "Closing down options",
+  "variants": [
+   "Closing down options"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Closing down options",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 5
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Make informed decisions": {
+  "term": "Make informed decisions",
+  "variants": [
+   "Make informed decisions"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "make informed decisions based on the data at hand. This skill will be particularly beneficial when tackling complex problems",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "00 SD5979 Research methods 2026 08 27 course description.pdf",
+   "lecture": "L00",
+   "slide": 1
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Argumentation": {
+  "term": "Argumentation",
+  "variants": [
+   "Argumentation"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Note: Complementary argumentation with anecdotal evidence is still weak",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 12
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Research Question (RQ)": {
+  "term": "Research Question (RQ)",
+  "variants": [
+   "Research Question (RQ)",
+   "Research Question"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "No matter what, all research starts with a Research Question (RQ), which guides you through the whole research process. It is the thing you fall back on when you are stuck or",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 22
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Hypotheses": {
+  "term": "Hypotheses",
+  "variants": [
+   "Hypotheses"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "10. From the Research Question, hypotheses are derived In the Tutorial (third hour), we are going to practice this",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 9
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Usability tests": {
+  "term": "Usability tests",
+  "variants": [
+   "Usability tests"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "8/49 ●Usability tests",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Heuristic test": {
+  "term": "Heuristic test",
+  "variants": [
+   "Heuristic test"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Jaspers (2009) states that during formative testing of an application, heuristic testing may be an option. In contrast to lab experiments, defining aspects of",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 55
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Cognitive walkthrough": {
+  "term": "Cognitive walkthrough",
+  "variants": [
+   "Cognitive walkthrough"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Design a set of tasks (like cognitive walkthrough) Participants are asked to say whatever comes to mind as they complete the task",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Thought listing": {
+  "term": "Thought listing",
+  "variants": [
+   "Thought listing"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Thought listing - pros and cons Pros",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 16
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Focus group": {
+  "term": "Focus group",
+  "variants": [
+   "Focus group"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Select a moderator: Choose a skilled individual to lead the focus group. The moderator should be able to facilitate discussion, encourage participation, and keep the conversation",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 20
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Ethnography": {
+  "term": "Ethnography",
+  "variants": [
+   "Ethnography"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "We have seen, for instance, ethnography, thematic analysis, discourse analysis, grounded theory, but there is",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 51
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "(Occupational) culture": {
+  "term": "(Occupational) culture",
+  "variants": [
+   "(Occupational) culture"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "(Occupational) culture",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Ethical issues": {
+  "term": "Ethical issues",
+  "variants": [
+   "Ethical issues"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Ethical issues",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Interview": {
+  "term": "Interview",
+  "variants": [
+   "Interview"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Interview guide: A semi-structured interview guide is prepared in advance, outlining key questions or topics but allowing for deviation based on the interview flow",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 26
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Semi-structured": {
+  "term": "Semi-structured",
+  "variants": [
+   "Semi-structured"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Semi-structured interviews are particularly useful for exploring complex or sensitive topics where the depth and nuance of participants’ experiences and viewpoints are",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 28
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Working with raters": {
+  "term": "Working with raters",
+  "variants": [
+   "Working with raters"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Working with raters",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Inter-rater reliabilities": {
+  "term": "Inter-rater reliabilities",
+  "variants": [
+   "Inter-rater reliabilities"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Inter-rater reliabilities",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis": {
+  "term": "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis",
+  "variants": [
+   "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis",
+   "Thematic Analysis"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Thematic Analysis is a versatile tool that can provide a rich and detailed, yet complex account of data. It requires a careful and iterative approach to ensure that the themes",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 31
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Construction of psychometric scales": {
+  "term": "Construction of psychometric scales",
+  "variants": [
+   "Construction of psychometric scales"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "9/49 ●Construction of psychometric scales",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 9
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Infinite regress": {
+  "term": "Infinite regress",
+  "variants": [
+   "Infinite regress"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Infinite regress: A word is explained by another word, which is explained by a third, ad infinitum “Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…”",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 11
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Frege’s sense and reference": {
+  "term": "Frege’s sense and reference",
+  "variants": [
+   "Frege’s sense and reference"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "– Frege’s sense and reference – Triangulation",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 10
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Triangulation": {
+  "term": "Triangulation",
+  "variants": [
+   "Triangulation"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Triangulation means that the researcher employs various methods and/or data sets to gain a more encompassing understanding of observable events and in doing so, designing more",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Pearson Product-Moment Correlation (r)": {
+  "term": "Pearson Product-Moment Correlation (r)",
+  "variants": [
+   "Pearson Product-Moment Correlation (r)",
+   "Pearson Product-Moment Correlation"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Now what can we do? Could Pearson Product-Moment Correlation (r) be of any use? Affordances",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 46
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Cohen’s kappa (κ), Krippendorff’s alpha ()": {
+  "term": "Cohen’s kappa (κ), Krippendorff’s alpha ()",
+  "variants": [
+   "Cohen’s kappa (κ), Krippendorff’s alpha ()",
+   "Cohen’s kappa (κ), Krippendorff’s alpha",
+   "Cohen’s kappa , Krippendorff’s alpha",
+   "Cohen’s kappa (κ)"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Cohen’s kappa is used for assessing the reliability of agreement between two raters (or judges, observers, etc.) who each classify items into mutually exclusive",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 23
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Cronbach’s ": {
+  "term": "Cronbach’s ",
+  "variants": [
+   "Cronbach’s "
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should the investigator use to obtain the most powerful test on measurement reliability?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 86
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Spearman-Brown coefficient ρ (split-half)": {
+  "term": "Spearman-Brown coefficient ρ (split-half)",
+  "variants": [
+   "Spearman-Brown coefficient ρ (split-half)",
+   "Spearman-Brown coefficient ρ"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 65
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Spearman’s rho (ρ) (rank order)": {
+  "term": "Spearman’s rho (ρ) (rank order)",
+  "variants": [
+   "Spearman’s rho (ρ) (rank order)",
+   "Spearman’s rho (ρ)",
+   "Spearman’s rho"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Spearman’s rho is used when the assumptions of the Pearson correlation coefficient are not met, particularly when the data are not normally distributed, when the sample size is small, or when",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 39
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Principal Component Analysis (PCA)": {
+  "term": "Principal Component Analysis (PCA)",
+  "variants": [
+   "Principal Component Analysis (PCA)",
+   "Principal Component Analysis"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Principal Component Analysis Outlier analysis t-test, Oneway, ANOVA, MANOVA, MANCOVA General linear",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "00 SD5979 Research methods 2026 08 27 course description.pdf",
+   "lecture": "L00",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Mediation-moderation analysis": {
+  "term": "Mediation-moderation analysis",
+  "variants": [
+   "Mediation-moderation analysis"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Mediation-moderation analysis provides a nuanced understanding of the relationships between variables,",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 45
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Hayes’ PROCESS": {
+  "term": "Hayes’ PROCESS",
+  "variants": [
+   "Hayes’ PROCESS"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Hayes’ PROCESS",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 13
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Structural Equation Modelling": {
+  "term": "Structural Equation Modelling",
+  "variants": [
+   "Structural Equation Modelling",
+   "Structural Equation Modeling"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Structural Equation Modeling is a powerful and flexible statistical technique that allows researchers to test",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 46
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "SEM": {
+  "term": "SEM",
+  "variants": [
+   "SEM"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "SEM",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 13
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "AMOS": {
+  "term": "AMOS",
+  "variants": [
+   "AMOS"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "AMOS",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 13
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Between-subjects (or between-groups)": {
+  "term": "Between-subjects (or between-groups)",
+  "variants": [
+   "Between-subjects (or between-groups)",
+   "Between-subjects"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Keypad Layout A is more effective at “warming up” people than Layout B… Therefore, four between-subjects groups with one within factor each: order",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 28
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Within-subjects (or repeated-measures)": {
+  "term": "Within-subjects (or repeated-measures)",
+  "variants": [
+   "Within-subjects (or repeated-measures)",
+   "Within-subjects"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Within-subjects design Beware of order",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 16
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Confounding effects": {
+  "term": "Confounding effects",
+  "variants": [
+   "Confounding effects"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Confounding effects",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 14
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Solomon 4-group design": {
+  "term": "Solomon 4-group design",
+  "variants": [
+   "Solomon 4-group design"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should the investigator use to obtain the most powerful test on measurement reliability?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 86
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Normal distributions": {
+  "term": "Normal distributions",
+  "variants": [
+   "Normal distributions"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Normal distributions",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Mean, median, modus": {
+  "term": "Mean, median, modus",
+  "variants": [
+   "Mean, median, modus"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Mean, median, modus",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 14
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Variance": {
+  "term": "Variance",
+  "variants": [
+   "Variance"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "The more observations you do, the higher the chances that your hypothesis is rejected: Likelihood increases that you find counter-examples, increasing variance. If your hypothesis",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 19
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Standard Deviation": {
+  "term": "Standard Deviation",
+  "variants": [
+   "Standard Deviation"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "standard deviation The difference between the means of the two curves is the same in all three above",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 76
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Sample size": {
+  "term": "Sample size",
+  "variants": [
+   "Sample size"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Thus, you try to sample as many participants as you can (behold, there is an optimum) Power analysis estimates the necessary sample size so that there is a large chance to find a",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 19
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "G*Power analysis": {
+  "term": "G*Power analysis",
+  "variants": [
+   "G*Power analysis"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "G*Power analysis Main lesson: Hypothesis testing is very precise at the cost of answering but limited aspects of a theory.",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 14
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Test theory (frequentism)": {
+  "term": "Test theory (frequentism)",
+  "variants": [
+   "Test theory (frequentism)",
+   "Test theory"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "as it is the researcher deciding when an effect counts or not, based on current knowledge, test theory, mathematical approach, application value, and much more",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 24
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Null and Alternative": {
+  "term": "Null and Alternative",
+  "variants": [
+   "Null and Alternative"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "the null and alternative hypotheses Bayesian statistics are more appropriate than",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 59
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Signal detection": {
+  "term": "Signal detection",
+  "variants": [
+   "Signal detection"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Main lesson: No matter the scientific approach, all observation boils down to signal detection",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 5
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Type I, Type II errors": {
+  "term": "Type I, Type II errors",
+  "variants": [
+   "Type I, Type II errors"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Type I, Type II errors",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Student’s t": {
+  "term": "Student’s t",
+  "variants": [
+   "Student’s t"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "●Student’s t",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "One-sample t-test": {
+  "term": "One-sample t-test",
+  "variants": [
+   "One-sample t-test"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "of the two groups into account One-sample t-test",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 19
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Two-sample t-test": {
+  "term": "Two-sample t-test",
+  "variants": [
+   "Two-sample t-test"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Two-sample t-test",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Paired-samples t-test": {
+  "term": "Paired-samples t-test",
+  "variants": [
+   "Paired-samples t-test"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Paired-samples t-test compares means from the same group at different times (e.g., one year apart) or different within-experiment conditions (e.g., using both iPhone and",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 21
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Analysis of Variance": {
+  "term": "Analysis of Variance",
+  "variants": [
+   "Analysis of Variance"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Analysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to see if at least one of them is significantly different. Are observed differences among",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 60
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Oneway ANOVA": {
+  "term": "Oneway ANOVA",
+  "variants": [
+   "Oneway ANOVA"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Oneway ANOVA compares means of one dependent variable across 3 groups Analysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 60
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "2 2 ANOVA": {
+  "term": "2 2 ANOVA",
+  "variants": [
+   "2 2 ANOVA"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "2 2 ANOVA",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 63
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Multiple sources of variance": {
+  "term": "Multiple sources of variance",
+  "variants": [
+   "Multiple sources of variance"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Multiple sources of variance",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 15
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "General Linear Model": {
+  "term": "General Linear Model",
+  "variants": [
+   "General Linear Model"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "1. Analyze > General Linear Model > Repeated Measures... 2. Define your within-subject factor(s) and then click Define to specify the dependent variables and other factors",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 69
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Repeated Measures": {
+  "term": "Repeated Measures",
+  "variants": [
+   "Repeated Measures"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Repeated Measures GLM: 1. Analyze > General Linear Model > Repeated Measures...",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 69
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Prior, Data, Posterior": {
+  "term": "Prior, Data, Posterior",
+  "variants": [
+   "Prior, Data, Posterior"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "16/49 ●Prior, Data, Posterior",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "01 Σ SD5979 Introduction 2026 08 27.pdf",
+   "lecture": "L01",
+   "slide": 16
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Classification": {
+  "term": "Classification",
+  "variants": [
+   "Classification"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Mind you, the type of conclusions you draw are different from frequentism Important notions in Bayesian classification and Bayesian t-test:",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 7
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Bayesian t-test": {
+  "term": "Bayesian t-test",
+  "variants": [
+   "Bayesian t-test"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Mind you, the type of conclusions you draw are different from frequentism Important notions in Bayesian classification and Bayesian t-test:",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 7
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Why we do research": {
+  "term": "Why we do research",
+  "variants": [
+   "Why we do research"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "(fuzzy data sets)? All of these are design decisions that determine what solution a designer offers to a client. That is why we do research",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 3
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Why theory comes before methods": {
+  "term": "Why theory comes before methods",
+  "variants": [
+   "Why theory comes before methods"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Why theory comes before methods",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "How to build up a theory": {
+  "term": "How to build up a theory",
+  "variants": [
+   "How to build up a theory"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "How to build up a theory",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Different ways to do research": {
+  "term": "Different ways to do research",
+  "variants": [
+   "Different ways to do research"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Different ways to do research",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Measurement quality": {
+  "term": "Measurement quality",
+  "variants": [
+   "Measurement quality"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Measurement quality. There are four major scales of measurement and you have to know them all:",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 67
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Theories and traditions of qualitative research": {
+  "term": "Theories and traditions of qualitative research",
+  "variants": [
+   "Theories and traditions of qualitative research"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Contents of today Theories and traditions of qualitative research",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Research methods in qualitative research": {
+  "term": "Research methods in qualitative research",
+  "variants": [
+   "Research methods in qualitative research"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Research methods in qualitative research",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "How to apply qualitative methods": {
+  "term": "How to apply qualitative methods",
+  "variants": [
+   "How to apply qualitative methods"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "How to apply qualitative methods",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Determine when to use qualitative methods": {
+  "term": "Determine when to use qualitative methods",
+  "variants": [
+   "Determine when to use qualitative methods"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Determine when to use qualitative methods",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Current debate on qualitative methods": {
+  "term": "Current debate on qualitative methods",
+  "variants": [
+   "Current debate on qualitative methods"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Current debate on qualitative methods",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Qualitative methods": {
+  "term": "Qualitative methods",
+  "variants": [
+   "Qualitative methods"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Main lesson: Qualitative methods are for idea formation and later can be (should be) quantified.",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 3
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Analysis: Thematic, Discourse, Grounded Theory": {
+  "term": "Analysis: Thematic, Discourse, Grounded Theory",
+  "variants": [
+   "Analysis: Thematic, Discourse, Grounded Theory",
+   "Analysis: Thematic"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "assumptions, potential biases, and how their involvement might influence the analysis Thematic Analysis is a versatile tool that can provide a rich and detailed, yet complex",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 31
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Quantification of qualitative data": {
+  "term": "Quantification of qualitative data",
+  "variants": [
+   "Quantification of qualitative data"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "Quantification of qualitative data Hayes, A. F., & Krippendorff, K. (2007).",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 48
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Systematic questionnaires": {
+  "term": "Systematic questionnaires",
+  "variants": [
+   "Systematic questionnaires"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Contents of today Systematic questionnaires",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Language philosophy": {
+  "term": "Language philosophy",
+  "variants": [
+   "Language philosophy"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Language philosophy",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Single-item surveys": {
+  "term": "Single-item surveys",
+  "variants": [
+   "Single-item surveys"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Single-item surveys",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Requirements on a survey item": {
+  "term": "Requirements on a survey item",
+  "variants": [
+   "Requirements on a survey item"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Requirements on a survey item",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Examples of bad questioning": {
+  "term": "Examples of bad questioning",
+  "variants": [
+   "Examples of bad questioning"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Examples of bad questioning",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "How to do it right and why": {
+  "term": "How to do it right and why",
+  "variants": [
+   "How to do it right and why"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "How to do it right and why",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+   "lecture": "L04",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Mental chronometry: reading times, reaction times, release time, arrival time": {
+  "term": "Mental chronometry: reading times, reaction times, release time, arrival time",
+  "variants": [
+   "Mental chronometry: reading times, reaction times, release time, arrival time",
+   "Mental chronometry: reading times"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Mental chronometry: reading times, reaction times, release time, arrival time",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Forced-choice task (2 or 3 options) (decision making)": {
+  "term": "Forced-choice task (2 or 3 options) (decision making)",
+  "variants": [
+   "Forced-choice task (2 or 3 options) (decision making)",
+   "Forced-choice task (2 or 3 options)",
+   "Forced-choice task"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "reaction times, release time, arrival time Forced-choice task (2 or 3 options)",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Eye-tracking": {
+  "term": "Eye-tracking",
+  "variants": [
+   "Eye-tracking"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "What eye-tracking is supposed to indicate",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 48
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Heart rate, galvanic skin response": {
+  "term": "Heart rate, galvanic skin response",
+  "variants": [
+   "Heart rate, galvanic skin response"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Heart rate, galvanic skin response",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "EEG (location, time, bandwidths, ERPs) and fMRI": {
+  "term": "EEG (location, time, bandwidths, ERPs) and fMRI",
+  "variants": [
+   "EEG (location, time, bandwidths, ERPs) and fMRI",
+   "EEG and fMRI",
+   "EEG (location"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "EEG (location, time, bandwidths, ERPs) and fMRI",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Brain-Computer Interfaces and CBIs": {
+  "term": "Brain-Computer Interfaces and CBIs",
+  "variants": [
+   "Brain-Computer Interfaces and CBIs"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "and fMRI Brain-Computer Interfaces and CBIs",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "05 Σ SD5979 Behav&Physio 2026 10 02.pdf",
+   "lecture": "L05",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Correlations": {
+  "term": "Correlations",
+  "variants": [
+   "Correlations"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Main lesson: Correlation is not causation no matter how Big the Data are Actually, with more data, significant but meaningless correlations are likelier to occur",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 7
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Spurious correlations": {
+  "term": "Spurious correlations",
+  "variants": [
+   "Spurious correlations"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Actually, with more data, significant but meaningless correlations are likelier to occur We call that spurious correlations",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 7
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Convergent / divergent validity": {
+  "term": "Convergent / divergent validity",
+  "variants": [
+   "Convergent / divergent validity"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Convergent / divergent validity",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "07 Σ SD5979 Correlations 2026 10 09.pdf",
+   "lecture": "L07",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Correlations and regression equations": {
+  "term": "Correlations and regression equations",
+  "variants": [
+   "Correlations and regression equations"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Contents of today Correlations and regression equations",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Linear regression": {
+  "term": "Linear regression",
+  "variants": [
+   "Linear regression"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Linear regression uses the full range of continuous data Logistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 14
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Multiple linear regression": {
+  "term": "Multiple linear regression",
+  "variants": [
+   "Multiple linear regression"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Multiple linear regression handles more than one predictor x1, …, n (input variables) to estimate the fluctuation of the targeted output variable y",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 8
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Multiple linear regression and Neural Networks (NNs)": {
+  "term": "Multiple linear regression and Neural Networks (NNs)",
+  "variants": [
+   "Multiple linear regression and Neural Networks (NNs)",
+   "Multiple linear regression and Neural Networks"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Multiple linear regression and Neural Networks (NNs)",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Supervised Learning": {
+  "term": "Supervised Learning",
+  "variants": [
+   "Supervised Learning"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Networks (NNs) Supervised Learning",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Neural Networks and feedback of error so to ‘learn’": {
+  "term": "Neural Networks and feedback of error so to ‘learn’",
+  "variants": [
+   "Neural Networks and feedback of error so to ‘learn’"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Neural Networks and feedback of error so to ‘learn’",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Logistic regression (actually: Logistic classification)": {
+  "term": "Logistic regression (actually: Logistic classification)",
+  "variants": [
+   "Logistic regression (actually: Logistic classification)",
+   "Logistic regression"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Logistic regression (classification) cuts the data into two: in or out, yes or no, 1 or 0, and tries to predict the category with a certain probability value",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "08 Σ SD5979 (Multiple) regression 2026 10 22.pdf",
+   "lecture": "L08",
+   "slide": 14
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Hypotheses (H0 and HA)": {
+  "term": "Hypotheses (H0 and HA)",
+  "variants": [
+   "Hypotheses (H0 and HA)",
+   "Hypotheses"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Good to come up with hypotheses that then later can be / should be tested (provides a hypothesis, not a conclusion)",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 68
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Laboratory experiments": {
+  "term": "Laboratory experiments",
+  "variants": [
+   "Laboratory experiments"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Laboratory experiments",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Experimental design (Between-Ss, Within-Ss)": {
+  "term": "Experimental design (Between-Ss, Within-Ss)",
+  "variants": [
+   "Experimental design (Between-Ss, Within-Ss)",
+   "Experimental design",
+   "Experimental design (Between-Ss"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "If the training data in Lakkaraju et al. (2017) are taken as an experimental design, A) Then what are the two conditions?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 82
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Confounds, order effects": {
+  "term": "Confounds, order effects",
+  "variants": [
+   "Confounds, order effects"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Confounds, order effects",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Example: counting flies on zebras": {
+  "term": "Example: counting flies on zebras",
+  "variants": [
+   "Example: counting flies on zebras"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Example: counting flies on zebras",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Statistical analysis (exploratory, confirmatory)": {
+  "term": "Statistical analysis (exploratory, confirmatory)",
+  "variants": [
+   "Statistical analysis (exploratory, confirmatory)",
+   "Statistical analysis",
+   "Statistical analysis (exploratory"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "comparability of the data collected. This method is particularly useful for statistical analysis and is often employed when the researcher seeks to quantify variables and generalise findings from",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "03 Σ SD5979 Qualitative methods 2026 09 17.pdf",
+   "lecture": "L03",
+   "slide": 23
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Central tendencies (mean, mode, median)": {
+  "term": "Central tendencies (mean, mode, median)",
+  "variants": [
+   "Central tendencies (mean, mode, median)",
+   "Central tendencies",
+   "Central tendencies (mean"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Central tendencies (mean, mode, median)",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "09 Σ SD5979 Experiment design 2026 10 28.pdf",
+   "lecture": "L09",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Confirmatory data analysis": {
+  "term": "Confirmatory data analysis",
+  "variants": [
+   "Confirmatory data analysis"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Confirmatory data analysis is parametric and a deductive approach to hypothesis testing. The inferential statistics",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 70
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Parametric testing and deduction": {
+  "term": "Parametric testing and deduction",
+  "variants": [
+   "Parametric testing and deduction"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Parametric testing and deduction",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Results depend on test theory chosen": {
+  "term": "Results depend on test theory chosen",
+  "variants": [
+   "Results depend on test theory chosen"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Results depend on test theory chosen",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Frequentism (or Bayesian?)": {
+  "term": "Frequentism (or Bayesian?)",
+  "variants": [
+   "Frequentism (or Bayesian?)",
+   "Frequentism"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Main lesson: Frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 3
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "When to decide there is an effect?": {
+  "term": "When to decide there is an effect?",
+  "variants": [
+   "When to decide there is an effect?"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "When to decide there is an effect?",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "So what is reliability, confidence, significance?": {
+  "term": "So what is reliability, confidence, significance?",
+  "variants": [
+   "So what is reliability, confidence, significance?",
+   "So what is reliability"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "So what is reliability, confidence, significance? 2/83",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "10 Σ SD5979 t-test (M)ANOVA 2025 11 06.pdf",
+   "lecture": "L10",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Bayesian statistics": {
+  "term": "Bayesian statistics",
+  "variants": [
+   "Bayesian statistics"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Bayesian statistics are more appropriate than frequentist approaches for use in contemporary",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 59
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ },
+ "Test theory: frequentism vs Bayesianism": {
+  "term": "Test theory: frequentism vs Bayesianism",
+  "variants": [
+   "Test theory: frequentism vs Bayesianism"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Test theory: frequentism vs Bayesianism",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Case: Media Equation falsely refuted": {
+  "term": "Case: Media Equation falsely refuted",
+  "variants": [
+   "Case: Media Equation falsely refuted"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Case: Media Equation falsely refuted",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Bayesian statistics continued": {
+  "term": "Bayesian statistics continued",
+  "variants": [
+   "Bayesian statistics continued"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Bayesian statistics continued",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Turing Test: speed-dating a robot": {
+  "term": "Turing Test: speed-dating a robot",
+  "variants": [
+   "Turing Test: speed-dating a robot"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Turing Test: speed-dating a robot",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Practicing with Bayesian classification": {
+  "term": "Practicing with Bayesian classification",
+  "variants": [
+   "Practicing with Bayesian classification"
+  ],
+  "origins": [
+   "contents"
+  ],
+  "en_definition": "Practicing with Bayesian classification 2/65",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+   "lecture": "L11",
+   "slide": 2
+  },
+  "occurrences": [],
+  "status": "occurrence_only"
+ },
+ "Test theory (freq. vs Bayes)": {
+  "term": "Test theory (freq. vs Bayes)",
+  "variants": [
+   "Test theory (freq. vs Bayes)",
+   "Test theory"
+  ],
+  "origins": [
+   "outline"
+  ],
+  "en_definition": "as it is the researcher deciding when an effect counts or not, based on current knowledge, test theory, mathematical approach, application value, and much more",
+  "zh_definition": "",
+  "zh_hint": "",
+  "source": {
+   "file": "02 Σ SD5979 Theory before methods 2026 09 10.pdf",
+   "lecture": "L02",
+   "slide": 24
+  },
+  "occurrences": [],
+  "status": "verbatim"
+ }
+}

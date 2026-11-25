@@ -1,0 +1,418 @@
+hypothesis ||| 假设 ||| hypothesis, it merely indicates a degree of confidence in the result My machine is similar to a... ||| verbatim
+H0 ||| 零假设（原假设） ||| H0 : You are not a robot ||| verbatim
+alternative hypothesis ||| 备择假设 ||| The Null and the Alternative hypothesis: H0 and HA The hypotheses we formulate are commonly about expected effects ||| verbatim
+HA ||| 备择假设 ||| HA : You are a robot ||| verbatim
+H1 ||| 备择假设 ||| H1: human being H2: an animal ||| verbatim
+RQ ||| 研究问题 ||| RQ: In what manner does the language used in local narratives reflect and reinforce the traditional ||| verbatim
+confirmatory data analysis ||| 验证性数据分析 ||| Confirmatory data analysis is parametric and a deductive ||| verbatim
+exploratory data analysis ||| 探索性数据分析 ||| hypothesis testing (H0 vs H1) through confirmative statistics and not ‘just’ exploratory data analysis ||| occurrence_only
+statistical hypothesis testing ||| 统计假设检验 ||| In Confirmatory Data Analysis, or Statistical Hypothesis Testing, we have: ||| occurrence_only
+statistical significance ||| 统计显著性 ||| The probability that our claims are correct • “statistical significance” ||| verbatim
+significance level ||| 显著性水平 ||| valid effect, less vulnerable to random and systematic error Power is mainly affected by sample size, effect size, and significance level ||| verbatim
+p-value ||| p 值 ||| p-value p-value tells the probability you ||| verbatim
+degrees of freedom ||| 自由度 ||| Degrees of freedom are the maximum number of values that you can freely vary ||| verbatim
+df ||| 自由度 ||| df = n1 + n2 − 2 Suppose I have three scores with Mean = 5. Two of the values are 4 and 6, ||| verbatim
+level of confidence ||| 置信水平 ||| required significance value -- i.e., the amount of error that we are willing to tolerate under the level of confidence that we require ||| verbatim
+missed signal ||| 漏报 ||| Type I error: Null hypothesis is true, but we reject it by mistake (false alarm) Type II error: Null hypothesis is false, but we accept it by mistak ||| verbatim
+frequentism ||| 频率主义 / 频率学派统计 ||| Frequentism is but one view on the data. It cannot do ||| verbatim
+Bayesian ||| 贝叶斯（学派） ||| Bayesian analysis exists of three parts: the prior distribution, the data (the likelihood), and the posterior distribution. The posterior distribution ||| verbatim
+falsify ||| 证伪 ||| Open Question C) Although the statement in B is so easy to falsify, then why does not the network ||| verbatim
+counter-example ||| 反例 ||| “All cats are white” and “Anything white is a cat” are easily falsified by finding one counter-example (cf. Karl Popper) ||| verbatim
+inductive approach ||| 归纳法 ||| Inductive approach, “descriptive statistics” ||| occurrence_only
+deductive approach ||| 演绎法 ||| Deductive approach — inferential statistics ||| verbatim
+inferential statistics ||| 推断统计 ||| Inferential statistics are used to draw conclusions and to make inferences that ||| verbatim
+descriptive statistics ||| 描述统计 ||| SPSS Statistics, IBM Corporation Analyze > Descriptive Statistics > Crosstabs ||| occurrence_only
+parametric testing ||| 参数检验 ||| Parametric testing and deduction ||| occurrence_only
+experiment design ||| 实验设计 ||| 09 Experiment design 10 t-tests and (M)ANOVA ||| occurrence_only
+laboratory experiment ||| 实验室实验 ||| ●Laboratory experiments are systematic trials and ||| verbatim
+field experiment ||| 现场实验 ||| Field experiment ||| occurrence_only
+IV ||| 自变量 ||| but on all the distinctive features in the data sets that are assessed as ‘positive’. In other words, the ||| verbatim
+dependent variable ||| 因变量 ||| dependent variable is measured on a continuous scale ||| verbatim
+DV ||| 因变量 ||| MANCOVA If some DV is a covariate (e.g., ||| verbatim
+treatment ||| 处理（实验条件） ||| - Before-after treatment (medication, washing powder, robot intervention) - With FinTech, handling your finance is easier than ever ||| verbatim
+condition ||| 实验条件 ||| Condition 2 is the most difficult because you have to take action without being warned ||| verbatim
+between-subjects ||| 被试间设计（组间设计） ||| • Between-subjects for the independent variable: Mario vs AC ||| verbatim
+within-subjects ||| 被试内设计（重复测量设计） ||| • Within-subjects for dependent measures: feeling involved, feeling distant ||| verbatim
+confound ||| 混淆（变量 / 效应） ||| Confound: test threat ||| verbatim
+fatigue ||| 疲劳 ||| tasks that are done later are more prone to fatigue and boredom ||| verbatim
+randomisation ||| 随机化 / 随机分配 ||| • Randomisation and counter-balancing are ways to mitigate the ||| verbatim
+counter-balancing ||| 平衡抵消（对抗平衡） ||| • Randomisation and counter-balancing are ways to mitigate the ||| verbatim
+control group ||| 对照组 ||| References Solomon, R. L. (1949). An extension of control group design. Psychological Bulletin, 46(2), 137– ||| occurrence_only
+pretest ||| 前测 ||| The effect of the Treatment while controlling the effect of the Pretest is the difference between G1after and G3after ||| verbatim
+posttest ||| 后测 ||| do the Posttest The effect of the Pretest itself (without Treatment) is ||| verbatim
+test threat ||| 测验威胁 ||| No. Because apart from the effects of time, there is also something called test threat ||| verbatim
+Solomon 4-group design ||| 所罗门四组设计 ||| Solomon 4-group design Example: counting flies on zebras ||| verbatim
+Solomon ||| 所罗门四组设计 ||| Solomon 4-group design Example: counting flies on zebras ||| verbatim
+between-group ||| 组间 ||| ●Between-subjects (or between-groups) ||| occurrence_only
+ecological validity ||| 生态效度 ||| High on precision, low on ecological validity ●Experimental design (Between-Ss, Within-Ss) tells ||| occurrence_only
+Power ||| 功效分析（G*Power） ||| Power is mainly affected by sample size, effect size, and significance level ||| verbatim
+statistical power ||| 统计功效 ||| Jacob Cohen, a psychologist, also worked on statistical power analysis and effect size: how many participants ||| occurrence_only
+convenience sampling ||| 便利抽样（方便抽样） ||| Uncontrolled factors • Time of day, system load, but most notoriously: convenience sampling online!!! ||| occurrence_only
+experimenter bias ||| 实验者偏差 |||  Solomon 4-group design  Confounds, experimenter bias, pseudo-randomization ||| occurrence_only
+subject bias ||| 被试偏差 ||| Experimenter/subject bias ||| occurrence_only
+Ss ||| 被试 ||| Three days in advance, you write to me the issues that you still have, which I will explain again in class. That means you already studied everything  ||| verbatim
+ethnography ||| 民族志 ||| We have seen, for instance, ethnography, thematic analysis, discourse analysis, grounded theory, but there is ||| verbatim
+content analysis ||| 内容分析 ||| are collected from different sources, such as multiple raters, content analysis, or coding of ||| verbatim
+judgment studies ||| 判断研究 ||| Judgment studies ||| occurrence_only
+computer simulation ||| 计算机模拟 ||| Computer simulation ||| occurrence_only
+mean ||| 均值（平均数） ||| meaning to that one single word. There is no control on convergent validity of the measurement ||| verbatim
+mode ||| 众数 ||| mode is the number that occurs most often ||| verbatim
+median ||| 中位数 ||| median is the middle value in a data set ||| verbatim
+standard deviation ||| 标准差 ||| standard deviation The difference between the means of the two curves is the same in all three above ||| verbatim
+SD ||| 标准差 ||| other value in the data set Standard Deviation (SD): Tells the distribution of a set of data points in relation to ||| occurrence_only
+population ||| 总体 ||| population average (which is 98, the known value) ||| verbatim
+sample ||| 样本 ||| Sample surveys Obtrusive: ||| verbatim
+normal variation ||| 正常波动（随机变异） ||| throws), there will always be some variation The question is whether this variation is explainable by normal variation (Do ||| verbatim
+distribution ||| 分布 ||| Mode The mode is the most common single value in a distribution ||| verbatim
+skewed ||| 偏态（偏斜） ||| data and are ‘normally’ bell-shaped. However, distributions can be ‘skewed,’ have a peak on the left ||| verbatim
+peaked ||| 尖峰（的） ||| the mean value, expressed as ‘the square root of the variance’ Peaked distribution ||| occurrence_only
+flat ||| 平缓（的） ||| SD around 1 Flat distribution ||| occurrence_only
+noise ||| 噪声 ||| Noise reduction: By capturing the main variance in the data, PCA can help to identify and discard noise ||| verbatim
+signal-to-noise ratio ||| 信噪比 ||| theory, assuming the mean to be the signal and variance to be the noise, testing the signal-to-noise ratio ||| occurrence_only
+signal detection ||| 信号检测 ||| ●Signal detection Type I, Type II errors ||| occurrence_only
+curve fitting ||| 曲线拟合 ||| • To find the relation between similarity and liking, plot the data points • Do curve fitting, using SPSS: Analyze > Regression > Curve Estimation ||| occurrence_only
+outlier analysis ||| 离群值分析 |||  Pearson product-moment correlation Cronbach’s alpha Principal Component Analysis Outlier analysis t-test, ||| occurrence_only
+t-test ||| t 检验 ||| t-test: different types ||| verbatim
+Student ||| 学生 t（统计量） ||| How not to answer them Certain students are happy with open questions because they write up everything ||| verbatim
+independent samples t-test ||| 独立样本 t 检验（双样本 t 检验） ||| Independent samples t-test: df = n1 + n2 − 2 ||| verbatim
+paired samples t-test ||| 配对样本 t 检验 ||| Paired samples t-test Compares means from the same group at different times (e.g., before-after treatment) or ||| verbatim
+t-value ||| t 值 ||| Calculates a t-value which gives us the signal-noise ratio If this ratio is high enough (we have enough “signal” to compensate for the “noise”), ||| verbatim
+Standard Error of the Mean ||| 均值标准误（SEM） ||| 0 is the known value S/sqrt(n) is the Standard Error of the Mean (SEM), indicating how ||| verbatim
+SEM ||| 均值标准误（SEM） ||| Structural Equation Modeling (SEM) or AMOS in SPSS: a more advanced technique that can simultaneously test multiple relationships and is particularly ||| verbatim
+Error ||| 均值标准误（SEM） ||| Error = loss function = the ||| verbatim
+Central Limit Theorem ||| 中心极限定理 ||| Not always the case, but t-test very robust in practice, due to Central Limit Theorem (CLT) ||| occurrence_only
+CLT ||| 中心极限定理 ||| CLT: A sample approximates normal distribution as the sample size gets larger (i.e., ||| verbatim
+Central ||| 中心极限定理 ||| ●Central tendencies that are inspected are the mean, ||| verbatim
+Theorem ||| 中心极限定理 ||| Not always the case, but t-test very robust in practice, due to Central Limit Theorem (CLT) ||| occurrence_only
+Analysis of Variance ||| 方差分析 ||| Analysis of Variance compares means of three (Oneway) or more groups ((M)ANOVA) to see if at least one of them is significantly different. Are observe ||| verbatim
+ANOVA ||| 方差分析 ||| (M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic ||| verbatim
+Oneway ||| 单因素方差分析 ||| Oneway ANOVA compares means of one dependent variable across 3 groups ||| verbatim
+General Linear Model ||| 一般线性模型 ||| Step-by-step click paths to access the General Linear Model (GLM) in SPSS 1. Open SPSS: Start SPSS and open your dataset ||| occurrence_only
+GLM ||| 一般线性模型 ||| GLM: A flexible framework for modeling relationships ||| verbatim
+GLM Repeated Measures ||| 一般线性模型重复测量 ||| GLM Repeated Measures: DVs measured at different timepoints GLM Repeated Measures is an extension of GLM that is used when the same subjects are ||| verbatim
+Repeated ||| 一般线性模型重复测量 ||| Repeated Measures: For repeated measures data ||| verbatim
+Measures ||| 一般线性模型重复测量 ||| Measures Variance: How much each score is different from the mean and thus from every ||| verbatim
+Variance Components ||| 方差成分 ||| Variance Components: For variance components analysis ||| verbatim
+interaction effect ||| 交互效应 ||| There is a catalytic interaction effect between Agency and AI: ||| verbatim
+catalytic interaction ||| 催化型交互 ||| = – 60 – 0 There is a catalytic interaction ||| verbatim
+terminative interaction ||| 终止型交互 ||| = 0 – 0 There is a terminative interaction ||| verbatim
+synergistic interaction ||| 协同型交互 ||| Synergistic interaction and creativity Creativity is the combination of ||| verbatim
+F-test ||| F 检验 / F 统计量 / F 分布 ||| t-test reasonably robust for differing variance, however, does deserve consideration, may use F-test to validate (ANOVA / MANOVA) ||| occurrence_only
+numerator ||| 分子 / 分母 ||| numerator and the smaller is ||| verbatim
+multiple sources of variance ||| 多方差来源 ||| Respect multiple sources of variance Openness, agreeableness, extraversion, conscientiousness, and self-disclosure are ||| verbatim
+single source of variance ||| 单一方差来源 ||| Single source of variance Within-Ss 2-way ANOVA compares means across two independent variables and can also assess ||| verbatim
+matrix algebra ||| 矩阵代数 ||| Matrix algebra MANOVA Ls Ms As Lp Mp Ap ||| occurrence_only
+multivariate tests ||| 多元检验 ||| According to multivariate tests, the interaction between Agency and AI was significant: F(df1, df2) = ||| occurrence_only
+Human–Computer Interaction ||| 人机交互 ||| McGrath, J. E. (1995). Methodology matters: Doing research in the behavioral and social sciences. In R. M. Baecker, et al. (Eds.), Readings in Human–C ||| occurrence_only
+HCI ||| 人机交互 ||| Official cause: “pilot error” Actual cause: poorly designed HCI ||| occurrence_only
+Flight Management System ||| 飞行管理系统 ||| Flight Management System is never changed upon pilots’ request (better safe than sorry) ||| verbatim
+Flight ||| 飞行管理系统 ||| Flight Management System is never changed upon pilots’ request (better safe than sorry) ||| verbatim
+System ||| 飞行管理系统 ||| Derived from the RQ, a hypothesis is a precise problem statement about a topic (e.g., about a physical system, a computer system, human experience) ||| verbatim
+GUI ||| 图形用户界面 ||| change it anyway. Consequence: We spend extra resources developing the software, and our pilots must learn a new GUI for no benefit ||| occurrence_only
+Fitts ||| 费茨定律 ||| Fitts’ Law is usually written as: ||| verbatim
+Law ||| 费茨定律 ||| The logarithm in Fitts' Law is there because of how human movement works ||| verbatim
+Sparse Haptic Proxy ||| 稀疏触觉代理 ||| (M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic Proxy ||| verbatim
+Proxy ||| 稀疏触觉代理 ||| (M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic Proxy ||| verbatim
+argument from silence ||| 沉默论证（无证据之证据） ||| argumentum ex silentio or argument from silence) ||| occurrence_only
+argumentum ex silentio ||| 沉默论证（无证据之证据） ||| argumentum ex silentio or argument from silence) ||| occurrence_only
+evidence of existence through absence ||| 由缺失推断存在 ||| Evidence of existence through absence ||| occurrence_only
+peer reviewed journal ||| 同行评审期刊 ||| After having published her results in a peer reviewed journal, the student, after graduation, is surfing the ||| verbatim
+BCI ||| EMOTIV 脑机接口头戴设备 ||| • Emotion interpretation is nonsense (too context dependent) Brain-Computer Interfaces (BCI) for navigating VR and games ||| verbatim
+EEG ||| 脑电图 ||| Physiological: ECG, EEG, fMRI, Galvanic skin response The Null predicts there is no noticeable difference ||| verbatim
+amygdala ||| 杏仁核 ||| with AI helper show significant decreases in negative emotions as indicated by less activation of the amygdala, fewer and smoother ||| occurrence_only
+zygomaticus muscle ||| 颧肌 ||| indicated by less activation of the amygdala, fewer and smoother head movements, and more zygomaticus muscle motion associated ||| occurrence_only
+corrugator muscle ||| 皱眉肌 ||| head movements, and more zygomaticus muscle motion associated with positive valence and less corrugator muscle activity as related ||| occurrence_only
+MOBA ||| 多人在线战术竞技游戏 ||| Entertainment (MSc) investigates negative emotions in MOBA games ||| occurrence_only
+Multiplayer Online Battle Arena ||| 多人在线战术竞技游戏 ||| negative emotions in MOBA games (Multiplayer Online Battle Arena) ||| occurrence_only
+Online ||| 多人在线战术竞技游戏 ||| and watch ‘how-to’ YouTube clips (online available) Lecture venue: ||| occurrence_only
+Battle ||| 多人在线战术竞技游戏 ||| negative emotions in MOBA games (Multiplayer Online Battle Arena) ||| occurrence_only
+measurement ||| 黑箱（测量工具） ||| Measurement quality. There are four major scales of ||| verbatim
+reliability ||| 信度 ||| reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average scores to the indicative item were M = 5 and to the cou ||| verbatim
+sensory ||| 传感器灵敏度 ||| ERPs (Event-Related Potentials): Specific brain responses that are the direct result of a particular sensory, cognitive, or motor event ||| verbatim
+infrared thermometer ||| 红外温度计 ||| non-contact infrared thermometer turns out to ||| occurrence_only
+auto-suggestion ||| 自我暗示 ||| while wearing the VR devices, which may have been auto-suggestion, ||| occurrence_only
+Socratic discussion ||| 苏格拉底式讨论 ||| Evidence of existence through absence Socratic discussion ||| occurrence_only
+Socratic ||| 苏格拉底式讨论 ||| Evidence of existence through absence Socratic discussion ||| occurrence_only
+overgeneralisation ||| 过度推广 ||| Example: Counting flies on zebras Moreover, overgeneralisation based on comparison with totally different eye ||| occurrence_only
+AR ||| 误报（假警报） ||| what they are looking for. Data do not give an answer unless you have a question For example, someone wants to know the user experience of Augmented R ||| verbatim
+Cronbach’s alpha |||  ||| 0 low level of internal consistency It is important to note that a very high Cronbach’s alpha (e.g., above 0.9) might indicate redundancy ||| verbatim
+CA ||| 显著（的） ||| Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated ||| verbatim
+AG ||| 拮抗型（交叉）交互 ||| That’s why you are taking this course, we separate the silly from the sage ||| verbatim
+IBM |||  ||| Smith, IBM SPSS Essentials, 2nd Edition. Wiley, 2021. ||| occurrence_only
+AI ||| 主效应 ||| aim is to explain as much of the variance as possible by ||| verbatim
+Bayesian statistics |||  ||| Bayesian statistics are more appropriate than ||| verbatim
+APA |||  ||| 13 Final exam (07-12) Technical Report (APA style guide) ||| occurrence_only
+RT |||  ||| will measure Behavioural: Questionnaires, eye-tracking, RT ||| occurrence_only
+ECG |||  ||| Physiological: ECG, EEG, fMRI, Galvanic skin response The Null predicts there is no noticeable difference ||| verbatim
+Spearman-Brown |||  ||| Spearman-Brown coefficient ρ (split-half) Cronbach is for 3 or more items. If you have but 2 items, Spearman-Brown ||| verbatim
+AMOS |||  ||| AMOS: a user-friendly software that integrates with SPSS ||| verbatim
+H2 |||  ||| H2: an animal H3: a plant ||| verbatim
+H3 |||  ||| H3: a plant For instance, ||| verbatim
+Insight |||  ||| ●Three types of questions: Knowledge, Application, Insight ||| occurrence_only
+GPT |||  ||| GPT copies outer form (sense) without knowing what the words refer to (it does not know meaning). It merely guesses what word is likely to come next b ||| verbatim
+LION |||  ||| Issues with GPT for academic writing Giovanni LION, ||| occurrence_only
+Gemini August |||  ||| Gemini August ||| occurrence_only
+CEO |||  ||| Prof. BAI Yuhong, CEO Light Brand Deputy Chief Editor of Light: Science & Applications ||| occurrence_only
+Deputy Chief Editor of Light |||  ||| Deputy Chief Editor of Light: Science & Applications ||| verbatim
+JAK |||  ||| Guo, X., Dong, L., & Hao, D. (2024). Cellular functions of spermatogonial stem cells in relation to JAK/STAT signaling ||| occurrence_only
+STAT |||  ||| Statistics = statecraft Statistics is the science of the state, ||| verbatim
+GE ||| 一般线性模型 ||| We bother about research because we are in pursuit of knowledge that is as reliable as possible so that ||| verbatim
+Data |||  ||| Data are (actually, with more data, significant but ||| verbatim
+meaningless correlations |||  ||| meaningless correlations are likelier to occur) ||| verbatim
+LLM |||  ||| † LLMs combine newspaper articles and blogs with sound science † LLM sources cannot be traced back (what is that ‘ground truth’?) ||| occurrence_only
+IEEE |||  ||| Apart from Google Scholar, also consult MetaSearch, PSYCHinfo/APA PsychNet, ACM Digital Library, IEEE Xplore, CSA Illumina (ProQuest), PubMed ||| occurrence_only
+CSA |||  ||| Apart from Google Scholar, also consult MetaSearch, PSYCHinfo/APA PsychNet, ACM Digital Library, IEEE Xplore, CSA Illumina (ProQuest), PubMed ||| occurrence_only
+Design/engineering |||  ||| Design/engineering = know how: ||| verbatim
+IQ |||  ||| Example: Does the mean IQ score of COMP students significantly differ from the population average (which is 98, the known value) ||| verbatim
+Humans have higher scores on standardised IQ |||  ||| - Humans have higher scores on standardised IQ tests than does AI ||| verbatim
+GPU |||  ||| - With FinTech, handling your finance is easier than ever - My GPU is faster than yours ||| verbatim
+VR |||  ||| VR health app X on user experience Y, and you suspect that this effect is mediated by increased ||| verbatim
+AC ||| 固定因子 ||| According to multivariate tests, the interaction between Agency and AI was significant: F(df1, df2) = ||| verbatim
+Ubisoft |||  ||| “Compared to Mario Kart, the learning curve for AC is steeper for newbies than for hardcore gamers” Basim. Assassin’s Creed Mirage, Ubisoft (2023) ||| verbatim
+Nintendo |||  ||| Basim. Assassin’s Creed Mirage, Ubisoft (2023) Mario. Mario Kart 8, Nintendo (2014) ||| occurrence_only
+depends |||  ||| different perspectives on the data) What is useful depends on culture ||| verbatim
+AMD |||  |||  AMD Radeon RX 5700 XT ||| occurrence_only
+RX |||  |||  AMD Radeon RX 5700 XT ||| occurrence_only
+XT |||  |||  AMD Radeon RX 5700 XT ||| occurrence_only
+hits |||  ||| time: Web logs, transaction logs, number of “hits” to Help system, ||| occurrence_only
+more structure to data |||  ||| more structure to data is ||| verbatim
+Theory ||| 检验理论 ||| Theory is always involved: ||| verbatim
+Monkey |||  ||| “Monkey” ||| occurrence_only
+Allowable manipulations |||  ||| Allowable manipulations: add, subtract ||| verbatim
+MS ||| 飞行管理系统 ||| • Ratio Slides in this lecture are partially based on those from Ms. Tiffany Tang, Dr. Vincent Ng, Dr. Grace Ngai, Dr. Saul ||| verbatim
+zero |||  ||| Interval scale Similar to Ratio scale, but the “zero” point is arbitrary ||| verbatim
+Allowable statistics |||  ||| Allowable statistics: mean, range, variance, standard deviation ||| verbatim
+Ethnographical observations on the work floor |||  ||| Ethnographical observations on the work floor are ||| verbatim
+PC |||  ||| The Null predicts there is no noticeable difference between two sets of data (e.g., Mac vs PC use): effects ||| verbatim
+interval level to a nominal categorisation |||  ||| interval level to a nominal categorisation is… unfortunate ||| verbatim
+Usability testing |||  ||| Usability testing: formative / summative ||| verbatim
+Grady |||  ||| O’Grady, L., Witteman, H., Bender, J. L., Urowitz, S., Wiljer, D., & Jadad, A. R. (2009). Measuring the impact of a ||| occurrence_only
+Schellens |||  ||| Van den Haak, M. J., De Jong, M. D. T., & Schellens, P. J. (2009). Evaluating municipal websites: A methodological ||| occurrence_only
+Select a moderator |||  ||| Select a moderator: Choose a skilled individual to lead the focus group. The moderator ||| verbatim
+Conduct the focus group |||  ||| Conduct the focus group: The moderator leads the session, asking questions and prompting ||| verbatim
+Analyse the data |||  ||| Analyse the data: Transcribe the recordings and analyse the content. Look for patterns, themes, ||| verbatim
+Quantitative data |||  ||| Quantitative data: The structured nature of these interviews makes them well-suited for ||| verbatim
+Design the interview guide |||  ||| Design the interview guide: Create a structured interview guide that includes all the questions ||| verbatim
+Pilot test |||  ||| Pilot test: Conduct a pilot test with a small number of participants to ensure questions are ||| verbatim
+Conduct interviews |||  ||| Conduct interviews: Carry out the interviews according to the structured interview guide. ||| verbatim
+Structured interviews |||  ||| Structured interviews are a valuable tool for researchers aiming to collect quantifiable ||| verbatim
+Interview guide |||  ||| Interview guide: A semi-structured interview guide is prepared in advance, outlining key ||| verbatim
+Qualitative data |||  ||| Qualitative data: This method is geared towards collecting rich, qualitative data that can ||| verbatim
+Develop the interview guide |||  ||| Develop the interview guide: Create a guide that includes a list of questions or topics to be ||| verbatim
+Braun |||  ||| Clarke, V., & Braun, V. (2022). Thematic analysis, a practical guide. Thousand Oaks, CA: Sage. ||| occurrence_only
+Familiarising yourself with the data |||  ||| Familiarising yourself with the data: This initial step involves immersing yourself in the ||| verbatim
+Generating initial codes |||  ||| Generating initial codes: Coding involves highlighting significant features of the data that are relevant to the research question and organising thes ||| verbatim
+Searching for themes |||  ||| Searching for themes: After coding, the next step is to collate codes into potential themes, ||| verbatim
+Reviewing themes |||  ||| Reviewing themes: This involves checking if the themes work in relation to the coded ||| verbatim
+Thematic Analysis |||  ||| Thematic Analysis is a versatile tool that can provide a rich and detailed, yet complex ||| verbatim
+Limpaecher |||  ||| the implicit messages, social norms, and power relations that are communicated through language (Ho & Limpaecher, 2023) ||| verbatim
+Data collection |||  ||| Data collection: Gathering relevant texts or recordings that represent the discourse you ||| verbatim
+Coding |||  ||| Coding: Identifying patterns, themes, and features in the data (can be combined with ||| verbatim
+Theorising |||  ||| Theorising: Developing theories about the social implications of the discourse ||| verbatim
+Discourse Analysis |||  ||| Discourse Analysis is a powerful tool for uncovering the deeper meanings and social ||| verbatim
+Variety of data |||  ||| Variety of data: The method can be applied to a wide range of data sources, such as media ||| verbatim
+Theoretical sampling |||  ||| Theoretical sampling: Decide where to find more data based on the emerging theory ||| verbatim
+Saturation |||  ||| Saturation: When no new information is being found, the data collection phase can end. ||| verbatim
+Integration of theory |||  ||| Integration of theory: Flesh out the theory, filling in categories that need further refinement ||| verbatim
+Data collection and analysis |||  ||| Data collection and analysis are interconnected: Data collection, analysis, and eventual theory stand ||| verbatim
+Data collection and analysis are interconnected |||  ||| Data collection and analysis are interconnected: Data collection, analysis, and eventual theory stand ||| verbatim
+Constant comparative method |||  ||| Constant comparative method: This method involves comparing elements present in one data source ||| verbatim
+Theory development |||  ||| Theory development: The ultimate goal is to develop a theory that offers an explanation about the ||| verbatim
+ng ng ng |||  ||| Some examples have more weight than other examples: taking care of family (say, importance score 8) is more relevant than ng ng ng (importance score 3 ||| verbatim
+very important |||  ||| you know, is like saying "family very important," they make not just clothes but also like... how to say, ah, ||| verbatim
+more important |||  ||| One example from that collection is the story of Kam Po, stating that taking care of family is “more important” (ordinal measure) than fashion and fad ||| verbatim
+WX |||  ||| WX = The overall importance ||| verbatim
+Angulo |||  ||| Use of coding schemes and calculating inter-rater reliabilities Andrés, Pardo, Díaz, and Angulo (2015), p. 402 ||| occurrence_only
+t-tests for comparing |||  ||| - t-tests for comparing means ||| verbatim
+machine analysis |||  ||| machine analysis is trustworthy ||| verbatim
+Epistemological considerations |||  ||| Epistemological considerations: When to use qualitative ||| verbatim
+Lab experiments |||  ||| Lab experiments are obtrusive and so people may be ||| verbatim
+biased by you observing them but cases |||  ||| biased by you observing them but cases are numerous ||| verbatim
+Interpreting qualitative data |||  ||| Interpreting qualitative data is an art rather than a ||| verbatim
+Rigor in data management |||  ||| Rigor in data management: How to establish ||| verbatim
+Jaspers |||  ||| Jaspers, M. W. M. (2009). A comparison of usability methods for testing interactive health technologies: ||| verbatim
+heuristic testing |||  ||| heuristic testing are: ||| verbatim
+US ||| 焦点小组 ||| – Measurements are more subjective and relative (anecdotal) – Gives us cases, data are less structured, more diverse, or ‘rich’ ||| verbatim
+Our stock price rose 60% this year |||  ||| Before we embark on quantitative methods “Our stock price rose 60% this year.” ||| occurrence_only
+Scale contents and reliability |||  ||| ●Scale contents and reliability tests ||| verbatim
+Empathy |||  ||| “Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…” ||| verbatim
+Infinite regress |||  ||| Infinite regress: A word is explained by another word, which is explained by a third, ad infinitum ||| verbatim
+Triangulation |||  ||| Triangulation means that the researcher employs various methods and/or data sets to gain a ||| verbatim
+VU |||  ||| Processing (Doctoral dissertation, VU University. Ann Arbor, MI: ProQuest). Available from ||| occurrence_only
+MI ||| 混合设计 ||| Processing (Doctoral dissertation, VU University. Ann Arbor, MI: ProQuest). Available from ||| occurrence_only
+Denzin |||  ||| Denzin (1970, p. 301) discerns four types of triangulation Data triangulation: Different time periods, various spaces, various samples of people (cf.  ||| verbatim
+Investigator triangulation |||  ||| Investigator triangulation: Different researchers doing the same study (cf. replication studies) ||| occurrence_only
+Methodological triangulation |||  ||| Methodological triangulation: Different types of data sampled through different kinds of methods ||| verbatim
+Scale construction |||  ||| Scale construction is a triangulation method to circumvent (up to a degree) the issues with ||| verbatim
+meanings of the words |||  ||| meanings of the words are now ‘intersubjectively’ measured (i.e., using more respondents, ||| verbatim
+Concept analysis |||  ||| Concept analysis is a theoretical exercise that attempts to define as precisely as possible the ||| verbatim
+Hoorn |||  ||| Hoorn argues that all six dimensions are necessary for creative thought to occur. His ||| verbatim
+Data throughput |||  ||| Data throughput is time-consuming ||| verbatim
+Typical survey item |||  ||| Typical survey item is a question: ||| verbatim
+Faceted scales |||  ||| Faceted scales are statements that systematically combine multiple measurement scales ||| verbatim
+dis)agree a little |||  ||| Inserting “(dis)agree a little” automatically gives you a 6-point rating scale ||| occurrence_only
+I’m neutral |||  ||| (3 + 3 + 2) + (2 + 2 + 3) = 15 / 6 = 2.5, which is scale-midpoint, which means “I’m neutral” ||| verbatim
+They will not have no money |||  ||| “They will not have no money” ||| occurrence_only
+MA ||| 操纵（实验处理） ||| MANCOVA If some DV is a covariate (e.g., ||| verbatim
+NA ||| 信号 ||| NA Not every antonym is a ||| verbatim
+LAN |||  ||| “Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…” “A rose is a flower is a plant is an organism is a molecule structu ||| verbatim
+MC ||| 麦格拉思四象限 ||| E = energy eigenvalue Retake on McGrath (1995) ||| occurrence_only
+OQ |||  ||| 10 Multiple choice (MC) 2 Open-ended questions (OQ) ||| occurrence_only
+RGB |||  ||| - No. The RGB values show that dark grey is not equal to pure black. Hence, the ||| verbatim
+totally disagree |||  ||| - 6-point rating scale, starting on the left from 0 = totally disagree ||| occurrence_only
+totally agree |||  ||| Totally agree Yes, absolutely too many options ||| occurrence_only
+Methods class |||  ||| Methods class is… disagree ||| verbatim
+Fodor |||  ||| Famous example The garden-path model of sentence processing by Frazier and Fodor (1978) and Frazier ||| occurrence_only
+Rayner |||  ||| Frazier, L., & Rayner, K. (1982). Making and correcting errors during sentence comprehension: Eye movements in the analysis of structurally ambiguous  ||| occurrence_only
+GREEN |||  ||| † Google Scholar does not offer comprehensive results on your topic of interest † LLMs do not discern ripe from green, fact from fraud ||| occurrence_only
+RED |||  ||| Red is high positive correlation, interpreted as ||| verbatim
+Stroop |||  ||| Stroop task: Naming the colour of ink that words are printed in, while the words ||| verbatim
+ID ||| 效度 ||| ID = log2(A/W + 1), or ID = log2(A/W + 0.5) (when ID < 3 bits) ||| verbatim
+Touch my heart |||  ||| “Touch my heart” ||| occurrence_only
+transmitting information |||  ||| can be sent through a noisy channel). He saw pointing as a process of “transmitting information” from brain to muscles. The logarithm comes from the w ||| occurrence_only
+Douglas Engelbart |||  ||| Douglas Engelbart (1964), inventor of the mouse and interaction researcher: Which is fastest? ||| occurrence_only
+IP ||| 多人在线战术竞技游戏 ||| IP = 1/b Reaction times ||| verbatim
+TP |||  ||| device processes the task) The Index of Performance IP (or throughput TP) ||| occurrence_only
+NTT |||  ||| Confidence in Tokyo Stock Exchange damaged Shares in NTT, rival of software maker, jumped 11% ||| occurrence_only
+Lesson regarding Fitts |||  |||  Lesson regarding Fitts: The wider an interface widget and the closer it is to the pointer, the easier ||| verbatim
+LAM |||  ||| LAM MLA ALM LMA MAL AML ||| occurrence_only
+ALM |||  ||| LAM MLA ALM LMA MAL AML ||| occurrence_only
+Gaze duration |||  ||| Gaze duration: The amount of time spent looking at a particular object or area, indicating the ||| verbatim
+Visual World Paradigm |||  ||| Famous example The “Visual World Paradigm” (e.g., Altmann & Kamide, 2007), using eye tracking to investigate real- ||| occurrence_only
+IR |||  ||| the algorithm would come up with would be people ‘just like you:’ same age, ethnicity, social- economic status, hobbies, character. It would confirm w ||| verbatim
+UK |||  ||| Health Study - monitored the causes of social inequalities in health in the UK Longitudinally, negative conditions of heart function are related to ba ||| verbatim
+GSR |||  ||| attention What GSR is supposed to indicate ||| verbatim
+Dawson |||  ||| Filion, D. L., Dawson, M. E., & Schell, A. M. (1993). Modification of the acoustic startle-reflex eyeblink: A tool for ||| occurrence_only
+possible theoretically but |||  ||| possible theoretically but is hardly ever the case in real life, particularly if ||| verbatim
+John |||  ||| Famous example The P300 component of ERPs, first reported by Sutton, Braren, Zubin, and John (1965), which is ||| verbatim
+ERP |||  ||| ERPs (Event-Related Potentials): Specific brain responses that are the direct ||| verbatim
+Regions of the brain that |||  ||| Regions of the brain that are more active during specific cognitive tasks or conditions ||| verbatim
+Saxe |||  ||| Saxe, R., Carey, S., & Kanwisher, N. (2004). Understanding other minds: Linking developmental ||| verbatim
+SAD |||  ||| sad, troublesome, resisting fashion and fads. They use happy phrases about old times, emphasising skill: making ||| verbatim
+CBI |||  ||| Brain-Computer Interface (BCI) to Computer-Brain Interface (CBI) ||| occurrence_only
+IOP |||  ||| Rodríguez, M., Giménez, R., Diez, P., Avila, E., Laciar, E., Orosco, L., & Correa, A. G. (2013). Playing with your mind. In Journal of Physics: Confer ||| occurrence_only
+EPOC |||  ||| Emotiv’s wired headset EPOC has 16 contacts ||| occurrence_only
+effect ||| 顺序效应 ||| effect is a logical fallacy (ex consequentia) ||| verbatim
+Correlations |||  ||| Correlations are weak ties ||| verbatim
+Deviations from the average |||  ||| Deviations from the average are always there, so if you compare ||| verbatim
+Even correlation |||  ||| Even correlation = 1 does not mean that one causes the other! ||| verbatim
+measurement of agreement |||  ||| measurement of agreement is complex due to ||| verbatim
+Klaus Krippendorff |||  ||| Klaus Krippendorff (1970) ||| occurrence_only
+Corrected Item-Total Correlations |||  ||| Corrected Item-Total Correlations: Items correlating < .01 with the scale total should be removed from ||| verbatim
+Recode the values of the counter-indication |||  ||| Recode the values of the counter-indication: 0 5, 1 4, 2 3, 3 2, 4 1, 5 0 ||| verbatim
+Charles Spearman |||  ||| The Spearman-Brown coefficient is named after Charles Spearman (1910), ||| verbatim
+William Brown |||  ||| who first proposed the concept of split- half reliability, and William Brown ||| occurrence_only
+Spearman’s rho |||  ||| Spearman’s rho is used when the assumptions of the Pearson correlation coefficient are not met, ||| verbatim
+particularly when the data |||  ||| particularly when the data are not normally distributed, when the sample size is small, or when ||| verbatim
+LIII |||  ||| r = .90 Pearson, K. (1901). LIII. On lines and planes of closest ||| occurrence_only
+Turning correlations into coordinates |||  |||  Turning correlations into coordinates is called ‘orthogonal transformation’ ||| verbatim
+Data compression |||  ||| Data compression: Making data easier to explore and visualize ||| verbatim
+Multivariate data analysis |||  ||| Multivariate data analysis: Understanding the structure of high-dimensional data ||| verbatim
+Harold Hotelling |||  ||| The origins of PCA are often attributed to Karl Pearson, later developed and extended by Harold Hotelling (1933), introducing the term “principal comp ||| verbatim
+Pearson Product-Moment Correlation (r |||  ||| Pearson Product-Moment Correlation (r) It is used for: ||| verbatim
+items that at least |||  ||| items that at least are measured on an ordinal scale ||| verbatim
+Convergent validity |||  ||| Convergent validity tells in how far items indicate ||| verbatim
+Sugar must be correlated because the relationship |||  ||| Sugar must be correlated because the relationship is causal ||| verbatim
+GM |||  ||| M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral, so the correlation is 0 ||| verbatim
+split-half say this 2-item scale |||  ||| split-half say this 2-item scale is reliable? Why? ||| verbatim
+NNs |||  ||| NNs, they call it the ‘loss function’ between input and expected output That’s why we write: ||| verbatim
+Anthropomorphism determines experience |||  ||| “Anthropomorphism determines experience” (Zip & Zilch, 1001) You understand this is a fake citation ||| verbatim
+explained) or remain as |||  ||| explained) or remain as is (the new factor does not explain much extra) ||| verbatim
+DL |||  ||| With more hidden layers added, it becomes ‘Deep’ learning. With so many hidden layers, it is harder to get on what grounds DL takes a decision: empiri ||| verbatim
+ML |||  ||| Much of the literature in ML and Deep Learning is about reducing ||| verbatim
+data classification (this |||  ||| data classification (this is a fish, that is a hat) ||| verbatim
+Mediation |||  ||| Mediation: relationship between an independent predictor X and a dependent variable Y is explained by a third variable, mediator M ||| verbatim
+Path a |||  ||| Path a: the effect of the independent variable X on the mediator M ||| verbatim
+Path b |||  ||| Path b: the effect of the mediator M on the dependent variable Y ||| verbatim
+Path c’ |||  ||| Path c’: the direct effect of the independent variable X on the dependent variable Y, not ||| verbatim
+Mediated Moderation |||  ||| Mediated Moderation: the interaction between X and W on Y (moderation effect) is itself mediated ||| verbatim
+SAS |||  ||| Regression Analysis in SPSS: can be used to test for mediation and moderation effects PROCESS Macro for SPSS and SAS: a popular tool developed by An ||| occurrence_only
+Andrew F. Hayes |||  ||| Regression Analysis in SPSS: can be used to test for mediation and moderation effects PROCESS Macro for SPSS and SAS: a popular tool developed by An ||| occurrence_only
+Regression Analysis in SPSS |||  ||| Regression Analysis in SPSS: can be used to test for mediation and moderation effects ||| verbatim
+simultaneously test multiple relationships and |||  ||| simultaneously test multiple relationships and is particularly useful for complex models ||| verbatim
+factor analysis |||  ||| Measurement Model: this part of SEM specifies how latent variables are measured by the observed variables. It is essentially a confirmatory factor ana ||| verbatim
+CFA |||  ||| Measurement Model: this part of SEM specifies how latent variables are measured by the observed variables. It is essentially a confirmatory factor ana ||| verbatim
+Observed Variables |||  ||| Observed Variables: variables that can be directly measured or observed in the study, also referred ||| verbatim
+Latent Variables |||  ||| Latent Variables: it can incorporate latent variables, which represent underlying constructs that are ||| verbatim
+Structural Model |||  ||| Structural Model: this part specifies the relationships among latent variables. It is similar to a path ||| verbatim
+analysis we saw previously and |||  ||| analysis we saw previously and shows how latent variables influence one another. Tells in how far ||| verbatim
+GLS |||  ||| Model Estimation: use statistical software to estimate the parameters of the model. Common estimation methods include Maximum Likelihood (ML), General ||| occurrence_only
+WLS |||  ||| (WLS) Model Evaluation: assess the fit of the model using various fit indices. Common fit indices include the Chi- ||| occurrence_only
+CFI |||  ||| Square Test, Root Mean Square Error of Approximation (RMSEA), Comparative Fit Index (CFI), and Tucker- ||| occurrence_only
+TLI |||  ||| Lewis Index (TLI) Model Modification: if the initial model does not fit well, make modifications based on theoretical ||| occurrence_only
+Model Specification |||  ||| Model Specification: define the hypothesised relationships among variables. This involves creating a ||| verbatim
+Model Identification |||  ||| Model Identification: ensure that the model is mathematically identifiable, meaning there are enough data ||| verbatim
+Model Estimation |||  ||| Model Estimation: use statistical software to estimate the parameters of the model. Common estimation ||| verbatim
+Model Evaluation |||  ||| Model Evaluation: assess the fit of the model using various fit indices. Common fit indices include the Chi- ||| verbatim
+Model Modification |||  ||| Model Modification: if the initial model does not fit well, make modifications based on theoretical ||| verbatim
+Model Interpretation |||  ||| Model Interpretation: interpret the estimated parameters to understand the relationships among ||| verbatim
+model predicts there |||  ||| model predicts there is ||| verbatim
+Simultaneous Analysis |||  ||| Simultaneous Analysis: SEM allows for the simultaneous analysis of multiple relationships, ||| verbatim
+LISREL |||  ||| LISREL: one of the earliest and most comprehensive SEM software packages ||| verbatim
+regression tries to predict whether an item |||  ||| regression tries to predict whether an item is in-class or ||| verbatim
+Structural Equation Modeling |||  ||| Structural Equation Modeling is a powerful and flexible ||| verbatim
+frequentist statistics |||  ||| t-tests for each stimulus set separately using frequentist statistics ||| occurrence_only
+reject ||| 拒绝域 ||| Default is the Null (H0) = observed differences are chance occurrences Given enough data, or a small enough variability, we can reject the Null in f ||| verbatim
+Same participants in all conditions |||  ||| Same participants in all conditions: All participants perform the same task ||| verbatim
+VISA |||  ||| • People have more/less relevant experience with one condition than the other Example: foreigners do not use Alipay, Chinese do not use VISA much ||| occurrence_only
+TV |||  ||| is enthusiastic about VR but not about the TV condition ||| verbatim
+Usually happens when group division |||  ||| Usually happens when group division is not done properly in between-subject tests ||| verbatim
+QR |||  ||| – Experimenter is lazy but wants large numbers of participants – Invites friends and family, posts QR codes on XiaoHongshu ||| verbatim
+Group 1 |||  ||| Group 1: tries Keypad Layout A first, and then Layout B ||| verbatim
+Group 2 |||  ||| Group 2: tries Keypad Layout B first, and then Layout A If there is an order effect, this distributes the effect across all groups, but does not ||| verbatim
+sampling |||  ||| How data sets relate to one another • Whether we are “sampling” from the same or different distributions ||| verbatim
+Data mining for pattern discovery |||  ||| Data mining for pattern discovery: exploratory or confirmatory? ||| occurrence_only
+Parametric / inferential statistics |||  ||| Parametric / inferential statistics are used to draw conclusions and to make ||| verbatim
+SF |||  ||| - Distances between steps bear no meaning Examples: SFQ scores, user preferences (e.g., I like Apple more than MS) ||| occurrence_only
+Most swans are white |||  ||| Statistically, we can never demonstrate that anything is ‘correct’ or ‘true,’ only that it is very likely to be correct: “Most swans are white” ||| verbatim
+All cats are white |||  ||| “All cats are white” and “Anything white is a cat” are easily falsified by ||| verbatim
+Anything white is a cat |||  ||| “All cats are white” and “Anything white is a cat” are easily falsified by ||| verbatim
+Statistics can also underscore that something |||  ||| Statistics can also underscore that something is very likely to be false, ||| verbatim
+Hypotheses (H0 and HA |||  ||| ●Hypotheses (H0 and HA) are precise statements that ||| verbatim
+whether patterns in data |||  ||| whether patterns in data are coincidental or systematic. ||| verbatim
+Scores away from the mean |||  ||| ●Scores away from the mean are called variance and the ||| verbatim
+Randomisation and counter-balancing |||  ||| • Randomisation and counter-balancing are ways to mitigate the ||| verbatim
+sum up |||  ||| N is the total number of data points in the population. It’s how many data points you have means “sum up” or “add together.” You’re adding up all the ||| verbatim
+each data point |||  ||| each data point is from the average, squared to ensure all differences are positive ||| verbatim
+Difference between group |||  ||| Difference between group means ||| verbatim
+COMP ||| 方差成分 ||| Derived from the RQ, a hypothesis is a precise problem statement about a topic (e.g., about a physical system, a computer system, human experience) ||| verbatim
+population average (which |||  ||| population average (which is 98, the known value) ||| verbatim
+Paired-samples t-test compares |||  ||| Paired-samples t-test compares means from the same group at different times (e.g., one ||| verbatim
+show |||  ||| - No. The RGB values show that dark grey is not equal to pure black. Hence, the ||| verbatim
+probable it |||  ||| probable it is that the observed or ||| verbatim
+Data points of each sample |||  ||| Data points of each sample are normally distributed ||| verbatim
+presumed innocent till proven guilty |||  ||| For example, if it’s “presumed innocent till proven guilty,” you need an overwhelming vote in a jury to convict a serious crime (e.g., 7:2 or 8:1) ||| occurrence_only
+ROZO |||  ||| errors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the interface is already familiar to them ||| verbatim
+ROMEO |||  ||| errors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the interface is already familiar to them ||| verbatim
+AA965 |||  ||| (M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic ||| verbatim
+play safe |||  ||| we stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more ||| occurrence_only
+Intelligence test than Robots did (MWithAI |||  ||| Intelligence test than Robots did (MWithAI = 90, SD = .98). ||| verbatim
+SPECIAL |||  ||| 5 I think that there are too many options and special cases ||| verbatim
+PRINT |||  ||| /PRINT = CELLINFO (MEANS, COV) ||| verbatim
+CELLINFO |||  ||| /ANALYSIS=(T1/T2/T3 T4/T5 T6) /PRINT = CELLINFO (MEANS, COV) ||| occurrence_only
+COV ||| 协方差分析 ||| /ANALYSIS=(T1/T2/T3 T4/T5 T6) /PRINT = CELLINFO (MEANS, COV) ||| occurrence_only
+SIGNIF |||  ||| /PRINT = CELLINFO (MEANS, COV) SIGNIF (EFSIZE) ||| occurrence_only
+EFSIZE |||  ||| /PRINT = CELLINFO (MEANS, COV) SIGNIF (EFSIZE) ||| occurrence_only
+DESIGN |||  ||| Design a set of tasks (like cognitive walkthrough) Participants are asked to say whatever comes to mind as they complete the task ||| verbatim
+ESTIM |||  ||| PARAMETERS (ESTIM) /DESIGN = CONSTANT. ||| occurrence_only
+CONSTANT |||  ||| Constant comparison: Continuously compare new data with existing codes and categories ||| verbatim
+Oneway ANOVA compares |||  ||| Oneway ANOVA compares means of one dependent variable across 3 groups ||| verbatim
+MANCOVA (Multivariate Analysis of Covariance |||  ||| MANCOVA (Multivariate Analysis of Covariance) is MANOVA with covariate/s, continuous ||| verbatim
+OK |||  ||| 4. Click on Options to select additional statistics or plots 5. Click OK to run the analysis ||| occurrence_only
+values around the mean |||  ||| values around the mean is explained from normal ||| verbatim
+VR helmet 2 (MVRh2 |||  ||| VR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on ||| verbatim
+works |||  ||| The logarithm in Fitts' Law is there because of how human movement works ||| verbatim
+Main lesson of Lecture 10 |||  ||| Main lesson of Lecture 10: t-test and (M)ANOVA: frequentism is but one view on the data. It cannot ||| verbatim
+Bayesian analysis exists of three parts |||  ||| Bayesian analysis exists of three parts: the prior distribution, the data (the likelihood), and the posterior distribution. The posterior distribution ||| verbatim
+probability that an effect |||  ||| probability that an effect is present or absent, ||| verbatim
+BF |||  ||| To compare the various models (not effects) of equality, you can calculate Bayes Factor (BF), which is a non-binary but continuous statistical index t ||| verbatim
+Jeffreys |||  ||| Jeffreys, H. (1961). Theory of probability (3rd ed.). Oxford, UK: Oxford University. ||| verbatim
+Konijn |||  ||| Van Vugt, Hoorn, and Konijn (2009) Prior knowledge: Interactively Perceiving and Experiencing Fictional Characters (I-PEFiC) ||| occurrence_only
+Pontier |||  ||| DIC = 404.40 Hoorn, Konijn, and Pontier (2018) ||| occurrence_only
+CCIs |||  ||| CCIs overlapped DIC = 404.40 ||| verbatim
+DIC |||  ||| DIC = 404.40 Hoorn, Konijn, and Pontier (2018) ||| verbatim
+Shelton |||  ||| References 1 Edwards, C., Edwards, A., Spence, P. R., & Shelton, A. K. (2014). Is that a bot running the social media ||| verbatim
+Komponisto |||  ||| Komponisto (2010, June 3). Bayes' Theorem illustrated (my way). Available from http://lesswrong.com/lw/2b0/bayes_theorem_illustrated_my_way/ ||| occurrence_only
+H1 plus the data |||  ||| That weakens the probability that your hypothesis will be confirmed with 50%. Fifty percent of 30% is 15% chance your “H1 plus the data” (together the ||| verbatim
+CGI |||  ||| high-fidelity CGI (cf. DeepFake), improved Turing Tests become increasingly important not only ||| occurrence_only
+Response session |||  ||| Response session: Three days in advance, you write to me the issues that you ||| verbatim

@@ -1,0 +1,3281 @@
+PAGE 1
+Research Methods for Multimedia Entertainment (SD5979)
+Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)
+Lecture 12: Response, feedback, test exam
+1
+
+
+PAGE 2
+2/176
+What did we do?
+01 Introduction to Research Methods
+02 How to build up a theory
+03 Qualitative methods
+04 Structured questionnaire design
+05 Behavioral and physiological measures
+06 Midterm (01-05)
+07 Correlations
+08 (Multiple) regression
+09 Experiment design
+10 t-tests and (M)ANOVA
+11 Bayesian statistics
+12 Response, feedback, and test exam
+13 Final exam (07-12)
+Research Methods for Multimedia Entertainment (SD5979)
+
+
+PAGE 3
+Contents of today
+Your feedback and questions
+How did you like it?
+What went well?
+What wasn’t so great?
+Test exam
+Exam instructions
+3/176
+
+
+PAGE 4
+Response
+Your feedback and questions
+How did you like it?
+What went well?
+What wasn’t so great?
+4/176
+
+
+PAGE 5
+Independent studies
+5/176
+4 positions
+If you do well, maybe paid internship 
+afterwards (no guarantee)
+What I value:
+Honesty (no LLMs)
+Hard work
+Insight
+Quantified (qualitative) studies
+Lab and field experiments
+Focus on low SES
+Hongkongers
+Theme-based Research Scheme
+Social Robots with Embedded Large Language Models 
+Releasing Stress among the Hong Kong Population
+T43-518/24-N
+
+
+PAGE 6
+June: I understand that correlation explores the relationships between 
+variables. But at which stage of a complete research process does this step of 
+investigating variable-to-variable relationships belong?
+6/176
+
+
+PAGE 7
+7/176
+Correlations are useful everywhere in the research process
+RQs and Hypotheses formation
+“I see that Obesity and Cancer highly correlate. What is the root cause?”
+“Gene 1 and Gene 5 show high positive correlations in their expression. Are they similar? Or 
+complementary? Why do two different genes express themselves in the same way?”
+Measurement reliability
+For convergent validity of your psychometric scales: Cronbach, Spearman-Brown
+For divergent validity of your psychometric scales: Pearson (should be 0, not negative), PCA
+For inter-rater reliabilities: Cohen, Krippendorff
+Confounds and covariates
+You want to know the effect of a new design on health habits. But Age covaries, and Novelty 
+covaries, and Obesity and Cancer highly correlate with each other and with health habits, etc.
+Correlations
+
+
+PAGE 8
+June: What is the meaning of calculating variance and standard deviation? Is 
+one function of variance to detect the degree of variation / fluctuation between 
+real-world data and a regression model?
+8/176
+
+
+PAGE 9
+Measure how spread out your data set is around its average (mean)
+Variance and standard deviation quantify ‘not being the mean’
+Variance tells the average of the (squared) differences from the mean. Squaring the 
+differences does two things: it prevents positive and negative differences from cancelling 
+each other out, and it heavily penalises extreme outliers (which I personally find not good –
+attend the Summer Course)
+However, because it is squared, the units are distorted (values are multiplied by themselves)
+Standard Deviation takes the square root of the variance, bringing the values back into the 
+original units of measurement. SD tells you, on average, how far data points are away from 
+the mean
+9/176
+Variance and Standard Deviation
+
+
+PAGE 10
+Standard variance measures how much data fluctuates around a flat average
+10/176
+Variance and regression analysis
+Variability of groups
+Residual variance measures how much data fluctuate 
+around your regression model’s predictions (that do 
+not lie on the regression line)
+x
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PAGE 11
+Calculating the variance of those residuals tells you the 
+average squared spread of the data around your regression 
+line
+A low residual variance means real-world data fits your 
+regression line tightly (small fluctuation). A high residual 
+variance means the data bounces wildly away from your 
+regression line (large fluctuation, poor prediction)
+The variance is then split into two:
+1. Explained variance is the fluctuation your regression line 
+captures and predicts
+2. Unexplained (or residual) variance: leftover random ‘noise’ 
+between the data and your regression line
+Comparing these two variances gives you the R2 value, which 
+tells you the percentage of variation your model is able to 
+account for
+11/176
+Variance and regression analysis
+x
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% fit
+What doesn’t fit
+
+
+PAGE 12
+June: Is variance equivalent to noise?
+12/176
+
+
+PAGE 13
+13/176
+Unexplained variance is called ‘noise’
+Yes, particularly when ‘unexplained’, variance is called ‘noise’ and I am opposed to that terminology
+Attend the Summer Course of Emerging Technologies
+
+
+PAGE 14
+Bessie: Lecture 08 regression: Multiple linear regression and Neural Networks 
+(on slide 09). On this slide we learn how a basic neural network works. I noticed 
+that in every regression formula showed in the slide, only bias are different. Does 
+it mean the difference of nodes are distinguished by different biases? Or the 
+weights and bias in a node are all different?
+14/176
+
+
+PAGE 15
+From regression to Neural Network
+To maintain readability, the slide used some inexact shorthand
+It should have been y1, y2, y3, y4 as well as
+a11, a12, a13 for node N1, and a21, a22, a23 for node N2, etc.
+Every arrow has its own weight:
+the arrows going from Human 
+likeness x1 into N1, N2, N3, and N4
+each carry a different numerical 
+value for a1
+Every node has its own bias: each 
+node N1 through N4 also has its 
+own different bias b1 through b4
+Different specialisations: because 
+both the weights and biases are 
+unique, N1 might focus heavily on 
+Polite behavior, while N2 focuses 
+more on Task efficiency, before 
+combining their results into the 
+final User experience score y
+15/176
+
+
+PAGE 16
+Bessie: In model training, how do we find the most appropriate bias? Is that a 
+selected value learned from data?(In my understanding, if the weights stay the 
+same, changing bias continuously, then the computer would tell us which bias 
+should be used)
+16/176
+
+
+PAGE 17
+but also weights are adapted
+x
+y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slope
+a
+Intercept
+b
+Both bias (intercept) and weight (slope) are adapted
+17/176
+System starts with random numbers for both the weights and bias, fully missing the data points
+Then calculates the distance between the line and the data points (‘error’ or ‘loss’)
+Using calculus, the computer checks:
+- Move the line up or down, adjusting the bias
+- Tilt the line steeper or flatter, adjusting the weights
+Repeat millions of times: tiny, repeated steps in the direction that shrinks the error/loss until the 
+line settles right through the centre of the data points (hopefully)
+
+
+PAGE 18
+Bessie: Q2 Lecture 08 regression: Mediation-moderation analysis (on slide 25). 
+I’m confused about how this graph was constructed and how this sentence 
+relates to the diagram.
+Now we know the core of mediated moderation is actually a more complex 
+moderation between X and Y. For the original graph, my understand of the 
+graph is that: the moderation effect of W on X → Y is mediated by M.
+Therefore we call the whole process ‘mediated moderation’. However in the 
+explanation of the slide: the interaction between X and W on Y is itself mediated 
+by M, which means the graph should be like: (X × W → M → Y ). 
+How to understand this statement? I'd like to know more about this!
+18/176
+
+
+PAGE 19
+Bessie’s diagram actually is the better representation:
+This is 
+mathematically 
+a bit awkward
+19/176
+Mediated Moderation
+Your teacher wanted to show that 
+Gender W changes how Affordances X
+affect Involvement Y, and that this 
+moderating effect happens because of 
+Relevance M
+Drawing W M (the X Y arrow) is 
+a visual metaphor (sorry!) for:
+W moderates X Y through M
+In actual regression math, you cannot 
+point an arrow at another arrow
+Instead, you do two regressions:
+X and W interact to predict M :
+X W M
+M then predicts Y :
+M Y
+X on Y as a control
+main effects
+
+
+PAGE 20
+Bessie’s diagram actually is the better representation:
+20/176
+Mediated Moderation
+Your teacher wanted to show that 
+Gender W changes how Affordances X
+affect Involvement Y, and that this 
+moderating effect happens because of 
+Relevance M
+Drawing W M (the X Y arrow) is 
+a visual metaphor (sorry!) for:
+W moderates X Y through M
+In actual regression math, you cannot 
+point an arrow at another arrow
+Instead, you do two regressions:
+X and W interact to predict M :
+X W M
+M then predicts Y :
+M Y
+X on Y as a control
+main effects
+
+
+PAGE 21
+Bessie: Q4 Lecture 11 Bayesian statistics: Media Inequality falsely concluded (on 
+slide 10). In frequentism, we reject null (falsification) to conclude alternative. In 
+this case, t-test and MANOVA cannot work because we cannot reject null and we 
+cannot say there is no effect. So does it mean frequentism can’t be used to deal 
+with issues about testing similarity? Or actually there are some certain cases that 
+frequentism statistics analysis can handle?
+21/176
+Indeed!
+No
+
+
+PAGE 22
+If the Null is rejected, then…
+the strictly logical conclusion is: we cannot maintain that there is no effect
+Full stop
+To opt for the Alternative is actually ‘jumping to conclusions’, another logical fallacy 
+(as well as a cognitive bias)
+You have no evidence in favour of the Alternative, only against the Null
+The original authors Gosset and Fisher were very modest about what you can do 
+with the t-test. Fisher recommended to only use it for exploratory data analysis. 
+Neyman and Pearson scaled it up to industrial level and the industry does not mind 
+taking some more risk. For them no difference is as good as ‘the same’
+Same = no difference
+No difference the same
+Frequentism: reject the Null or fail to do so
+22/176
+
+
+PAGE 23
+Bessie: Q5 Lecture 11 Bayeasian statistics (on slide 22). In this slide you 
+mentioned that Bayesian statistics do not result in a point estimate, but rather in 
+an interval with a certain probability...
+I am wondering that if we have a posterior distribution, can't we calculate its 
+mean, median, or mode and use it as a point estimate?
+23/176
+
+
+PAGE 24
+Yes, you can calculate mode and median, but those are not a point estimate
+Point estimates:
+Population or sample mean
+Population or sample proportion (x / n)
+Population or sample variance
+No measure of uncertainty: a single number will almost never hit the exact population 
+parameter due to random sampling error
+To account for uncertainty, point estimate comes with an interval estimate (such as a 95% 
+confidence interval), which gives a range of plausible values around that single number
+Bessie: Does Bayesian statistics focus more on the probably interval but not a single value?
+That’s what Bayes does exactly. And in combination: Bayesian t-test! Then you have it both
+Bayesianism: where’s the point estimate?
+24/176
+
+
+PAGE 25
+Bessie: I hope I’m not overthinking these questions. The more questions I ask, 
+the more curious I become about gaining further knowledge.
+Yes!! Happy. Methods class worked!! You’re thinking!!
+25/176
+
+
+PAGE 26
+Bessie: I hope I'm not overthinking these questions. The more questions I ask, 
+the more curious I become about gaining further knowledge.
+Yes!! Happy. Methods class worked!! You’re thinking!!
+26/176
+
+
+PAGE 27
+Wynne: I have a question about the Solomon four-group design in Lecture 09.
+Should “The effect of the Treatment while controlling the effect of the Pretest” 
+be the difference between G3after and G4after, rather than G1after and 
+G3after? My understanding is that the difference between G1after and G3after 
+should reflect the effect of the pretest, since both groups receive the same 
+treatment.
+I was wondering whether there might be a typo on the slide, or whether I have 
+misunderstood the experimental design. Would you mind explaining the 
+Solomon four-group design again?
+27/176
+
+
+PAGE 28
+The effect of the Treatment while 
+controlling the effect of the Pretest
+G3after vs  G4after
+or
+G1after vs G3after?
+Solomon 4-group: Treatment controlled for Pretest
+28/176
+G3after vs  G4after both have no Pretest, so I cannot know the effect of it
+G1after does carry the effects of a Pretest, so I know the difference with G3after
+
+
+PAGE 29
+Break
+
+
+PAGE 30
+What are the most critical areas that we should focus on studying for the 
+exam? Can you go through them quickly?
+30/176
+
+
+PAGE 31
+1. Correlations and causation
+•
+Understand the difference between correlation and causation
+•
+Be able to explain when a variable is correlated versus when it is a root cause
+•
+Know about the Spearman-Brown coefficient and how to test reliability in psychometric 
+scales
+2. Regression and Structural Equation Modeling (SEM)
+•
+Know what linear regression is and the difference between correlation and causation in 
+regression
+•
+Understand the basics of SEM, latent variables, and how SEM avoids logical fallacies
+3. Experiment design
+•
+Be able to distinguish between within-subjects and between-subjects designs, and 
+know which is more sensitive to order effects
+•
+Understand the Solomon four-group design and how to use it to assess measurement 
+reliability
+•
+Know what Cronbach’s alpha is and how it is used
+31/176
+
+
+PAGE 32
+4. ANOVA and t-tests
+•
+Understand what a one-way ANOVA does (comparing means of one dependent variable 
+across multiple groups)
+•
+Know how to interpret significance tables for t-tests and what factors affect the rejection 
+area and alpha level
+5. Bayesian statistics
+•
+Understand why Naïve Bayes is called “naïve” and its limitations regarding 
+multicollinearity
+•
+Know how to set prior probabilities when there is no prior data (e.g., equal probabilities 
+for all hypotheses)
+•
+Be able to interpret probabilities in terms of decision confidence and uncertainty
+6. Reporting research results
+•
+Be able to distinguish between absolute and relative risk reduction
+•
+Understand what makes a statement about risk misleading versus outright false
+32/176
+
+
+PAGE 33
+I was inspired by what you mentioned in Week 11, and 
+would like to know, for the SD5979 course, what is the main 
+content and what are the asides. What is regarded as really 
+important and what are the little sidesteps?
+33/176
+
+
+PAGE 34
+Albert Einstein
+Physicist (1879 - 1955) 
+“God does not care about our mathematical difficulties. 
+He integrates empirically.”
+Logic reasoning, inference, about the real world means you 
+have to deal with conditional truth, epistemics, semantics, 
+meaning, pragmatics - the messy empirical world
+Therefore, research precedes logics and mathematics
+Why we do research
+34/176
+
+
+PAGE 35
+Hence, logical form follows epistemics
+Modus ponens
+A B
+Vitamin B is good for hair
+A
+This shampoo has vitamin B
+B
+*Therefore, it is good for my hair (empirically false conclusion)
+Why false? Truth condition: iff
+A B
+Iff vitamin B is metabolized from food, for instance, nutritional yeast, it benefits my hair
+A
+Shampoo is not metabolized
+B
+Vitamin B in shampoo has no function for my hair
+Therefore, logics (e.g., Python syntax) depends on your beliefs as a designer who can code
+Folk belief: Shampoo must have vitamin B
+if (condition): code1 else: code2
+[on_true] if [expression] else [on_false]
+Informed belief: Must have vitamin B come from food
+if (cond1 AND/OR cond2) AND/OR (cond3 AND/OR cond4): code1 else: code2
+Thus, computing for the real world means you have to deal with conditional truth, epistemics, semantics, 
+meaning, pragmatics - the messy empirical world. Here again, research precedes computing
+How about taking vitamin C pills?
+35/176
+This would count as an ‘aside’
+
+
+PAGE 36
+Exam Sample Item
+Category “Knowledge”
+Open-ended question
+In knowing Modus ponens,
+A B
+A
+B
+which fallacious type of reasoning 
+does this advertisement employ?
+Answer:
+36/176
+
+
+PAGE 37
+Exam Sample Item
+Category “Knowledge”
+Open-ended question
+In knowing Modus ponens,
+A B
+A
+B
+which fallacious type of reasoning 
+does this advertisement employ?
+Answer:
+Ex-consequence
+A B
+Focus Brainwave
+B
+Brainwave
+[A
+Focus] False
+37/176
+
+
+PAGE 38
+Student 1: How can I distinguish whether I have used ex-consequentia reasoning when
+applying Naïve Bayes? (Figure 3)
+When classifying something, there are two things to keep in mind:
+- Feature
+- Class (category)
+A class is usually a larger set than 1 feature, the class overarches the feature
+A feature is a smaller set than a class, is part of a class, a class is never part of a feature
+A class is always equal or bigger than a given feature set
+A feature set can be equal but never bigger than a class
+Therefore, predicting a feature from a class is warranted (it must be in the set within the class)
+> If human, then it has eyes
+However, class attribution based on a feature is false unless only that class has that one feature
+> If it has eyes, then it must be human (= false)
+Why false: The class of animals also contains eyes, the class of robots also contains eyes, etc.
+38/176
+
+
+PAGE 39
+Let’s exercise some more with reasoning
+What is wrong with this conclusion?
+Recent finding (brain snack):
+8% males and 1% women are colour blind
+Thus, 9% of the population (that’s nearly 1 out of 10 in this room) suffer from colour-blindness
+39/176
+
+
+PAGE 40
+Let’s exercise some more with reasoning
+What is wrong with this conclusion?
+8% males and 1% women are colour blind
+so 9% of the population (that’s nearly 1 out of 10 in this room) suffer from colour-blindness
+1. It could still be that in absolute numbers, more women are colour-blind
+For instance:
+Population =
+2,125,000
+Males =
+125,000 8% = 10,000
+Females =
+2,000,000 1% = 20,000
+40/176
+
+
+PAGE 41
+Let’s exercise some more with reasoning
+What is wrong with this conclusion?
+8% males and 1% women are colour blind
+so 9% of the population (that’s nearly 1 out of 10 in this room) suffer from colour-blindness
+2. Hidden assumptions:
+- A population consists of equal numbers of men and women
+- Gender is a dichotomous, nominal variable
+(nothing but men and women, no other gender identities)
+41/176
+
+
+PAGE 42
+Let’s exercise some more with reasoning
+What is wrong with this conclusion?
+8% males and 1% women are colour blind
+so 9% of the population (that’s nearly 1 out of 10 in this room) suffer from colour-blindness
+3. Misuse of the algorithm:
+- Percentages are relative to sub-group and cannot be summated without reference to the 
+absolute numbers they represent
+Male =
+8% of 125,000 =
+10,000 colour blind
+Female = 1% of 2,000,000 =
+20,000
+- To give percentages only is a form of ‘cheating’
+More than 66% of our experts agree that… (you asked but three people)
+42/176
+
+
+PAGE 43
+Let’s exercise some more with reasoning
+What is wrong with this conclusion?
+8% males and 1% women are colour blind
+so 9% of the population (that’s nearly 1 out of 10 in this room) suffer from colour-blindness
+4. The rhetoric of numbers:
+8 + 1 = 9
+10 - 1 = 9 (you take 1 from 10)
+It’s all associative
+10% of 2,125,000 people =
+212,500 colour blind
+However:
+Male =
+8% of 125,000 =
+10,000
+Female = 1% of 2,000,000 =
+20,000
+43/176
+
+
+PAGE 44
+Some of my computer science students think this is all ‘social-science stuff’ and none of their 
+hardcore business...
+Security breach: 8% Intel Core i5 and 1% Athlon 3000 have hardware bugs so 9% of the CPUs 
+(that’s nearly 1 out of 10 in this server room) suffer from memory leaks
+Extra assumption hidden in this example is the overgeneralization:
+Hardware bugs lead to memory leaks (who said so?)
+Also: Do we know whether Intel and Athlon are equally distributed over Server rooms?
+Let’s exercise some more with reasoning
+44/176
+
+
+PAGE 45
+Let’s exercise some more with reasoning
+Reporting results
+Aluron is a drug against Hepatitis A but comes with a 10% risk of 
+inflammatory side effects. Researchers develop the Plus version and 
+clinical trials show that AluronPlus is equally effective but at a risk of 5%
+In the Abstract of their research paper, the developers write: “By 
+adding licylic components to the instable amides, we were capable of 
+reducing the risk associated with Aluron with 50%!”
+Do you think that this representation of the risk involved is false
+or is it misleading?
+Answer:
+Pills. Photo courtesy mconnors (2004) at https://morguefile.com/p/3560
+45/176
+
+
+PAGE 46
+Let’s exercise some more with reasoning
+Reporting results
+Aluron is a drug against Hepatitis A but comes with a 10% risk of 
+inflammatory side effects. Researchers develop the Plus version and 
+clinical trials show that AluronPlus is equally effective but at a risk of 5%
+In the Abstract of their research paper, the developers write: “By 
+adding licylic components to the instable amides, we were capable of 
+reducing the risk associated with Aluron with 50%!”
+Do you think that this representation of the risk involved is false
+or is it misleading?
+Answer:
+Not false, risk reduction from 10% to 5% is half the risk, so 50% 
+of the original 10% indeed is taken away – this is the relative risk
+Misleading, yes. Stating that the absolute risk is reduced with 5% 
+is less spectacular than claiming a 50% risk reduction
+Pills. Photo courtesy mconnors (2004) at https://morguefile.com/p/3560
+46/176
+
+
+PAGE 47
+Exam Sample Item
+Category “Insight“
+Obesity
+Cancer
+Sugar intake
+(not fat)
+In Lecture 07: Correlations, a co-occurrence between Obesity and 
+Cancer was considered, stating that both were the result of the same 
+root cause: sugar intake. Would you say that apart from Obesity and 
+Cancer, Sugar intake is also correlated to the two diseases or is Sugar 
+merely the cause of the two?
+A
+Sugar must be correlated because the relationship is causal
+B
+Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated
+C
+More data are needed. With more data, significant correlations are likelier to occur
+D
+Nonsense. In this case, interdependence of variable quantities was not established
+47/176
+
+
+PAGE 48
+Exam Sample Item
+Category “Insight“
+Obesity
+Cancer
+Sugar intake
+(not fat)
+In Lecture 07: Correlations, a co-occurrence between Obesity and 
+Cancer was considered, stating that both were the result of the same 
+root cause: sugar intake. Would you say that apart from Obesity and 
+Cancer, Sugar intake is also correlated to the two diseases or is Sugar 
+merely the cause of the two?
+A
+Sugar must be correlated because the relationship is causal
+B
+Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated
+C
+More data are needed. With more data, significant correlations are likelier to occur
+D
+Nonsense. In this case, interdependence of variable quantities was not established
+
+48/176
+
+
+PAGE 49
+In week 4 lecture on rating scales of the questionnaire design, you taught us that 
+the rating scale of the questionnaire should be designed on a 6-point scale. 
+However, in some doctoral research questionnaires or life evaluation 
+questionnaires, we often come across 5-point or 7-point scales. Why is that?
+49/176
+
+
+PAGE 50
+●Rating scales
+Why do you see that 6-point rating scale all the time, running from 0 to 5?
+completely    disagree        disagree       agree            agree           completely
+disagree
+a little  
+a little
+agree
+0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5
+Well, all too often, you do not see those 6 points, but 5- or 7-point rating scales
+Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 
+And this is 
+the 
+trouble
+
+
+PAGE 51
+●Rating scales
+Krosnick, J. A., & Fabrigar, L. R. (1997). Designing rating scales for effective measurement in surveys. 
+In Survey Measurement and Process Quality (pp. 141-164). doi: 10.1002/9781118490013.ch6
+“Birkett (1986) experimentally compared 2-, 6-, and 14-point scales and found that 6-point scales had 
+the highest reliability.” (p. 145)
+“Investigations of cross-sectional reliability in unipolar scales suggest that the optimum number of 
+scale points is between 5 and 7 points.“ (p. 145)
+“… cross-sectional reliability is greater for … 5- to 7-point than 3- or 9-point scales.” (p. 145) 
+“Taken as a whole, this research suggests that the optimal length of a rating scale is 5 to 7 points, 
+because scales of this length appear to be more reliable and valid than shorter and longer scales.” 
+(p. 148)
+51/176
+
+
+PAGE 52
+As mentioned on slide 29, “Cronbach’s indicates reliability and should be > 
+.60 for new scales, and > .70 for existing scales,” where can we find the 
+existing, established scales that we can use? Is there a general, standard 
+practice list of scales that we could access?
+52/176
+
+
+PAGE 53
+53/176
+Unfortunately not. Aside from standardised IQ assessments and the PANAS for measuring 
+mood and feelings, it is essential to examine the development and validation of item lists 
+within the specific discipline. Even if an item list has been used for many years, it should 
+not be relied upon without scrutiny. Always seek to improve your measures in line with 
+Dillman’s recommendations, and ensure you conduct reliability analysis (such as 
+Cronbach’s alpha) and principal component analysis (PCA) to assess their robustness
+
+
+PAGE 54
+From what I can gather, on slide 32 (Lecture 07), “[...] If you have but 2 items, Spearman-Brown 
+comes into play” and “Spearman-Brown split-half coefficient ρ (rho) checks the reliability of a 
+test that has been split into two halves. It is used to estimate the reliability of the full test from the 
+reliability of half the test” implies that spearman brown is conducted on a test, but the test only 
+has two items? If we are talking about questionnaires, then wouldn’t that be unrealistic, only 
+have two items on a questionnaire?
+54/176
+
+
+PAGE 55
+55/176
+Interesting. The confusion is in the word ‘test.’ In split-half, the word ‘test’ 
+is used technically as ‘trial’ or ‘probe’ or ‘set of items.’ It does not mean 
+‘the questionnaire’ or ‘the exam’
+Anything that measures a variable, here, is a ‘test.’ Could be the mean over 
+100 items split 50-50, or 2 items, split 1-1
+
+
+PAGE 56
+In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the 
+reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average 
+scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would 
+split-half say this 2-item scale is reliable? Why?
+Statistics is engaging
+disagree  0—1—2—3—4—5  agree
+Statistics is boring
+disagree  0—1—2—3—4—5  agree
+A
+The two items show opposite averages, so there is perfect misalignment
+B
+Reliable. One should recode the contra-indication and then scores match
+C
+Unreliable. The psychological meaning of this scale is highly controversial
+D
+M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,
+so the correlation is 0 
+Exam Sample Item
+Category “Application“
+56/176
+
+
+PAGE 57
+In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the 
+reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average 
+scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would 
+split-half say this 2-item scale is reliable? Why?
+Statistics is engaging
+disagree  0—1—2—3—4—5  agree
+Statistics is boring
+disagree  0—1—2—3—4—5  agree
+A
+The two items show opposite averages, so there is perfect misalignment
+B
+Reliable. One should recode the contra-indication and then scores match
+C
+Unreliable. The psychological meaning of this scale is highly controversial
+D
+M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,
+so the correlation is 0 
+Exam Sample Item
+Category “Application“
+
+57/176
+
+
+PAGE 58
+Question about the content in page 6 of week08 (Figure 6) 
+How are SSresiduals and SStotal calculated?
+58/176
+
+
+PAGE 59
+Error
+Residual Sum of Squares (RSS)
+Sum of Squared Residuals (SSR)
+Sum of Squared estimate of Errors (SSE)
+Deviation of the model from the empirical data
+Small error means tightly fitting data
+59/176
+SS Residuals (Sum of Squares of Residuals) are 
+the differences between the actual data points 
+and the values predicted by your regression line. 
+Imagine you have a bunch of dots (your data 
+points) and a straight line through those points 
+(your prediction). The residuals are the vertical 
+distances from each dot to the line.
+To calculate the SS Residuals, you take each of 
+these residuals, square them (to make them 
+positive and emphasize larger differences), and 
+then add them all up. This gives you a single 
+number that tells you how far off your 
+predictions are from the actual data, overall
+y-axis
+User experience
+VR 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Human likeness 
+
+
+PAGE 60
+SS Total (Total Sum of Squares) tells the total variation in your data. It looks at how much the 
+actual data points vary from the average value of y (the mean of all your y-values)
+To calculate the SS Total, you take each data point, find the difference between that point and 
+the mean of y, square these differences, and then add them all up. This gives you a number that 
+represents the total variability in your data
+In summary, SS Residuals tell you how much of the variability in your data is not explained by 
+your regression model, while SS Total tells you how much variability there is in your data overall
+The goal of regression is to minimize the SS Residuals, meaning you want your line to fit the data 
+as closely as possible
+60/176
+Error
+Residual Sum of Squares (RSS)
+Sum of Squared Residuals (SSR)
+Sum of Squared estimate of Errors (SSE)
+Deviation of the model from the empirical data
+Small error means tightly fitting data
+
+
+PAGE 61
+There is some confusion about PCA, which includes how component is classified
+and why linear is irrelevant?
+61/176
+What do you mean?
+
+
+PAGE 62
+Principal Component Analysis (PCA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Affordances
+Utility
+items
+items
+items
+items
+items
+items
+items
+items
+items
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+We have many data points from many 
+items, all correlated one way or the other
+r
+That leads to a huge list of correlations, hard to 
+manipulate and see how they fit together best to 
+cover most data points without losing their 
+relative relations
+item 01
+Possible use
+item 02
+Useful
+r = .90
+62/176
+Etc., etc., etc.
+
+
+PAGE 63
+What we want is to get rid of lists of correlations 
+and see which items explain the most variance in 
+the scatterplot but we want to preserve the 
+relation between each pair of items
+We do that by using vectors
+Affordances
+Utility
+item 01
+Possible use
+item 02
+Useful
+
+
+Thus, correlations become coordinates
+63/176
+PCA
+PCA provides a ‘data 
+summary,’ reducing the 
+number of variables, while 
+keeping the variability of the 
+data
+Gonzalez, Nestor & Liou, Raymond & Kurth, Florian & Jiang, Hao & Saver, Jeffrey. (2018). Antiangiogenesis and medical therapy failure in intracranial atherosclerosis. 
+Angiogenesis. 21. 10.1007/s10456-017-9578-1. 
+
+
+PAGE 64
+Test exam: Multiple-choice items
+It is common for MC questions to have better and worse answering options. The requirement 
+always is that you select the best (most precise and complete) answer. This is to avoid casual 
+learning and merely ‘recognizing’ an answer rather than knowing the answer. My questions 
+usually have one answering option that is fully ridiculous. That brings it back to three choices. 
+Then two choices are competing, one exactly right, the other more-or-less into the right 
+direction. So that’s a 50-50% gamble - unless you are 100% sure
+A
+Right on point and comprehensive answer
+B
+Vaguely right answer but often incomplete
+C
+An answer that reverses the reasoning or with
+something peripheral or adjacent 
+D
+Gobbledygook with random technical terms
+64/176
+
+
+
+PAGE 65
+Exam Sample Item
+Category “Application”
+This item is about Lecture 08: (Multiple) regression. A retail business needs to predict sales figures 
+for the next month. It is difficult to know, since there are so many variables surrounding that 
+number: the weather, a new model release, what the competitors do, or the maintenance work 
+going on outside on the pavement
+Many may have an opinion, such as Bob from accounts or Rachel who has worked on the sales floor 
+for ten years, but regression analysis sorts through all the measurable variables, indicating which 
+will have how high an impact. The analysis tells you which factors will influence sales and how the 
+variables interact with one another. This helps the service designer to make better, data-driven 
+decisions
+In this retail business example, what are the independents and what the dependent/s?
+A
+Dependent = sales; Independents: weather, competitor behavior, footpath maintenance, 
+and new model releases
+B
+Dependents = weather, competitor behavior, footpath maintenance, and new model 
+releases; Independent: sales
+C
+Dependent = competitor behavior; Independents: weather, sales, footpath maintenance, 
+and new model releases
+D
+Dependents = weather, sales, footpath maintenance, and new model releases; 
+Independent: competitor behavior
+65/176
+
+
+PAGE 66
+Exam Sample Item
+Category “Application”
+This item is about Lecture 08: (Multiple) regression. A retail business needs to predict sales figures 
+for the next month. It is difficult to know, since there are so many variables surrounding that 
+number: the weather, a new model release, what the competitors do, or the maintenance work 
+going on outside on the pavement
+Many may have an opinion, such as Bob from accounts or Rachel who has worked on the sales floor 
+for ten years, but regression analysis sorts through all the measurable variables, indicating which 
+will have how high an impact. The analysis tells you which factors will influence sales and how the 
+variables interact with one another. This helps the business designer to make better, data-driven 
+decisions
+In this retail business example, what are the independents and what the dependent/s?
+A
+Dependent = sales; Independents: weather, competitor behavior, footpath maintenance, 
+and new model releases
+B
+Dependents = weather, competitor behavior, footpath maintenance, and new model 
+releases; Independent: sales
+C
+Dependent = competitor behavior; Independents: weather, sales, footpath maintenance, 
+and new model releases
+D
+Dependents = weather, sales, footpath maintenance, and new model releases; 
+Independent: competitor behavior
+
+66/176
+
+
+PAGE 67
+How do the various regression techniques fundamentally differ in their 
+purpose and output? Under what scenarios are they typically used (what 
+kinds of topics, how they are used and to achieve what purpose)?
+67/176
+
+
+PAGE 68
+68/176
+Regression technique
+Purpose and output
+Scenarios and uses
+Linear Regression
+Predicts a continuous outcome 
+from one predictor; outputs a 
+regression equation and R²
+Used when examining the 
+relationship between a single 
+independent variable and a 
+continuous dependent variable 
+(e.g., predicting exam scores from 
+study hours)
+Multiple Regression
+Predicts a continuous outcome 
+from two or more predictors; 
+outputs coefficients for each 
+predictor and overall model fit
+Assesses the influence of several 
+variables on a continuous outcome 
+(e.g., predicting robot prices from 
+function, size, and brand)
+Logistic Regression
+Predicts a categorical (usually 
+binary) outcome; outputs odds 
+ratios and probabilities
+Used when the outcome is 
+categorical (e.g., predicting 
+whether a patient has a disease 
+based on sugar intake)
+Mediation-Moderation Analysis
+Explores indirect (mediation) and 
+conditional (moderation) effects 
+between variables; outputs path 
+coefficients and interaction effects
+Used to understand mechanisms 
+and conditional relationships (e.g., 
+whether stress mediates the effect 
+of workload on health, or if the 
+effect differs by age
+Structural Equation Modelling 
+(SEM)
+Tests complex relationships among 
+multiple variables, including latent 
+constructs; outputs model fit 
+indices and path coefficients
+Used for theory testing and 
+modelling complex systems (e.g., 
+examining how multiple factors 
+interact to influence wellbeing)
+
+
+PAGE 69
+Exam Sample Item
+Category “Application”
+This item also is about Lecture 08: (Multiple) regression. A web-shop designer needs to assess the 
+number of site visits to develop the next iteration but realises that many more factors may 
+influence visiting the site than just what is on offer
+S/he checks the click logs and looks into the log metrics: number of visitors, number of clicks per 
+visitor, order of visiting the pages, actual purchases, lingering time as related to load time:
+tload < 2s
+that will make the customer happy
+8s > tload < 2s
+the customer will be tolerating
+tload > 8s
+customer dissatisfied
+Instead of consulting with the colleagues, who all have their own view on what is important to look 
+for, the designer decides to run regression analysis on everything
+Why is the web-shop designer bound to draw the wrong conclusions?
+A
+Has no theory to guide his/her search and overlooks possible confounds
+B
+The tload measure is ordinal and so regression on experience rates is not allowed
+C
+The connection between experience and duration is based on a hunch
+D
+A and C are correct
+69/176
+
+
+PAGE 70
+Exam Sample Item
+Category “Application”
+This item also is about Lecture 08: (Multiple) regression. A web-shop designer needs to assess the 
+number of site visits to develop the next iteration but realises that many more factors may 
+influence visiting the site than just what is on offer
+S/he checks the click logs and looks into the log metrics: number of visitors, number of clicks per 
+visitor, order of visiting the pages, actual purchases, lingering time as related to load time:
+tload < 2s
+that will make the customer happy
+8s > tload < 2s
+the customer will be tolerating
+tload > 8s
+customer dissatisfied
+Instead of consulting with the colleagues, who all have their own view on what is important to look 
+for, the designer decides to run regression analysis on everything
+Why is the web-shop designer bound to draw the wrong conclusions?
+A
+Has no theory to guide his/her search and overlooks possible confounds
+B
+The tload measure is ordinal and so regression on experience rates is not allowed
+C
+The connection between experience and duration is based on a hunch
+D
+A and C are correct
+
+70/176
+
+
+PAGE 71
+Exam Sample Item
+Category “Application”
+This item also is about Lecture 08: (Multiple) regression. A web-shop designer needs to assess the 
+number of site visits to develop the next iteration but realises that many more factors may 
+influence visiting the site than just what is on offer
+S/he checks the click logs and looks into the log metrics: number of visitors, number of clicks per 
+visitor, order of visiting the pages, actual purchases, lingering time as related to load time:
+tload < 2s
+that will make the customer happy
+8s > tload < 2s
+the customer will be tolerating
+tload > 8s
+customer dissatisfied
+Instead of consulting with the colleagues, who all have their own view on what is important to look 
+for, the designer decides to run regression analysis on everything
+Why is the web-shop designer bound to draw the wrong conclusions?
+A
+Has no theory to guide his/her search and overlooks possible confounds
+B
+The tload measure is ordinal and so regression on experience rates is not allowed
+C
+The connection between experience and duration is based on a hunch
+D
+A and C are correct
+
+People may be surfing the web, they may have 
+clicked the wrong link on another site, the cat 
+stepped on the mouse, competitors checking you 
+out, the tax office running a check, etc. Who says I 
+am happy? Merely because of 1 second load time?
+71/176
+
+
+PAGE 72
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+A. Mediation:
+B. Moderation:
+C. Moderated Mediation:
+D. Mediated Moderation:
+Oakwood Medical Avatar (3-D Healthy Selfie)
+72/51
+
+
+PAGE 73
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+A. Mediation: VR health app X Health knowledge M User experience Y
+73/51
+X
+M
+Y
+B. So how about Moderation?
+
+
+PAGE 74
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+B. Moderation: The effect of the VR health app X on User experience Y is influenced by
+User motivation W
+74/51
+X
+Y
+W
+C. Moderated Mediation: 
+
+
+PAGE 75
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+C. Moderated Mediation:
+The mediation effect of
+Health knowledge M on the relationship between
+the VR health app X and User experience Y
+depends on user motivation W
+75/51
+X
+M
+Y
+W
+D. Mediated Moderation:
+
+
+PAGE 76
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+D. Mediated Moderation:
+The interaction between
+the VR health app X and User motivation W
+influences Health knowledge M, which in turn 
+affects User experience Y
+76/51
+X
+Y
+M
+W
+
+
+PAGE 77
+Exam Sample Item
+Category “Insight“
+This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear 
+regression? In linear regression, is the statement correct that correlation between dependent and 
+independent variable comes from causation?
+A
+No. Arguing from correlation to cause may be reasonable under the correct conditions; 
+otherwise, it is a fallacious inference
+B
+Yes. Changes in the dependent variable are predicted from and tested against changes
+in the independent variable
+C
+Yes, by employing defeasible reasoning, inductive arguments can be raised based on
+correlational data
+D
+No. Regression should account for measurement error, providing more accurate estimates
+of relationships among variables
+77/176
+
+
+PAGE 78
+Exam Sample Item
+Category “Insight“
+This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear 
+regression? In linear regression, is the statement correct that correlation between dependent and 
+independent variable comes from causation?
+A
+No. Arguing from correlation to cause may be reasonable under the correct conditions; 
+otherwise, it is a fallacious inference
+B
+Yes. Changes in the dependent variable are predicted from and tested against changes
+in the independent variable
+C
+Yes, by employing defeasible reasoning, inductive arguments can be raised based on
+correlational data
+D
+No. Regression should account for measurement error, providing more accurate estimates
+of relationships among variables
+
+78/176
+
+
+PAGE 79
+In lecture 8, I can’t fully understand the content of this picture.
+79/176
+
+
+PAGE 80
+AI
+requirements
+e2
+e4
+Qari2
+Qari4
+e1
+e3
+Qari1
+Qari3
+1
+1
+1
+1
+1
+e6
+e8
+Qarc2
+Qarc4
+e5
+e7
+Qarc1
+Qarc3
+1
+1
+1
+1
+1
+Relevance
+of AI features
+e2
+e4
+Qrei2
+Qrec2
+e1
+e3
+Qrei1
+Qrec1
+1
+1
+1
+1
+1
+Valence
+towards AI
+features
+e6
+e8
+Qvai2
+Qvac2
+e5
+e7
+Qvai1
+Qvac1
+1
+1
+1
+1
+1
+z1
+2 indicative items
+2 contra-indicative items
+2 indicative items
+2 contra-indicative items
+Generated content is important to me
+Generated content is trivial
+Generated content helps me
+Generated content hinders me
+4 indicative items
+4 contra-indicative items
+The system should produce
+generated content
+The system should refrain from
+generated content
+rating scale
+agree  0--1--2--3--4--5  disagree
+z2
+z3
+80/176
+
+
+PAGE 81
+Exam Sample Item
+Category “Insight“
+In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog
+and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly 
+measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by 
+inferring the cause (latent variable) from the effects (item scores)?
+A
+Yes. From X Y does not follow Y X
+B
+No. From Y X does not follow X Y
+C
+No. The latent variable is predicted from observables and 
+then tested, allowing for a margin of unexplained variance (zêta2)
+D
+Yes. Because of the error in measurement (e9, …, 12), one 
+cannot be sure that items y9, …, 12 come from êta2
+81/176
+
+
+PAGE 82
+Exam Sample Item
+Category “Insight“
+In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog
+and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly 
+measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by 
+inferring the cause (latent variable) from the effects (item scores)?
+A
+Yes. From X Y does not follow Y X
+B
+No. From Y X does not follow X Y
+C
+No. The latent variable is predicted from observables and 
+then tested, allowing for a margin of unexplained variance (zêta2)
+D
+Yes. Because of the error in measurement (e9, …, 12), one 
+cannot be sure that items y9, …, 12 come from êta2
+
+82/176
+
+
+PAGE 83
+Question about the content in page 13 of week8 (Figure7)
+-
+According to the final output error value, which layer of weight and bias does the
+neural network reverse adjust (back propagation)? Can it only adjust the last layer,
+or can every layer be adjusted?
+-
+What is the relationship between logistic regression and neural networks?
+83/176
+
+
+PAGE 84
+Backpropagation calculates the gradients of the error (loss) for each weight
+It does that one layer at a time, going backward from the layer closest to the output (y)
+… to the layer closest to the input (x)
+
+errorn
+Feed back error step by step from the last layer to the first
+84/176
+
+
+PAGE 85
+85/176
+
+Error = 10
+However, gradients become smaller and smaller with each layer we go back. They ‘vanish’
+It is because they are rescaled all the time (too much for now, not part of this course)
+Like that, the weights in the first layers (close to x) are hardly updated anymore
+Thus: no learning!!
+Error = 5
+Error = 1
+End of updating 
+weights = end 
+of learning
+
+
+PAGE 86
+86/176
+A ‘neural’ network is not made of biological neurons but functionally modeled after them 
+– well, a  little bit
+wixi + b
+i
+Cell body
+f
+Synapse
+Dendrite
+Axon coming from
+another neuron/cell body
+Output axon
+Activation function
+Rectified Linear Unit (ReLU)
+Scaled Exponential Linear Unit (SELU)
+Logistic regression
+wixi + b
+i
+f
+x0
+w0
+w0x0
+w2x2
+w1x1
+Apart from regression, a NN does one more thing: It makes use of so-called ‘activation 
+functions’ such as Logistic regression/classification/function (also called sigmoid function)
+After Andrej Karapth, 2015
+Linear regression equation
+
+
+PAGE 87
+We lose track
+of the
+y
+(pun intended)
+87/176
+Activation functions
+An activation function is an algorithm that decides whether the received input is ‘enough’ (given some criterion) 
+to forward the information to the next node (or ‘neuron’). If the network looks for ‘similarity’ but the information 
+received in one node is too noisy or merely detects differences, the activation function will not pass on that 
+information to the next layer. Activation functions bring non-linearity to the NN so that the complexity in a data 
+set can be addressed
+Linear function
+Sigmoid (e.g., logistic) function
+Hyperbolic Tangent (tanh) function
+Softplus function
+Softsign function
+ReLU (Rectified Linear Unit) function
+SELU (Scaled Exponential Linear Unit)
+ELU (Exponential Linear Unit)
+wixi + b
+i
+Node
+f
+x0
+w0
+w0x0
+Chayma Zatout, Dec 14, 2022, towardsdatascience.com
+Another node
+Regression builds up the 
+information, Logistic function says 
+if it is enough to pass on
+
+
+PAGE 88
+Exam Sample Item
+Category “Knowledge”
+In Lecture 08: (Multiple) regression, the link was made between regression analysis and Neural Networks 
+(also see the SPSS screenshot)
+88/176
+
+
+PAGE 89
+Would there be any other statistical programs (SPSS) you recommend 
+us use? Like Jasp or using R instead (free options)?
+89/176
+
+
+PAGE 90
+Yes, there are several free alternatives to SPSS
+JASP is a user-friendly, open-source statistical programme with a graphical 
+interface similar to SPSS, making it easy to learn
+Jamovi is another free option with a familiar spreadsheet layout and robust 
+statistical capabilities
+R is a powerful, free programming language for statistics and data analysis, 
+but it has a steeper learning curve (programming!)
+If you prefer point-and-click interfaces, JASP or Jamovi are your choice;
+if you want maximum flexibility and advanced analyses, R is recommended
+90/176
+
+
+PAGE 91
+Exam Sample Item
+y-axis
+Result
+Some feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A regression line
+Slope
+Intercept
+x-axis
+Category “Knowledge”
+Neural Networks that use regression equations as nodes use the following formula: 
+y = ax + b + error. What do the a and b stand for in the linear regression equation?
+A
+a = slope or ‘weight’
+b = intercept or ‘bias’
+B
+a = intercept or ‘bias’
+b = slope or ‘weight’
+C
+a = slope or ‘offset’
+b = intercept or ‘cutoff point’
+D
+a = intercept or ‘cutoff point’
+b = slope or ‘offset’
+91/176
+
+
+PAGE 92
+Exam Sample Item
+y-axis
+Result
+Some feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A regression line
+Slope
+Intercept
+x-axis
+Category “Knowledge”
+Neural Networks that use regression equations as nodes use the following formula: 
+y = ax + b + error. What do the a and b stand for in the linear regression equation?
+A
+a = slope or ‘weight’
+b = intercept or ‘bias’
+B
+a = intercept or ‘bias’
+b = slope or ‘weight’
+C
+a = slope or ‘offset’
+b = intercept or ‘cutoff point’
+D
+a = intercept or ‘cutoff point’
+b = slope or ‘offset’
+
+92/176
+
+
+PAGE 93
+In lecture 11，I can’t fully understand the content about Turing test.
+93/176
+
+
+PAGE 94
+Let’s say the claim is that AI performs at the same level as human beings 
+(e.g., creativity, intelligence, consciousness)
+Turing test: Will the machine perform at a level 
+indiscernible from human performance?
+Alan Turing: “Can machines think?” (1950)
+- The “Imitation Game” tells us that Turing thinks it won’t 
+matter if computers will actually have a consciousness or 
+not, all that matters is what people think of them
+- Thus [JFH], AI is a rhetorical device to influence human 
+perception!!! You just have to believe the machine is 
+creative, intelligent, &c
+Turing, A. M. (1950). I.—Computing machinery and 
+intelligence. Mind, LIX(236), 433-460. doi: 
+10.1093/mind/LIX.236.433
+Let’s put that to 
+the test
+94/176
+
+
+PAGE 95
+95/176
+Different!
+Are we the
+same?
+Then we want to know effects of Agency (human vs AI): Feigenbaum version of the Turing test
+Robot
+Human
+The focus of frequentist analysis
+(ANOVA, t-test)
+The focus of Bayesian analysis
+Hoorn, J. F., & Winter, S. D. (2017). Here comes the bad news: Doctor robot taking over. International Journal of Social Robotics, 10(4), 519-535. doi: 10.1007/s12369-017-0455-2
+
+
+PAGE 96
+96/176
+Effects of Agency: some test theory
+Similarity 
+no difference
+Standard frequentist t-test can detect difference 
+(= significant effect), so not significant means
+‘I cannot detect difference’ (the Turing 
+assumption) but that is not the same as finding 
+similarity (the two distributions belonging to the 
+same population). It’s just that t cannot find it
+_
+X1
+_
+X2
+_
+X3
+(McGrew & Monroe, 2000)
+Small apparent difference between 
+sample means. Likely decision: do not 
+reject H0
+
+
+PAGE 97
+97/176
+Effects of Agency: some test theory
+Bayesian analysis tests the H0 for theoretical 
+relevance (!!!); you can test for ‘sameness’ of 
+two distributions
+This would be a stronger test for Turing’s 
+Imitation Game
+(McGrew & Monroe, 2000)
+
+H0 confirmed: All samples drawn from the 
+same population (1 = 2 = 3)
+perceptually!!!! cf. Turing (1950)
+Let that be a 
+reminder to 
+us all
+
+
+PAGE 98
+Since with enough variance, any kind of relationship can be 
+found, is there a method to determine the most suitable 
+sample size for what you are trying to do? Is that the 
+G*Power analysis? But how does it get that optimum?
+Yes!
+98/176
+
+
+PAGE 99
+In G*Power, you enter the type of test, expected effect size, significance level 
+(how sure you want to be), and statistical power (chance of finding an effect)
+G*Power then calculates, using these numbers, how many participants you need 
+to detect an effect reliably in your study
+It uses normal distribution and t-tests to do so. The maths includes equations for 
+comparing averages, proportions, or relationships between variables, depending 
+on the test you choose
+99/176
+
+
+PAGE 100
+In Lecture 09: Experiment design, we saw that in frequentist statistics we can reject the H0 but not 
+confirm the HA. If we translate the ReCAPTCHA into hypotheses, we find:
+H0 : You are not a robot
+HA : You are a robot
+If the checkbox is clicked (= data sampled), what can we rightfully conclude?
+A
+From not rejecting the H0 (= you are not a robot) does not follow that you are human
+B
+From rejecting the H0 (= you are a robot) does not follow that you are human
+C
+From not rejecting the HA (= you are a robot) follows that you are human
+D
+From rejecting the HA (= you are not a robot) follows that you are human
+Exam Sample Item
+Category “Insight“
+100/176
+
+
+PAGE 101
+In Lecture 09: Experiment design, we saw that in frequentist statistics we can reject the H0 but not 
+confirm the HA. If we translate the ReCAPTCHA into hypotheses, we find:
+H0 : You are not a robot
+HA : You are a robot
+If the checkbox is clicked (= data sampled), what can we rightfully conclude?
+A
+From not rejecting the H0 (= you are not a robot) does not follow that you are human
+B
+From rejecting the H0 (= you are a robot) does not follow that you are human
+C
+From not rejecting the HA (= you are a robot) follows that you are human
+D
+From rejecting the HA (= you are not a robot) follows that you are human
+Exam Sample Item
+Category “Insight“
+
+101/176
+
+
+PAGE 102
+Exam Sample Item
+Category “Knowledge”
+Which experimental design is more sensitive to order effects?
+A
+Within-subjects
+B
+Randomization
+C
+Between-subjects
+D
+Counter-balancing
+102/176
+
+
+PAGE 103
+Exam Sample Item
+Category “Knowledge”
+Which experimental design is more sensitive to order effects?
+A
+Within-subjects
+B
+Randomization
+C
+Between-subjects
+D
+Counter-balancing
+
+•
+Randomization and counter-balancing are ways to mitigate the 
+effects of order in task execution
+103/176
+
+
+PAGE 104
+Could you explain this again? Why each group has been chosen or not?
+This question is a combination of Lecture 07: Correlations and Lecture 09: Experiment design. Solomon 4-group 
+design takes care of test threat, the effect of the measurement - apart from the effect of the treatment. 
+Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should 
+the investigator use to obtain the most powerful test on measurement reliability?
+A
+G1before
+B
+G1before and G2before
+C
+G1before , G2before , G1after , and G2after 
+D
+G1before , G2before , G3after , G4after
+Exam Sample Item
+Category “Insight“
+104/176
+
+
+PAGE 105
+This question is a combination of Lecture 07: Correlations and Lecture 09: Experiment design. Solomon 4-group 
+design takes care of test threat, the effect of the measurement - apart from the effect of the treatment. 
+Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should 
+the investigator use to obtain the most powerful test on measurement reliability?
+A
+G1before
+B
+G1before and G2before
+C
+G1before , G2before , G1after , and G2after 
+D
+G1before , G2before , G3after , G4after
+Exam Sample Item
+Category “Insight“
+105/176
+
+
+PAGE 106
+This question is a combination of Lecture 07: Correlations and Lecture 09: Experiment design. Solomon 4-group 
+design takes care of test threat, the effect of the measurement - apart from the effect of the treatment. 
+Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should 
+the investigator use to obtain the most powerful test on measurement reliability?
+A
+G1before
+B
+G1before and G2before
+C
+G1before , G2before , G1after , and G2after 
+D
+G1before , G2before , G3after , G4after
+Exam Sample Item
+
+You want the most 
+data from people 
+unaffected by filling 
+out the questionnaire 
+before
+Category “Insight“
+106/176
+
+
+PAGE 107
+Break
+
+
+PAGE 108
+Next, I am going to give you a very elaborate introduction with so many elements that you start 
+to forget what scientifically is the matter and what as a designer you should do. I do this on 
+purpose so that you learn that a problem may be embedded in anecdote and heartbreaking 
+story, obfuscating our sight on what analytically should be targeted
+The case is about an airplane crash, due to the interface design of the Flight Management System
+Exam Sample Item, “Application,” Open-ended question
+108/176
+
+
+PAGE 109
+http://sunnyday.mit.edu/accidents/calirep.html
+Searleman, 2007
+109/83
+
+
+PAGE 110
+Pilots manually navigate only during takeoff, landing, bad weather, emergencies
+Navigate by traveling between beacons
+Flight Management System is never changed upon pilots’ request (better safe than sorry)
+Searleman, 2007
+110/83
+
+
+PAGE 111
+ROZO
+But plane navigated to ROMEO beacon 
+ROMEO
+Push       to navigate to ROZO beacon
+No feedback on chosen beacon
+Plane headed in 
+the wrong 
+direction, 
+eventually 
+crashing on a 
+mountain
+Speed brakes not 
+disengaged when 
+trying to accelerate
+Searleman, 2007
+111/83
+
+
+PAGE 112
+Mercedes Johnson survived 
+the American Airlines Flight 
+965, which crashed into a 
+Colombian mountain in 
+1995. Out of 159 onboard, 
+only four lived
+Official cause: “pilot error”
+Actual cause: poorly designed HCI
+http://www.pilotfriend.com/disasters/crash/images/29.jpg
+http://news.bbc.co.uk/2/low/uk_news/magazine/5402342.stm
+112/83
+
+
+PAGE 113
+With respect to False alarms (Type I error) and Missed signals (Type II error) (Lecture 10: t-tests and 
+(M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic 
+Proxy
+What is the consequence of making a Type I or II error, if we consider user performance in terms of accuracy?
+H0: Using the new touch panel does not result in more correct user responses
+H1: The new touch panel leads to more correct responses
+Exam Sample Item, “Application,” Open-ended question
+Fitts´ Law!!
+113/83
+
+
+PAGE 114
+A Type I error would mean that the new FMS does not give us better performance, but we 
+change it anyway. Consequence: We spend extra resources developing the software, and our pilots 
+must learn a new GUI for no benefit
+A Type II error would mean that the new FMS will give us a more accurate performance, but 
+we stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more 
+errors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the 
+interface is already familiar to them
+Testing may save lives
+Exam Sample Item, “Application,” Open-ended question
+114/83
+
+
+PAGE 115
+A
+Oneway ANOVA compares means of 3 dependent variables across one
+independent variable
+B
+Oneway ANOVA compares means of one dependent variable across 3 groups
+C
+Oneway ANOVA compares means of 2 dependent variables across 3 groups
+D
+Oneway ANOVA compares means of 2 dependent variables across one
+independent variable
+Exam Sample Item
+Category “Knowledge”
+In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset 
+of scores. Which of the following definitions is correct?
+115/176
+
+
+PAGE 116
+A
+Oneway ANOVA compares means of 3 dependent variables across one
+independent variable
+B
+Oneway ANOVA compares means of one dependent variable across 3 groups
+C
+Oneway ANOVA compares means of 2 dependent variables across 3 groups
+D
+Oneway ANOVA compares means of 2 dependent variables across one
+independent variable
+Exam Sample Item
+Category “Knowledge”
+In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset 
+of scores. Which of the following definitions is correct?
+
+116/176
+
+
+PAGE 117
+In lecture 10, i want to ask why the known mean is 0, is this value fixed? And what
+does the formula mean?
+Question about the content in page 21 of week10 (Figure 4) Why Known mean is 0?
+117/176
+
+
+PAGE 118
+t-test: paired samples
+Paired-samples t-test compares means from the same group at different times (e.g., one 
+year apart) or different within-experiment conditions (e.g., using both iPhone and 
+Blackberry)
+Interestingly, paired samples t-test and one sample t-test are mathematically 
+equivalent
+– Known mean is 0
+– Single group is now the group of the differences
+𝑡ൌ𝑥̅ଵെ𝑥̅ଶ
+𝑠௫̅
+Estimated Standard Error of the Mean
+𝑠௫̅ ൌ𝑠ௗ௜௙௙
+√𝑛
+𝑡ൌሺ𝑥̅ଵെ𝑥̅ଶሻെ0
+𝑠௫̅
+SEM of the new group
+The sample standard deviation of 
+the differences
+118/176
+
+
+PAGE 119
+Two sets of related data: Scoring level of Positive Mood before and after Robot Intervention
+119/176
+𝑡ൌ𝑥̅ଵെ𝑥̅ଶ
+𝑠௫̅
+before
+after
+For each pair of before and after scores, calculate the difference
+This gives you the new set of numbers, representing how much each person’s score changed
+𝑡ൌሺ𝑥̅ଵെ𝑥̅ଶሻെ0
+𝑠௫̅
+Estimated Standard Error of the Mean 
+of the new set of numbers
+How much we differ from the overall mean
+This has become the Mean difference
+(one number)
+So this is the other number to compare against
+(is difference more than no-difference?)
+
+
+PAGE 120
+In sum:
+Two sets of related data: Scoring level of Positive Mood before and after Robot Intervention
+For each pair of before and after scores, calculate the difference
+This gives you the new set of numbers, representing how much each person’s score changed
+Calculate the mean (average) of these differences, indicating how much the scores changed
+Calculate the ‘spread’ = standard deviation of the differences
+How much do the differences vary from the average difference
+Calculate the t-value: Use the average difference, the SD of the differences, and the number of pairs
+t =  
+Mean 
+difference
+Standard Deviations of 
+differences / n
+number of pairs
+120/176
+
+
+PAGE 121
+Student 2: what is F-test？
+Student 1: Question about the content in page 57 of week10 (Figure 5) We can
+see that the equation of ANOVA and t-test is totally different, then why t2 = F?
+121/176
+
+
+PAGE 122
+Even though the equations for a t-test and ANOVA look different, they are related in a specific 
+way when you’re comparing just two groups
+Here’s why t2 = F when comparing two groups:
+A t-statistic indicates how much the means of the two groups differ relative to the variability in 
+the data
+An ANOVA with two groups provides an F-statistic, which is a ratio of the variance between
+the groups to the variance within the groups
+When you have only two groups, the result of the F-statistic turns out to be the same as
+the square of the t-statistic. This is because both tests are essentially measuring the same 
+thing: the ratio of the difference between group means to the variability within the groups
+When comparing two groups, the t-test looks at the difference in means directly
+ANOVA looks at the variance (the square of differences) between and within groups
+So, for two groups, when you square the t, you get the F
+Both assess the same relationship between group differences and variability
+122/176
+
+
+PAGE 123
+123/176
+Is there a threshold for when the F value becomes significant?
+
+
+PAGE 124
+There is no fixed threshold for the F-value; it depends on your degrees of freedom and significance level. 
+Always compare the F-value to the critical value from the F-distribution table (cf. what we did with the t-
+test)
+Suppose:
+F(2,27) = 2.80, p > .05
+F(2,27) = 3.35, p = .05
+F(2,27) = 4.20, p < .05
+F(df1 df2) = …
+If df₁ = 2, numerator degrees of freedom in an F-test = the number of levels of your fixed factor(s) minus 1
+For a One-way ANOVA:
+df₁ = k - 1, where k is the number of groups (levels of the fixed factor)
+So, if df₁ = 2:
+k 1 = 2
+k = 3
+There has been one fixed factor with 3 levels (e.g., robot vs writing vs social media)
+124/176
+
+
+PAGE 125
+In a One-way ANOVA, the denominator degrees of freedom (df₂) is calculated as:
+df₂ = N k
+where N = total number of participants (or observations)
+k = number of groups (levels of the fixed factor)
+df₁ = 2 k = 3
+df₂ = 27
+df₂ = N k
+27 = N 3
+N = 27 + 3
+N = 30
+Thus, there were 30 participants (or observations) in total
+125/176
+
+
+PAGE 126
+Exam Sample Item
+Category “Insight”
+If t = 63.657 is minimally required to establish a significant effect, 
+this means that:
+A
+The degrees of freedom must be few
+B
+The rejection area must be small 
+C
+is large
+D
+Both A and B may play a role
+126/176
+
+
+PAGE 127
+Exam Sample Item
+Category “Insight”
+If t = 63.657 is minimally required to establish a significant effect, 
+this means that:
+A
+The degrees of freedom must be few
+B
+The rejection area must be small 
+C
+is large
+D
+Both A and B may play a role
+
+127/176
+
+
+PAGE 128
+Table of significance for a two-tailed t-test 
+Rejection area or set to 
+1% chance we may be 
+wrong
+Merely two observations
+128/176
+
+
+PAGE 129
+“Population variances assumed equal: t-test reasonably robust for differing variance,
+however, does deserve consideration, may use F-test to validate (ANOVA / MANOVA)”
+… from slide 34 is confusing me a bit. I’m still kind of confused about what ANOVA,
+MANOVA and MANCOVA each does exactly. How do you calculate the F, in what
+scenario would you use ANOVA and or MANOVA, how do you decide which to use where?
+129/176
+
+
+PAGE 130
+•
+Oneway ANOVA if you have one categorical IV (3 or more levels) and one 
+continuous DV, no covariates
+•
+MANOVA if you have one or more categorical IVs and multiple continuous 
+DVs, no covariates
+•
+MANCOVA if you have one or more categorical IVs, multiple continuous DVs, 
+and want to control for continuous covariates
+•
+GLM for more complex designs: multiple IVs (categorical and/or continuous), 
+covariates, and/or when you need more flexibility (e.g., interactions, non-
+normal DVs)
+Later, we will see how the F-test is related to the t-test
+130/176
+
+
+PAGE 131
+Exam sample item
+Category “Application” 
+During the pandemic, a student of Media Entertainment investigated 
+the effect of two types of VR helmets on body temperature. The VR 
+was supposed to counter boredom but wearing it should not be at 
+the cost of increasing the user’s face temperature 
+For her measurements, the student used several Heaco MDI908 
+medical non-contact infrared thermometers, which she calibrated 
+against one another, finding for all devices systematically 
+temperatures of 37.0 Cwith a standard deviation of around 0.5 C
+The student sampled 220 participants, 110 for each VR helmet, with a 
+G*power of about 80% to 90% of correctly rejecting the Null
+Luckily and as expected, using different infrared thermometers did 
+not yield a significant effect. In addition, two-group independent 
+samples t-test also showed no significant effect for VR headset: t(219) = 
+-.05, p = .896, showing that VR helmet 1 (MVRh1 = 36.9, SD = .20) nor 
+VR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on 
+the users’ facial temperature
+The student concluded that both helmets are safe to use, not causing 
+any extra inconvenience during those already stressful times
+Does anyone have a 
+problem with that 
+conclusion?
+
+
+PAGE 132
+Exam sample item
+Browsing through the qualitative data, 
+the student finds throughout people 
+complaining that both helmets were 
+too hot in the warm and humid climate 
+of Hong Kong, particularly in July, when 
+the study was conducted. Outlier 
+analysis of the quantitative data, 
+however, does not show that any of 
+these people had extreme 
+temperatures
+The student reports that certain people 
+may have experienced a sense of heat 
+while wearing the VR devices, which 
+may have been auto-suggestion, 
+because there were no systematic 
+results supporting that idea
+Category “Application” 
+Does anyone have issues with these conclusions?
+132/176
+
+
+PAGE 133
+Exam sample item
+After having published her results in a peer reviewed journal, the student, after graduation, is surfing the 
+Internet and stumbles upon https://thesun.my/style-life/going-viral/buyers-realise-thermometer-is-fake-after-
+always-showing-37c-CE2251994
+The infrared board is not connected to the mainboard, so it “works” even without the IR sensor… The student 
+is decent enough to retract her paper
+Category “Application” 
+The Heaco MDI908 medical 
+non-contact infrared 
+thermometer turns out to 
+be a black box, telling you 
+what you want to hear
+It has a random number 
+generator within the range 
+[36.7 - 37.2]
+No one ill. All happy customers
+The H0 could never be refuted
+133/176
+
+
+PAGE 134
+Exam sample item
+A student of Innovative Multimedia 
+Entertainment (MSc) investigates 
+negative emotions in MOBA games 
+(Multiplayer Online Battle Arena)
+For her measurements, the student 
+uses an EMOTIV 14-Channel Wireless 
+EEG Headset, while EMOTIV’s cutting-
+edge BCI software converts brain 
+activity data, facial expressions, and 
+head movements into digital signals 
+that indicate the gamers’ intentions 
+and emotions
+The student sampled 220 
+participants, 110 for each gaming 
+condition (with or without the help 
+of an AI teammate), with a G*power 
+of about 80% to 90% of correctly 
+rejecting the Null
+134/176
+
+
+PAGE 135
+Exam sample item
+A student of Innovative Multimedia 
+Entertainment (MSc) investigates 
+negative emotions in MOBA games 
+(Multiplayer Online Battle Arena)
+For her measurements, the student 
+uses an EMOTIV 14-Channel Wireless 
+EEG Headset, while EMOTIV’s cutting-
+edge BCI software converts brain 
+activity data, facial expressions, and 
+head movements into digital signals 
+that indicate the gamers’ intentions 
+and emotions
+The student sampled 220 
+participants, 110 for each gaming 
+condition (with or without the help 
+of an AI teammate), with a G*power 
+of about 80% to 90% of correctly 
+rejecting the Null
+After statistical analysis, the student concludes that MOBA games 
+with AI helper show significant decreases in negative emotions as 
+indicated by less activation of the amygdala, fewer and smoother 
+head movements, and more zygomaticus muscle motion associated 
+with positive valence and less corrugator muscle activity as related 
+to negative valence emotions. The inverse was found for gamers 
+without AI helper
+The student publishes a paper in International Journal of Advanced 
+Gaming Studies, stating that AI teammates in MOBA games counter 
+negative mood as indicated by psychophysiological indicators
+Does anyone have a 
+problem with this 
+publication?
+135/176
+
+
+PAGE 136
+Exam sample item
+EMOTIV’s cutting-edge BCI 
+software is a black box, 
+telling you what you want 
+to hear
+How does the machine 
+come to its interpretations? 
+What are the algorithms? 
+What are its cut-off points? 
+When is it ‘confident’ that 
+this muscle motion means 
+‘fear’ and that motion ‘joy?’
+Throwing the oracle bones
+136/176
+
+
+PAGE 137
+Break
+
+
+PAGE 138
+Exam Sample Item
+Category “Application”
+Edwards, Edwards, Spence, and Shelton (2014) ran 
+MANOVA and found no significant differences 
+between human vs. twitter bots. They concluded 
+that twitter bots were as credible, attractive, and 
+efficient in communication as humans
+What is the issue with this conclusion?
+A    They capitalized on chance by not correcting 
+B    They did not compare the data to the Null (H0)
+C    In using MANOVA, they could not reject the H0
+but not confirm H1 either
+D    Their CCIs did not overlap, which worsened data fit
+138/176
+
+
+PAGE 139
+Exam Sample Item
+Category “Application”
+Edwards, Edwards, Spence, and Shelton (2014) ran 
+MANOVA and found no significant differences 
+between human vs. twitter bots. They concluded 
+that twitter bots were as credible, attractive, and 
+efficient in communication as humans
+What is the issue with this conclusion?
+A    They capitalized on chance by not correcting 
+B    They did not compare the data to the Null (H0)
+C    In using MANOVA, they could not reject the H0
+but not confirm H1 either
+D    Their CCIs did not overlap, which worsened data fit
+
+139/176
+
+
+PAGE 140
+In Lecture 08: (Multiple) regression, we saw nominal classifiers such as Logistic regression, which 
+can be used for exploration, and in Lecture 10: t-test and (M)ANOVA, we discussed parametric 
+testing (confirmatory statistics) 
+Exam Sample Item
+Category “Insight”
+A computer scientist at MIT developed an Advanced Convolutional Neural Network that he named 
+Arctan-10. It is a multi-layer architecture, consisting of alternating convolutions and nonlinearities, 
+followed by fully connected correlational layers, leading into a softmax classifier. He based his 
+system on the architecture built by Alex Krizhevsky, with a few moderations in the top few layers. 
+After training and testing on a zettabyte of data points, Arctan-10 achieved a peak performance of 
+about 96% accuracy within a few minutes of training time on a conventional GPU. Arctan-10 
+consists of 1,068,298 learnable parameters and requires about 19.5M multiply-add operations to 
+compute inference on a single image. With his system, the computer scientist was able to classify 
+RGB 32 32 pixel images across 10 different categories.
+140/176
+
+
+PAGE 141
+Exam Sample Item
+Category “Insight”
+A computer scientist at MIT developed an Advanced Convolutional Neural Network that he named 
+Arctan-10. It is a multi-layer architecture, consisting of alternating convolutions and nonlinearities, 
+followed by fully connected correlational layers, leading into a softmax classifier. He based his 
+system on the architecture built by Alex Krizhevsky, with a few moderations in the top few layers. 
+After training and testing on a zettabyte of data points, Arctan-10 achieved a peak performance of 
+about 96% accuracy within a few minutes of training time on a conventional GPU. Arctan-10 
+consists of 1,068,298 learnable parameters and requires about 19.5M multiply-add operations to 
+compute inference on a single image. With his system, the computer scientist was able to classify 
+RGB 32 32 pixel images across 10 different categories.
+Meanwhile in a primary school in Sham Shui Po, there is an old teacher who for 50 years takes the 
+same paper-and-pencil arithmetic test, which she grades 1 (poor) to 10 (excellent). One of her 
+pupils, an 8 year old boy, notices that on the last test, the 20 girls in class on average performed 
+better than the 19 boys.
+In Lecture 08: (Multiple) regression, we saw nominal classifiers such as Logistic regression, which 
+can be used for exploration, and in Lecture 10: t-test and (M)ANOVA, we discussed parametric 
+testing (confirmatory statistics) 
+141/176
+
+
+PAGE 142
+Possible questions on your exam:
+• Who uses the more robust technique for data sampling (less vulnerable to technical flaws)?
+• Who potentially did the more reliable finding, the school boy or the scientist, and why?
+• Who can do the more rigorous analysis to verify his assumptions?
+• Who has the better theory to interpret his results?
+There is a discussion going on among four classmates to answer these questions:
+Ā long: “It’s obvious. Of course it’s the MIT researcher. For example, he uses softmax classifiers, which in the 
+final layer gives you the probabilities for each class label whereas the more common hinge loss merely gives 
+you the margins. The Arctan-10 approach is way better.”
+Běn tuō: “I concur. And also look at the enormous pile of big data he used. A zettabyte, that’s like equal to one 
+sextillion (1021); or more strictly speaking, 270 bytes. We all know that the more data you analyze, the clearer 
+the patterns become. Moreover, he based his model on Krizhevsky, who is one of the most authoritative 
+scientists in Deep Learning. You know, the guy from AlexNet!” 
+Catón: “You both are right. And not only that, look at the 96% accuracy! That’s gigantic. And at that speed. In 
+just a few minutes. Way more efficient that writing with an old-fashioned pencil on a piece of paper.” 
+Dài ān: “No, it’s the school boy. The hot shot MIT computer scientist just devised a very complicated manner 
+to put an image into the right shoe box. The kid can do predictions on the performance of his classmates and 
+test it parametrically. The scientist can’t.”
+142/176
+
+
+PAGE 143
+Ā long: “It’s obvious. Of course it’s the MIT researcher. For example, he uses softmax classifiers, 
+which in the final layer gives you the probabilities for each class label whereas the more common 
+hinge loss merely gives you the margins. The Arctan-10 approach is way better.” 
+Běn tuō: “I concur. And also look at the enormous pile of big data he used. A zettabyte, that’s like 
+equal to one sextillion (1021); or more strictly speaking, 270 bytes. We all know that the more data 
+you analyze, the clearer the patterns become. Moreover, he based his model on Krizhevsky, who 
+is one of the most authoritative scientists in Deep Learning. You know, the guy from AlexNet!” 
+Catón: “You both are right. And not only that, look at the 96% accuracy! That’s gigantic. And at 
+that speed. In just a few minutes. Way more efficient that writing with an old-fashioned pencil on 
+a piece of paper.” 
+Dài ān: “No, it’s the school boy. The hot shot MIT computer scientist just devised a very 
+complicated manner to put an image into the right shoe box. The kid can do predictions on the 
+performance of his classmates and test it parametrically. The scientist can’t.”
+Answer: /* Name the classmate with the best, most complete, or most applicable answer */
+Motivation to Answer: /* Why you think your preferred classmate is right in view of what you 
+learned in class. Provide arguments from the lecture slides */
+143/176
+
+
+PAGE 144
+Issue
+Arctan-10
+(MIT scientist)
+Arithmetic test
+(school boy)
+Who is the better
+researcher?
+Technical robustness
+Complex systems produce higher 
+likelihoods for system errors
+Simple systems show fewer flaws, easier to repair
+Test reliability
+Pixel categorizations have 
+probabilities (4% failure or worse)
+Arithmetic has determined outcomes (100% 
+resolution: correct or incorrect)
+Data acquisition
+Arctan is a black box. You don’t 
+know how it makes its decisions
+Pen-and-paper test is crystal clear. Results are not an 
+artifact of the method
+Repeatability
+Arctan tests for a few minutes 
+under controlled conditions
+Test-retest reliability high. Comparable outcomes for 
+50 years under variable conditions
+Measurement quality
+Low. Nominal scale. Unordered
+categories. Allowable 
+manipulations: number of data 
+points in a category. Statistics: 
+number of cases in each category, 
+most frequent category
+High. Interval scale. Ordered categories. Similar to 
+ratio scale, but the “zero” point is arbitrary (teacher
+starts from 1). Allowable manipulations: add, 
+subtract. Allowable statistics: mean, standard 
+deviation, range, variance
+Theoretical validity
+Unclear what the theory is behind 
+the classification. That ‘things 
+correlate?’
+High. Maintenance rehearsal increases arithmetic 
+skills measurable as test scores
+Test strength
+Arctan is non-parametric 
+(correlational)
+t-test is parametric (cause-and-effect)
+Conclusions allowed
+None (mere exploration)
+Cause-effect and predictions for all coming years
+School boy
+School boy
+School boy
+School boy
+School boy
+School boy
+School boy
+School boy
+144/176
+
+
+PAGE 145
+What if there are no prior theories, at least none that are well established or
+dependable, would you have to make your own to do the test on? YES But then,
+wouldn’t that be too narrow in perspective, since you are repeatedly using your own
+models? YES, but what can you do? You just said there’s nothing else
+145/176
+
+
+PAGE 146
+Student 1: Question about the content in page 42 of week11 (Figure 2)
+146/176
+How were the likelihood and data probability estimates in the figure obtained?
+> Just an example, don’t think too much of it
+Are they based on prior theoretical support or are they rough subjective estimates?
+> Can be theory, earlier data, or indeed just a hunch
+How can I be sure that my estimates are reasonable?
+> Only earlier research can provide that. Otherwise, it’s a guess
+
+
+PAGE 147
+Isn’t The posterior the probability that appears after getting the data?
+> It is the expected, anticipated, hypothesised posterior
+> After data sampling, you get the actual posterior probability
+Why does 30% times 50% give a posterior probability?
+That weakens the probability that your hypothesis will be confirmed with 50%. 
+Fifty percent of 30% is 15% chance your “H1 plus the data” (together the 
+posterior) will be right
+Data, Likelihood
+147/176
+> It gives you the expected posterior because you combined theory about your 
+design with theory about your prospective users (without asking them yet)
+
+
+PAGE 148
+In this picture, our sample tell us this robot is human. And my question is, don't
+we need to know the specific sample data? For example, how many people think
+this is human, because the data in the figure are our own expectations and
+predictions.(This is my understanding, or maybe I am wrong.)
+148/176
+
+
+PAGE 149
+After testing, likelihoods are dismissed for answers not in line with the hypotheses 
+(do this for H1-3). We only ask how much human is it?
+H1 = 30%
+human  15%
+%
+animal   %
+plant    %
+
+Yes, this is old theory remaining
+Now you do a second round of research, based on 
+the sampled data
+H1 = 15%
+human 14.25%
+Remaining old theory:
+
+From data
+animal % Expected new posterior
+Plant % Expected new posterior
+From earlier data
+149/176
+
+
+PAGE 150
+Exam Sample Item
+Category “Insight”
+Lecture 11 discussed Naïve Bayesian classification, using Priors, Data, and Posteriors. 
+Whether you make them explicit or they remain silent in your head, you always 
+design from an idea about what your design is and about the users of your design.
+H1 = 30%
+33.3%
+human  15%
+animal 10%
+plant   5%
+
+
+
+Your design idea
+Prospective user of your design
+150/176
+
+
+PAGE 151
+Exam Sample Item
+Category “Insight”
+H1 = 30%
+33.3%
+human  15%
+animal 10%
+plant   5%
+
+
+
+Design ideas
+H1: “Kinda like a human being”
+H2: “Sort of animal?”
+H3: “Somewhat plant-like”
+“As a designer, I feel it has 
+some 30% human likeness”
+151/176
+
+
+PAGE 152
+Exam Sample Item
+Category “Insight”
+H1 = 30%
+33.3%
+human  15%
+animal 10%
+plant   5%
+
+
+
+Design ideas
+H1: “Kinda like a human being”
+H2: “Sort of animal?”
+H3: “Somewhat plant-like”
+“How about my 
+prospective users? 
+Maybe only half of them 
+will agree with me that 
+my design is humanlike”
+Looks like a 
+plant to me
+Or a 
+bird’s egg
+Knowledge about your users
+= Knowledge about the user group from theory or from previous tests
+152/176
+
+
+PAGE 153
+H1 = 30%
+33.3%
+human  15%
+animal 10%
+plant   5%
+
+
+
+Half of 30% = 15%
+
+is our Hypothesis (H1)
+
+is called the Likelihood (that you will find H1 in your sample)
+
+conjunction of Hypothesis and Likelihood (50% of 30% = 15%)
+
+together is our Prior knowledge
+Prior knowledge is before you 
+sample data (so you haven’t 
+spoken to any of your 
+prospective users yet)
+H1
+153/176
+
+
+PAGE 154
+Now you sample Data
+… and count what is mentioned the most often:
+A plant!
+A plant!
+Human
+Human
+Human
+Human
+Animal
+Animal
+Animal
+Human
+4
+Animal
+3
+Plant
+2
+The winner
+154/176
+
+
+PAGE 155
+To know the Posterior, you cut away all those Hypotheses you had before 
+but that are not confirmed by your data
+H1 = 30%
+human  15%
+%
+animal   %
+plant    %
+
+
+You only keep this one. This 
+Prior, after sampling Data, has now 
+become the Posterior
+You do this for the other Hypotheses you had as well:
+H3 = 20%
+human   1%
+
+
+H2 = 50%
+human   5%
+
+
+155/176
+
+
+PAGE 156
+H1 = 30%
+human  15%
+%
+animal   %
+plant    %
+
+
+H3 = 20%
+human   1%
+
+
+H2 = 50%
+human   5%
+
+
+Collect these percentages:
+15% + 5% + 1% = 21%
+Now we estimate how much human-likeness is in our design
+156/176
+
+
+PAGE 157
+H1 = 30%
+human  15%
+%
+animal   %
+plant    %
+
+
+H3 = 20%
+human   1%
+
+
+H2 = 50%
+human   5%
+
+
+And rescale those 21% 
+as if it were a 100%
+Now we estimate how much human-likeness is in our design
+157/176
+
+
+PAGE 158
+Exam Sample Item
+Let’s get back to our original design ideas
+Design ideas
+H1: “Kinda like a human being”
+15% 4.76 = 71.4%
+H2: “Sort of animal?”
+5% 4.76 = 23.8%
+H3: “Somewhat plant-like”
+1% 4.76 =   4.8%
+Can be used as start 
+values for your 
+Hypotheses next 
+time
+Conclusion:
+“After testing, I must confirm that my design 
+mostly looks like a human being, has some 
+aspects of an animal to it and only little of a 
+plant”
+158/176
+
+
+PAGE 159
+Suppose that, estimated with Naïve Bayes, 
+the probability that users assume a robot 
+to be Humanoid based on the eyes alone is 
+56%: P(Humanoid|eyes) = 0.56
+What does that mean in terms of 
+confidence in the decision, given that 50-
+50% means maximum uncertainty?
+Exam Sample Item (Category “Insight”)
+Open-ended question
+0
+1
+1
+½
+½
+Uncertainty
+P(Humanoid|eyes)
+Answer
+Tip: Answer open questions concisely and 
+precisely. Do not write long essays so that your 
+teacher has to look for the right answer. That 
+means you do not know and that does not earn 
+you points
+56%
+159/176
+
+
+PAGE 160
+Suppose that, estimated with Naïve Bayes, 
+the probability that users assume a robot 
+to be Humanoid based on the eyes alone is 
+56%: P(Humanoid|eyes) = 0.56
+What does that mean in terms of 
+confidence in the decision, given that 50-
+50% means maximum uncertainty?
+Exam Sample Item (Category “Insight”)
+Open-ended question
+0
+1
+1
+½
+½
+Uncertainty
+P(Humanoid|eyes)
+Answer
+When P = 0% (not Humanoid) or P = 100% 
+(definitely Humanoid), there is no doubt about 
+the decision, so uncertainty = 0. With P = 
+56%, uncertainty is almost at its maximum 
+(½ = 50%) so the decision for Humanoid is 
+very doubtful
+not
+Humanoid
+definitely
+Humanoid
+don’t know
+|
+Maximal
+uncertainty
+
+56%
+160/176
+
+
+PAGE 161
+Naïve Bayes is naïve because it does not reckon with correlations among classes and 
+so hybrids like a walking leaf, a fly orchid, or an elephant chair ‘do not exist’
+How, then, does Naïve Bayes relate to multicollinearity (Lecture 07)?
+A
+Not. Naïve Bayes just cuts off classes that are not in line with a given
+hypothesis, no matter how related they are
+B
+Not. Naïve Bayes uses Principal Component Analysis to cut out the
+intermediate values
+C
+Naïve Bayes relates to multiple correlations by allowing the data to alter
+the prior knowledge so that after repeated testing, slowly plants are
+allowed that also have animal characteristics (in the posterior)
+D
+Naïve Bayes relates to multiple correlations by allowing features to
+- for a certain percentage - be member of multiple sets
+Exam Sample Item
+Category “Insight”
+161/176
+
+
+PAGE 162
+Naïve Bayes is naïve because it does not reckon with correlations among classes and 
+so hybrids like a walking leaf, a fly orchid, or an elephant chair ‘do not exist’
+How, then, does Naïve Bayes relate to multicollinearity (Lecture 07)?
+A
+Not. Naïve Bayes just cuts off classes that are not in line with a given
+hypothesis, no matter how related they are
+B
+Not. Naïve Bayes uses Principal Component Analysis to cut out the
+intermediate values
+C
+Naïve Bayes relates to multiple correlations by allowing the data to alter
+the prior knowledge so that after repeated testing, slowly plants are
+allowed that also have animal characteristics (in the posterior)
+D
+Naïve Bayes relates to multiple correlations by allowing features to
+- for a certain percentage - be member of multiple sets
+Exam Sample Item
+Category “Insight”
+
+162/176
+
+
+PAGE 163
+Walking Leaf: plantlike animal
+Fly Orchid: animal-like plant
+Naïve Bayes is naïve because it does not reckon with correlations among classes and 
+so hybrids like a walking leaf, a fly orchid, or an elephant chair ‘do not exist’
+How, then, does Naïve Bayes relate to multicollinearity?
+A
+Not. Naïve Bayes just cuts off classes that are not in line with a given
+hypothesis, no matter how related they are
+Exam Sample Item
+Category “Insight”
+Multicollinearity (Lecture 07) means that 
+multiple high inter-correlations exist among 
+the variables (e.g., nominal classes) you are 
+interested in
+
+163/176
+
+
+PAGE 164
+Student 1: Confuse about the content in page 32 of week11 (Figure 1)
+- Mainly confuse about Central Credibility Intervals (CCIs),
+Deviance Information Criterion and unrestricted regression coefficients.
+- Why do we need to compare the value of DIC?
+- What is the relationship between CCIs and DIC?
+164/176
+CCI, DIC, and unrestricted regression coeff. would count as ‘asides’
+(because I didn’t explain them)
+
+
+PAGE 165
+165/176
+Central Credibility Intervals (CCIs) are used in Bayesian statistics to express the uncertainty 
+around an estimate. They are similar to confidence intervals in frequentist statistics but have a 
+slightly different interpretation
+Think of it like this: Imagine you have a tank filled with air, and you’re trying to estimate how 
+many molecules are oxygen. After doing some measurements, you might say, “I’m 95% sure that 
+the number for oxygen is between 4,000 and 6,000 molecules per mm3.” This range (4,000 to 
+6,000) is your credibility interval. It tells you where you believe the true number lies (t-test tells 
+where!!!), based on the data and your prior beliefs
+Pebble in the pond:
+Range
+Probably here
+(point estimate)
+
+
+
+PAGE 166
+166/176
+The Deviance Information Criterion (DIC) is a technique used to compare different 
+statistical models (not effects!!). It helps you decide which model best fits your data while 
+balancing complexity and goodness of fit
+Think of it like this: Suppose you’re trying to design an educational game for school 
+children. You want the game to help them learn (fit the data well) but also be simple 
+enough to play (not too complex). DIC helps you find that balance (design trade-off) by 
+giving you a score for each model. A lower DIC score suggests a better model
+Human confederates
+CCIs overlapped (AI and Human in similar range)
+DIC was lower when assuming AI and Human equal 
+vs unequal
+AI
+
+
+PAGE 167
+Unrestricted Regression Coefficients
+In regression analysis (Lecture 08), coefficients represent the relationship between the 
+independent variables (predictors x) and the dependent variable (outcome y). 
+Unrestricted regression coefficients mean that there are no constraints placed on these 
+coefficients during estimation (free fit)
+Think of it like this: Imagine you’re trying to figure out how different factors (like hours 
+studied and hours slept) affect your test score of the final exam (    ). Unrestricted 
+regression allows each factor to have any possible influence on the score, without any 
+pre-set limits. This means the analysis is free to find the best-fitting relationship based 
+on the data
+Restricted would be: First use hours studied (main factor) and then can hours of sleep 
+(competing factor) explain more above and beyond what study hours explain
+Put into relation, Central Credibility Intervals give you a range of plausible values for an 
+estimate, the Deviance Information Criterion helps you choose the best model by 
+balancing fit and complexity, and unrestricted regression coefficients allow for a flexible 
+analysis of relationships in your data
+167/176
+
+
+PAGE 168
+Open-ended Questions
+How not to answer them
+Certain students are happy with open questions because they write up everything
+that is slightly related and let the teacher select what s/he wants to hear
+This means two things:
+A lack of precision
+The teacher answers the question for you
+So, you did not answer the question; 
+you only provided the ingredients for 
+an answer. Therefore, you receive no 
+points
+Answer open questions 
+concisely and precisely!
+I do not care for lengthy essays
+168/176
+
+
+PAGE 169
+Lakkaraju, H., Kamar, E., Caruana, R., & Horvitz, E. (2017). 
+Identifying unknown unknowns in the open world: 
+Representations and policies for guided exploration. In S. 
+Singh & S. Markovitch (Eds.), Proceedings of the 31st AAAI 
+Conference on Artificial Intelligence, Feb. 4-7, 2017, SF, CA 
+(pp. 2124–2132). Palo Alto, CA: AAAI.
+Exam sample item
+Category “Insight”
+If the training data in Lakkaraju et al. (2017) are taken as a nominal measurement,
+A) Then what are the two classes?
+B) What is the data split based on if with a confidence of 96%, the predictive 
+model states that ‘white dogs are cats too?’
+C) Although the statement ‘Everything white is a cat’ is so easy to falsify with one 
+single counter-example, then why does not the network do so?
+Open question
+169/176
+
+
+PAGE 170
+Exam sample item
+Dogs and 
+Cats
+Here you see how concise Open 
+Questions can be answered
+Category “Insight”
+If the training data in Lakkaraju et al. (2017) are taken as a nominal measurement,
+A) Then what are the two classes?
+Open question
+170/176
+
+
+PAGE 171
+Exam sample item
+Category “Insight”
+B) What is the data split based on if with a confidence of 96%, the predictive 
+model states that ‘white dogs are cats too?’
+Training set of 
+Cats coincides 
+with being 
+white
+Training set of 
+Dogs coincides 
+with being black
+So the split 
+is on colour
+Open question
+171/176
+
+
+PAGE 172
+Exam sample item
+C) Although the statement ‘Everything white is a cat’ is so easy to falsify with one 
+single counter-example, then why does not the network do so?
+They also do not have 
+inference systems and 
+cannot do logic 
+verification
+Neural Networks 
+lack conceptual 
+knowledge
+172/176
+
+
+PAGE 173
+Exam instructions
+Venue: V1102
+Time: 09h30 – 11h30
+Bring a working ballpoint pen (no pencils)
+Do not be late
+Go to the restroom first
+Put your student ID card visibly on the table
+The exam is not open book
+Not online
+We work on paper. Again, bring a ballpoint pen that is working
+No pencils allowed
+No pen cases, stationary, or other items but the ball pen
+173/176
+Don’t forget: Technical Report is 
+due next week!!
+
+
+PAGE 174
+Keep your laptop or tablet under your seat, in 
+your bag, or do not bring at all
+Telephones are shut down at all time and 
+stored in your bag under your seat
+If you want to leave, raise your hand and 
+somebody will guide you out
+Playing tricks or cheating have severe 
+repercussions
+On the day of the exam
+174/176
+
+
+PAGE 175
+Type of questions and grading
+10 Multiple Choice items
+together worth 0.5 points each
+4 answering options
+Numerical grade translated into letter grade
+2 Open-ended Questions
+worth 2.5 point each
+may be subdivided in A., B., C. questions
+Optional: A maximum 
+of 0.5 bonus points 
+for excellent answers
+175/176
+Don’t forget: Technical Report is 
+due next week!!
+
+
+PAGE 176
+Success!!  
+Study
+hard
+S
+$
+60%
+40%
+Success!
+S
+$
+30%
+70%
+Success!
+Oops
+I succeeded 
+at failing 2 
+times!
+Next time

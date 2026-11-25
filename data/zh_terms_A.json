@@ -1,0 +1,246 @@
+{
+ "Why bother about research?": {
+  "zh": "为什么要在意研究？",
+  "def": "今天的内容 为什么要在意研究？"
+ },
+ "Importance of research": {
+  "zh": "研究的重要性",
+  "def": "这就是研究的重要性 所有研究都始于："
+ },
+ "Sneak preview (what do we cover?)": {
+  "zh": "抢先预览（我们讲什么？）",
+  "def": "抢先预览（我们讲什么？）"
+ },
+ "Ethical concerns": {
+  "zh": "伦理关切",
+  "def": "伦理关切"
+ },
+ "What is science?": {
+  "zh": "什么是科学？",
+  "def": "什么是科学？"
+ },
+ "Validate assumptions": {
+  "zh": "验证假设",
+  "def": "验证假设"
+ },
+ "Discovering new possibilities": {
+  "zh": "发现新的可能性",
+  "def": "发现新的可能性"
+ },
+ "Closing down options": {
+  "zh": "收窄选项",
+  "def": "收窄选项"
+ },
+ "Make informed decisions": {
+  "zh": "做出有依据的决策",
+  "def": "基于手头的数据做出有依据的决策。这项技能在处理复杂问题时将特别有益"
+ },
+ "Argumentation": {
+  "zh": "论证",
+  "def": "注意：辅以轶事证据的论证仍然是薄弱的"
+ },
+ "Research Question (RQ)": {
+  "zh": "研究问题（RQ）",
+  "def": "无论如何，所有研究都始于一个研究问题（RQ），它指引你走完整个研究过程。它是你卡住时可以回头依靠的东西，或"
+ },
+ "Hypotheses": {
+  "zh": "假设",
+  "def": "10. 假设由研究问题推导而来 在导修课（第三小时），我们将练习这个"
+ },
+ "Usability tests": {
+  "zh": "可用性测试",
+  "def": "8/49 可用性测试"
+ },
+ "Heuristic test": {
+  "zh": "启发式测试",
+  "def": "Jaspers（2009）指出，在应用的形成性测试期间，启发式测试可能是一种选择。与实验室实验相比，界定各方面"
+ },
+ "Cognitive walkthrough": {
+  "zh": "认知走查",
+  "def": "设计一组任务（如认知走查） 要求参与者在完成任务时说出脑海中浮现的任何内容"
+ },
+ "Thought listing": {
+  "zh": "想法列举",
+  "def": "想法列举 - 优点与缺点 优点"
+ },
+ "Focus group": {
+  "zh": "焦点小组",
+  "def": "选定一名主持人：选择一位有能力的人来带领焦点小组。主持人应能够促进讨论、鼓励参与，并让对话"
+ },
+ "Ethnography": {
+  "zh": "民族志",
+  "def": "例如，我们已经见过民族志、主题分析、话语分析、扎根理论，但存在"
+ },
+ "(Occupational) culture": {
+  "zh": "（职业）文化",
+  "def": "（职业）文化"
+ },
+ "Ethical issues": {
+  "zh": "伦理问题",
+  "def": "伦理问题"
+ },
+ "Interview": {
+  "zh": "访谈",
+  "def": "访谈提纲：半结构式访谈提纲会提前准备好，列出关键问题或主题，但允许依据访谈流程有所偏离"
+ },
+ "Semi-structured": {
+  "zh": "半结构式",
+  "def": "半结构式访谈在探讨复杂或敏感话题时尤其有用，其中参与者的经验与观点的深度和细微之处"
+ },
+ "Working with raters": {
+  "zh": "与评分者协作",
+  "def": "与评分者协作"
+ },
+ "Inter-rater reliabilities": {
+  "zh": "评分者间信度",
+  "def": "评分者间信度"
+ },
+ "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis": {
+  "zh": "主题分析、话语分析、扎根理论分析",
+  "def": "主题分析是一种用途广泛的工具，能够对数据提供丰富而详尽、但又复杂的描述。它需要一种细致且反复迭代的方法，以确保这些主题"
+ },
+ "Construction of psychometric scales": {
+  "zh": "心理测量量表的构建",
+  "def": "9/49 心理测量量表的构建"
+ },
+ "Infinite regress": {
+  "zh": "无穷回归",
+  "def": "无穷回归：一个词由另一个词解释，那个词又由第三个词解释，如此以至无穷 “共情是想象出来的同情是感到怜悯是感到善良是…”"
+ },
+ "Frege’s sense and reference": {
+  "zh": "弗雷格的意义与指称",
+  "def": "– 弗雷格的意义与指称 – 三角互证"
+ },
+ "Triangulation": {
+  "zh": "三角互证",
+  "def": "三角互证意味着研究者采用多种方法和/或数据集，以对可观察事件获得更全面的理解，并在此过程中，设计更"
+ },
+ "Pearson Product-Moment Correlation (r)": {
+  "zh": "皮尔逊积矩相关（r）",
+  "def": "现在我们能做什么？皮尔逊积矩相关（r）会有用吗？可供性"
+ },
+ "Cohen’s kappa (κ), Krippendorff’s alpha ()": {
+  "zh": "科恩 kappa（κ）、克里彭多夫 alpha（）",
+  "def": "科恩 kappa 用于评估两名评分者（或评判者、观察者等）之间一致性的信度，他们各自把条目归入互斥的"
+ },
+ "Cronbach’s ": {
+  "zh": "克龙巴赫 ",
+  "def": "克龙巴赫 用于评估测量的信度。在所罗门四组设计中，研究者应使用哪些数据才能对测量信度获得最有力的检验？"
+ },
+ "Spearman-Brown coefficient ρ (split-half)": {
+  "zh": "斯皮尔曼-布朗系数 ρ（分半）",
+  "def": "在第 07 讲：相关中，斯皮尔曼-布朗系数 ρ（分半）可用于检验 2 条目心理测量量表的均值分数（M）的信度。在该例中，平均"
+ },
+ "Spearman’s rho (ρ) (rank order)": {
+  "zh": "斯皮尔曼 rho（ρ）（等级顺序）",
+  "def": "当皮尔逊相关系数的假设未被满足时使用斯皮尔曼 rho，尤其是当数据不呈正态分布、样本量较小，或当"
+ },
+ "Principal Component Analysis (PCA)": {
+  "zh": "主成分分析（PCA）",
+  "def": "主成分分析 异常值分析 t 检验、单因素、ANOVA、MANOVA、MANCOVA 一般线性"
+ },
+ "Mediation-moderation analysis": {
+  "zh": "中介—调节分析",
+  "def": "中介—调节分析为变量之间的关系提供了细致入微的理解，"
+ },
+ "Hayes’ PROCESS": {
+  "zh": "Hayes’ PROCESS",
+  "def": "Hayes’ PROCESS"
+ },
+ "Structural Equation Modelling": {
+  "zh": "结构方程建模",
+  "def": "结构方程建模是一种强大而灵活的统计技术，它使研究者能够检验"
+ },
+ "SEM": {
+  "zh": "SEM",
+  "def": "SEM"
+ },
+ "AMOS": {
+  "zh": "AMOS",
+  "def": "AMOS"
+ },
+ "Between-subjects (or between-groups)": {
+  "zh": "被试间（或组间）",
+  "def": "键盘布局 A 在为人“热身”方面比布局 B 更有效… 因此，四个被试间组，每组各有一个被试内因素：顺序"
+ },
+ "Within-subjects (or repeated-measures)": {
+  "zh": "被试内（或重复测量）",
+  "def": "被试内设计 当心顺序"
+ },
+ "Confounding effects": {
+  "zh": "混淆效应",
+  "def": "混淆效应"
+ },
+ "Solomon 4-group design": {
+  "zh": "所罗门四组设计",
+  "def": "克龙巴赫 用于评估测量的信度。在所罗门四组设计中，研究者应使用哪些数据才能对测量信度获得最有力的检验？"
+ },
+ "Normal distributions": {
+  "zh": "正态分布",
+  "def": "正态分布"
+ },
+ "Mean, median, modus": {
+  "zh": "均值、中位数、众数",
+  "def": "均值、中位数、众数"
+ },
+ "Variance": {
+  "zh": "方差",
+  "def": "你做的观察越多，假设被拒斥的机会就越高：你找到反例的可能性增加，方差随之增大。如果你的假设"
+ },
+ "Standard Deviation": {
+  "zh": "标准差",
+  "def": "标准差 上述三种情况中，两条曲线的均值之差都相同"
+ },
+ "Sample size": {
+  "zh": "样本量",
+  "def": "因此，你尽量抽取尽可能多的参与者（注意，存在一个最优值） 功效分析估计必要的样本量，以便有较大的机会找到一个"
+ },
+ "G*Power analysis": {
+  "zh": "G*Power 分析",
+  "def": "G*Power 分析 主要启示：假设检验非常精确，代价是只回答理论中有限的方面。"
+ },
+ "Test theory (frequentism)": {
+  "zh": "检验理论（频率主义）",
+  "def": "因为是由研究者依据当前知识、检验理论、数学方法、应用价值以及更多因素，来决定一个效应算数与否"
+ },
+ "Null and Alternative": {
+  "zh": "零假设与备择假设",
+  "def": "零假设与备择假设 贝叶斯统计比"
+ },
+ "Signal detection": {
+  "zh": "信号检测",
+  "def": "主要启示：无论采用哪种科学方法，所有观察都归结为信号检测"
+ },
+ "Type I, Type II errors": {
+  "zh": "I 类错误、II 类错误",
+  "def": "I 类错误、II 类错误"
+ },
+ "Student’s t": {
+  "zh": "Student’s t",
+  "def": "Student’s t"
+ },
+ "One-sample t-test": {
+  "zh": "单样本 t 检验",
+  "def": "把两组考虑在内 单样本 t 检验"
+ },
+ "Two-sample t-test": {
+  "zh": "双样本 t 检验",
+  "def": "双样本 t 检验"
+ },
+ "Paired-samples t-test": {
+  "zh": "配对样本 t 检验",
+  "def": "配对样本 t 检验比较同一组在不同时间（例如相隔一年）或不同实验内条件（例如同时使用 iPhone 和）下的均值"
+ },
+ "Analysis of Variance": {
+  "zh": "方差分析",
+  "def": "方差分析比较三个（单因素）或更多组（(M)ANOVA）的均值，以查看其中是否至少有一个显著不同。所观察到的差异在"
+ },
+ "Oneway ANOVA": {
+  "zh": "单因素 ANOVA",
+  "def": "单因素 ANOVA 比较一个因变量在 3 个组之间的均值 方差分析比较三个（单因素）或更多组（(M)ANOVA）的均值，以"
+ },
+ "2 2 ANOVA": {
+  "zh": "2 2 ANOVA",
+  "def": "2 2 ANOVA"
+ }
+}

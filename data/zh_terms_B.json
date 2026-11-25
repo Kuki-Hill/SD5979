@@ -1,0 +1,246 @@
+{
+ "Multiple sources of variance": {
+  "zh": "多个变异来源",
+  "def": "多个变异来源"
+ },
+ "General Linear Model": {
+  "zh": "一般线性模型",
+  "def": "1. 分析 > 一般线性模型 > 重复测量…… 2. 定义你的被试内因素，然后点击「定义」以指定因变量和其他因素"
+ },
+ "Repeated Measures": {
+  "zh": "重复测量",
+  "def": "重复测量 GLM：1. 分析 > 一般线性模型 > 重复测量……"
+ },
+ "Prior, Data, Posterior": {
+  "zh": "先验、数据、后验",
+  "def": "16/49 先验、数据、后验"
+ },
+ "Classification": {
+  "zh": "分类",
+  "def": "请注意，你所得出的结论类型与频率主义不同 贝叶斯分类与贝叶斯 t 检验中的重要概念："
+ },
+ "Bayesian t-test": {
+  "zh": "贝叶斯 t 检验",
+  "def": "请注意，你所得出的结论类型与频率主义不同 贝叶斯分类与贝叶斯 t 检验中的重要概念："
+ },
+ "Why we do research": {
+  "zh": "我们为什么做研究",
+  "def": "（模糊数据集）？所有这些都是设计决策，决定了设计者向客户提供什么样的解决方案。这就是我们做研究的原因"
+ },
+ "Why theory comes before methods": {
+  "zh": "为什么理论先于方法",
+  "def": "为什么理论先于方法"
+ },
+ "How to build up a theory": {
+  "zh": "如何建构理论",
+  "def": "如何建构理论"
+ },
+ "Different ways to do research": {
+  "zh": "做研究的不同方式",
+  "def": "做研究的不同方式"
+ },
+ "Measurement quality": {
+  "zh": "测量质量",
+  "def": "测量质量。共有四种主要的测量尺度，你必须把它们全部掌握："
+ },
+ "Theories and traditions of qualitative research": {
+  "zh": "质性研究的理论与传统",
+  "def": "今日内容 质性研究的理论与传统"
+ },
+ "Research methods in qualitative research": {
+  "zh": "质性研究中的研究方法",
+  "def": "质性研究中的研究方法"
+ },
+ "How to apply qualitative methods": {
+  "zh": "如何应用质性方法",
+  "def": "如何应用质性方法"
+ },
+ "Determine when to use qualitative methods": {
+  "zh": "确定何时使用质性方法",
+  "def": "确定何时使用质性方法"
+ },
+ "Current debate on qualitative methods": {
+  "zh": "关于质性方法的当前争论",
+  "def": "关于质性方法的当前争论"
+ },
+ "Qualitative methods": {
+  "zh": "质性方法",
+  "def": "主要结论：质性方法用于形成想法，之后可以（也应该）被量化。"
+ },
+ "Analysis: Thematic, Discourse, Grounded Theory": {
+  "zh": "分析：主题分析、话语分析、扎根理论",
+  "def": "假设、潜在偏见，以及他们的参与可能如何影响分析 主题分析是一种用途广泛的工具，能够提供丰富而详细、但又复杂"
+ },
+ "Quantification of qualitative data": {
+  "zh": "质性数据的量化",
+  "def": "质性数据的量化 Hayes, A. F., & Krippendorff, K. (2007)."
+ },
+ "Systematic questionnaires": {
+  "zh": "系统化问卷",
+  "def": "今日内容 系统化问卷"
+ },
+ "Language philosophy": {
+  "zh": "语言哲学",
+  "def": "语言哲学"
+ },
+ "Single-item surveys": {
+  "zh": "单题项调查",
+  "def": "单题项调查"
+ },
+ "Requirements on a survey item": {
+  "zh": "对调查题项的要求",
+  "def": "对调查题项的要求"
+ },
+ "Examples of bad questioning": {
+  "zh": "不当提问的例子",
+  "def": "不当提问的例子"
+ },
+ "How to do it right and why": {
+  "zh": "如何做对以及为什么",
+  "def": "如何做对以及为什么"
+ },
+ "Mental chronometry: reading times, reaction times, release time, arrival time": {
+  "zh": "心理计时法：阅读时间、反应时、释放时间、到达时间",
+  "def": "心理计时法：阅读时间、反应时、释放时间、到达时间"
+ },
+ "Forced-choice task (2 or 3 options) (decision making)": {
+  "zh": "强制选择任务（2 或 3 个选项）（决策）",
+  "def": "反应时、释放时间、到达时间 强制选择任务（2 或 3 个选项）"
+ },
+ "Eye-tracking": {
+  "zh": "眼动追踪",
+  "def": "眼动追踪应当表明什么"
+ },
+ "Heart rate, galvanic skin response": {
+  "zh": "心率、皮肤电反应",
+  "def": "心率、皮肤电反应"
+ },
+ "EEG (location, time, bandwidths, ERPs) and fMRI": {
+  "zh": "EEG（位置、时间、频带、ERPs）与 fMRI",
+  "def": "EEG（位置、时间、频带、ERPs）与 fMRI"
+ },
+ "Brain-Computer Interfaces and CBIs": {
+  "zh": "脑机接口与 CBIs",
+  "def": "与 fMRI 脑机接口与 CBIs"
+ },
+ "Correlations": {
+  "zh": "相关",
+  "def": "主要结论：相关不是因果，无论数据有多大 实际上，数据越多，显著但无意义的相关越可能出现"
+ },
+ "Spurious correlations": {
+  "zh": "伪相关",
+  "def": "实际上，数据越多，显著但无意义的相关越可能出现 我们称之为伪相关"
+ },
+ "Convergent / divergent validity": {
+  "zh": "聚合效度／区分效度",
+  "def": "聚合效度／区分效度"
+ },
+ "Correlations and regression equations": {
+  "zh": "相关与回归方程",
+  "def": "今日内容 相关与回归方程"
+ },
+ "Linear regression": {
+  "zh": "线性回归",
+  "def": "线性回归使用连续数据的全部范围 逻辑回归（分类）把数据一分为二：内或外、是或否、1 或 0，以及"
+ },
+ "Multiple linear regression": {
+  "zh": "多元线性回归",
+  "def": "多元线性回归处理不止一个预测变量 x1, …, n（输入变量），以估计目标输出变量 y 的波动"
+ },
+ "Multiple linear regression and Neural Networks (NNs)": {
+  "zh": "多元线性回归与神经网络（NNs）",
+  "def": "多元线性回归与神经网络（NNs）"
+ },
+ "Supervised Learning": {
+  "zh": "监督学习",
+  "def": "网络（NNs） 监督学习"
+ },
+ "Neural Networks and feedback of error so to ‘learn’": {
+  "zh": "神经网络与误差反馈以便「学习」",
+  "def": "神经网络与误差反馈以便「学习」"
+ },
+ "Logistic regression (actually: Logistic classification)": {
+  "zh": "逻辑回归（实际上是：逻辑分类）",
+  "def": "逻辑回归（分类）把数据一分为二：内或外、是或否、1 或 0，并试图以某一概率值预测类别"
+ },
+ "Hypotheses (H0 and HA)": {
+  "zh": "假设（H0 与 HA）",
+  "def": "最好提出之后能够／应该被检验的假设（提供的是一个假设，而不是一个结论）"
+ },
+ "Laboratory experiments": {
+  "zh": "实验室实验",
+  "def": "实验室实验"
+ },
+ "Experimental design (Between-Ss, Within-Ss)": {
+  "zh": "实验设计（Between-Ss、Within-Ss）",
+  "def": "如果把 Lakkaraju 等人（2017）中的训练数据看作一种实验设计，A）那么这两个条件是什么？"
+ },
+ "Confounds, order effects": {
+  "zh": "混淆因素、顺序效应",
+  "def": "混淆因素、顺序效应"
+ },
+ "Example: counting flies on zebras": {
+  "zh": "例子：数斑马身上的苍蝇",
+  "def": "例子：数斑马身上的苍蝇"
+ },
+ "Statistical analysis (exploratory, confirmatory)": {
+  "zh": "统计分析（探索性、验证性）",
+  "def": "所收集数据的可比性。这种方法对统计分析特别有用，并且常在研究者寻求量化变量并将研究发现从"
+ },
+ "Central tendencies (mean, mode, median)": {
+  "zh": "集中趋势（均值、众数、中位数）",
+  "def": "集中趋势（均值、众数、中位数）"
+ },
+ "Confirmatory data analysis": {
+  "zh": "验证性数据分析",
+  "def": "验证性数据分析是参数性的，并且是假设检验的一种演绎方法。推断统计"
+ },
+ "Parametric testing and deduction": {
+  "zh": "参数检验与演绎",
+  "def": "参数检验与演绎"
+ },
+ "Results depend on test theory chosen": {
+  "zh": "结果取决于所选的检验理论",
+  "def": "结果取决于所选的检验理论"
+ },
+ "Frequentism (or Bayesian?)": {
+  "zh": "频率主义（还是贝叶斯主义？）",
+  "def": "主要结论：频率主义只不过是关于数据的一种观点。它所能做的不过是拒绝「无差异」"
+ },
+ "When to decide there is an effect?": {
+  "zh": "何时判定存在效应？",
+  "def": "何时判定存在效应？"
+ },
+ "So what is reliability, confidence, significance?": {
+  "zh": "那么，什么是信度、置信度、显著性？",
+  "def": "那么，什么是信度、置信度、显著性？ 2/83"
+ },
+ "Bayesian statistics": {
+  "zh": "贝叶斯统计",
+  "def": "贝叶斯统计比频率主义方法更适合用于当代"
+ },
+ "Test theory: frequentism vs Bayesianism": {
+  "zh": "检验理论：频率主义 vs 贝叶斯主义",
+  "def": "检验理论：频率主义 vs 贝叶斯主义"
+ },
+ "Case: Media Equation falsely refuted": {
+  "zh": "案例：Media Equation 被错误地驳斥",
+  "def": "案例：Media Equation 被错误地驳斥"
+ },
+ "Bayesian statistics continued": {
+  "zh": "贝叶斯统计（续）",
+  "def": "贝叶斯统计（续）"
+ },
+ "Turing Test: speed-dating a robot": {
+  "zh": "图灵测试：与机器人速配",
+  "def": "图灵测试：与机器人速配"
+ },
+ "Practicing with Bayesian classification": {
+  "zh": "贝叶斯分类练习",
+  "def": "贝叶斯分类练习 2/65"
+ },
+ "Test theory (freq. vs Bayes)": {
+  "zh": "检验理论（freq. vs Bayes）",
+  "def": "因为是由研究者决定某个效应算不算数，基于当前知识、检验理论、数学方法、应用价值以及更多"
+ }
+}

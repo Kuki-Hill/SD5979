@@ -1,0 +1,2547 @@
+{
+ "per_lecture": {
+  "L00": [],
+  "L01": [
+   {
+    "text": "Why bother about research?",
+    "lecture": "L01",
+    "slide": 4,
+    "kind": "contents",
+    "canon": "why bother about research",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Importance of research",
+    "lecture": "L01",
+    "slide": 4,
+    "kind": "contents",
+    "canon": "importance of research",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Sneak preview (what do we cover?)",
+    "lecture": "L01",
+    "slide": 4,
+    "kind": "contents",
+    "canon": "sneak preview what do we cover",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Ethical concerns",
+    "lecture": "L01",
+    "slide": 4,
+    "kind": "contents",
+    "canon": "ethical concerns",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "What is science?",
+    "lecture": "L01",
+    "slide": 4,
+    "kind": "contents",
+    "canon": "what is science",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Validate assumptions",
+    "lecture": "L01",
+    "slide": 5,
+    "kind": "outline",
+    "canon": "validate assumptions",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Discovering new possibilities",
+    "lecture": "L01",
+    "slide": 5,
+    "kind": "outline",
+    "canon": "discovering new possibilities",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Closing down options",
+    "lecture": "L01",
+    "slide": 5,
+    "kind": "outline",
+    "canon": "closing down options",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Make informed decisions",
+    "lecture": "L01",
+    "slide": 5,
+    "kind": "outline",
+    "canon": "make informed decisions",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Importance of research",
+    "lecture": "L01",
+    "slide": 5,
+    "kind": "outline",
+    "canon": "importance of research",
+    "owner_lecture": "L01"
+   },
+   {
+    "text": "Argumentation",
+    "lecture": "L01",
+    "slide": 7,
+    "kind": "outline",
+    "canon": "argumentation",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Research Question (RQ)",
+    "lecture": "L01",
+    "slide": 7,
+    "kind": "outline",
+    "canon": "research question rq",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Hypotheses",
+    "lecture": "L01",
+    "slide": 7,
+    "kind": "outline",
+    "canon": "hypotheses",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Usability tests",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "usability tests",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Heuristic test",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "heuristic test",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Cognitive walkthrough",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "cognitive walkthrough",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Thought listing",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "thought listing",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Focus group",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "focus group",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Ethnography",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "ethnography",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "(Occupational) culture",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "occupational culture",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Ethical issues",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "ethical issues",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Interview",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "interview",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Semi-structured",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "semi structured",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Working with raters",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "working with raters",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Inter-rater reliabilities",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "inter rater reliabilities",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis",
+    "lecture": "L01",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "thematic analysis discourse analysis grounded theory analysis",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Construction of psychometric scales",
+    "lecture": "L01",
+    "slide": 9,
+    "kind": "outline",
+    "canon": "construction of psychometric scales",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Infinite regress",
+    "lecture": "L01",
+    "slide": 9,
+    "kind": "outline",
+    "canon": "infinite regress",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Frege’s sense and reference",
+    "lecture": "L01",
+    "slide": 9,
+    "kind": "outline",
+    "canon": "frege s sense and reference",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Triangulation",
+    "lecture": "L01",
+    "slide": 9,
+    "kind": "outline",
+    "canon": "triangulation",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Pearson Product-Moment Correlation (r)",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "pearson product moment correlation r",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Cohen’s kappa (κ), Krippendorff's alpha ()",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "cohen s kappa krippendorff s alpha",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Cronbach’s ",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "cronbach s",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Spearman-Brown coefficient (split-half)",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "spearman brown coefficient split half",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Spearman’s rho (ρ) (rank order)",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "spearman s rho rank order",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Principal Component Analysis (PCA)",
+    "lecture": "L01",
+    "slide": 12,
+    "kind": "outline",
+    "canon": "principal component analysis pca",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Mediation-Moderation Analysis",
+    "lecture": "L01",
+    "slide": 13,
+    "kind": "outline",
+    "canon": "mediation moderation analysis",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Hayes’ PROCESS",
+    "lecture": "L01",
+    "slide": 13,
+    "kind": "outline",
+    "canon": "hayes process",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Structural Equation Modeling",
+    "lecture": "L01",
+    "slide": 13,
+    "kind": "outline",
+    "canon": "structural equation modeling",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "SEM",
+    "lecture": "L01",
+    "slide": 13,
+    "kind": "outline",
+    "canon": "sem",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "AMOS",
+    "lecture": "L01",
+    "slide": 13,
+    "kind": "outline",
+    "canon": "amos",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Between-subjects (or between-groups)",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "between subjects or between groups",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Within-subjects (or repeated-measures)",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "within subjects or repeated measures",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Confounding effects",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "confounding effects",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Solomon 4-group design",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "solomon 4 group design",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Normal distributions",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "normal distributions",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Mean, median, modus",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "mean median modus",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Variance",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "variance",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Standard Deviation",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "standard deviation",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Sample size",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "sample size",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "G*Power analysis",
+    "lecture": "L01",
+    "slide": 14,
+    "kind": "outline",
+    "canon": "g power analysis",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Test theory (frequentism)",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "test theory frequentism",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Null and Alternative",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "null and alternative",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Signal detection",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "signal detection",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Type I, Type II errors",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "type i type ii errors",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Student’s t",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "student s t",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "One-sample t-test",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "one sample t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Two-sample t-test",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "two sample t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Paired-samples t-test",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "paired samples t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Analysis of Variance",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "analysis of variance",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Oneway ANOVA",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "oneway anova",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "2 2 ANOVA",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "2 2 anova",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Multiple sources of variance",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "multiple sources of variance",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "General Linear Model",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "general linear model",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Repeated Measures",
+    "lecture": "L01",
+    "slide": 15,
+    "kind": "outline",
+    "canon": "repeated measures",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Prior, Data, Posterior",
+    "lecture": "L01",
+    "slide": 16,
+    "kind": "outline",
+    "canon": "prior data posterior",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Classification",
+    "lecture": "L01",
+    "slide": 16,
+    "kind": "outline",
+    "canon": "classification",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Bayesian t-test",
+    "lecture": "L01",
+    "slide": 16,
+    "kind": "outline",
+    "canon": "bayesian t test",
+    "owner_lecture": "L11"
+   }
+  ],
+  "L02": [
+   {
+    "text": "Why we do research",
+    "lecture": "L02",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "why we do research",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Why theory comes before methods",
+    "lecture": "L02",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "why theory comes before methods",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "How to build up a theory",
+    "lecture": "L02",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "how to build up a theory",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Different ways to do research",
+    "lecture": "L02",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "different ways to do research",
+    "owner_lecture": "L02"
+   },
+   {
+    "text": "Measurement quality",
+    "lecture": "L02",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "measurement quality",
+    "owner_lecture": "L02"
+   }
+  ],
+  "L03": [
+   {
+    "text": "Theories and traditions of qualitative research",
+    "lecture": "L03",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "theories and traditions of qualitative research",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Research methods in qualitative research",
+    "lecture": "L03",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "research methods in qualitative research",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "How to apply qualitative methods",
+    "lecture": "L03",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "how to apply qualitative methods",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Determine when to use qualitative methods",
+    "lecture": "L03",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "determine when to use qualitative methods",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Current debate on qualitative methods",
+    "lecture": "L03",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "current debate on qualitative methods",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Qualitative methods",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "qualitative methods",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Usability tests",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "usability tests",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Heuristic test",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "heuristic test",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Cognitive walkthrough",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "cognitive walkthrough",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Thought listing",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "thought listing",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Focus group",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "focus group",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Ethnography",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "ethnography",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "(Occupational) culture",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "occupational culture",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Ethical issues",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "ethical issues",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Interview",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "interview",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Semi-structured",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "semi structured",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Analysis: Thematic, Discourse, Grounded Theory",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "analysis thematic discourse grounded theory",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Quantification of qualitative data",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "quantification of qualitative data",
+    "owner_lecture": "L03"
+   },
+   {
+    "text": "Inter-rater reliabilities",
+    "lecture": "L03",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "inter rater reliabilities",
+    "owner_lecture": "L03"
+   }
+  ],
+  "L04": [
+   {
+    "text": "Systematic questionnaires",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "systematic questionnaires",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Language philosophy",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "language philosophy",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Single-item surveys",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "single item surveys",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Requirements on a survey item",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "requirements on a survey item",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Examples of bad questioning",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "examples of bad questioning",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "How to do it right and why",
+    "lecture": "L04",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "how to do it right and why",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Usability tests",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "usability tests",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Heuristic test",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "heuristic test",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Cognitive walkthrough",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "cognitive walkthrough",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Thought listing",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "thought listing",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Focus group",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "focus group",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Ethnography",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "ethnography",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "(Occupational) culture",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "occupational culture",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Ethical issues",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "ethical issues",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Interview",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "interview",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Semi-structured",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "semi structured",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Working with raters",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "working with raters",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Inter-rater reliabilities",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "inter rater reliabilities",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis",
+    "lecture": "L04",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "thematic analysis discourse analysis grounded theory analysis",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Construction of psychometric scales",
+    "lecture": "L04",
+    "slide": 6,
+    "kind": "outline",
+    "canon": "construction of psychometric scales",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Infinite regress",
+    "lecture": "L04",
+    "slide": 6,
+    "kind": "outline",
+    "canon": "infinite regress",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Frege’s sense and reference",
+    "lecture": "L04",
+    "slide": 6,
+    "kind": "outline",
+    "canon": "frege s sense and reference",
+    "owner_lecture": "L04"
+   },
+   {
+    "text": "Triangulation",
+    "lecture": "L04",
+    "slide": 6,
+    "kind": "outline",
+    "canon": "triangulation",
+    "owner_lecture": "L04"
+   }
+  ],
+  "L05": [
+   {
+    "text": "Mental chronometry: reading times, reaction times, release time, arrival time",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "mental chronometry reading times reaction times release time arrival time",
+    "owner_lecture": "L05"
+   },
+   {
+    "text": "Forced-choice task (2 or 3 options) (decision making)",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "forced choice task 2 or 3 options decision making",
+    "owner_lecture": "L05"
+   },
+   {
+    "text": "Eye-tracking",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "eye tracking",
+    "owner_lecture": "L05"
+   },
+   {
+    "text": "Heart rate, galvanic skin response",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "heart rate galvanic skin response",
+    "owner_lecture": "L05"
+   },
+   {
+    "text": "EEG (location, time, bandwidths, ERPs) and fMRI",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "eeg location time bandwidths erps and fmri",
+    "owner_lecture": "L05"
+   },
+   {
+    "text": "Brain-Computer Interfaces and CBIs",
+    "lecture": "L05",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "brain computer interfaces and cbis",
+    "owner_lecture": "L05"
+   }
+  ],
+  "L07": [
+   {
+    "text": "Correlations",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "correlations",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Spurious correlations",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "spurious correlations",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Pearson Product-Moment Correlation (r)",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "pearson product moment correlation r",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Cohen’s kappa (κ), Krippendorff’s alpha ()",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "cohen s kappa krippendorff s alpha",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Cronbach’s ",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "cronbach s",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Spearman-Brown coefficient ρ (split-half)",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "spearman brown coefficient split half",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Spearman’s rho (ρ) (rank order)",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "spearman s rho rank order",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Convergent / divergent validity",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "convergent divergent validity",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Principal Component Analysis (PCA)",
+    "lecture": "L07",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "principal component analysis pca",
+    "owner_lecture": "L07"
+   },
+   {
+    "text": "Correlations",
+    "lecture": "L07",
+    "slide": 7,
+    "kind": "outline",
+    "canon": "correlations",
+    "owner_lecture": "L07"
+   }
+  ],
+  "L08": [
+   {
+    "text": "Correlations and regression equations",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "correlations and regression equations",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Linear regression",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "linear regression",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Multiple linear regression",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "multiple linear regression",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Multiple linear regression and Neural Networks (NNs)",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "multiple linear regression and neural networks nns",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Supervised Learning",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "supervised learning",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Neural Networks and feedback of error so to ‘learn’",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "neural networks and feedback of error so to learn",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Logistic regression (actually: Logistic classification)",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "logistic regression actually logistic classification",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Mediation-moderation analysis",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "mediation moderation analysis",
+    "owner_lecture": "L08"
+   },
+   {
+    "text": "Structural Equation Modelling",
+    "lecture": "L08",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "structural equation modelling",
+    "owner_lecture": "L08"
+   }
+  ],
+  "L09": [
+   {
+    "text": "Hypotheses (H0 and HA)",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "hypotheses h0 and ha",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Normal distributions",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "normal distributions",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Laboratory experiments",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "laboratory experiments",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Experimental design (Between-Ss, Within-Ss)",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "experimental design between ss within ss",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Confounds, order effects",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "confounds order effects",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Solomon 4-group design",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "solomon 4 group design",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Example: counting flies on zebras",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "example counting flies on zebras",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Statistical analysis (exploratory, confirmatory)",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "statistical analysis exploratory confirmatory",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Central tendencies (mean, mode, median)",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "central tendencies mean mode median",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Variance",
+    "lecture": "L09",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "variance",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Between-subjects (or between-groups)",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "between subjects or between groups",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Within-subjects (or repeated-measures)",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "within subjects or repeated measures",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Confounding effects",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "confounding effects",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Solomon 4-group design",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "solomon 4 group design",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Normal distributions",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "normal distributions",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Mean, median, modus",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "mean median modus",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Variance",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "variance",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Standard Deviation",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "standard deviation",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "Sample size",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "sample size",
+    "owner_lecture": "L09"
+   },
+   {
+    "text": "G*Power analysis",
+    "lecture": "L09",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "g power analysis",
+    "owner_lecture": "L09"
+   }
+  ],
+  "L10": [
+   {
+    "text": "Confirmatory data analysis",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "confirmatory data analysis",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Parametric testing and deduction",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "parametric testing and deduction",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Results depend on test theory chosen",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "results depend on test theory chosen",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Frequentism (or Bayesian?)",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "frequentism or bayesian",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "When to decide there is an effect?",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "when to decide there is an effect",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "So what is reliability, confidence, significance?",
+    "lecture": "L10",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "so what is reliability confidence significance",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Confirmatory data analysis",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "confirmatory data analysis",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Test theory (frequentism)",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "test theory frequentism",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Null and Alternative",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "null and alternative",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Signal detection",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "signal detection",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Type I, Type II errors",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "type i type ii errors",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Student’s t",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "student s t",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "One-sample t-test",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "one sample t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Two-sample t-test",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "two sample t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Paired-samples t-test",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "paired samples t test",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Analysis of Variance",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "analysis of variance",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Oneway ANOVA",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "oneway anova",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "2 2 ANOVA",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "2 2 anova",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Multiple sources of variance",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "multiple sources of variance",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "General Linear Model",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "general linear model",
+    "owner_lecture": "L10"
+   },
+   {
+    "text": "Repeated Measures",
+    "lecture": "L10",
+    "slide": 3,
+    "kind": "outline",
+    "canon": "repeated measures",
+    "owner_lecture": "L10"
+   }
+  ],
+  "L11": [
+   {
+    "text": "Bayesian statistics",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "bayesian statistics",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Confirmatory data analysis",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "confirmatory data analysis",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Test theory: frequentism vs Bayesianism",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "test theory frequentism vs bayesianism",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Case: Media Equation falsely refuted",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "case media equation falsely refuted",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Bayesian statistics continued",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "bayesian statistics continued",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Turing Test: speed-dating a robot",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "turing test speed dating a robot",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Practicing with Bayesian classification",
+    "lecture": "L11",
+    "slide": 2,
+    "kind": "contents",
+    "canon": "practicing with bayesian classification",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Bayesian statistics",
+    "lecture": "L11",
+    "slide": 7,
+    "kind": "outline",
+    "canon": "bayesian statistics",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Confirmatory data analysis",
+    "lecture": "L11",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "confirmatory data analysis",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Test theory (freq. vs Bayes)",
+    "lecture": "L11",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "test theory freq vs bayes",
+    "owner_lecture": "L11"
+   },
+   {
+    "text": "Null and Alternative",
+    "lecture": "L11",
+    "slide": 8,
+    "kind": "outline",
+    "canon": "null and alternative",
+    "owner_lecture": "L11"
+   }
+  ]
+ },
+ "concepts": [
+  {
+   "text": "Why bother about research?",
+   "lecture": "L01",
+   "slide": 4,
+   "kind": "contents",
+   "canon": "why bother about research",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Importance of research",
+   "lecture": "L01",
+   "slide": 4,
+   "kind": "contents",
+   "canon": "importance of research",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Sneak preview (what do we cover?)",
+   "lecture": "L01",
+   "slide": 4,
+   "kind": "contents",
+   "canon": "sneak preview what do we cover",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Ethical concerns",
+   "lecture": "L01",
+   "slide": 4,
+   "kind": "contents",
+   "canon": "ethical concerns",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "What is science?",
+   "lecture": "L01",
+   "slide": 4,
+   "kind": "contents",
+   "canon": "what is science",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Validate assumptions",
+   "lecture": "L01",
+   "slide": 5,
+   "kind": "outline",
+   "canon": "validate assumptions",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Discovering new possibilities",
+   "lecture": "L01",
+   "slide": 5,
+   "kind": "outline",
+   "canon": "discovering new possibilities",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Closing down options",
+   "lecture": "L01",
+   "slide": 5,
+   "kind": "outline",
+   "canon": "closing down options",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Make informed decisions",
+   "lecture": "L01",
+   "slide": 5,
+   "kind": "outline",
+   "canon": "make informed decisions",
+   "owner_lecture": "L01"
+  },
+  {
+   "text": "Argumentation",
+   "lecture": "L01",
+   "slide": 7,
+   "kind": "outline",
+   "canon": "argumentation",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Research Question (RQ)",
+   "lecture": "L01",
+   "slide": 7,
+   "kind": "outline",
+   "canon": "research question rq",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Hypotheses",
+   "lecture": "L01",
+   "slide": 7,
+   "kind": "outline",
+   "canon": "hypotheses",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Usability tests",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "usability tests",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Heuristic test",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "heuristic test",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Cognitive walkthrough",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "cognitive walkthrough",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Thought listing",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "thought listing",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Focus group",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "focus group",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Ethnography",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "ethnography",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "(Occupational) culture",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "occupational culture",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Ethical issues",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "ethical issues",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Interview",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "interview",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Semi-structured",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "semi structured",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Working with raters",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "working with raters",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Inter-rater reliabilities",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "inter rater reliabilities",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Thematic Analysis, Discourse Analysis, Grounded Theory Analysis",
+   "lecture": "L01",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "thematic analysis discourse analysis grounded theory analysis",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Construction of psychometric scales",
+   "lecture": "L01",
+   "slide": 9,
+   "kind": "outline",
+   "canon": "construction of psychometric scales",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Infinite regress",
+   "lecture": "L01",
+   "slide": 9,
+   "kind": "outline",
+   "canon": "infinite regress",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Frege’s sense and reference",
+   "lecture": "L01",
+   "slide": 9,
+   "kind": "outline",
+   "canon": "frege s sense and reference",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Triangulation",
+   "lecture": "L01",
+   "slide": 9,
+   "kind": "outline",
+   "canon": "triangulation",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Pearson Product-Moment Correlation (r)",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "pearson product moment correlation r",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Cohen’s kappa (κ), Krippendorff’s alpha ()",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "cohen s kappa krippendorff s alpha",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Cronbach’s ",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "cronbach s",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Spearman-Brown coefficient ρ (split-half)",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "spearman brown coefficient split half",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Spearman’s rho (ρ) (rank order)",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "spearman s rho rank order",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Principal Component Analysis (PCA)",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "principal component analysis pca",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Mediation-moderation analysis",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "mediation moderation analysis",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Hayes’ PROCESS",
+   "lecture": "L01",
+   "slide": 13,
+   "kind": "outline",
+   "canon": "hayes process",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Structural Equation Modeling",
+   "lecture": "L01",
+   "slide": 13,
+   "kind": "outline",
+   "canon": "structural equation modeling",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "SEM",
+   "lecture": "L01",
+   "slide": 13,
+   "kind": "outline",
+   "canon": "sem",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "AMOS",
+   "lecture": "L01",
+   "slide": 13,
+   "kind": "outline",
+   "canon": "amos",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Between-subjects (or between-groups)",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "between subjects or between groups",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Within-subjects (or repeated-measures)",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "within subjects or repeated measures",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Confounding effects",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "confounding effects",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Solomon 4-group design",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "solomon 4 group design",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Normal distributions",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "normal distributions",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Mean, median, modus",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "mean median modus",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Variance",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "variance",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Standard Deviation",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "standard deviation",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Sample size",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "sample size",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "G*Power analysis",
+   "lecture": "L01",
+   "slide": 14,
+   "kind": "outline",
+   "canon": "g power analysis",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Test theory (frequentism)",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "test theory frequentism",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Null and Alternative",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "null and alternative",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Signal detection",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "signal detection",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Type I, Type II errors",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "type i type ii errors",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Student’s t",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "student s t",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "One-sample t-test",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "one sample t test",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Two-sample t-test",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "two sample t test",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Paired-samples t-test",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "paired samples t test",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Analysis of Variance",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "analysis of variance",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Oneway ANOVA",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "oneway anova",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "2 2 ANOVA",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "2 2 anova",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Multiple sources of variance",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "multiple sources of variance",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "General Linear Model",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "general linear model",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Repeated Measures",
+   "lecture": "L01",
+   "slide": 15,
+   "kind": "outline",
+   "canon": "repeated measures",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Prior, Data, Posterior",
+   "lecture": "L01",
+   "slide": 16,
+   "kind": "outline",
+   "canon": "prior data posterior",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Classification",
+   "lecture": "L01",
+   "slide": 16,
+   "kind": "outline",
+   "canon": "classification",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Bayesian t-test",
+   "lecture": "L01",
+   "slide": 16,
+   "kind": "outline",
+   "canon": "bayesian t test",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Why we do research",
+   "lecture": "L02",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "why we do research",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Why theory comes before methods",
+   "lecture": "L02",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "why theory comes before methods",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "How to build up a theory",
+   "lecture": "L02",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "how to build up a theory",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Different ways to do research",
+   "lecture": "L02",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "different ways to do research",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Measurement quality",
+   "lecture": "L02",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "measurement quality",
+   "owner_lecture": "L02"
+  },
+  {
+   "text": "Theories and traditions of qualitative research",
+   "lecture": "L03",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "theories and traditions of qualitative research",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Research methods in qualitative research",
+   "lecture": "L03",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "research methods in qualitative research",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "How to apply qualitative methods",
+   "lecture": "L03",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "how to apply qualitative methods",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Determine when to use qualitative methods",
+   "lecture": "L03",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "determine when to use qualitative methods",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Current debate on qualitative methods",
+   "lecture": "L03",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "current debate on qualitative methods",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Qualitative methods",
+   "lecture": "L03",
+   "slide": 3,
+   "kind": "outline",
+   "canon": "qualitative methods",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Analysis: Thematic, Discourse, Grounded Theory",
+   "lecture": "L03",
+   "slide": 3,
+   "kind": "outline",
+   "canon": "analysis thematic discourse grounded theory",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Quantification of qualitative data",
+   "lecture": "L03",
+   "slide": 3,
+   "kind": "outline",
+   "canon": "quantification of qualitative data",
+   "owner_lecture": "L03"
+  },
+  {
+   "text": "Systematic questionnaires",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "systematic questionnaires",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Language philosophy",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "language philosophy",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Single-item surveys",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "single item surveys",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Requirements on a survey item",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "requirements on a survey item",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Examples of bad questioning",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "examples of bad questioning",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "How to do it right and why",
+   "lecture": "L04",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "how to do it right and why",
+   "owner_lecture": "L04"
+  },
+  {
+   "text": "Mental chronometry: reading times, reaction times, release time, arrival time",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "mental chronometry reading times reaction times release time arrival time",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "Forced-choice task (2 or 3 options) (decision making)",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "forced choice task 2 or 3 options decision making",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "Eye-tracking",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "eye tracking",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "Heart rate, galvanic skin response",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "heart rate galvanic skin response",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "EEG (location, time, bandwidths, ERPs) and fMRI",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "eeg location time bandwidths erps and fmri",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "Brain-Computer Interfaces and CBIs",
+   "lecture": "L05",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "brain computer interfaces and cbis",
+   "owner_lecture": "L05"
+  },
+  {
+   "text": "Correlations",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "correlations",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Spurious correlations",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "spurious correlations",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Convergent / divergent validity",
+   "lecture": "L07",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "convergent divergent validity",
+   "owner_lecture": "L07"
+  },
+  {
+   "text": "Correlations and regression equations",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "correlations and regression equations",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Linear regression",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "linear regression",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Multiple linear regression",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "multiple linear regression",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Multiple linear regression and Neural Networks (NNs)",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "multiple linear regression and neural networks nns",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Supervised Learning",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "supervised learning",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Neural Networks and feedback of error so to ‘learn’",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "neural networks and feedback of error so to learn",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Logistic regression (actually: Logistic classification)",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "logistic regression actually logistic classification",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Structural Equation Modelling",
+   "lecture": "L08",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "structural equation modelling",
+   "owner_lecture": "L08"
+  },
+  {
+   "text": "Hypotheses (H0 and HA)",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "hypotheses h0 and ha",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Laboratory experiments",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "laboratory experiments",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Experimental design (Between-Ss, Within-Ss)",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "experimental design between ss within ss",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Confounds, order effects",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "confounds order effects",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Example: counting flies on zebras",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "example counting flies on zebras",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Statistical analysis (exploratory, confirmatory)",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "statistical analysis exploratory confirmatory",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Central tendencies (mean, mode, median)",
+   "lecture": "L09",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "central tendencies mean mode median",
+   "owner_lecture": "L09"
+  },
+  {
+   "text": "Confirmatory data analysis",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "confirmatory data analysis",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Parametric testing and deduction",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "parametric testing and deduction",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Results depend on test theory chosen",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "results depend on test theory chosen",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Frequentism (or Bayesian?)",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "frequentism or bayesian",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "When to decide there is an effect?",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "when to decide there is an effect",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "So what is reliability, confidence, significance?",
+   "lecture": "L10",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "so what is reliability confidence significance",
+   "owner_lecture": "L10"
+  },
+  {
+   "text": "Bayesian statistics",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "bayesian statistics",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Test theory: frequentism vs Bayesianism",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "test theory frequentism vs bayesianism",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Case: Media Equation falsely refuted",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "case media equation falsely refuted",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Bayesian statistics continued",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "bayesian statistics continued",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Turing Test: speed-dating a robot",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "turing test speed dating a robot",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Practicing with Bayesian classification",
+   "lecture": "L11",
+   "slide": 2,
+   "kind": "contents",
+   "canon": "practicing with bayesian classification",
+   "owner_lecture": "L11"
+  },
+  {
+   "text": "Test theory (freq. vs Bayes)",
+   "lecture": "L11",
+   "slide": 8,
+   "kind": "outline",
+   "canon": "test theory freq vs bayes",
+   "owner_lecture": "L11"
+  }
+ ]
+}

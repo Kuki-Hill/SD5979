@@ -1,0 +1,962 @@
+{
+ "lecture": "L04",
+ "source_file": "04 Σ SD5979 Structured questionnaire design 2026 09 18.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L04.pdf",
+ "sha256": "4c879b8c44ece04e7666ede2719d5dc8099b7dd59089c85ccebd4e0b6d50252b",
+ "page_count": 87,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 04: Structured questionnaire design\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 04: Structured questionnaire design 1",
+   "char_count": 148,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "2/87\nContents of today\nSystematic questionnaires\nLanguage philosophy\nSingle-item surveys\nRequirements on a survey item\nExamples of bad questioning\nHow to do it right and why\n",
+   "text_norm": "2/87 Contents of today Systematic questionnaires Language philosophy Single-item surveys Requirements on a survey item Examples of bad questioning How to do it right and why",
+   "char_count": 179,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-002.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 3,
+   "text": "Last time: Qualitative methods\n●Usability tests\nHeuristic test\nCognitive walkthrough\nThought listing\n●Focus group\nEthnography\n(Occupational) culture\nEthical issues\n●Interview\nUnstructured\nSemi-structured\nStructured\n●Working with raters\nInter-rater reliabilities\n●Thematic Analysis, Discourse Analysis, Grounded Theory Analysis\nMain lesson: Qualitative methods are for idea formation and later can be (should be) quantified. \nStructured questionnaires immediately quantify attitudes, opinions, norms, and values\n3/87\n",
+   "text_norm": "Last time: Qualitative methods ●Usability tests Heuristic test Cognitive walkthrough Thought listing ●Focus group Ethnography (Occupational) culture Ethical issues ●Interview Unstructured Semi-structured Structured ●Working with raters Inter-rater reliabilities ●Thematic Analysis, Discourse Analysis, Grounded Theory Analysis Main lesson: Qualitative methods are for idea formation and later can be (should be) quantified. Structured questionnaires immediately quantify attitudes, opinions, norms, and values 3/87",
+   "char_count": 525,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-003.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 4,
+   "text": "The four quadrants of research\nConcrete:\nField strategies\nAbstract:\nTheoretical strategies \nLaboratory\nexperiment\nSample \nsurveys\nObtrusive:\nRespondent\nstrategies\nUnobtrusive:\nObservation \nstrategies\nFormal\ntheory\nComputer\nsimulation\nEthnography\nContent \nanalysis\nField\nexperiment\nFocus groups\nInterviews\nJudgment \nstudies\nSingle cases\nHigh on realism\nRich data (qualitative)\nUnstructured\nGeneralisable\nHigh on precision\nFocused data\n(quantitative)\nStructured\nRetake on McGrath (1995)\n4/87\n",
+   "text_norm": "The four quadrants of research Concrete: Field strategies Abstract: Theoretical strategies Laboratory experiment Sample surveys Obtrusive: Respondent strategies Unobtrusive: Observation strategies Formal theory Computer simulation Ethnography Content analysis Field experiment Focus groups Interviews Judgment studies Single cases High on realism Rich data (qualitative) Unstructured Generalisable High on precision Focused data (quantitative) Structured Retake on McGrath (1995) 4/87",
+   "char_count": 492,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-004.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 5,
+   "text": "Numbers don’t lie, it is true\nWords also don’t lie, but you can lie with words very well\nNumbers are words\nTherefore, numbers don’t lie, but you can lie with numbers very well\nBefore we embark on quantitative methods\n“Our stock price rose 60% this year.”\nJanuary\nUS$ 50\nJuly\nUS$ 80 (Apple product launch)\nDecember\nUS$ 50\nYes, it rose for one week, and then fell back to its earlier level\nHiding information also is a lie (lying by omission = deception)\n5/87\n",
+   "text_norm": "Numbers don’t lie, it is true Words also don’t lie, but you can lie with words very well Numbers are words Therefore, numbers don’t lie, but you can lie with numbers very well Before we embark on quantitative methods “Our stock price rose 60% this year.” January US$ 50 July US$ 80 (Apple product launch) December US$ 50 Yes, it rose for one week, and then fell back to its earlier level Hiding information also is a lie (lying by omission = deception) 5/87",
+   "char_count": 457,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-005.png",
+   "flags": []
+  },
+  {
+   "slide": 6,
+   "text": "completely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\nThe interaction with the robot was…\nnice\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nfine\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nmediocre\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nokay\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nso-so\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nordinary\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\n\n04 Structured questionnaire design\n●Construction of psychometric scales\n●Infinite regress\n●Frege’s sense and reference\n●Triangulation\nMain lesson: Asking questions is not as easy as it \nseems. You need multiple words for each construct \nbecause you do not know whether people interpret \na word the way you intended\n\n\n\n\n\n6/87\n",
+   "text_norm": "completely disagree disagree agree agree completely disagree a little a little agree The interaction with the robot was… nice 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 fine 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 mediocre 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 okay 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 so-so 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 ordinary 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5  04 Structured questionnaire design ●Construction of psychometric scales ●Infinite regress ●Frege’s sense and reference ●Triangulation Main lesson: Asking questions is not as easy as it seems. You need multiple words for each construct because you do not know whether people interpret a word the way you intended      6/87",
+   "char_count": 951,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-006.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "●Single item – one response\n●Scale construction\n●Faceted scales\n●Rating scales\n●Double negations\n●Ambiguity\n●Extremes\n●Quantities\n●Long sentences, difficult words\n●Appreciation scales (like-dislike)\n●In conclusion: Best way to construct a measurement scale\n●Scale contents and reliability tests\nWhat we will discuss\nThings\nto avoid\n7/87\n",
+   "text_norm": "●Single item – one response ●Scale construction ●Faceted scales ●Rating scales ●Double negations ●Ambiguity ●Extremes ●Quantities ●Long sentences, difficult words ●Appreciation scales (like-dislike) ●In conclusion: Best way to construct a measurement scale ●Scale contents and reliability tests What we will discuss Things to avoid 7/87",
+   "char_count": 337,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-007.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "●Single item – one response\nSuppose you are rating a movie scene. Here is a single item to gauge viewer engagement:\nJohn walking out on Mary feeling disappointed made me empathise\ncompletely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nProvide some feedback on this single item\n8/87\n",
+   "text_norm": "●Single item – one response Suppose you are rating a movie scene. Here is a single item to gauge viewer engagement: John walking out on Mary feeling disappointed made me empathise completely disagree disagree agree agree completely disagree a little a little agree 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 Provide some feedback on this single item 8/87",
+   "char_count": 388,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-008.png",
+   "flags": []
+  },
+  {
+   "slide": 9,
+   "text": "●Single item – one response\nSuppose you are rating a movie scene. Here is a single item to gauge viewer engagement:\nJohn walking out on Mary feeling disappointed made me empathise\ncompletely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nAmbiguous topic\n* John (feeling disappointed) walks out on Mary\n* John walks out on Mary (who feels disappointed)\nAmbiguous word meaning\n* Empathise with whom? John, Mary, both, with the situation, with your mom?\n* Empathise as in understanding everyone’s perspective?\n* Empathise as in having compassionate feelings?\n* What does empathy mean here?\n“Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…”\n9/87\n",
+   "text_norm": "●Single item – one response Suppose you are rating a movie scene. Here is a single item to gauge viewer engagement: John walking out on Mary feeling disappointed made me empathise completely disagree disagree agree agree completely disagree a little a little agree 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 Ambiguous topic * John (feeling disappointed) walks out on Mary * John walks out on Mary (who feels disappointed) Ambiguous word meaning * Empathise with whom? John, Mary, both, with the situation, with your mom? * Empathise as in understanding everyone’s perspective? * Empathise as in having compassionate feelings? * What does empathy mean here? “Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…” 9/87",
+   "char_count": 778,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-009.png",
+   "flags": []
+  },
+  {
+   "slide": 10,
+   "text": "●Language philosophy\n– Infinite regress\n– Frege’s sense and reference\n– Triangulation\nEmpathy is…\nParticipant 01:\nimagined sympathy\nParticipant 02:\nfeeling compassionate \nParticipant 03:\nfeeling kindhearted\nParticipant 04:\n…\nThe issue with understanding words is that it unavoidably leads to the fallacy of infinite regress\nThis is not just so for questionnaires but for all science because all science is language-based\nThe issue with ‘single item – one response’ is that the researcher does not know how the \nrespondent interprets that one single word. Each respondent may have attributed another \nmeaning to that one single word. There is no control on convergent validity of the measurement\n10/87\n",
+   "text_norm": "●Language philosophy – Infinite regress – Frege’s sense and reference – Triangulation Empathy is… Participant 01: imagined sympathy Participant 02: feeling compassionate Participant 03: feeling kindhearted Participant 04: … The issue with understanding words is that it unavoidably leads to the fallacy of infinite regress This is not just so for questionnaires but for all science because all science is language-based The issue with ‘single item – one response’ is that the researcher does not know how the respondent interprets that one single word. Each respondent may have attributed another meaning to that one single word. There is no control on convergent validity of the measurement 10/87",
+   "char_count": 697,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-010.png",
+   "flags": []
+  },
+  {
+   "slide": 11,
+   "text": "– Infinite regress\nInfinite regress: A word is explained by another word, which is explained by a third, ad infinitum\n“Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…”\n“A rose is a flower is a plant is an organism is a molecule structure is a…”\n“A molecule is a group of bonded atoms is a group of protons, electrons, and neutrons is a group \nof quarks and gluons is a…” ad infinitum\nInfinite regress is a fallacy of all science but unavoidable; a limitation of human understanding\nIf you loop back infinite regress to its own beginning, it becomes full circle:\nMolecule Atoms\n\n\nEnergy Electrons,\netc.\nAffect Engagement\n\n\nLiking Involvement\n11/87\n",
+   "text_norm": "– Infinite regress Infinite regress: A word is explained by another word, which is explained by a third, ad infinitum “Empathy is imagined sympathy is feeling compassionate is feeling kindhearted is…” “A rose is a flower is a plant is an organism is a molecule structure is a…” “A molecule is a group of bonded atoms is a group of protons, electrons, and neutrons is a group of quarks and gluons is a…” ad infinitum Infinite regress is a fallacy of all science but unavoidable; a limitation of human understanding If you loop back infinite regress to its own beginning, it becomes full circle: Molecule Atoms   Energy Electrons, etc. Affect Engagement   Liking Involvement 11/87",
+   "char_count": 686,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "– Frege’s sense and reference\nGottlob Frege \n(1892)\nThe ‘sense’ of the word is its presentation form\nThe reference of a word is to something existing in the real world \n(according to the observer’s beliefs)\nThe famous example is that ‘the second planet from the sun’ may be \ncalled ‘Venus’ as well as ‘the morning star’ and ‘the evening star’ \n(although it is not a star at all)\nAll three expressions are synonyms for that one particular planet\nThe ‘sense’ of a word emphasises a particular aspect of the entity it refers to, conjuring up an \nimage, a ‘mock thought’ or ‘Scheingedanke’ about that entity\nJohannes Ferdinand Hoorn = Johan F. Hoorn = Johan Hoorn = 洪約翰= …\n12/87\n",
+   "text_norm": "– Frege’s sense and reference Gottlob Frege (1892) The ‘sense’ of the word is its presentation form The reference of a word is to something existing in the real world (according to the observer’s beliefs) The famous example is that ‘the second planet from the sun’ may be called ‘Venus’ as well as ‘the morning star’ and ‘the evening star’ (although it is not a star at all) All three expressions are synonyms for that one particular planet The ‘sense’ of a word emphasises a particular aspect of the entity it refers to, conjuring up an image, a ‘mock thought’ or ‘Scheingedanke’ about that entity Johannes Ferdinand Hoorn = Johan F. Hoorn = Johan Hoorn = 洪約翰= … 12/87",
+   "char_count": 669,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-012.png",
+   "flags": []
+  },
+  {
+   "slide": 13,
+   "text": "– Frege’s sense and reference\nGottlob Frege \n(1892)\nsympathy\nkindness\ncompas-\nsion\nand many\nmore\nEmpathy\nBut... infinite regress, \nbecause what is empathy?\nHow to know the reference \nof a word from other \nwords?\n13/87\n",
+   "text_norm": "– Frege’s sense and reference Gottlob Frege (1892) sympathy kindness compassion and many more Empathy But... infinite regress, because what is empathy? How to know the reference of a word from other words? 13/87",
+   "char_count": 211,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-013.png",
+   "flags": []
+  },
+  {
+   "slide": 14,
+   "text": "– Frege’s sense and reference\nGottlob Frege \n(1892)\nThere\nare\nso\nmany\nanswers\nObservation\nThere are so many \nanswers to one \nobservation\n14/87\n",
+   "text_norm": "– Frege’s sense and reference Gottlob Frege (1892) There are so many answers Observation There are so many answers to one observation 14/87",
+   "char_count": 139,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-014.png",
+   "flags": []
+  },
+  {
+   "slide": 15,
+   "text": "– Triangulation\nTriangulation does not really solve the issue of infinite regress but it is the best we can do. It \nrelates different types of observations (measurements) together\nTherefore, you need theory, even if you think you do applied work only\nThe theory should say what the different measures should show to confirm / reject the \nconcepts that the theory relies on\nFor instance: metaphor theory\nExample of metaphor use is to present ‘quarks as building blocks’ (Huang, 1992: p. 25)\nTriangulation means that the researcher employs various methods and/or data sets to gain a \nmore encompassing understanding of observable events and in doing so, designing more \nopportunities for falsification\nHuang, K. (1992). Quarks, leptons & gauge fields. London: World Scientific.\n15/87\n",
+   "text_norm": "– Triangulation Triangulation does not really solve the issue of infinite regress but it is the best we can do. It relates different types of observations (measurements) together Therefore, you need theory, even if you think you do applied work only The theory should say what the different measures should show to confirm / reject the concepts that the theory relies on For instance: metaphor theory Example of metaphor use is to present ‘quarks as building blocks’ (Huang, 1992: p. 25) Triangulation means that the researcher employs various methods and/or data sets to gain a more encompassing understanding of observable events and in doing so, designing more opportunities for falsification Huang, K. (1992). Quarks, leptons & gauge fields. London: World Scientific. 15/87",
+   "char_count": 777,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-015.png",
+   "flags": []
+  },
+  {
+   "slide": 16,
+   "text": "– Triangulation\nM\nMetaphor:\nQuarks are building blocks\nL\nLiteral counterpart:\nQuarks are particles\nA\nAnomalous counterpart:\nQuarks are agenungs\n// properties\nIf the Anomaly theory of metaphor is correct, the following patterns should be observed:\nWord associations\nM\nliteral as well as figurative meanings\nL\nliteral meanings only\nA\nlittle to no meanings\nReaction times\n(L < M) < A\n- people process the literal meaning fastest, for metaphor they have to think a little longer, \nand anomalies are not understood and induce doubt\nEvent-related Brain Potentials (ERPs)\nM\nN400 for semantic unexpectedness\nL\nno N400\nA\nN400 highest\nThe actual order found was:\nA < (L < M) < Ametaphor\n16/87\n",
+   "text_norm": "– Triangulation M Metaphor: Quarks are building blocks L Literal counterpart: Quarks are particles A Anomalous counterpart: Quarks are agenungs // properties If the Anomaly theory of metaphor is correct, the following patterns should be observed: Word associations M literal as well as figurative meanings L literal meanings only A little to no meanings Reaction times (L < M) < A - people process the literal meaning fastest, for metaphor they have to think a little longer, and anomalies are not understood and induce doubt Event-related Brain Potentials (ERPs) M N400 for semantic unexpectedness L no N400 A N400 highest The actual order found was: A < (L < M) < Ametaphor 16/87",
+   "char_count": 687,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-016.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 17,
+   "text": "Hoorn, J. F. (1996). Metaphor and the Brain: Behavioral and Psychophysiological Research into Literary Metaphor Processing (Doctoral \ndissertation, VU University. Ann Arbor, MI: ProQuest). Available from http://dare.ubvu.vu.nl/bitstream/1871/13048/1/7392.pdf\n– An example of triangulation\nWord associations\nReaction times\nEvent-related Potentials\nThe predictions of the theory should converge on:\n17/87\n",
+   "text_norm": "Hoorn, J. F. (1996). Metaphor and the Brain: Behavioral and Psychophysiological Research into Literary Metaphor Processing (Doctoral dissertation, VU University. Ann Arbor, MI: ProQuest). Available from http://dare.ubvu.vu.nl/bitstream/1871/13048/1/7392.pdf – An example of triangulation Word associations Reaction times Event-related Potentials The predictions of the theory should converge on: 17/87",
+   "char_count": 401,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-017.png",
+   "flags": []
+  },
+  {
+   "slide": 18,
+   "text": "Denzin (1970, p. 301) discerns four types of triangulation\nData triangulation: Different time periods, various spaces, various samples of people (cf. ‘waves’)\nInvestigator triangulation: Different researchers doing the same study (cf. replication studies)\nTheory triangulation: More theories explain the same phenomenon, outcome predictions differ \n(e.g., comparison theory of metaphor vs anomaly theory vs interaction theory)\nMethodological triangulation: Different types of data sampled through different kinds of methods \n(e.g., word association, reaction times, brain potentials)\n– Triangulation\nTo make up a little for the fallacy of infinite regress and gauge the reference of words from \ntheir sense, triangulation formulates more dimensions on which meanings should \nconverge\n18/87\n",
+   "text_norm": "Denzin (1970, p. 301) discerns four types of triangulation Data triangulation: Different time periods, various spaces, various samples of people (cf. ‘waves’) Investigator triangulation: Different researchers doing the same study (cf. replication studies) Theory triangulation: More theories explain the same phenomenon, outcome predictions differ (e.g., comparison theory of metaphor vs anomaly theory vs interaction theory) Methodological triangulation: Different types of data sampled through different kinds of methods (e.g., word association, reaction times, brain potentials) – Triangulation To make up a little for the fallacy of infinite regress and gauge the reference of words from their sense, triangulation formulates more dimensions on which meanings should converge 18/87",
+   "char_count": 785,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-018.png",
+   "flags": []
+  },
+  {
+   "slide": 19,
+   "text": "●Single item – one response\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nPlease comment on \nthese items\n",
+   "text_norm": "●Single item – one response Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 Please comment on these items",
+   "char_count": 309,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-019.png",
+   "flags": []
+  },
+  {
+   "slide": 20,
+   "text": "●Single item – one response\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nWhat is meant here?\n",
+   "text_norm": "●Single item – one response Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 What is meant here?",
+   "char_count": 299,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-020.png",
+   "flags": []
+  },
+  {
+   "slide": 21,
+   "text": "●Scale construction\nScale construction is a triangulation method to circumvent (up to a degree) the issues with \n‘one item – single response’ surveys. However, infinite regress may still persist but the \nmeanings of the words are now ‘intersubjectively’ measured (i.e., using more respondents, \ncalculating an ‘average’ meaning over multiple items)\nAn item can be a question\nDo you like sunflowers?\nIt can be a statement you rate\nI like sunflowers\nQuestions tend to beg for nominal and ordinal measures: no | somewhat | yes\nStatements tend to invite ordinal to interval measures:\n1 – 2 – 3 – 4 – 5 – 6\n(I prefer the latter)\nBe aware of terminology:\nMeasurement scale\nMultiple items that measure the same concept 1\nRating scale\nNumerical assessment of an item on ordinal or interval level\n1 Also called a psychometric scale\n21/87\n",
+   "text_norm": "●Scale construction Scale construction is a triangulation method to circumvent (up to a degree) the issues with ‘one item – single response’ surveys. However, infinite regress may still persist but the meanings of the words are now ‘intersubjectively’ measured (i.e., using more respondents, calculating an ‘average’ meaning over multiple items) An item can be a question Do you like sunflowers? It can be a statement you rate I like sunflowers Questions tend to beg for nominal and ordinal measures: no | somewhat | yes Statements tend to invite ordinal to interval measures: 1 – 2 – 3 – 4 – 5 – 6 (I prefer the latter) Be aware of terminology: Measurement scale Multiple items that measure the same concept 1 Rating scale Numerical assessment of an item on ordinal or interval level 1 Also called a psychometric scale 21/87",
+   "char_count": 825,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-021.png",
+   "flags": []
+  },
+  {
+   "slide": 22,
+   "text": "●Scale construction\n– Concept analysis\n– Multiple items\n– Bipolar vs unipolar measurement scales\n– Indicative, contra-indicative items\n– Statements\nConcept analysis is a theoretical exercise that attempts to define as precisely as possible the \nmeaningful aspects and circumstances under which the meaning functions, turning the entirety \ninto a ‘construct’ (very handy for formulating hypotheses as well)\nSuppose we want to measure the ‘efficiency’ of a system or application\nA single item – one response item would run like:\ncompletely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\nThe system is efficient\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\n… but that does not tell us what efficiency consists of\n22/87\n",
+   "text_norm": "●Scale construction – Concept analysis – Multiple items – Bipolar vs unipolar measurement scales – Indicative, contra-indicative items – Statements Concept analysis is a theoretical exercise that attempts to define as precisely as possible the meaningful aspects and circumstances under which the meaning functions, turning the entirety into a ‘construct’ (very handy for formulating hypotheses as well) Suppose we want to measure the ‘efficiency’ of a system or application A single item – one response item would run like: completely disagree disagree agree agree completely disagree a little a little agree The system is efficient 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 … but that does not tell us what efficiency consists of 22/87",
+   "char_count": 772,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-022.png",
+   "flags": []
+  },
+  {
+   "slide": 23,
+   "text": "– Concept analysis\nHoorn (2014) says that on the system \nside of performance, efficiency has \ntwo components:\n- clock time\n- errors\nOn the side of the human user, these \nphysical components are rated as \nspeed (fast vs. slow) and acccuracy \n(accurate vs. inaccurate)\nEfficiency is a speed-accuracy trade-off of the machine in combination with that \nof the human\nHowever, all of this is a human judgment (also about the machine)\nThus, speed and accuracy are human experiences rather than physical quantities\n23/87\n",
+   "text_norm": "– Concept analysis Hoorn (2014) says that on the system side of performance, efficiency has two components: - clock time - errors On the side of the human user, these physical components are rated as speed (fast vs. slow) and acccuracy (accurate vs. inaccurate) Efficiency is a speed-accuracy trade-off of the machine in combination with that of the human However, all of this is a human judgment (also about the machine) Thus, speed and accuracy are human experiences rather than physical quantities 23/87",
+   "char_count": 506,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-023.png",
+   "flags": []
+  },
+  {
+   "slide": 24,
+   "text": "– Concept analysis\n24/87\n",
+   "text_norm": "– Concept analysis 24/87",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-024.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 25,
+   "text": "– Concept analysis\n25/87\n",
+   "text_norm": "– Concept analysis 25/87",
+   "char_count": 24,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-025.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "– Concept analysis\nThis means that you offer the \nparticipants the 6 physical \nvariables and make 15 \nmeasurement scales to be rated\nHuman fast / slow\nHuman accurate / inaccurate\nHuman efficient /  inefficient\nHuman efficiency\nMachine fast / slow\nMachine accurate / inaccurate\nMachine efficient / inefficient\nMachine efficiency\nEfficiency of an interactive system\n26/87\n",
+   "text_norm": "– Concept analysis This means that you offer the participants the 6 physical variables and make 15 measurement scales to be rated Human fast / slow Human accurate / inaccurate Human efficient / inefficient Human efficiency Machine fast / slow Machine accurate / inaccurate Machine efficient / inefficient Machine efficiency Efficiency of an interactive system 26/87",
+   "char_count": 365,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-026.png",
+   "flags": []
+  },
+  {
+   "slide": 27,
+   "text": "– Concept analysis\nThis means that you offer the \nparticipants the 6 physical \nvariables and make 15 \nmeasurement scales to be rated\nHuman fast / slow\nHuman accurate / inaccurate\nHuman efficient /  inefficient\nHuman efficiency\nMachine fast / slow\nMachine accurate / inaccurate\nMachine efficient / inefficient\nMachine efficiency\nEfficiency of an interactive system\nIt is smart to do concept analysis in a focus \ngroup or by interviewing your target group. \nThen you know that the meanings are well \nunderstood. After you have a prototype \nquestionnaire, you can pre-test the items in \nanother sample of the same target group\n27/87\n",
+   "text_norm": "– Concept analysis This means that you offer the participants the 6 physical variables and make 15 measurement scales to be rated Human fast / slow Human accurate / inaccurate Human efficient / inefficient Human efficiency Machine fast / slow Machine accurate / inaccurate Machine efficient / inefficient Machine efficiency Efficiency of an interactive system It is smart to do concept analysis in a focus group or by interviewing your target group. Then you know that the meanings are well understood. After you have a prototype questionnaire, you can pre-test the items in another sample of the same target group 27/87",
+   "char_count": 620,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-027.png",
+   "flags": []
+  },
+  {
+   "slide": 28,
+   "text": "– Multiple items\nFor triangulation reasons and to control for convergent validity (reliability of the \nmeasurement scale), we need multiple items that indicate speed, accuracy, efficiency, etc.\nTo assess ‘speed,’ we want a number of items addressing the concept of speed\ncompletely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\nThe interaction with the system was…\nfast\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nquick\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nswift\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nrapid\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nAcross participants, we can calculate the average experience of speed of the system\n28/87\n",
+   "text_norm": "– Multiple items For triangulation reasons and to control for convergent validity (reliability of the measurement scale), we need multiple items that indicate speed, accuracy, efficiency, etc. To assess ‘speed,’ we want a number of items addressing the concept of speed completely disagree disagree agree agree completely disagree a little a little agree The interaction with the system was… fast 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 quick 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 swift 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 rapid 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 Across participants, we can calculate the average experience of speed of the system 28/87",
+   "char_count": 812,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-028.png",
+   "flags": []
+  },
+  {
+   "slide": 29,
+   "text": "– Bipolar vs unipolar measurement scales\nSpeed scale\nMy system is:       slow  0—1—2—3—4—5  fast\nThis Speed scale uses a ‘semantic differential,’ putting two opposites on one dimension\nThis way of measuring assumes that fast and slow are mutually exclusive (fast = 1 — slow)\nIt is a bipolar conception of speed:\n- Less fast is equal to more slow\n- More fast is equal to less slow\nMost of the time, human experience is NOT bipolar; it is a little bit of everything in relation \nto one another (e.g., “I love and hate methods class”)\nIn other words, time experience may be unipolar. One unit of less fast may be experienced \nas two units of more slow. This is a unipolar conception of speed. The subscales should be \ntreated as relatively independent\n29/87\n",
+   "text_norm": "– Bipolar vs unipolar measurement scales Speed scale My system is: slow 0—1—2—3—4—5 fast This Speed scale uses a ‘semantic differential,’ putting two opposites on one dimension This way of measuring assumes that fast and slow are mutually exclusive (fast = 1 — slow) It is a bipolar conception of speed: - Less fast is equal to more slow - More fast is equal to less slow Most of the time, human experience is NOT bipolar; it is a little bit of everything in relation to one another (e.g., “I love and hate methods class”) In other words, time experience may be unipolar. One unit of less fast may be experienced as two units of more slow. This is a unipolar conception of speed. The subscales should be treated as relatively independent 29/87",
+   "char_count": 743,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-029.png",
+   "flags": []
+  },
+  {
+   "slide": 30,
+   "text": "– Bipolar vs unipolar measurement scales\nA unipolar conception of speed. No semantic differentials. The subscales should be treated \nas relatively independent\nA subscale for Fast (unipolar)\nOne second for system start-up is fast\ndisagree  0—1—2—3—4—5  agree\nShutting down in 2 seconds is a rapid procedure\ndisagree  0—1—2—3—4—5  agree\nData throughput goes quickly\ndisagree  0—1—2—3—4—5  agree\nA subscale for Slow (unipolar)\nOne second for system start-up is slow\ndisagree  0—1—2—3—4—5  agree\nShutting down in 2 seconds is a lengthy procedure\ndisagree  0—1—2—3—4—5  agree\nData throughput is time-consuming\ndisagree  0—1—2—3—4—5  agree\nSubscale Fast and subscale Slow together make up the measurement scale for Speed\n30/87\n",
+   "text_norm": "– Bipolar vs unipolar measurement scales A unipolar conception of speed. No semantic differentials. The subscales should be treated as relatively independent A subscale for Fast (unipolar) One second for system start-up is fast disagree 0—1—2—3—4—5 agree Shutting down in 2 seconds is a rapid procedure disagree 0—1—2—3—4—5 agree Data throughput goes quickly disagree 0—1—2—3—4—5 agree A subscale for Slow (unipolar) One second for system start-up is slow disagree 0—1—2—3—4—5 agree Shutting down in 2 seconds is a lengthy procedure disagree 0—1—2—3—4—5 agree Data throughput is time-consuming disagree 0—1—2—3—4—5 agree Subscale Fast and subscale Slow together make up the measurement scale for Speed 30/87",
+   "char_count": 707,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-030.png",
+   "flags": []
+  },
+  {
+   "slide": 31,
+   "text": "– Bipolar vs unipolar measurement scales\nFrom two unipolar scales, you can always make one bipolar scale. Never the other way around\n\nTotally\ndifferent\nTotally\nsame\nwhite\nblack\nwhite\ntautology\nopposition\nwhite\noff-\nwhite\nwhite\ndark\ngrey\nonly one \nbipolar\nconstellation\nvarious unipolar constellations\nwhite\ngrey\n31/87\n",
+   "text_norm": "– Bipolar vs unipolar measurement scales From two unipolar scales, you can always make one bipolar scale. Never the other way around  Totally different Totally same white black white tautology opposition white offwhite white dark grey only one bipolar constellation various unipolar constellations white grey 31/87",
+   "char_count": 321,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-031.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 32,
+   "text": "– Bipolar vs unipolar measurement scales\nFrom two unipolar scales, you can always make one bipolar scale. Never the other way around\n\nTotally\ndifferent\nTotally\nsame\nwhite\nblack\nwhite\ntautology\nopposition\nwhite\noff-\nwhite\nwhite\ndark\ngrey\nonly one \nbipolar\nconstellation\nvarious unipolar constellations\nwhite\ngrey\nBipolarity is an exceptional case in a continuum of unipolar con-\nstellations. Thus, likelihood for unipolarity is higher and true oppo-\nsites can be translated into bipolarity anyhow, and thus, unipolar-\nity is your better choice\n32/87\n",
+   "text_norm": "– Bipolar vs unipolar measurement scales From two unipolar scales, you can always make one bipolar scale. Never the other way around  Totally different Totally same white black white tautology opposition white offwhite white dark grey only one bipolar constellation various unipolar constellations white grey Bipolarity is an exceptional case in a continuum of unipolar constellations. Thus, likelihood for unipolarity is higher and true opposites can be translated into bipolarity anyhow, and thus, unipolarity is your better choice 32/87",
+   "char_count": 546,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-032.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 33,
+   "text": "– Indicative, contra-indicative items\nRemember the subscale for Fast (unipolar)?\nOne second for system start-up is fast\nShutting down in 2 seconds is a rapid procedure\nData throughput goes quickly\nThe subscale for Slow (unipolar)\nOne second for system start-up is slow\nShutting down in 2 seconds is a lengthy procedure\nData throughput is time-consuming\nIndicative items commonly have synonyms\nContra-indicative items have antonyms (e.g., white–black, life–death)\nHowever, not every antonym is a diametric opposition (e.g., happy–sad, excited–calm)\nIndicative items\nform the Fast subscale\nContra-indicative items\nform the Slow subscale\nNote: The difference between left and right is more confusing than between up and down\n33/87\n",
+   "text_norm": "– Indicative, contra-indicative items Remember the subscale for Fast (unipolar)? One second for system start-up is fast Shutting down in 2 seconds is a rapid procedure Data throughput goes quickly The subscale for Slow (unipolar) One second for system start-up is slow Shutting down in 2 seconds is a lengthy procedure Data throughput is time-consuming Indicative items commonly have synonyms Contra-indicative items have antonyms (e.g., white–black, life–death) However, not every antonym is a diametric opposition (e.g., happy–sad, excited–calm) Indicative items form the Fast subscale Contra-indicative items form the Slow subscale Note: The difference between left and right is more confusing than between up and down 33/87",
+   "char_count": 729,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-033.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 34,
+   "text": "– Indicative, contra-indicative items\nLet’s make a subscale for Accurate (unipolar)\nConnecting to the Internet is error free\nThis search engine renders precise results\nIn 96% of the cases, the disk is accurately formatted\nThe subscale for Inaccurate (unipolar)\nConnecting to the Internet is error prone\nThis search engine renders sloppy results\nIn 4% of the cases, the disk is formatted wrongly\nHowever, there is a problem of circularity with one of the items. Please find the issue\nIndicative items\nform the Accurate subscale\nContra-indicative items\nform the Inaccurate subscale\n34/87\n",
+   "text_norm": "– Indicative, contra-indicative items Let’s make a subscale for Accurate (unipolar) Connecting to the Internet is error free This search engine renders precise results In 96% of the cases, the disk is accurately formatted The subscale for Inaccurate (unipolar) Connecting to the Internet is error prone This search engine renders sloppy results In 4% of the cases, the disk is formatted wrongly However, there is a problem of circularity with one of the items. Please find the issue Indicative items form the Accurate subscale Contra-indicative items form the Inaccurate subscale 34/87",
+   "char_count": 585,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-034.png",
+   "flags": []
+  },
+  {
+   "slide": 35,
+   "text": "– Indicative, contra-indicative items\nLet’s make a subscale for Accurate (unipolar)\nConnecting to the Internet is error free\nThis search engine renders precise results\nIn 96% of the cases, the disk is accurately formatted\nThe subscale for Inaccurate (unipolar)\nConnecting to the Internet is error prone\nThis search engine renders sloppy results\nIn 4% of the cases, the disk is formatted wrongly\nThe adjective accurately is used to indicate the notion of being Accurate. If you do not know \nwhat accuracy means, you are now caught in a vicious loop:\nA = A, logically true but empirically inconceivable\nIndicative items\nform the Accurate subscale\nContra-indicative items\nform the Inaccurate subscale\nLet’s make a subscale for Accurate (unipolar)\naccurately\n35/87\n",
+   "text_norm": "– Indicative, contra-indicative items Let’s make a subscale for Accurate (unipolar) Connecting to the Internet is error free This search engine renders precise results In 96% of the cases, the disk is accurately formatted The subscale for Inaccurate (unipolar) Connecting to the Internet is error prone This search engine renders sloppy results In 4% of the cases, the disk is formatted wrongly The adjective accurately is used to indicate the notion of being Accurate. If you do not know what accuracy means, you are now caught in a vicious loop: A = A, logically true but empirically inconceivable Indicative items form the Accurate subscale Contra-indicative items form the Inaccurate subscale Let’s make a subscale for Accurate (unipolar) accurately 35/87",
+   "char_count": 759,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-035.png",
+   "flags": []
+  },
+  {
+   "slide": 36,
+   "text": "– Statements\nTypical survey item is a question:\nIs the system efficient?     yes no\nSame item as statement allows for interval measurement:\nThe system is efficient\ncompletely    disagree        disagree       agree            agree           completely\ndisagree\na little  \na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\n\nWith statements, however, \nmeasurement quality can \nbe wasted as well\nTypical response \ncategory is \nnominal\n36/87\nUse [0-5]\nKrosnick and Fabrigar (1997)\n",
+   "text_norm": "– Statements Typical survey item is a question: Is the system efficient? yes no Same item as statement allows for interval measurement: The system is efficient completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5  With statements, however, measurement quality can be wasted as well Typical response category is nominal 36/87 Use [0-5] Krosnick and Fabrigar (1997)",
+   "char_count": 483,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-036.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 37,
+   "text": "●Faceted scales\nmust/won’t\nsupport/obstruct\napproach/avoid\nInternet ordering\nincreases\npersonal efficiency\nInternet ordering\ndecreases\npersonal efficiency\nInternet ordering\nincreases\npersonal inefficiency\nInternet ordering\ndecreases\npersonal inefficiency\nVisiting the mall\nincreases\npersonal efficiency\nVisiting the mall \ndecreases\npersonal efficiency\nVisiting the mall \nincreases\npersonal inefficiency\nVisiting the mall \ndecreases\npersonal inefficiency\nRequirements\nValence\nPersonal Goals\nLecture 10: MANOVA (must vs won’t) (support vs obstruct) (goal approach vs avoid)\non grand mean average agreement to requirements statements\nFaceted scales are statements that systematically combine multiple measurement scales \n37/87\n",
+   "text_norm": "●Faceted scales must/won’t support/obstruct approach/avoid Internet ordering increases personal efficiency Internet ordering decreases personal efficiency Internet ordering increases personal inefficiency Internet ordering decreases personal inefficiency Visiting the mall increases personal efficiency Visiting the mall decreases personal efficiency Visiting the mall increases personal inefficiency Visiting the mall decreases personal inefficiency Requirements Valence Personal Goals Lecture 10: MANOVA (must vs won’t) (support vs obstruct) (goal approach vs avoid) on grand mean average agreement to requirements statements Faceted scales are statements that systematically combine multiple measurement scales 37/87",
+   "char_count": 721,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-037.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 38,
+   "text": "●Rating scales\nWhy do you see that 6-point rating scale all the time, running from 0 to 5?\ncompletely    disagree        disagree       agree            agree           completely\ndisagree\na little  \na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nWell, all too often, you do not see those 6 points, but 5- or 7-point rating scales\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \n",
+   "text_norm": "●Rating scales Why do you see that 6-point rating scale all the time, running from 0 to 5? completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 Well, all too often, you do not see those 6 points, but 5- or 7-point rating scales Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004",
+   "char_count": 596,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-038.png",
+   "flags": []
+  },
+  {
+   "slide": 39,
+   "text": "●Rating scales\nWhy do you see that 6-point rating scale all the time, running from 0 to 5?\ncompletely    disagree        disagree       agree            agree           completely\ndisagree\na little  \na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nWell, all too often, you do not see those 6 points, but 5- or 7-point rating scales\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nAnd this is \nthe \ntrouble\n",
+   "text_norm": "●Rating scales Why do you see that 6-point rating scale all the time, running from 0 to 5? completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 Well, all too often, you do not see those 6 points, but 5- or 7-point rating scales Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 And this is the trouble",
+   "char_count": 620,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-039.png",
+   "flags": []
+  },
+  {
+   "slide": 40,
+   "text": "●Rating scales\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nThis is an ‘escape’ position. It means:\n“I don’t know”\n“I don’t feel like answering”\n“I don’t understand”\n“I don’t care”\nIt never means: “I am neutral about things”\n\nAgree a little         Disagree a little\n\n\nNow you force your participants out of neutrality: They have to choose sides. \nInserting “(dis)agree a little” automatically gives you a 6-point rating scale\n",
+   "text_norm": "●Rating scales Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 This is an ‘escape’ position. It means: “I don’t know” “I don’t feel like answering” “I don’t understand” “I don’t care” It never means: “I am neutral about things”  Agree a little Disagree a little   Now you force your participants out of neutrality: They have to choose sides. Inserting “(dis)agree a little” automatically gives you a 6-point rating scale",
+   "char_count": 627,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-040.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 41,
+   "text": "●Rating scales\nHow to get back to neutral?\nSubscale for Fast (unipolar)\nOne second for system start-up is fast\ndisagree  0—1—2—3—4—5  agree\nShutting down in 2 seconds is a rapid procedure\ndisagree  0—1—2—3—4—5  agree\nData throughput goes quickly\ndisagree  0—1—2—3—4—5  agree\nSubscale for Slow (unipolar)\nOne second for system start-up is slow\ndisagree  0—1—2—3—4—5  agree\nShutting down in 2 seconds is a lengthy procedure\ndisagree  0—1—2—3—4—5  agree\nData throughput is time-consuming\ndisagree  0—1—2—3—4—5  agree\nWhat is the average for this Speed scale of 6 items?\n(3 + 3 + 2) + (2 + 2 + 3) = 15 / 6 = 2.5, which is scale-midpoint, which means “I’m neutral”\nDerived from actual choices, without having escaped\ndisagree a little         agree a little\n\n\n41/87\n",
+   "text_norm": "●Rating scales How to get back to neutral? Subscale for Fast (unipolar) One second for system start-up is fast disagree 0—1—2—3—4—5 agree Shutting down in 2 seconds is a rapid procedure disagree 0—1—2—3—4—5 agree Data throughput goes quickly disagree 0—1—2—3—4—5 agree Subscale for Slow (unipolar) One second for system start-up is slow disagree 0—1—2—3—4—5 agree Shutting down in 2 seconds is a lengthy procedure disagree 0—1—2—3—4—5 agree Data throughput is time-consuming disagree 0—1—2—3—4—5 agree What is the average for this Speed scale of 6 items? (3 + 3 + 2) + (2 + 2 + 3) = 15 / 6 = 2.5, which is scale-midpoint, which means “I’m neutral” Derived from actual choices, without having escaped disagree a little agree a little   41/87",
+   "char_count": 742,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-041.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 42,
+   "text": "●Rating scales\nWhy start from zero and then all the way up?\nZero, because we want to get as close as possible to ratio level measurement (Lecture 02) \n– Absolute non-arbitrary zero, strongest measurement\n– Classifies data points into ordered categories\n– Equal differences between categories / steps\n– Allowable manipulations: add, subtract, multiply, divide\n– Allowable statistics: mean, range, variance, standard deviation\nWhy does ‘totally disagree’ go left?\nAt least in the West, people read from left to right, which coincides with feeling an increasing \nintensity that something is there: from 0 100 in less than a second\ncompletely    disagree        disagree       agree            agree           completely\ndisagree\na little  \na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nFrom nothing to all \n42/87\n",
+   "text_norm": "●Rating scales Why start from zero and then all the way up? Zero, because we want to get as close as possible to ratio level measurement (Lecture 02) – Absolute non-arbitrary zero, strongest measurement – Classifies data points into ordered categories – Equal differences between categories / steps – Allowable manipulations: add, subtract, multiply, divide – Allowable statistics: mean, range, variance, standard deviation Why does ‘totally disagree’ go left? At least in the West, people read from left to right, which coincides with feeling an increasing intensity that something is there: from 0 100 in less than a second completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 From nothing to all  42/87",
+   "char_count": 824,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-042.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "Break\n",
+   "text_norm": "Break",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 4,
+   "png": "assets/img/L04/slide-043.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "●What to avoid in scale construction\n– Double negations\n– Ambiguity\n– Extremes\n– Quantities\n– Long sentences, difficult words\n– Appreciation scales (like-dislike)\n44/87\n",
+   "text_norm": "●What to avoid in scale construction – Double negations – Ambiguity – Extremes – Quantities – Long sentences, difficult words – Appreciation scales (like-dislike) 44/87",
+   "char_count": 168,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L04/slide-044.png",
+   "flags": []
+  },
+  {
+   "slide": 45,
+   "text": "– Double negations\nDouble or triple negatives are harder to interpret than affirmative items:\n“They will not have no money”\nSo they will have money\n“This homeless person can’t go nowhere tonight”\nMust go somewhere\n“Don’t you want to go home?” No. \nLogically, this means you do want to go home\nPsychologically, you confirm you don’t want\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nThis is the NO part of an answering scale\nThis is the YES part\nSaying\nyes to yes = yes\nyes to no = no\nno to yes = no\nno to no = yes\n45/87\n",
+   "text_norm": "– Double negations Double or triple negatives are harder to interpret than affirmative items: “They will not have no money” So they will have money “This homeless person can’t go nowhere tonight” Must go somewhere “Don’t you want to go home?” No. Logically, this means you do want to go home Psychologically, you confirm you don’t want completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 This is the NO part of an answering scale This is the YES part Saying yes to yes = yes yes to no = no no to yes = no no to no = yes 45/87",
+   "char_count": 645,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "Connecting to the Internet does not fail\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\n– Double negations\nMeans: “not really”\nSo the complete response is: “… does not fail but not really”\nMind you, ‘to fail’ is the negation of the connection. What does the respondent mean?\nDouble negative\nConnecting to the Internet fails\n“I disagree”        not(not connecting)\nTriple negative\nConnecting to the Internet does not fail\n“I disagree”        not(does not(not connecting))\ndisagree\nfail\ndisagree\nfail\n46/87\n",
+   "text_norm": "Connecting to the Internet does not fail completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 – Double negations Means: “not really” So the complete response is: “… does not fail but not really” Mind you, ‘to fail’ is the negation of the connection. What does the respondent mean? Double negative Connecting to the Internet fails “I disagree” not(not connecting) Triple negative Connecting to the Internet does not fail “I disagree” not(does not(not connecting)) disagree fail disagree fail 46/87",
+   "char_count": 613,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-046.png",
+   "flags": []
+  },
+  {
+   "slide": 47,
+   "text": "– Double negations\nAvoid double negatives. Make sure your statement is affirmative and that your \nrespondent provides the negative: “I disagree to the claim you make”\nFive negatives:\n- not enough\n- undo\n- without\n- undo\n- No\nNot (undo operation). Yes to not undo operation? No.\nSuppose the operation is to erase a sprite in a drawing application, which in a sense is the \nnegation of the existence of the sprite\nThen the dialogue says: Not (undo (not sprite))\nYes to not undo not sprite? No, because I want to continue with undo\n47/87\n",
+   "text_norm": "– Double negations Avoid double negatives. Make sure your statement is affirmative and that your respondent provides the negative: “I disagree to the claim you make” Five negatives: - not enough - undo - without - undo - No Not (undo operation). Yes to not undo operation? No. Suppose the operation is to erase a sprite in a drawing application, which in a sense is the negation of the existence of the sprite Then the dialogue says: Not (undo (not sprite)) Yes to not undo not sprite? No, because I want to continue with undo 47/87",
+   "char_count": 532,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-047.png",
+   "flags": []
+  },
+  {
+   "slide": 48,
+   "text": "– Negations in contra-indicative items\nThese are the forbidden words: No, not, never, un-, in-, etc.\n… because they lead to double negatives in combination with the “I disagree”-part \nof the answering scale\nThat makes formulating proper contra-indications very difficult!\nThis is the type of contra-indication you want:\nI feel happy\nI feel sad\nThe colour is white\nThe colour is black\nThe cat is alive\nThe cat is dead\nShe is a good person\nShe is a bad person\nThe smell is appealing\nThe smell is appalling\nThis type of contra-indication is forbidden:\nI am not happy\nI don’t feel sad\nThe colour is not white\nBlack never is a colour\nThe cat is not alive\nThe cat can’t be dead\nShe is no good \nShe isn’t that bad a person\nThe smell is neither appealing…\nnor appalling \nAntonyms are \nscarcer than \nsynonyms. We \nusually deny the \npositive, not \nconfirm the \nnegative\n48/87\n",
+   "text_norm": "– Negations in contra-indicative items These are the forbidden words: No, not, never, un-, in-, etc. … because they lead to double negatives in combination with the “I disagree”-part of the answering scale That makes formulating proper contra-indications very difficult! This is the type of contra-indication you want: I feel happy I feel sad The colour is white The colour is black The cat is alive The cat is dead She is a good person She is a bad person The smell is appealing The smell is appalling This type of contra-indication is forbidden: I am not happy I don’t feel sad The colour is not white Black never is a colour The cat is not alive The cat can’t be dead She is no good She isn’t that bad a person The smell is neither appealing… nor appalling Antonyms are scarcer than synonyms. We usually deny the positive, not confirm the negative 48/87",
+   "char_count": 856,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-048.png",
+   "flags": []
+  },
+  {
+   "slide": 49,
+   "text": "must/won’t\nsupport/obstruct\napproach/avoid\nInternet ordering\nincreases\npersonal efficiency\nInternet ordering\ndecreases\npersonal efficiency\nInternet ordering\nincreases\npersonal inefficiency\nInternet ordering\ndecreases\npersonal inefficiency\nVisiting the mall\nincreases\npersonal efficiency\nVisiting the mall \ndecreases\npersonal efficiency\nVisiting the mall \nincreases\npersonal inefficiency\nVisiting the mall \ndecreases\npersonal inefficiency\nRequirements\nValence\nPersonal Goals\nCriticise these items, please\n– Negations in contra-indicative items\n49/87\n",
+   "text_norm": "must/won’t support/obstruct approach/avoid Internet ordering increases personal efficiency Internet ordering decreases personal efficiency Internet ordering increases personal inefficiency Internet ordering decreases personal inefficiency Visiting the mall increases personal efficiency Visiting the mall decreases personal efficiency Visiting the mall increases personal inefficiency Visiting the mall decreases personal inefficiency Requirements Valence Personal Goals Criticise these items, please – Negations in contra-indicative items 49/87",
+   "char_count": 545,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-049.png",
+   "flags": []
+  },
+  {
+   "slide": 50,
+   "text": "must/won’t\nsupport/obstruct\napproach/avoid\nInternet ordering\nincreases\npersonal efficiency\nInternet ordering\ndecreases\npersonal efficiency\nInternet ordering\nincreases\npersonal inefficiency\nInternet ordering\ndecreases\npersonal inefficiency\nVisiting the mall\nincreases\npersonal efficiency\nVisiting the mall \ndecreases\npersonal efficiency\nVisiting the mall \nincreases\npersonal inefficiency\nVisiting the mall \ndecreases\npersonal inefficiency\nRequirements\nValence\nPersonal Goals\nCriticise these items, please\n– Negations in contra-indicative items\nin- is a word-formation aspect of Latin, meaning “not, opposite of, without” (also im-, il-, ir-) \n50/87\n",
+   "text_norm": "must/won’t support/obstruct approach/avoid Internet ordering increases personal efficiency Internet ordering decreases personal efficiency Internet ordering increases personal inefficiency Internet ordering decreases personal inefficiency Visiting the mall increases personal efficiency Visiting the mall decreases personal efficiency Visiting the mall increases personal inefficiency Visiting the mall decreases personal inefficiency Requirements Valence Personal Goals Criticise these items, please – Negations in contra-indicative items in- is a word-formation aspect of Latin, meaning “not, opposite of, without” (also im-, il-, ir-) 50/87",
+   "char_count": 643,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-050.png",
+   "flags": []
+  },
+  {
+   "slide": 51,
+   "text": "Which is indicative, which contra-indicative?\nWhich is better? Why?\nAre there differences in meaning?\n– Negations in contra-indicative items\n51/87\nHow to fix this?\nAuthorised entry only\n",
+   "text_norm": "Which is indicative, which contra-indicative? Which is better? Why? Are there differences in meaning? – Negations in contra-indicative items 51/87 How to fix this? Authorised entry only",
+   "char_count": 185,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L04/slide-051.png",
+   "flags": []
+  },
+  {
+   "slide": 52,
+   "text": "– Ambiguity\n- Synonyms\n- Homonyms\n- Two questions in one item\n- Changing scale labels\nSynonyms: Words or expressions with the same or almost the same meaning\nStay consistent. People may think you mean something different although words are meant as \nsynonymous\n1a.\nMy computer tablet enhances my possibilities\n1b.\nMy iPad limits my possibilities\nHomonyms: Words spelled and pronounced similarly but they differ in meaning. For instance,\nwatch as a verb means ‘to look’ and as a noun ‘a clock’ or ‘a guard’ (watch the watch)\nHomophones have the same sound but differ in meaning (e.g., meet vs meat)\nHomographs have same spelling but different meaning (e.g., content being satisfied vs content in media)\nInterviews or written questionnaires, when are homophones problematic and when homographs?\n52/87\n",
+   "text_norm": "– Ambiguity - Synonyms - Homonyms - Two questions in one item - Changing scale labels Synonyms: Words or expressions with the same or almost the same meaning Stay consistent. People may think you mean something different although words are meant as synonymous 1a. My computer tablet enhances my possibilities 1b. My iPad limits my possibilities Homonyms: Words spelled and pronounced similarly but they differ in meaning. For instance, watch as a verb means ‘to look’ and as a noun ‘a clock’ or ‘a guard’ (watch the watch) Homophones have the same sound but differ in meaning (e.g., meet vs meat) Homographs have same spelling but different meaning (e.g., content being satisfied vs content in media) Interviews or written questionnaires, when are homophones problematic and when homographs? 52/87",
+   "char_count": 798,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-052.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 53,
+   "text": "– Ambiguity\n- Homonyms\n2.\nThe scenarios helped me to understand the system\n3.\nThe scenarios in my Excel sheet helped me to understand the system\nBetter, because specific:\n*2.\nThe acted-out scenarios in the usability test helped me to understand the technical system\n*3.\nThe Scenarios function in my Excel sheet helped me to understand the financial system\nAbout usability testing\nAbout FinTech\nScenarios function\n53/87\n",
+   "text_norm": "– Ambiguity - Homonyms 2. The scenarios helped me to understand the system 3. The scenarios in my Excel sheet helped me to understand the system Better, because specific: *2. The acted-out scenarios in the usability test helped me to understand the technical system *3. The Scenarios function in my Excel sheet helped me to understand the financial system About usability testing About FinTech Scenarios function 53/87",
+   "char_count": 419,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-053.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 54,
+   "text": "– Two questions in one item\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\nalways concise\nnever to the point\n54/87\n",
+   "text_norm": "– Two questions in one item Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA always concise never to the point 54/87",
+   "char_count": 318,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-054.png",
+   "flags": []
+  },
+  {
+   "slide": 55,
+   "text": "– Changing scale labels\nYou force people to switch tasks all the time, leading to so-called ‘mixing costs’\nRespondents start focusing on the scale labels, not on your question\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\n9.4\nTasks can be completed\nwith difficulty\neasily\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nInstructions given for completing\nconfusing\nclear\ntasks\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nTime given to perform tasks\ninadequate\nadequate\n1  2  3  4  5  6  7  8  9\nNA\n",
+   "text_norm": "– Changing scale labels You force people to switch tasks all the time, leading to so-called ‘mixing costs’ Respondents start focusing on the scale labels, not on your question Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA 9.4 Tasks can be completed with difficulty easily 1 2 3 4 5 6 7 8 9 NA 9.4.1 Instructions given for completing confusing clear tasks 1 2 3 4 5 6 7 8 9 NA 9.4.1 Time given to perform tasks inadequate adequate 1 2 3 4 5 6 7 8 9 NA",
+   "char_count": 655,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-055.png",
+   "flags": []
+  },
+  {
+   "slide": 56,
+   "text": "– Changing scale labels\nYou force people to switch tasks all the time, leading to so-called ‘mixing costs’\nRespondents start focusing on the scale labels, not on your question\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\n9.4\nTasks can be completed\nwith difficulty\neasily\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nInstructions given for completing\nconfusing\nclear\ntasks\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nTime given to perform tasks\ninadequate\nadequate\n1  2  3  4  5  6  7  8  9\nNA\nBy the way, what did we learn about \nopposites being diametrical or not?\n",
+   "text_norm": "– Changing scale labels You force people to switch tasks all the time, leading to so-called ‘mixing costs’ Respondents start focusing on the scale labels, not on your question Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA 9.4 Tasks can be completed with difficulty easily 1 2 3 4 5 6 7 8 9 NA 9.4.1 Instructions given for completing confusing clear tasks 1 2 3 4 5 6 7 8 9 NA 9.4.1 Time given to perform tasks inadequate adequate 1 2 3 4 5 6 7 8 9 NA By the way, what did we learn about opposites being diametrical or not?",
+   "char_count": 727,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-056.png",
+   "flags": []
+  },
+  {
+   "slide": 57,
+   "text": "– Changing scale labels\nYou force people to switch tasks all the time, leading to so-called ‘mixing costs’\nRespondents start focusing on the scale labels, not on your question\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\n9.4\nTasks can be completed\nwith difficulty\neasily\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nInstructions given for completing\nconfusing\nclear\ntasks\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nTime given to perform tasks\ninadequate\nadequate\n1  2  3  4  5  6  7  8  9\nNA\nNot every antonym is a \ndiametric opposition like \nnever vs always\n",
+   "text_norm": "– Changing scale labels You force people to switch tasks all the time, leading to so-called ‘mixing costs’ Respondents start focusing on the scale labels, not on your question Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA 9.4 Tasks can be completed with difficulty easily 1 2 3 4 5 6 7 8 9 NA 9.4.1 Instructions given for completing confusing clear tasks 1 2 3 4 5 6 7 8 9 NA 9.4.1 Time given to perform tasks inadequate adequate 1 2 3 4 5 6 7 8 9 NA Not every antonym is a diametric opposition like never vs always",
+   "char_count": 720,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-057.png",
+   "flags": []
+  },
+  {
+   "slide": 58,
+   "text": "– Changing scale labels\nYou force people to switch tasks all the time, leading to so-called ‘mixing costs’\nRespondents start focusing on the scale labels, not on your question\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\n9.4\nTasks can be completed\nwith difficulty\neasily\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nInstructions given for completing\nconfusing\nclear\ntasks\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nTime given to perform tasks\ninadequate\nadequate\n1  2  3  4  5  6  7  8  9\nNA\nMutually exclusive poles\nRelatively exclusive poles\n",
+   "text_norm": "– Changing scale labels You force people to switch tasks all the time, leading to so-called ‘mixing costs’ Respondents start focusing on the scale labels, not on your question Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA 9.4 Tasks can be completed with difficulty easily 1 2 3 4 5 6 7 8 9 NA 9.4.1 Instructions given for completing confusing clear tasks 1 2 3 4 5 6 7 8 9 NA 9.4.1 Time given to perform tasks inadequate adequate 1 2 3 4 5 6 7 8 9 NA Mutually exclusive poles Relatively exclusive poles",
+   "char_count": 707,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-058.png",
+   "flags": []
+  },
+  {
+   "slide": 59,
+   "text": "– Changing scale labels\nYou force people to switch tasks all the time, leading to so-called ‘mixing costs’\nRespondents start focusing on the scale labels, not on your question\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\nPART 9: On-line Tutorials\n9.3.2\nInformation was concise and to\nnever\nalways\nthe point\n1  2  3  4  5  6  7  8  9\nNA\n9.4\nTasks can be completed\nwith difficulty\neasily\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nInstructions given for completing\nconfusing\nclear\ntasks\n1  2  3  4  5  6  7  8  9\nNA\n9.4.1\nTime given to perform tasks\ninadequate\nadequate\n1  2  3  4  5  6  7  8  9\nNA\nDo not use\nsemantic \ndifferentials!\n",
+   "text_norm": "– Changing scale labels You force people to switch tasks all the time, leading to so-called ‘mixing costs’ Respondents start focusing on the scale labels, not on your question Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. PART 9: On-line Tutorials 9.3.2 Information was concise and to never always the point 1 2 3 4 5 6 7 8 9 NA 9.4 Tasks can be completed with difficulty easily 1 2 3 4 5 6 7 8 9 NA 9.4.1 Instructions given for completing confusing clear tasks 1 2 3 4 5 6 7 8 9 NA 9.4.1 Time given to perform tasks inadequate adequate 1 2 3 4 5 6 7 8 9 NA Do not use semantic differentials!",
+   "char_count": 690,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-059.png",
+   "flags": []
+  },
+  {
+   "slide": 60,
+   "text": "– Extremes\nUsing extreme wording biases results. Most people do not think in terms of \n‘terrible,’ ‘wonderful,’ ‘frustrating,’ and ‘dull’\nUnintentionally, scale use will be restricted to the middle values (here, 4  5  6)\nBut then again, a little bit terrible? Slightly wonderful? It is very hard to moderate \nan extreme\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136.\n3.1 Overall reactions to the system:\nterrible\nwonderful\n1  2  3  4  5  6  7  8  9\nNA\n3.2\nfrustrating              satisfying\n1  2  3  4  5  6  7  8  9\nNA\n3.3\ndull       \nstimulating\n1  2  3  4  5  6  7  8  9\nNA\n3.4\ndifficult\neasy\n1  2  3  4  5  6  7  8  9\nNA\n60/87\n",
+   "text_norm": "– Extremes Using extreme wording biases results. Most people do not think in terms of ‘terrible,’ ‘wonderful,’ ‘frustrating,’ and ‘dull’ Unintentionally, scale use will be restricted to the middle values (here, 4 5 6) But then again, a little bit terrible? Slightly wonderful? It is very hard to moderate an extreme Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136. 3.1 Overall reactions to the system: terrible wonderful 1 2 3 4 5 6 7 8 9 NA 3.2 frustrating satisfying 1 2 3 4 5 6 7 8 9 NA 3.3 dull stimulating 1 2 3 4 5 6 7 8 9 NA 3.4 difficult easy 1 2 3 4 5 6 7 8 9 NA 60/87",
+   "char_count": 672,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-060.png",
+   "flags": []
+  },
+  {
+   "slide": 61,
+   "text": "– Extremes\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136.\nFormulate a statement as neutral as possible and let respondents add \nthe extreme if they please:\n3.a\nOverall, I think the system is okay\n3.b\nOverall, I think the system is so-so\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nFormulate a statement as neutral as possible and let respondents add the extreme \nas they please:\n61/87\n",
+   "text_norm": "– Extremes Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136. Formulate a statement as neutral as possible and let respondents add the extreme if they please: 3.a Overall, I think the system is okay 3.b Overall, I think the system is so-so completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 Formulate a statement as neutral as possible and let respondents add the extreme as they please: 61/87",
+   "char_count": 775,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-061.png",
+   "flags": []
+  },
+  {
+   "slide": 62,
+   "text": "– Extremes\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136.\nFormulate a statement as neutral as possible and let respondents add \nthe extreme if they please:\n3.a\nOverall, I think the system is okay\n3.b\nOverall, I think the system is so-so\nwonderful\nterriblecompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nFormulate a statement as neutral as possible and let respondents add the extreme \nas they please:\n62/87\n",
+   "text_norm": "– Extremes Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136. Formulate a statement as neutral as possible and let respondents add the extreme if they please: 3.a Overall, I think the system is okay 3.b Overall, I think the system is so-so wonderful terriblecompletely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 Formulate a statement as neutral as possible and let respondents add the extreme as they please: 62/87",
+   "char_count": 793,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-062.png",
+   "flags": []
+  },
+  {
+   "slide": 63,
+   "text": "– Extremes\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136.\nFormulate a statement as neutral as possible and let respondents add \nthe extreme if they please:\n3.a\nOverall, I think the system is okay\n3.b\nOverall, I think the system is so-so\nwonderful\nterrible\nwonderful\nterrible\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nFormulate a statement as neutral as possible and let respondents add the extreme \nas they please:\n63/87\n",
+   "text_norm": "– Extremes Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 136. Formulate a statement as neutral as possible and let respondents add the extreme if they please: 3.a Overall, I think the system is okay 3.b Overall, I think the system is so-so wonderful terrible wonderful terrible completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 Formulate a statement as neutral as possible and let respondents add the extreme as they please: 63/87",
+   "char_count": 813,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-063.png",
+   "flags": []
+  },
+  {
+   "slide": 64,
+   "text": "– Quantities\nIt is hard to moderate a quantity!!\nTotally agree\nYes, absolutely too many options\nTotally disagree\nNo, absolutely not too many but are they enough?\nAgree a little\nJust a little bit too many?? A little bit too often? A little bit always or never?\nThere are too little options. I disagree a little that there are too little options\nStatement 5 should be split into two statements, having indicative and contra-indicative items:\n5\nI think that there are too many options and special cases\nShneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141.\n5a\nI think that the number of options is sufficient\ndisagree 0-1-2-3-4-5 agree\n5b\nI think that the number of options is deficient\ndisagree 0-1-2-3-4-5 agree\n6a\nI think that the number of special cases is sufficient \ndisagree 0-1-2-3-4-5 agree\n6b\nI think that the number of special cases is deficient \ndisagree 0-1-2-3-4-5 agree\n64/87\n",
+   "text_norm": "– Quantities It is hard to moderate a quantity!! Totally agree Yes, absolutely too many options Totally disagree No, absolutely not too many but are they enough? Agree a little Just a little bit too many?? A little bit too often? A little bit always or never? There are too little options. I disagree a little that there are too little options Statement 5 should be split into two statements, having indicative and contra-indicative items: 5 I think that there are too many options and special cases Shneiderman, B. (1998). Designing the user interface. Strategies for effective human-computer interaction. Reading, MA: Addison-Wesley, p. 141. 5a I think that the number of options is sufficient disagree 0-1-2-3-4-5 agree 5b I think that the number of options is deficient disagree 0-1-2-3-4-5 agree 6a I think that the number of special cases is sufficient disagree 0-1-2-3-4-5 agree 6b I think that the number of special cases is deficient disagree 0-1-2-3-4-5 agree 64/87",
+   "char_count": 979,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-064.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 65,
+   "text": "– Quantities\nI seldom use my laptop for a LAN party\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\nI frequently use my laptop for a LAN party\ncompletely    disagree     disagree     agree            agree           completely\ndisagree\na little\na little\nagree\n0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5\n\na little seldom?\n\na little frequently?\n65/87\n",
+   "text_norm": "– Quantities I seldom use my laptop for a LAN party completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5 I frequently use my laptop for a LAN party completely disagree disagree agree agree completely disagree a little a little agree 0 -------------- 1 -------------- 2 -------------- 3 -------------- 4--------------5  a little seldom?  a little frequently? 65/87",
+   "char_count": 482,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-065.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 66,
+   "text": "– Long sentences, difficult words\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nCan somebody tell me what this question is about?\nI need to do linguistic analysis first before I can answer anything\n",
+   "text_norm": "– Long sentences, difficult words Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 Can somebody tell me what this question is about? I need to do linguistic analysis first before I can answer anything",
+   "char_count": 403,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-066.png",
+   "flags": []
+  },
+  {
+   "slide": 67,
+   "text": "– Long sentences, difficult words\nDamian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 \nWhich?\nWhat is it?\nWhat is that?\nFive sentence constituents are far too many\nWhat do I respond to? Sessions, ownership, features, responsibility?\nLesson learned: Try to make statements as simple as possible\nAfter the sessions, I felt…\nresponsible for the system\ndisagree 0-1-2-3-4-5 agree\nownership for the system\ndisagree 0-1-2-3-4-5 agree\ncontributing to the system\ndisagree 0-1-2-3-4-5 agree\n",
+   "text_norm": "– Long sentences, difficult words Damian, D., Zowghi, D., Vaidyanathasamy, L. and Pal, Y. An industrial case study of immediate benefits of requirements engineering process improvement at the Australian Center for Unisys Software. Empirical Software Engineering, 9(1-2), pp.45-75, 2004 Which? What is it? What is that? Five sentence constituents are far too many What do I respond to? Sessions, ownership, features, responsibility? Lesson learned: Try to make statements as simple as possible After the sessions, I felt… responsible for the system disagree 0-1-2-3-4-5 agree ownership for the system disagree 0-1-2-3-4-5 agree contributing to the system disagree 0-1-2-3-4-5 agree",
+   "char_count": 680,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-067.png",
+   "flags": []
+  },
+  {
+   "slide": 68,
+   "text": "– Appreciation scales (like-dislike)\nAsking for appreciation, customer satisfaction, like or dislike renders uninformative results\nOn  a scale from 1 to 10, scores always linger around 7 (moderately positive)\nThat way, you are always safe and do not really have to say how you think\nThus, appreciation scales do not differentiate one event from another\nYou have to query the dimensions that are responsible for Appreciation, Satisfaction, etc.\nHence, theoretical analysis before measurement\n68/87\n",
+   "text_norm": "– Appreciation scales (like-dislike) Asking for appreciation, customer satisfaction, like or dislike renders uninformative results On a scale from 1 to 10, scores always linger around 7 (moderately positive) That way, you are always safe and do not really have to say how you think Thus, appreciation scales do not differentiate one event from another You have to query the dimensions that are responsible for Appreciation, Satisfaction, etc. Hence, theoretical analysis before measurement 68/87",
+   "char_count": 495,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-068.png",
+   "flags": []
+  },
+  {
+   "slide": 69,
+   "text": "– Appreciation scales (like-dislike)\nAsking for appreciation, customer satisfaction, like or dislike renders uninformative results\n1.\nWhat level of measurement is like-dislike?\n2.\nIs it a rating scale?\n3.\nIs “I don’t like” appropriate in scale \nconstruction?\n4.\nWhat type of data does the text box \nrender?\n69/87\n",
+   "text_norm": "– Appreciation scales (like-dislike) Asking for appreciation, customer satisfaction, like or dislike renders uninformative results 1. What level of measurement is like-dislike? 2. Is it a rating scale? 3. Is “I don’t like” appropriate in scale construction? 4. What type of data does the text box render? 69/87",
+   "char_count": 310,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-069.png",
+   "flags": []
+  },
+  {
+   "slide": 70,
+   "text": "– Appreciation scales (like-dislike)\nAsking for appreciation, customer satisfaction, like or dislike renders uninformative results\n1.\nWhat level of measurement is like-dislike?\n2.\nIs it a rating scale?\n3.\nIs “I don’t like” appropriate in scale \nconstruction?\n4.\nWhat type of data does the text box \nrender?\nDo not forget to check Measures, issues once more in Lecture 02: Theory before Methods\n70/87\n",
+   "text_norm": "– Appreciation scales (like-dislike) Asking for appreciation, customer satisfaction, like or dislike renders uninformative results 1. What level of measurement is like-dislike? 2. Is it a rating scale? 3. Is “I don’t like” appropriate in scale construction? 4. What type of data does the text box render? Do not forget to check Measures, issues once more in Lecture 02: Theory before Methods 70/87",
+   "char_count": 397,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-070.png",
+   "flags": []
+  },
+  {
+   "slide": 71,
+   "text": "The interaction with the robot was…\nnice\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nfine\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nmediocre\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nokay\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nso-so\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\nordinary\n0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5\n●In conclusion: Best way to construct a measurement scale\ncompletely    disagree       disagree       agree            agree           completely\ndisagree\na little\na little\nagree\n-\nLikert-type items that use an introductory line…\n-\nFollowed by adjectives\n-\nIndications and contra-indications (pseudo)randomly mixed\n-\n6-point rating scale, starting on the left from 0 = totally disagree\nEasy, quick, no misunderstandings, focused on how the respondent thinks / feels about things,\nnot on aspects of the survey itself, highest possible measurement level (i.e., interval)\n71/87\n",
+   "text_norm": "The interaction with the robot was… nice 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 fine 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 mediocre 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 okay 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 so-so 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 ordinary 0 ------------ 1 ------------ 2 ------------ 3 ------------ 4 ------------ 5 ●In conclusion: Best way to construct a measurement scale completely disagree disagree agree agree completely disagree a little a little agree Likert-type items that use an introductory line… Followed by adjectives Indications and contra-indications (pseudo)randomly mixed 6-point rating scale, starting on the left from 0 = totally disagree Easy, quick, no misunderstandings, focused on how the respondent thinks / feels about things, not on aspects of the survey itself, highest possible measurement level (i.e., interval) 71/87",
+   "char_count": 1067,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-071.png",
+   "flags": []
+  },
+  {
+   "slide": 72,
+   "text": "Create your questionnaire in https://www.qualtrics.com/free-account/\nMake sure you choose the option that respondents have to answer a question before they can \ncontinue, else you will have many missing values\nOrganise items in blocks and randomise them within blocks, a different order for each participant\nIf you ask their Age, let them fill out a number (no age ranges like 'between 18 and 25'). Exclude \nyounger than 17 and older than 99\n72/87\nhttps://www.qualtrics.com/support\n/survey-platform/survey-\nmodule/survey-module-overview/\n",
+   "text_norm": "Create your questionnaire in https://www.qualtrics.com/free-account/ Make sure you choose the option that respondents have to answer a question before they can continue, else you will have many missing values Organise items in blocks and randomise them within blocks, a different order for each participant If you ask their Age, let them fill out a number (no age ranges like 'between 18 and 25'). Exclude younger than 17 and older than 99 72/87 https://www.qualtrics.com/support /survey-platform/surveymodule/survey-module-overview/",
+   "char_count": 533,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L04/slide-072.png",
+   "flags": []
+  },
+  {
+   "slide": 73,
+   "text": "– Scale contents and testing\n- Pretest with focus groups\n- Item analysis\nConvergent validity\nDiscriminant validity\n- Bipolar vs. unipolar scales \n- Regression\n- Structural Equation Modeling\n- Analysis of variance\nLecture 07\nLecture 08\nLecture 10\n●Cronbach’s \n●Spearman-Brown coefficient (split-half)\n●Principal Component Analysis (PCA)\n●Linear\n●Multiple\n●Mediation-Moderation Analysis\nHayes’ PROCESS\n●Structural Equation Modeling\nSEM\nAMOS\n●Student’s t\n●ANOVA, MANOVA, MANCOVA\n●General Linear Model\n●Repeated Measures\n",
+   "text_norm": "– Scale contents and testing - Pretest with focus groups - Item analysis Convergent validity Discriminant validity - Bipolar vs. unipolar scales - Regression - Structural Equation Modeling - Analysis of variance Lecture 07 Lecture 08 Lecture 10 ●Cronbach’s  ●Spearman-Brown coefficient (split-half) ●Principal Component Analysis (PCA) ●Linear ●Multiple ●Mediation-Moderation Analysis Hayes’ PROCESS ●Structural Equation Modeling SEM AMOS ●Student’s t ●ANOVA, MANOVA, MANCOVA ●General Linear Model ●Repeated Measures",
+   "char_count": 519,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-073.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 74,
+   "text": "06 Midterm (Lecture 01-05)\n●Exam sample-items\n10 Multiple choice (MC)\n2 Open-ended questions (OQ)\n●Calculation of the end grade\n(Midterm + Final) / 2\nTechnical Report\nParticipation and interaction\nExample of an Open-ended question (Category “Knowledge”)\n1. What level of measurement is like-dislike?\n1. Nominal. It is a classification in one or the other category\n2. Is it a rating scale?\n2. No. It does not have multiple ordered steps. Distances are\nmeaningless\n3. Is “I don’t like” appropriate in scale construction?\n3. No. To avoid ambiguity and confusion, contra-indications should\nnot have negatives like not or don’t\n4. What type of data does the text box render?\n74/87\n",
+   "text_norm": "06 Midterm (Lecture 01-05) ●Exam sample-items 10 Multiple choice (MC) 2 Open-ended questions (OQ) ●Calculation of the end grade (Midterm + Final) / 2 Technical Report Participation and interaction Example of an Open-ended question (Category “Knowledge”) 1. What level of measurement is like-dislike? 1. Nominal. It is a classification in one or the other category 2. Is it a rating scale? 2. No. It does not have multiple ordered steps. Distances are meaningless 3. Is “I don’t like” appropriate in scale construction? 3. No. To avoid ambiguity and confusion, contra-indications should not have negatives like not or don’t 4. What type of data does the text box render? 74/87",
+   "char_count": 681,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-074.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 75,
+   "text": "06 Midterm (Lecture 01-05)\n●Exam sample-items\n10 Multiple choice (MC)\n2 Open-ended questions (OQ)\n●Calculation of the end grade\n(Midterm + Final) / 2\nTechnical Report\nParticipation and interaction\nExample of an Open-ended question (Category “Knowledge”)\n1. What level of measurement is like-dislike?\n1. Nominal. It is a classification in one or the other category\n2. Is it a rating scale?\n2. No. It does not have multiple ordered steps. Distances are\nmeaningless\n3. Is “I don’t like” appropriate in scale construction?\n3. No. To avoid ambiguity and confusion, contra-indications should\nnot have negatives like not or don’t\n4. What type of data does the text box render?\n4. Qualitative data, which are anecdotal evidence and should be\nrated for statistical processing\n75/87\n",
+   "text_norm": "06 Midterm (Lecture 01-05) ●Exam sample-items 10 Multiple choice (MC) 2 Open-ended questions (OQ) ●Calculation of the end grade (Midterm + Final) / 2 Technical Report Participation and interaction Example of an Open-ended question (Category “Knowledge”) 1. What level of measurement is like-dislike? 1. Nominal. It is a classification in one or the other category 2. Is it a rating scale? 2. No. It does not have multiple ordered steps. Distances are meaningless 3. Is “I don’t like” appropriate in scale construction? 3. No. To avoid ambiguity and confusion, contra-indications should not have negatives like not or don’t 4. What type of data does the text box render? 4. Qualitative data, which are anecdotal evidence and should be rated for statistical processing 75/87",
+   "char_count": 778,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-075.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 76,
+   "text": "A neurologist explains in his paper that “The brain does that, because the neocortex \ndecides to do so, which is directed by our neuronal network, which is controlled by the \nfiring frequencies of our synapses, working from the ion shafts that release sub-atomic \npartcles, moving at will.”\nWhat fallacy does the neurologist commit in explaining how a person makes decisions?\nA\nSense-reference confusion\nB\nModus ponens\nC\nCircularity\nD\nInfinite regress\nExam Sample-Item (Category “Application”)\n76/87\n",
+   "text_norm": "A neurologist explains in his paper that “The brain does that, because the neocortex decides to do so, which is directed by our neuronal network, which is controlled by the firing frequencies of our synapses, working from the ion shafts that release sub-atomic partcles, moving at will.” What fallacy does the neurologist commit in explaining how a person makes decisions? A Sense-reference confusion B Modus ponens C Circularity D Infinite regress Exam Sample-Item (Category “Application”) 76/87",
+   "char_count": 496,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-076.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 77,
+   "text": "A neurologist explains in his paper that “The brain does that, because the neocortex \ndecides to do so, which is directed by our neuronal network, which is controlled by the \nfiring frequencies of our synapses, working from the ion shafts that release sub-atomic \npartcles, moving at will.”\nWhat fallacy does the neurologist commit in explaining how a person makes decisions?\nA\nSense-reference confusion\nB\nModus ponens\nC\nCircularity\nD\nInfinite regress\nExam Sample-Item (Category “Application”)\n, explaining words from other words without knowing their exact \nempirical reference and/or validity: The person decides because the \nneocortex decides because the neurnal network decides, because the \nsynapses decide, because the particles decide, but what is decision \nmaking here?\n\n77/87\n",
+   "text_norm": "A neurologist explains in his paper that “The brain does that, because the neocortex decides to do so, which is directed by our neuronal network, which is controlled by the firing frequencies of our synapses, working from the ion shafts that release sub-atomic partcles, moving at will.” What fallacy does the neurologist commit in explaining how a person makes decisions? A Sense-reference confusion B Modus ponens C Circularity D Infinite regress Exam Sample-Item (Category “Application”) , explaining words from other words without knowing their exact empirical reference and/or validity: The person decides because the neocortex decides because the neurnal network decides, because the synapses decide, because the particles decide, but what is decision making here?  77/87",
+   "char_count": 778,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-077.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 78,
+   "text": "A\nIt knows sense but not reference\nB\nIt is sensitive to reference but does not refer to sense\nC\nWhen it refers to something, ChatGPT sometimes does not make sense\nD\nChatGPT does not know how it knows what it knows (cf. epistomology)\nExam Sample-Item (Category “Insight”)\nWith regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ \nwhat is it that ChatGPT Turbo does and does not have a \ncommand of?\n78/87\n",
+   "text_norm": "A It knows sense but not reference B It is sensitive to reference but does not refer to sense C When it refers to something, ChatGPT sometimes does not make sense D ChatGPT does not know how it knows what it knows (cf. epistomology) Exam Sample-Item (Category “Insight”) With regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ what is it that ChatGPT Turbo does and does not have a command of? 78/87",
+   "char_count": 409,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-078.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 79,
+   "text": "A\nIt knows sense but not reference\nB\nIt is sensitive to reference but does not refer to sense\nC\nWhen it refers to something, ChatGPT sometimes does not make sense\nD\nChatGPT does not know how it knows what it knows (cf. epistomology)\nExam Sample-Item (Category “Insight”)\nWith regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ \nwhat is it that ChatGPT Turbo does and does not have a \ncommand of?\n\nGPT copies outer form (sense) without knowing what the words refer to (it does not know \nmeaning). It merely guesses what word is likely to come next but it gambles very well \n79/87\n",
+   "text_norm": "A It knows sense but not reference B It is sensitive to reference but does not refer to sense C When it refers to something, ChatGPT sometimes does not make sense D ChatGPT does not know how it knows what it knows (cf. epistomology) Exam Sample-Item (Category “Insight”) With regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ what is it that ChatGPT Turbo does and does not have a command of?  GPT copies outer form (sense) without knowing what the words refer to (it does not know meaning). It merely guesses what word is likely to come next but it gambles very well 79/87",
+   "char_count": 585,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-079.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 80,
+   "text": "Exam Sample-Item (Category “Insight”)\nAn investigator of night vision presents shades of black and white to a number of \nparticipants, who rate how close the stimulus is to pure black and pure white, \neach measured on a unipolar scale.\nThe stimulus is pure black\ndisagree  0—1—2—3—4—5  agree\nThe stimulus is pure white\ndisagree  0—1—2—3—4—5  agree\nIn the results, the investigator finds that dark grey is rated as pure black (5) and \nas totally not white (0). Based on this result, is the investigator allowed to treat \nthe two unipolar scales as one bipolar scale?\n-\nNo. The RGB values show that dark grey is not equal to pure black. Hence, the \ntwo scales should remain unipolar\n-\nYes. Although the RGB values show that dark grey is not equal to pure black, \nperceptually, they are regarded the same and so in this case, pure white can be \ntreated as a true opposite of dark grey\n-\nNo. The RGB values show that dark grey is different from pure black. Hence, \nthe two scales cannot be combined into one bipolar scale\n-\nYes. Next time, however, the investigator should include a rating scale for grey \nas well\nblack\nrgb(0,0,0)\nwhite\nrgb(255,255,255)\ndark grey rgb(169,169,169)\nA\nB\nC\nD\nRGBdark_grey =\nPerceivedpure_black\n80/87\n",
+   "text_norm": "Exam Sample-Item (Category “Insight”) An investigator of night vision presents shades of black and white to a number of participants, who rate how close the stimulus is to pure black and pure white, each measured on a unipolar scale. The stimulus is pure black disagree 0—1—2—3—4—5 agree The stimulus is pure white disagree 0—1—2—3—4—5 agree In the results, the investigator finds that dark grey is rated as pure black (5) and as totally not white (0). Based on this result, is the investigator allowed to treat the two unipolar scales as one bipolar scale? No. The RGB values show that dark grey is not equal to pure black. Hence, the two scales should remain unipolar Yes. Although the RGB values show that dark grey is not equal to pure black, perceptually, they are regarded the same and so in this case, pure white can be treated as a true opposite of dark grey No. The RGB values show that dark grey is different from pure black. Hence, the two scales cannot be combined into one bipolar scale Yes. Next time, however, the investigator should include a rating scale for grey as well black rgb(0,0,0) white rgb(255,255,255) dark grey rgb(169,169,169) A B C D RGBdark_grey = Perceivedpure_black 80/87",
+   "char_count": 1204,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-080.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 81,
+   "text": "An investigator of night vision presents shades of black and white to a number of \nparticipants, who rate how close the stimulus is to pure black and pure white, \neach measured on a unipolar scale.\nThe stimulus is pure black\ndisagree  0—1—2—3—4—5  agree\nThe stimulus is pure white\ndisagree  0—1—2—3—4—5  agree\nIn the results, the investigator finds that dark grey is rated as pure black (5) and \nas totally not white (0). Based on this result, is the investigator allowed to treat \nthe two unipolar scales as one bipolar scale?\n-\nNo. The RGB values show that dark grey is not equal to pure black. Hence, the \ntwo scales should remain unipolar\n-\nYes. Although the RGB values show that dark grey is not equal to pure black, \nperceptually, they are regarded the same and so in this case, pure white can be \ntreated as a true opposite of dark grey\n-\nNo. The RGB values show that dark grey is different from pure black. Hence, \nthe two scales cannot be combined into one bipolar scale\n-\nYes. Next time, however, the investigator should include a rating scale for grey \nas well\nA\nB\nC\nD\nThis whole area is \nseen as pure black\nblack\nwhite\ndark grey\n\nExam Sample-Item (Category “Insight”)\nblack\nrgb(0,0,0)\nwhite\nrgb(255,255,255)\ndark grey rgb(169,169,169)\nRGBdark_grey =\nPerceivedpure_black\n",
+   "text_norm": "An investigator of night vision presents shades of black and white to a number of participants, who rate how close the stimulus is to pure black and pure white, each measured on a unipolar scale. The stimulus is pure black disagree 0—1—2—3—4—5 agree The stimulus is pure white disagree 0—1—2—3—4—5 agree In the results, the investigator finds that dark grey is rated as pure black (5) and as totally not white (0). Based on this result, is the investigator allowed to treat the two unipolar scales as one bipolar scale? No. The RGB values show that dark grey is not equal to pure black. Hence, the two scales should remain unipolar Yes. Although the RGB values show that dark grey is not equal to pure black, perceptually, they are regarded the same and so in this case, pure white can be treated as a true opposite of dark grey No. The RGB values show that dark grey is different from pure black. Hence, the two scales cannot be combined into one bipolar scale Yes. Next time, however, the investigator should include a rating scale for grey as well A B C D This whole area is seen as pure black black white dark grey  Exam Sample-Item (Category “Insight”) black rgb(0,0,0) white rgb(255,255,255) dark grey rgb(169,169,169) RGBdark_grey = Perceivedpure_black",
+   "char_count": 1260,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-081.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 82,
+   "text": "Exam Sample-Item (Category “Insight”)\nAn investigator of night vision presents shades of black and white to a number of \nparticipants, who rate how close the stimulus is to pure black and pure white, each \nmeasured on a unipolar scale.\nThe stimulus is pure black\ndisagree  0—1—2—3—4—5  agree\nThe stimulus is pure white\ndisagree  0—1—2—3—4—5  agree\nIn the results, the investigator finds that pure black is rated as dark grey (4) as well \nas totally not white (0). Based on this result, is the investigator allowed to treat the \ntwo unipolar scales as one bipolar scale?\n-\nNo. The RGB values show that pure black is not equal to dark grey. Hence, the \ntwo scales should remain unipolar\n-\nYes. Although the RGB values show that pure black is not equal to dark grey, \nperceptually, they are regarded as almost the same and so in this case, pure \nwhite can be treated as a true opposite of dark grey\n-\nNo. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen \nas not diametrically opposed to white (0). Although they are contrasting, these \nare two unipolar scales that should not be combined into one bipolar scale\n-\nYes. Next time, however, the investigator should include a rating scale for grey \nas well\nA\nB\nC\nD\nblack\nrgb(0,0,0)\nwhite\nrgb(255,255,255)\ndark grey rgb(169,169,169)\nRGBpure_black =\nPerceiveddark_grey\n82/87\n",
+   "text_norm": "Exam Sample-Item (Category “Insight”) An investigator of night vision presents shades of black and white to a number of participants, who rate how close the stimulus is to pure black and pure white, each measured on a unipolar scale. The stimulus is pure black disagree 0—1—2—3—4—5 agree The stimulus is pure white disagree 0—1—2—3—4—5 agree In the results, the investigator finds that pure black is rated as dark grey (4) as well as totally not white (0). Based on this result, is the investigator allowed to treat the two unipolar scales as one bipolar scale? No. The RGB values show that pure black is not equal to dark grey. Hence, the two scales should remain unipolar Yes. Although the RGB values show that pure black is not equal to dark grey, perceptually, they are regarded as almost the same and so in this case, pure white can be treated as a true opposite of dark grey No. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen as not diametrically opposed to white (0). Although they are contrasting, these are two unipolar scales that should not be combined into one bipolar scale Yes. Next time, however, the investigator should include a rating scale for grey as well A B C D black rgb(0,0,0) white rgb(255,255,255) dark grey rgb(169,169,169) RGBpure_black = Perceiveddark_grey 82/87",
+   "char_count": 1321,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-082.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 83,
+   "text": "Exam Sample-Item (Category “Insight”)\nAn investigator of night vision presents shades of black and white to a number of \nparticipants, who rate how close the stimulus is to pure black and pure white, each \nmeasured on a unipolar scale.\nThe stimulus is pure black\ndisagree  0—1—2—3—4—5  agree\nThe stimulus is pure white\ndisagree  0—1—2—3—4—5  agree\nIn the results, the investigator finds that pure black is rated as dark grey (4) as well \nas totally not white (0). Based on this result, is the investigator allowed to treat the \ntwo unipolar scales as one bipolar scale?\n-\nNo. The RGB values show that pure black is not equal to dark grey. Hence, the \ntwo scales should remain unipolar\n-\nYes. Although the RGB values show that pure black is not equal to dark grey, \nperceptually, they are regarded as almost the same and so in this case, pure \nwhite can be treated as a true opposite of dark grey\n-\nNo. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen \nas not diametrically opposed to white (0). Although they are contrasting, these \nare two unipolar scales that should not be combined into one bipolar scale\n-\nYes. Next time, however, the investigator should include a rating scale for grey \nas well\nA\nB\nC\nD\n\nThis whole area is \nseen as dark grey\nblack\nwhite\ndark grey\nblack\nrgb(0,0,0)\nwhite\nrgb(255,255,255)\ndark grey rgb(169,169,169)\nRGBpure_black =\nPerceiveddark_grey\n",
+   "text_norm": "Exam Sample-Item (Category “Insight”) An investigator of night vision presents shades of black and white to a number of participants, who rate how close the stimulus is to pure black and pure white, each measured on a unipolar scale. The stimulus is pure black disagree 0—1—2—3—4—5 agree The stimulus is pure white disagree 0—1—2—3—4—5 agree In the results, the investigator finds that pure black is rated as dark grey (4) as well as totally not white (0). Based on this result, is the investigator allowed to treat the two unipolar scales as one bipolar scale? No. The RGB values show that pure black is not equal to dark grey. Hence, the two scales should remain unipolar Yes. Although the RGB values show that pure black is not equal to dark grey, perceptually, they are regarded as almost the same and so in this case, pure white can be treated as a true opposite of dark grey No. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen as not diametrically opposed to white (0). Although they are contrasting, these are two unipolar scales that should not be combined into one bipolar scale Yes. Next time, however, the investigator should include a rating scale for grey as well A B C D  This whole area is seen as dark grey black white dark grey black rgb(0,0,0) white rgb(255,255,255) dark grey rgb(169,169,169) RGBpure_black = Perceiveddark_grey",
+   "char_count": 1376,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L04/slide-083.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 84,
+   "text": "ummary\n‘Single item – one response’ gauges Frege’s sense of a \nword but ignores the different meanings people may \nattribute (Frege’s reference). Every word is explained by \nanother word, leading to the fallacy of infinite regress\nWe can only measure sense but to infer the reference as \nwell, we try for triangulation, defining more dimensions \non which meanings should converge\nAs a form of triangulation, we learned to do scale \nconstruction:\n– Do concept analysis first\n– Formulate multiple items\n– Use unipolar measurement scales (not bipolar)\n– Consisting of indicative and contra-indicative items\n– In the form of statements\nSocrates\n84/87\n",
+   "text_norm": "ummary ‘Single item – one response’ gauges Frege’s sense of a word but ignores the different meanings people may attribute (Frege’s reference). Every word is explained by another word, leading to the fallacy of infinite regress We can only measure sense but to infer the reference as well, we try for triangulation, defining more dimensions on which meanings should converge As a form of triangulation, we learned to do scale construction: – Do concept analysis first – Formulate multiple items – Use unipolar measurement scales (not bipolar) – Consisting of indicative and contra-indicative items – In the form of statements Socrates 84/87",
+   "char_count": 641,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-084.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 85,
+   "text": "ummary\nWith rating scales, researchers often include a ‘neutral’ \nposition, which is not smart, because respondents use \nthat as an escape like ‘not applicable’\nUse 6-point rating scales, starting from 0 to 5, “totally \ndisagree” to “totally agree,” respectively. Averaging over \nindicative and contra-indicative items will show whether \nparticipants are neutral, hitting scale midpoint (= 2.5)\nDo not use semantic differentials because opposites are \nnot always diametrical and so the psychological distance \nbetween poles differs. People then have to invest effort \nin reading the scale labels all the time\nDuring scale construction, avoid:\n– Double negations\n– Ambiguity\n– Extremes\n– Quantities\n– Long sentences, difficult words\n– Appreciation scales (like-dislike)\nSocrates\nAll men are mortal\ndisagree 0-1-2-3-4-5 agree\nSocrates is a man\ndisagree 0-1-2-3-4-5 agree\nThus, Socrates is mortal\ndisagree 0-1-2-3-4-5 agree\n85/87\n",
+   "text_norm": "ummary With rating scales, researchers often include a ‘neutral’ position, which is not smart, because respondents use that as an escape like ‘not applicable’ Use 6-point rating scales, starting from 0 to 5, “totally disagree” to “totally agree,” respectively. Averaging over indicative and contra-indicative items will show whether participants are neutral, hitting scale midpoint (= 2.5) Do not use semantic differentials because opposites are not always diametrical and so the psychological distance between poles differs. People then have to invest effort in reading the scale labels all the time During scale construction, avoid: – Double negations – Ambiguity – Extremes – Quantities – Long sentences, difficult words – Appreciation scales (like-dislike) Socrates All men are mortal disagree 0-1-2-3-4-5 agree Socrates is a man disagree 0-1-2-3-4-5 agree Thus, Socrates is mortal disagree 0-1-2-3-4-5 agree 85/87",
+   "char_count": 919,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-085.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 86,
+   "text": "ummary\nBest way to make survey items:\n-\nLikert-type items that use an introductory line…\n-\nFollowed by adjectives\n-\nIndications and contra-indications                 \n(pseudo)randomly mixed\n-\n6-point rating scales, starting on the left from                 \n0 = totally disagree\nEasy, quick, no misunderstandings, focused on how the \nrespondent thinks / feels about things, not on aspects of \nthe survey itself, highest possible measurement level (i.e., \ninterval)\nMethods class is…\ndisagree\nagree\ninteresting\n0 – 1 – 2 – 3 – 4 – 5\nengaging\n0 – 1 – 2 – 3 – 4 – 5\ntiresome\n0 – 1 – 2 – 3 – 4 – 5\ninvolving\n0 – 1 – 2 – 3 – 4 – 5\nboring\n0 – 1 – 2 – 3 – 4 – 5\nSocrates\n86/87\n",
+   "text_norm": "ummary Best way to make survey items: Likert-type items that use an introductory line… Followed by adjectives Indications and contra-indications (pseudo)randomly mixed 6-point rating scales, starting on the left from 0 = totally disagree Easy, quick, no misunderstandings, focused on how the respondent thinks / feels about things, not on aspects of the survey itself, highest possible measurement level (i.e., interval) Methods class is… disagree agree interesting 0 – 1 – 2 – 3 – 4 – 5 engaging 0 – 1 – 2 – 3 – 4 – 5 tiresome 0 – 1 – 2 – 3 – 4 – 5 involving 0 – 1 – 2 – 3 – 4 – 5 boring 0 – 1 – 2 – 3 – 4 – 5 Socrates 86/87",
+   "char_count": 626,
+   "has_image": true,
+   "image_count": 2,
+   "png": "assets/img/L04/slide-086.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 87,
+   "text": "Denzin, N. K. (1970). The research act: A theoretical introduction to sociological methods. New \nJersey: Transaction Publishers.\nDillman, D. A. (1999). Mail and Internet Surveys: The Tailored Design Method. New York: Wiley.\nFrege, G. (1892). Ueber Sinn und Bedeutung [On sense and reference]. Zeitschrift für Philosophie und \nphilosophische Kritik, 100, 25-50.\nGuttman, L. (1954). An outline of some new methodology for social research. Public Opinion Quarterly, 18,\n395-404.\nGuttman, L. (1965). A faceted definition of intelligence. Studies in Psychology, 14, 166-181.\nKrosnick, J. A., & Fabrigar, L. R. (1997). Designing rating scales for effective measurement in surveys. In \nSurvey Measurement and Process Quality (pp. 141-164). doi: 10.1002/9781118490013.ch6\nReferences\n87/87\n",
+   "text_norm": "Denzin, N. K. (1970). The research act: A theoretical introduction to sociological methods. New Jersey: Transaction Publishers. Dillman, D. A. (1999). Mail and Internet Surveys: The Tailored Design Method. New York: Wiley. Frege, G. (1892). Ueber Sinn und Bedeutung [On sense and reference]. Zeitschrift für Philosophie und philosophische Kritik, 100, 25-50. Guttman, L. (1954). An outline of some new methodology for social research. Public Opinion Quarterly, 18, 395-404. Guttman, L. (1965). A faceted definition of intelligence. Studies in Psychology, 14, 166-181. Krosnick, J. A., & Fabrigar, L. R. (1997). Designing rating scales for effective measurement in surveys. In Survey Measurement and Process Quality (pp. 141-164). doi: 10.1002/9781118490013.ch6 References 87/87",
+   "char_count": 777,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L04/slide-087.png",
+   "flags": []
+  }
+ ]
+}

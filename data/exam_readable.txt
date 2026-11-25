@@ -1,0 +1,1431 @@
+L01-E01
+13 Final exam (07-12)
+18/49
+●Exam sample-items
+●Calculation of the end grade
+(Midterm + Final) / 2
+Technical Report
+Participation and interaction
+There
+are
+so
+many
+answers
+Observation
+70%
+0.2%
+10%
+5.4%
+3.1%
+Exam Sample-Item (Category “Insight”)
+Why don’t the regression coefficients add up to 100%?
+A  Because correlation is not causation 
+no matter how large the sample size
+B  Because qualitative data help idea 
+formation but do not test anything
+C  Because there is always unexplained 
+variance left
+D  Because psychometric scales should 
+consist of multiple items examining 
+the construct
+
+ANS
+13 Final exam (07-12)
+19/49
+●Exam sample-items
+●Calculation of the end grade
+(Midterm + Final) / 2
+Technical Report
+Participation and interaction
+There
+are
+so
+many
+answers
+Observation
+70%
+0.2%
+10%
+5.4%
+3.1%
+Exam Sample-Item (Category “Insight”)
+Why don’t the regression coefficients add up to 100%?
+A  Because correlation is not causation 
+no matter how large the sample size
+B  Because qualitative data help idea 
+formation but do not test anything
+C  Because there is always unexplained 
+variance left
+D  Because psychometric scales should 
+consist of multiple items examining 
+the construct
+
+
+
+L02-E01
+●Question
+●Literature
+●Research Question (RQ)
+●Argumentation (based on literature)
+●Hypotheses (predicted outcomes)
+68/70
+Exam Sample Item
+A
+The argumentation structure is subordinative and therefore weak
+B
+An RQ should be of general interest, this is too specific to count as RQ
+C
+Vague concepts: Which AI, what is ‘mind,’ what kind of combat, when is it won? 
+D
+To test a hypothesis, a comparison is needed, which is missing
+Category “Application”
+We have seen how to build up a theory 
+more precision
+Then why is this not a Research Question? 
+
+ANS
+●Question
+●Literature
+●Research Question (RQ)
+●Argumentation (based on literature)
+●Hypotheses (predicted outcomes)
+69/70
+Exam Sample Item
+A
+The argumentation structure is subordinative and therefore weak
+B
+An RQ should be of general interest, this is too specific to count as RQ
+C
+Vague concepts: Which AI, what is ‘mind,’ what kind of combat, when is it won? 
+D
+To test a hypothesis, a comparison is needed, which is missing
+Category “Application”
+We have seen how to build up a theory 
+more precision
+Then why is this not a Research Question? 
+
+
+
+L03-E01
+Exam Sample Item
+Category “Knowledge”
+Jaspers (2009) states that during formative testing of an application, heuristic 
+testing may be an option. In contrast to lab experiments, defining aspects of 
+heuristic testing are:
+A
+It is a cheap and fast way to let naïve users offer
+rules of thumb that guide the test
+B
+It is a slow but thorough way to let experts offer
+rules of thumb that guide the test
+C
+It is a slow but thorough way to let naïve users offer
+rules of thumb that guide the test
+D
+It is a cheap and fast way to let experts offer rules
+of thumb that guide the test
+54/61
+
+ANS
+Exam Sample Item
+A
+It is a cheap and fast way to let naïve users offer
+rules of thumb that guide the test
+B
+It is a slow but thorough way to let experts offer
+rules of thumb that guide the test
+C
+It is a slow but thorough way to let naïve users offer
+rules of thumb that guide the test
+D
+It is a cheap and fast way to let experts offer rules
+of thumb that guide the test
+
+Category “Knowledge”
+Jaspers (2009) states that during formative testing of an application, heuristic 
+testing may be an option. In contrast to lab experiments, defining aspects of 
+heuristic testing are:
+55/61
+
+
+L03-E02
+Exam Sample Item
+In Lecture 03: Qualitative methods, we discussed the steps taken in conducting interviews. Please 
+indicate for what type of interview the following approach is typical:
+Define research objectives: Clearly articulate what you aim to discover. This will inform the development of 
+your interview guide
+Develop the interview guide: Create a guide that includes a list of questions or topics to be covered. These 
+should be open-ended to encourage detailed responses and allow for follow-up questions
+Pilot test: Conduct a pilot interview to ensure questions work as intended and adjust the guide as necessary
+Select participants: Choose participants who have knowledge or experience relevant to your research 
+question. Sampling can be purposive, aiming to select individuals who can provide in-depth insights
+Conduct interviews: Carry out the interviews, following the guide but remaining flexible to explore new 
+topics or ask follow-up questions as they arise
+Analyse data: Transcribe the interviews and use qualitative data analysis methods, such as thematic analysis, 
+to identify patterns, themes, and insights
+Report findings: Present your findings, including a detailed account of the themes and patterns identified, 
+supported by direct quotes from participants
+A
+Open-ended
+C
+Structured
+B
+Semi-structured
+D
+Focused
+56/61
+
+ANS
+Exam Sample Item
+In Lecture 03: Qualitative methods, we discussed the steps taken in conducting interviews. Please 
+indicate for what type of interview the following approach is typical:
+Define research objectives: Clearly articulate what you aim to discover. This will inform the development of 
+your interview guide
+Develop the interview guide: Create a guide that includes a list of questions or topics to be covered. These 
+should be open-ended to encourage detailed responses and allow for follow-up questions
+Pilot test: Conduct a pilot interview to ensure questions work as intended and adjust the guide as necessary
+Select participants: Choose participants who have knowledge or experience relevant to your research 
+question. Sampling can be purposive, aiming to select individuals who can provide in-depth insights
+Conduct interviews: Carry out the interviews, following the guide but remaining flexible to explore new 
+topics or ask follow-up questions as they arise
+Analyse data: Transcribe the interviews and use qualitative data analysis methods, such as thematic analysis, 
+to identify patterns, themes, and insights
+Report findings: Present your findings, including a detailed account of the themes and patterns identified, 
+supported by direct quotes from participants
+A
+Open-ended
+C
+Structured
+B
+Semi-structured
+D
+Focused
+
+57/61
+
+
+L04-E01
+06 Midterm (Lecture 01-05)
+●Exam sample-items
+10 Multiple choice (MC)
+2 Open-ended questions (OQ)
+●Calculation of the end grade
+(Midterm + Final) / 2
+Technical Report
+Participation and interaction
+Example of an Open-ended question (Category “Knowledge”)
+1. What level of measurement is like-dislike?
+1. Nominal. It is a classification in one or the other category
+2. Is it a rating scale?
+2. No. It does not have multiple ordered steps. Distances are
+meaningless
+3. Is “I don’t like” appropriate in scale construction?
+3. No. To avoid ambiguity and confusion, contra-indications should
+not have negatives like not or don’t
+4. What type of data does the text box render?
+74/87
+
+ANS
+06 Midterm (Lecture 01-05)
+●Exam sample-items
+10 Multiple choice (MC)
+2 Open-ended questions (OQ)
+●Calculation of the end grade
+(Midterm + Final) / 2
+Technical Report
+Participation and interaction
+Example of an Open-ended question (Category “Knowledge”)
+1. What level of measurement is like-dislike?
+1. Nominal. It is a classification in one or the other category
+2. Is it a rating scale?
+2. No. It does not have multiple ordered steps. Distances are
+meaningless
+3. Is “I don’t like” appropriate in scale construction?
+3. No. To avoid ambiguity and confusion, contra-indications should
+not have negatives like not or don’t
+4. What type of data does the text box render?
+4. Qualitative data, which are anecdotal evidence and should be
+rated for statistical processing
+75/87
+
+
+L04-E02
+A neurologist explains in his paper that “The brain does that, because the neocortex 
+decides to do so, which is directed by our neuronal network, which is controlled by the 
+firing frequencies of our synapses, working from the ion shafts that release sub-atomic 
+partcles, moving at will.”
+What fallacy does the neurologist commit in explaining how a person makes decisions?
+A
+Sense-reference confusion
+B
+Modus ponens
+C
+Circularity
+D
+Infinite regress
+Exam Sample-Item (Category “Application”)
+76/87
+
+ANS
+A neurologist explains in his paper that “The brain does that, because the neocortex 
+decides to do so, which is directed by our neuronal network, which is controlled by the 
+firing frequencies of our synapses, working from the ion shafts that release sub-atomic 
+partcles, moving at will.”
+What fallacy does the neurologist commit in explaining how a person makes decisions?
+A
+Sense-reference confusion
+B
+Modus ponens
+C
+Circularity
+D
+Infinite regress
+Exam Sample-Item (Category “Application”)
+, explaining words from other words without knowing their exact 
+empirical reference and/or validity: The person decides because the 
+neocortex decides because the neurnal network decides, because the 
+synapses decide, because the particles decide, but what is decision 
+making here?
+
+77/87
+
+
+L04-E03
+A
+It knows sense but not reference
+B
+It is sensitive to reference but does not refer to sense
+C
+When it refers to something, ChatGPT sometimes does not make sense
+D
+ChatGPT does not know how it knows what it knows (cf. epistomology)
+Exam Sample-Item (Category “Insight”)
+With regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ 
+what is it that ChatGPT Turbo does and does not have a 
+command of?
+78/87
+
+ANS
+A
+It knows sense but not reference
+B
+It is sensitive to reference but does not refer to sense
+C
+When it refers to something, ChatGPT sometimes does not make sense
+D
+ChatGPT does not know how it knows what it knows (cf. epistomology)
+Exam Sample-Item (Category “Insight”)
+With regard to Frege’s (1892) notions of ‘sense’ and ‘reference,’ 
+what is it that ChatGPT Turbo does and does not have a 
+command of?
+
+GPT copies outer form (sense) without knowing what the words refer to (it does not know 
+meaning). It merely guesses what word is likely to come next but it gambles very well 
+79/87
+
+
+L04-E04
+Exam Sample-Item (Category “Insight”)
+An investigator of night vision presents shades of black and white to a number of 
+participants, who rate how close the stimulus is to pure black and pure white, 
+each measured on a unipolar scale.
+The stimulus is pure black
+disagree  0—1—2—3—4—5  agree
+The stimulus is pure white
+disagree  0—1—2—3—4—5  agree
+In the results, the investigator finds that dark grey is rated as pure black (5) and 
+as totally not white (0). Based on this result, is the investigator allowed to treat 
+the two unipolar scales as one bipolar scale?
+-
+No. The RGB values show that dark grey is not equal to pure black. Hence, the 
+two scales should remain unipolar
+-
+Yes. Although the RGB values show that dark grey is not equal to pure black, 
+perceptually, they are regarded the same and so in this case, pure white can be 
+treated as a true opposite of dark grey
+-
+No. The RGB values show that dark grey is different from pure black. Hence, 
+the two scales cannot be combined into one bipolar scale
+-
+Yes. Next time, however, the investigator should include a rating scale for grey 
+as well
+black
+rgb(0,0,0)
+white
+rgb(255,255,255)
+dark grey rgb(169,169,169)
+A
+B
+C
+D
+RGBdark_grey =
+Perceivedpure_black
+80/87
+
+ANS
+An investigator of night vision presents shades of black and white to a number of 
+participants, who rate how close the stimulus is to pure black and pure white, 
+each measured on a unipolar scale.
+The stimulus is pure black
+disagree  0—1—2—3—4—5  agree
+The stimulus is pure white
+disagree  0—1—2—3—4—5  agree
+In the results, the investigator finds that dark grey is rated as pure black (5) and 
+as totally not white (0). Based on this result, is the investigator allowed to treat 
+the two unipolar scales as one bipolar scale?
+-
+No. The RGB values show that dark grey is not equal to pure black. Hence, the 
+two scales should remain unipolar
+-
+Yes. Although the RGB values show that dark grey is not equal to pure black, 
+perceptually, they are regarded the same and so in this case, pure white can be 
+treated as a true opposite of dark grey
+-
+No. The RGB values show that dark grey is different from pure black. Hence, 
+the two scales cannot be combined into one bipolar scale
+-
+Yes. Next time, however, the investigator should include a rating scale for grey 
+as well
+A
+B
+C
+D
+This whole area is 
+seen as pure black
+black
+white
+dark grey
+
+Exam Sample-Item (Category “Insight”)
+black
+rgb(0,0,0)
+white
+rgb(255,255,255)
+dark grey rgb(169,169,169)
+RGBdark_grey =
+Perceivedpure_black
+
+
+L04-E05
+Exam Sample-Item (Category “Insight”)
+An investigator of night vision presents shades of black and white to a number of 
+participants, who rate how close the stimulus is to pure black and pure white, each 
+measured on a unipolar scale.
+The stimulus is pure black
+disagree  0—1—2—3—4—5  agree
+The stimulus is pure white
+disagree  0—1—2—3—4—5  agree
+In the results, the investigator finds that pure black is rated as dark grey (4) as well 
+as totally not white (0). Based on this result, is the investigator allowed to treat the 
+two unipolar scales as one bipolar scale?
+-
+No. The RGB values show that pure black is not equal to dark grey. Hence, the 
+two scales should remain unipolar
+-
+Yes. Although the RGB values show that pure black is not equal to dark grey, 
+perceptually, they are regarded as almost the same and so in this case, pure 
+white can be treated as a true opposite of dark grey
+-
+No. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen 
+as not diametrically opposed to white (0). Although they are contrasting, these 
+are two unipolar scales that should not be combined into one bipolar scale
+-
+Yes. Next time, however, the investigator should include a rating scale for grey 
+as well
+A
+B
+C
+D
+black
+rgb(0,0,0)
+white
+rgb(255,255,255)
+dark grey rgb(169,169,169)
+RGBpure_black =
+Perceiveddark_grey
+82/87
+
+ANS
+Exam Sample-Item (Category “Insight”)
+An investigator of night vision presents shades of black and white to a number of 
+participants, who rate how close the stimulus is to pure black and pure white, each 
+measured on a unipolar scale.
+The stimulus is pure black
+disagree  0—1—2—3—4—5  agree
+The stimulus is pure white
+disagree  0—1—2—3—4—5  agree
+In the results, the investigator finds that pure black is rated as dark grey (4) as well 
+as totally not white (0). Based on this result, is the investigator allowed to treat the 
+two unipolar scales as one bipolar scale?
+-
+No. The RGB values show that pure black is not equal to dark grey. Hence, the 
+two scales should remain unipolar
+-
+Yes. Although the RGB values show that pure black is not equal to dark grey, 
+perceptually, they are regarded as almost the same and so in this case, pure 
+white can be treated as a true opposite of dark grey
+-
+No. The ratings show that pure black is ‘misperceived’ as dark grey (4) and seen 
+as not diametrically opposed to white (0). Although they are contrasting, these 
+are two unipolar scales that should not be combined into one bipolar scale
+-
+Yes. Next time, however, the investigator should include a rating scale for grey 
+as well
+A
+B
+C
+D
+
+This whole area is 
+seen as dark grey
+black
+white
+dark grey
+black
+rgb(0,0,0)
+white
+rgb(255,255,255)
+dark grey rgb(169,169,169)
+RGBpure_black =
+Perceiveddark_grey
+
+
+L05-E01
+Exam Sample Item
+Category “Insight”
+What does the fat-finger syndrome tell us about Fitts’ Law?
+A
+Stress worsens performance
+C
+The logarithmic distribution for fat fingers
+differs from, for instance, mouse pointers
+D
+A and B are correct
+31/103
+B
+Fitts reckons with the width ratio between pointer
+and interface widget, including pointer width
+
+ANS
+Exam Sample Item
+Category “Insight”
+What does the fat-finger syndrome tell us about Fitts’ Law?
+A
+Stress worsens performance
+B
+Fitts reckons with the width ratio between pointer
+and interface widget, including pointer width
+C
+The logarithmic distribution for fat fingers
+differs from, for instance, mouse pointers
+D
+A and B are correct
+
+Lesson regarding Fitts: The wider an interface widget and the closer it is to the pointer, the easier 
+to hit it - particularly when the pointer is wide as well (fat finger). So it’s about the pointer-to-
+target width ratio, not target width alone. And yes, people make more errors under stress 
+32/103
+
+
+L05-E02
+Exam Sample Item: Open-ended Question
+Category “Insight”
+This question is about Los, S. A., Hoorn, J. F., Grin, M., & Van der Burg, E. (2013). The time course of 
+temporal preparation in an applied setting: a study of gaming behavior. Acta Psychologica, 144(3), 
+499-505. In that paper, participants had to shoot an opponent with or without warning, while
+elevators may appear to be empty (with or without opponent)
+A. What would have been the hardest condition for the participant?
+B. How would that translate into reaction times and error rate?
+41/103
+
+ANS
+Exam Sample Item: Open Question
+Category “Insight”
+This question is about Los, S. A., Hoorn, J. F., Grin, M., & Van der Burg, E. (2013). The time course of 
+temporal preparation in an applied setting: a study of gaming behavior. Acta Psychologica, 144(3), 
+499-505. In that paper, participants had to shoot an opponent with or without warning, while
+elevators may appear to be empty (with or without opponent)
+A. What would have been the hardest condition for the participant?
+B. How would that translate into reaction times and error rate?
+A. The conditions are:
+S1
+S2
+1 Warning
+Opponent
+2 No warning
+Opponent
+3 Warning
+No opponent
+4 No warning
+No opponent
+Condition 2 is the most difficult because you have to take action without being warned
+B. Condition 2 translates into slow reaction times and high error rates (‘low efficiency’)
+I’d say, the pen 
+is the mightiest 
+weapon
+42/103
+
+
+L05-E03
+65/103
+Exam Sample Item: Open-ended Question
+Category “Application”
+Based on the idea that the voice reflects the mood you are in, Libermann developed a computer 
+program to detect whether someone is lying or speaks the truth. The Israeli border police wanted to 
+use this program for their regular check ups. This lie detection system was available on the Dutch 
+market as well under the name Truster. The system needed a practice set of neutrally spoken sentences 
+of the suspect, which served as a baseline to detect discrepancies in the test set. The program detected 
+changes in pitch, speaking pace, and trembling of the voice, which supposedly indicate that a 
+statement is true or false. The system was a complete failure.
+A. What is the mistake in calibrating the system to a neutral voice?
+What is a neutral condition? That people can be emotionally neutral may be 
+possible theoretically but is hardly ever the case in real life, particularly if 
+someone is checking whether you lie or not. 
+B. Can you think of other factors that can explain variance in voice pitch, 
+speaking pace, and trembling other than stress by lying?
+Having a cold, being in love, falling out of love, fear, annoyance, anger, etc. 
+C. Can you think of certain types of suspects who show no variance in the 
+said variables and yet can lie?
+People with voice training such as professional poker players, secret service 
+agents, hardened criminals, and stage actors.
+
+ANS
+
+
+L05-E04
+Exam Sample Item
+Category “Application”
+Transcranial Direct Current Stimulation to increase 
+cognitive performance is an example of what type of 
+logical fallacy?
+A
+Fallacy of the inverse
+B
+Ambiguity variability
+C
+Ex-consequentia reasoning
+D
+Triangulation
+101/103
+
+ANS
+Exam Sample Item
+Category “Application”
+Transcranial Direct Current Stimulation to increase 
+cognitive performance is an example of what type of 
+logical fallacy?
+A
+Fallacy of the inverse
+B
+Ambiguity variability
+C
+Ex-consequentia reasoning
+D
+Triangulation
+
+“When thinking, frontal cortex is stimulated”
+does not mean that
+“when frontal cortex is stimulated, thinking occurs” (let alone improves)
+A B B A
+102/103
+
+
+L07-E01
+Exam Sample Item
+Category “Insight“
+Obesity
+Cancer
+Sugar intake
+(not fat)
+In Lecture 07: Correlations, a co-occurrence between Obesity and 
+Cancer was considered, stating that both were the result of the same 
+root cause: sugar intake. Would you say that apart from Obesity and 
+Cancer, Sugar intake is also correlated to the two diseases or is Sugar 
+merely the cause of the two?
+A
+Sugar must be correlated because the relationship is causal
+B
+Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated
+C
+More data are needed. With more data, significant correlations are likelier to occur
+D
+Nonsense. In this case, interdependence of variable quantities was not established
+62/66
+
+ANS
+Exam Sample Item
+Category “Insight“
+Obesity
+Cancer
+Sugar intake
+(not fat)
+In Lecture 07: Correlations, a co-occurrence between Obesity and 
+Cancer was considered, stating that both were the result of the same 
+root cause: sugar intake. Would you say that apart from Obesity and 
+Cancer, Sugar intake is also correlated to the two diseases or is Sugar 
+merely the cause of the two?
+A
+Sugar must be correlated because the relationship is causal
+B
+Causation is not the same as correlation. Sugar is the root cause and therefore, uncorrelated
+C
+More data are needed. With more data, significant correlations are likelier to occur
+D
+Nonsense. In this case, interdependence of variable quantities was not established
+
+63/66
+
+
+L07-E02
+In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the 
+reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average 
+scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would 
+split-half say this 2-item scale is reliable? Why?
+Statistics is engaging
+disagree  0—1—2—3—4—5  agree
+Statistics is boring
+disagree  0—1—2—3—4—5  agree
+A
+The two items show opposite averages, so there is perfect misalignment
+B
+Reliable. One should recode the contra-indication and then scores match
+C
+Unreliable. The psychological meaning of this scale is highly controversial
+D
+M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,
+so the correlation is 0 
+Exam Sample Item
+Category “Application“
+64/66
+
+ANS
+In Lecture 07: Correlations, Spearman-Brown coefficient ρ (split-half) can be used to test the 
+reliability of the mean scores (M) to a 2-item psychometric scale. In the example, the average 
+scores to the indicative item were M = 5 and to the counter-indicative item M = 0. Would 
+split-half say this 2-item scale is reliable? Why?
+Statistics is engaging
+disagree  0—1—2—3—4—5  agree
+Statistics is boring
+disagree  0—1—2—3—4—5  agree
+A
+The two items show opposite averages, so there is perfect misalignment
+B
+Reliable. One should recode the contra-indication and then scores match
+C
+Unreliable. The psychological meaning of this scale is highly controversial
+D
+M = 5 and M = 0 gives a grand mean of GM = 2.5, scale midpoint = neutral,
+so the correlation is 0 
+Exam Sample Item
+Category “Application“
+
+65/66
+
+
+L08-E01
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+A. Mediation:
+B. Moderation:
+C. Moderated Mediation:
+D. Mediated Moderation:
+Oakwood Medical Avatar (3-D Healthy Selfie)
+26/51
+
+ANS
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+A. Mediation: VR health app X Health knowledge M User experience Y
+27/51
+X
+M
+Y
+B. So how about Moderation?
+
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+B. Moderation: The effect of the VR health app X on User experience Y depends on
+User motivation W
+28/51
+X
+Y
+W
+C. Moderated Mediation: 
+
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+C. Moderated Mediation:
+The mediation effect of
+Health knowledge M on the relationship between
+the VR health app X and User experience Y
+depends on user motivation W
+29/51
+X
+M
+Y
+W
+D. Mediated Moderation:
+
+Exam sample item, Open-ended question, Category “Application”
+This question pertains to Lecture 08 (Multiple) regression. Imagine you are studying the effect of a 
+VR health app X on user experience Y, and you suspect that this effect is mediated by increased 
+health knowledge M. Additionally, you think that how the app is experienced might also depend on 
+the level of user motivation W to live healthily
+Describe the path for:
+D. Mediated Moderation:
+The interaction between
+the VR health app X and User motivation W
+influences Health knowledge M, which in turn 
+affects User experience Y
+30/51
+X
+Y
+M
+W
+
+
+L08-E02
+Exam Sample Item
+Category “Insight“
+This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear 
+regression? In linear regression, is the statement correct that correlation between dependent and 
+independent variable comes from causation?
+A
+No. Arguing from correlation to cause may be reasonable under the correct conditions; 
+otherwise, it is a fallacious inference
+B
+Yes. Changes in the dependent variable are predicted from and tested against changes
+in the independent variable
+C
+Yes, by employing defeasible reasoning, inductive arguments can be raised based on
+correlational data
+D
+No. Regression should account for measurement error, providing more accurate estimates
+of relationships among variables
+47/51
+
+ANS
+Exam Sample Item
+Category “Insight“
+This item is about Lecture 08: (Multiple) regression. A correlation is not causation but how about linear 
+regression? In linear regression, is the statement correct that correlation between dependent and 
+independent variable comes from causation?
+A
+No. Arguing from correlation to cause may be reasonable under the correct conditions; 
+otherwise, it is a fallacious inference
+B
+Yes. Changes in the dependent variable are predicted from and tested against changes
+in the independent variable
+C
+Yes, by employing defeasible reasoning, inductive arguments can be raised based on
+correlational data
+D
+No. Regression should account for measurement error, providing more accurate estimates
+of relationships among variables
+
+48/51
+
+
+L08-E03
+Exam Sample Item
+Category “Insight“
+In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog
+and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly 
+measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by 
+inferring the cause (latent variable) from the effects (item scores)?
+A
+Yes. From X Y does not follow Y X
+B
+No. From Y X does not follow X Y
+C
+No. The latent variable is predicted from observables and 
+then tested, allowing for a margin of unexplained variance (zêta2)
+D
+Yes. Because of the error in measurement (e9, …, 12), one 
+cannot be sure that items y9, …, 12 come from êta2
+49/51
+
+ANS
+Exam Sample Item
+Category “Insight“
+In Lecture 08: (Multiple) regression, we discussed Structural Equation Modeling developed by Jöreskog
+and Sörbom (1984). SEM can infer latent variables (e.g., êta2) as underlying constructs from the directly 
+measurable questionnaire items (here, y9, …, 12). Does SEM rely on an ex-consequentia fallacy by 
+inferring the cause (latent variable) from the effects (item scores)?
+A
+Yes. From X Y does not follow Y X
+B
+No. From Y X does not follow X Y
+C
+No. The latent variable is predicted from observables and 
+then tested, allowing for a margin of unexplained variance (zêta2)
+D
+Yes. Because of the error in measurement (e9, …, 12), one 
+cannot be sure that items y9, …, 12 come from êta2
+
+50/51
+
+
+L09-E01
+In Lecture 09: Experiment Design, we saw that in frequentist statistics we can reject the H0 but not 
+confirm the HA. If we translate the ReCAPTCHA into hypotheses, we find:
+H0 : You are not a robot
+HA : You are a robot
+If the checkbox is clicked (= data sampled), what can we rightfully conclude?
+A
+From not rejecting the H0 (= you are not a robot) does not follow that you are human
+B
+From rejecting the H0 (= you are a robot) does not follow that you are human
+C
+From not rejecting the HA (= you are a robot) follows that you are human
+D
+From rejecting the HA (= you are not a robot) follows that you are human
+Exam Sample Item
+Category “Insight“
+11/87
+
+ANS
+In Lecture 09: Experiment Design, we saw that in frequentist statistics we can reject the H0 but not 
+confirm the HA. If we translate the ReCAPTCHA into hypotheses, we find:
+H0 : You are not a robot
+HA : You are a robot
+If the checkbox is clicked (= data sampled), what can we rightfully conclude?
+A
+From not rejecting the H0 (= you are not a robot) does not follow that you are human
+B
+From rejecting the H0 (= you are a robot) does not follow that you are human
+C
+From not rejecting the HA (= you are a robot) follows that you are human
+D
+From rejecting the HA (= you are not a robot) follows that you are human
+Exam Sample Item
+Category “Insight“
+
+12/87
+
+
+L09-E02
+Exam Sample Item
+Category “Knowledge”
+Which experimental design is more sensitive to order effects?
+A
+Within-subjects
+B
+Randomisation
+C
+Between-subjects
+D
+Counter-balancing
+79/87
+
+ANS
+Exam Sample Item
+Category “Knowledge”
+Which experimental design is more sensitive to order effects?
+A
+Within-subjects
+B
+Randomisation
+C
+Between-subjects
+D
+Counter-balancing
+
+•
+Randomisation and counter-balancing are ways to mitigate the 
+effects of order in task execution
+80/87
+
+
+L09-E03
+Lakkaraju, H., Kamar, E., Caruana, R., & Horvitz, E. (2017). 
+Identifying unknown unknowns in the open world: 
+Representations and policies for guided exploration. In S. 
+Singh & S. Markovitch (Eds.), Proceedings of the 31st AAAI 
+Conference on Artificial Intelligence, Feb. 4-7, 2017, SF, CA 
+(pp. 2124–2132). Palo Alto, CA: AAAI.
+Exam sample item
+Category “Insight”
+Open Question
+If the training data in Lakkaraju et al. (2017) are taken as an experimental design,
+A) Then what are the two conditions?
+B) What is the confound if with a confidence of 96%, the predictive model states 
+that ‘white dogs are cats too?’
+C) Although the statement in B is so easy to falsify, then why does not the network 
+do so?
+81/87
+
+ANS
+Exam sample item
+Category “Insight”
+Open Question
+If the training data in Lakkaraju et al. (2017) are taken as an experimental design,
+A) Then what are the two conditions?
+Dogs and 
+Cats
+Here you see how concise Open 
+Questions can be answered
+82/87
+
+Exam sample item
+Category “Insight”
+Open Question
+B) What is the confound if with a confidence of 96%, the predictive model states 
+that ‘a white dog is a cat too?’
+Training set of 
+Cats coincides 
+with being 
+white
+Training set of 
+Dogs coincides 
+with being black
+So the 
+confound is 
+colour
+83/87
+
+Exam sample item
+Category “Insight”
+Open Question
+C) Although the statement in B is so easy to falsify, then why does not the network 
+do so?
+They also do not have 
+inference systems and 
+cannot do confirmatory 
+statistics
+Neural Networks 
+lack conceptual 
+knowledge
+84/87
+
+
+L09-E04
+This question is a combination of Lecture 07: Correlations and Lecture 09: Experiment Design. Solomon 4-group 
+design takes care of test threat, the effect of the measurement - apart from the effect of the treatment. 
+Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should 
+the investigator use to obtain the most powerful test on measurement reliability?
+A
+G1before
+B
+G1before and G2before
+C
+G1before , G2before , G1after , and G2after 
+D
+G1before , G2before , G3after , G4after
+Exam Sample Item
+Category “Insight“
+85/87
+
+ANS
+This question is a combination of Lecture 07: Correlations and Lecture 09: Experiment Design. Solomon 4-group 
+design takes care of test threat, the effect of the measurement - apart from the effect of the treatment. 
+Cronbach’s is to assess the reliability of the measurement. In a Solomon 4-group design, which data should 
+the investigator use to obtain the most powerful test on measurement reliability?
+A
+G1before
+B
+G1before and G2before
+C
+G1before , G2before , G1after , and G2after 
+D
+G1before , G2before , G3after , G4after
+Exam Sample Item
+
+You want the most 
+data from people 
+unaffected by filling 
+out the questionnaire 
+before
+Category “Insight“
+86/87
+
+
+L10-E01
+With respect to False alarms (Type I error) and Missed signals (Type II error) (Lecture 10: t-tests and 
+(M)ANOVA), suppose we are redesigning the Flight Management System (FMS) of AA965, using Sparse Haptic 
+Proxy
+What is the consequence of making a Type I or II error, if we consider user performance in terms of accuracy?
+H0: Using the new touch panel does not result in more correct user responses
+H1: The new touch panel leads to more correct responses
+Exam Sample Item, “Application,” Open-ended question
+Fitts´ Law!!
+41/83
+
+ANS
+A Type I error would mean that the new FMS does not give us better performance, but we 
+change it anyway. Consequence: We spend extra resources developing the software, and our pilots 
+must learn a new GUI for no benefit
+A Type II error would mean that the new FMS will give us a more accurate performance, but 
+we stick with the old menu to “play safe” (upon pilot request). Consequence: The pilots make more 
+errors typing in ROZO or ROMEO, crashing their planes into a mountain but fortunately the 
+interface is already familiar to them
+Testing may save lives
+Exam Sample Item, “Application,” Open-ended question
+42/83
+
+
+L10-E02
+A
+Oneway ANOVA compares means of 3 dependent variables across one
+independent variable
+B
+Oneway ANOVA compares means of one dependent variable across 3 groups
+C
+Oneway ANOVA compares means of 2 dependent variables across 3 groups
+D
+Oneway ANOVA compares means of 2 dependent variables across one
+independent variable
+Exam Sample Item
+Category “Knowledge”
+In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset 
+of scores. Which of the following definitions is correct?
+61/83
+
+ANS
+A
+Oneway ANOVA compares means of 3 dependent variables across one
+independent variable
+B
+Oneway ANOVA compares means of one dependent variable across 3 groups
+C
+Oneway ANOVA compares means of 2 dependent variables across 3 groups
+D
+Oneway ANOVA compares means of 2 dependent variables across one
+independent variable
+Exam Sample Item
+Category “Knowledge”
+In Lecture 10: t-test and (M)ANOVA, we listed out various techniques to analyse variance in a dataset 
+of scores. Which of the following definitions is correct?
+
+62/83
+
+
+L10-E03
+Exam Sample Item
+Category “Insight”
+If t = 63.657 is minimally required to establish a significant effect, 
+this means that:
+A
+The degrees of freedom must be few
+B
+The rejection area must be small 
+C
+is large
+D
+Both A and B may play a role
+74/83
+
+ANS
+Exam Sample Item
+Category “Insight”
+If t = 63.657 is minimally required to establish a significant effect, 
+this means that:
+A
+The degrees of freedom must be few
+B
+The rejection area must be small 
+C
+is large
+D
+Both A and B may play a role
+
+75/83
+
+
+L10-E04
+Exam sample item
+Category “Application” 
+During the pandemic, a student of Media Entertainment investigated 
+the effect of two types of VR helmets on body temperature. The VR 
+was supposed to counter boredom but wearing it should not be at 
+the cost of increasing the user’s face temperature 
+For her measurements, the student used several Heaco MDI908 
+medical non-contact infrared thermometers, which she calibrated 
+against one another, finding for all devices systematically 
+temperatures of 37.0 Cwith a standard deviation of around 0.5 C
+The student sampled 220 participants, 110 for each VR helmet, with a 
+G*power of about 80% to 90% of correctly rejecting the Null
+Luckily and as expected, using different infrared thermometers did 
+not yield a significant effect. In addition, two-group independent 
+samples t-test also showed no significant effect for VR headset: t(219) = 
+-.05, p = .896, showing that VR helmet 1 (MVRh1 = 36.9, SD = .20) nor 
+VR helmet 2 (MVRh2 = 37.0, SD = .10) made a significant impact on 
+the users’ facial temperature
+The student concluded that both helmets are safe to use, not causing 
+any extra inconvenience during those already stressful times
+Does anyone have a 
+problem with that 
+conclusion?
+
+ANS
+Exam sample item
+Browsing through the qualitative data, 
+the student finds throughout people 
+complaining that both helmets were 
+too hot in the warm and humid climate 
+of Hong Kong, particularly in July, when 
+the study was conducted. Outlier 
+analysis of the quantitative data, 
+however, does not show that any of 
+these people had extreme 
+temperatures
+The student reports that certain people 
+may have experienced a sense of heat 
+while wearing the VR devices, which 
+may have been auto-suggestion, 
+because there were no systematic 
+results supporting that idea
+Category “Application” 
+Does anyone have issues with these conclusions?
+78/83
+
+Exam sample item
+After having published her results in a peer reviewed journal, the student, after graduation, is surfing the 
+Internet and stumbles upon https://thesun.my/style-life/going-viral/buyers-realise-thermometer-is-fake-after-
+always-showing-37c-CE2251994
+The infrared board is not connected to the mainboard, so it “works” even without the IR sensor… The student 
+is decent enough to retract her paper
+Category “Application” 
+The Heaco MDI908 medical 
+non-contact infrared 
+thermometer turns out to 
+be a black box, telling you 
+what you want to hear
+It has a random number 
+generator within the range 
+[36.7 - 37.2]
+No one ill. All happy customers
+The H0 could never be refuted
+79/83
+
+
+L10-E05
+Exam sample item
+A student of Innovative Multimedia 
+Entertainment (MSc) investigates 
+negative emotions in MOBA games 
+(Multiplayer Online Battle Arena)
+For her measurements, the student 
+uses an EMOTIV 14-Channel Wireless 
+EEG Headset, while EMOTIV’s cutting-
+edge BCI software converts brain 
+activity data, facial expressions, and 
+head movements into digital signals 
+that indicate the gamers’ intentions, 
+emotions, and facial expressions
+The student sampled 220 
+participants, 110 for each gaming 
+condition (with or without the help 
+of an AI teammate), with a G*power 
+of about 80% to 90% of correctly 
+rejecting the Null
+80/83
+
+ANS
+Exam sample item
+A student of Innovative Multimedia 
+Entertainment (MSc) investigates 
+negative emotions in MOBA games 
+(Multiplayer Online Battle Arena)
+For her measurements, the student 
+uses an EMOTIV 14-Channel Wireless 
+EEG Headset, while EMOTIV’s cutting-
+edge BCI software converts brain 
+activity data, facial expressions, and 
+head movements into digital signals 
+that indicate the gamers’ intentions, 
+emotions, and facial expressions
+The student sampled 220 
+participants, 110 for each gaming 
+condition (with or without the help 
+of an AI teammate), with a G*power 
+of about 80% to 90% of correctly 
+rejecting the Null
+After statistical analysis, the student concludes that MOBA games 
+with AI helper show significant decreases in negative emotions as 
+indicated by less activation of the amygdala, fewer and smoother 
+head movements, and more zygomaticus muscle motion associated 
+with positive valence and less corrugator muscle activity as related 
+to negative valence emotions. The inverse was found for gamers 
+without AI helper
+The student publishes a paper in International Journal of Advanced 
+Gaming Studies, stating that AI teammates in MOBA games counter 
+negative mood as indicated by psychophysiological indicators
+Does anyone have a 
+problem with this 
+publication?
+81/83
+
+Exam sample item
+EMOTIV’s cutting-edge BCI 
+software is a black box, 
+telling you what you want 
+to hear
+How does the machine 
+come to its interpretations? 
+What are the algorithms? 
+What are its cut-off points? 
+When is it ‘confident’ that 
+this muscle motion means 
+‘fear’ and that motion ‘joy?’
+Throwing the oracle bones
+82/83
+
+
+L11-E01
+1) I’m not better than anyone
+Which hypothesis does Catherine state 
+(H0 or HA) and which type of t-test does 
+apply?
+A    HA and paired samples
+B    H0 and paired samples
+C    HA and independent samples
+D    H0 and independent samples
+2) I’m better than I was
+Which hypothesis does Catherine state (H0
+or HA) and which type of t-test does apply?
+A    HA and paired samples
+B    H0 and paired samples
+C    HA and independent samples
+D    H0 and independent samples
+Exam Sample Item (Category “Application”)
+5/65
+
+ANS
+1) I’m not better than anyone
+Which hypothesis does Catherine state 
+(H0 or HA) and which type of t-test does 
+apply?
+A    HA and paired samples
+B    H0 and paired samples
+C    HA and independent samples
+D    H0 and independent samples
+2) I’m better than I was
+Which hypothesis does Catherine state (H0
+or HA) and which type of t-test does apply?
+A    HA and paired samples
+B    H0 and paired samples
+C    HA and independent samples
+D    H0 and independent samples
+Exam Sample Item (Category “Application”)
+6/65
+
+
+Nominal?
+Ordinal?
+Interval?
+Ratio?
+Is a t-test allowed?
+
+
+L11-E02
+Exam Sample Item
+Category “Application”
+Edwards, Edwards, Spence, and Shelton (2014) ran 
+MANOVA and found no significant differences 
+between human vs. twitter bots. They concluded 
+that twitter bots were as credible, attractive, and 
+efficient in communication as humans
+What is the issue with this conclusion?
+A    They capitalised on chance by not correcting 
+B    They did not compare the data to the Null (H0)
+C    In using MANOVA, they could not reject the H0
+but not confirm H1 either
+D    Their CCIs did not overlap, which worsened data fit
+39/65
+
+ANS
+Exam Sample Item
+Category “Application”
+Edwards, Edwards, Spence, and Shelton (2014) ran 
+MANOVA and found no significant differences 
+between human vs. twitter bots. They concluded 
+that twitter bots were as credible, attractive, and 
+efficient in communication as humans
+What is the issue with this conclusion?
+A    They capitalised on chance by not correcting 
+B    They did not compare the data to the Null (H0)
+C    In using MANOVA, they could not reject the H0
+but not confirm H1 either
+D    Their CCIs did not overlap, which worsened data fit
+
+40/65
+
+
+L11-E03
+Suppose that, estimated with Naïve Bayes, 
+the probability that users assume a robot 
+to be Humanoid based on the eyes alone is 
+56%: P(Humanoid|eyes) = 0.56
+What does that mean in terms of 
+confidence in the decision, given that 50-
+50% means maximum uncertainty?
+Exam Sample Item (Category “Insight”)
+Open-ended question
+0
+1
+1
+½
+½
+Uncertainty
+P(Humanoid|eyes)
+Answer
+Tip: Answer open questions concisely and 
+precisely. Do not write long essays so that your 
+teacher has to look for the right answer. That 
+means you do not know and that does not earn 
+you points
+56%
+57/65
+
+ANS
+Suppose that, estimated with Naïve Bayes, 
+the probability that users assume a robot 
+to be Humanoid based on the eyes alone is 
+56%: P(Humanoid|eyes) = 0.56
+What does that mean in terms of 
+confidence in the decision, given that 50-
+50% means maximum uncertainty?
+Exam Sample Item (Category “Insight”)
+Open-ended question
+0
+1
+1
+½
+½
+Uncertainty
+P(Humanoid|eyes)
+Answer
+When P = 0% (not Humanoid) or P = 100% 
+(definitely Humanoid), there is no doubt about 
+the decision, so uncertainty = 0. With P = 
+56%, uncertainty is almost at its maximum 
+(½ = 50%) so the decision for Humanoid is 
+very doubtful
+not
+Humanoid
+definitely
+Humanoid
+don’t know
+|
+Maximal
+uncertainty
+
+56%
+58/65

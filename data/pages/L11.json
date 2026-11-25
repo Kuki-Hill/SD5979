@@ -1,0 +1,776 @@
+{
+ "lecture": "L11",
+ "source_file": "11 Σ SD5979 Bayesian statistics 2026 11 11.pdf",
+ "chosen_source": "D:\\00.MyWorkSpace\\Wyki_claude\\20261118 research method\\pdfs\\L11.pdf",
+ "sha256": "c201ac6669cb75dac33466e3733b88cdc967e409ce288e5279bcff158cd4d601",
+ "page_count": 65,
+ "pages": [
+  {
+   "slide": 1,
+   "text": "Research Methods for Multimedia Entertainment (SD5979)\nProf. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.)\nLecture 11: Bayesian statistics\n1\n",
+   "text_norm": "Research Methods for Multimedia Entertainment (SD5979) Prof. dr. dr. Johan F. Hoorn (D. Litt., D. Sc.) Lecture 11: Bayesian statistics 1",
+   "char_count": 136,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-001.png",
+   "flags": []
+  },
+  {
+   "slide": 2,
+   "text": "Contents of today\nBayesian statistics\nConfirmatory data analysis\nTest theory: frequentism vs Bayesianism\nCase: Media Equation falsely refuted\nBayesian statistics continued\nTuring Test: speed-dating a robot\nPracticing with Bayesian classification\n2/65\n",
+   "text_norm": "Contents of today Bayesian statistics Confirmatory data analysis Test theory: frequentism vs Bayesianism Case: Media Equation falsely refuted Bayesian statistics continued Turing Test: speed-dating a robot Practicing with Bayesian classification 2/65",
+   "char_count": 257,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-002.png",
+   "flags": [
+    "answer_mark",
+    "summary_or_contents"
+   ]
+  },
+  {
+   "slide": 3,
+   "text": "The four quadrants of testing\nConcrete:\nField strategies\nAbstract:\nTheoretical strategies \nLaboratory\nexperiment\nSample surveys\nObtrusive:\nRespondent\nstrategies\nUnobtrusive:\nObservation \nstrategies\nFormal\ntheory\nComputer\nsimulation\nEthnography\nContent \nanalysis\nField\nexperiment\nFocus groups\nInterviews\nJudgment \nstudies\nSingle cases\nHigh on realism\nRich data (qualitative)\nUnstructured\nGeneralisable\nHigh on precision\nFocused data\n(quantitative)\nStructured\nRetake on McGrath (1995)\nBayesian classification \nand Bayesian t-test\nBayesian classification \nand Bayesian t-test\n3/65\n",
+   "text_norm": "The four quadrants of testing Concrete: Field strategies Abstract: Theoretical strategies Laboratory experiment Sample surveys Obtrusive: Respondent strategies Unobtrusive: Observation strategies Formal theory Computer simulation Ethnography Content analysis Field experiment Focus groups Interviews Judgment studies Single cases High on realism Rich data (qualitative) Unstructured Generalisable High on precision Focused data (quantitative) Structured Retake on McGrath (1995) Bayesian classification and Bayesian t-test Bayesian classification and Bayesian t-test 3/65",
+   "char_count": 579,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-003.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 4,
+   "text": "Did you do your homework?\nWhich hypothesis does Catherine state \n(H0 or HA) and which type of t-test does \napply?\nHere too: which hypothesis does Catherine state \n(H0 or HA) and which type of t-test does apply?\n",
+   "text_norm": "Did you do your homework? Which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply? Here too: which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply?",
+   "char_count": 207,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-004.png",
+   "flags": []
+  },
+  {
+   "slide": 5,
+   "text": "1) I’m not better than anyone\nWhich hypothesis does Catherine state \n(H0 or HA) and which type of t-test does \napply?\nA    HA and paired samples\nB    H0 and paired samples\nC    HA and independent samples\nD    H0 and independent samples\n2) I’m better than I was\nWhich hypothesis does Catherine state (H0\nor HA) and which type of t-test does apply?\nA    HA and paired samples\nB    H0 and paired samples\nC    HA and independent samples\nD    H0 and independent samples\nExam Sample Item (Category “Application”)\n5/65\n",
+   "text_norm": "1) I’m not better than anyone Which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply? A HA and paired samples B H0 and paired samples C HA and independent samples D H0 and independent samples 2) I’m better than I was Which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply? A HA and paired samples B H0 and paired samples C HA and independent samples D H0 and independent samples Exam Sample Item (Category “Application”) 5/65",
+   "char_count": 485,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-005.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 6,
+   "text": "1) I’m not better than anyone\nWhich hypothesis does Catherine state \n(H0 or HA) and which type of t-test does \napply?\nA    HA and paired samples\nB    H0 and paired samples\nC    HA and independent samples\nD    H0 and independent samples\n2) I’m better than I was\nWhich hypothesis does Catherine state (H0\nor HA) and which type of t-test does apply?\nA    HA and paired samples\nB    H0 and paired samples\nC    HA and independent samples\nD    H0 and independent samples\nExam Sample Item (Category “Application”)\n6/65\n\n\nNominal?\nOrdinal?\nInterval?\nRatio?\nIs a t-test allowed?\n",
+   "text_norm": "1) I’m not better than anyone Which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply? A HA and paired samples B H0 and paired samples C HA and independent samples D H0 and independent samples 2) I’m better than I was Which hypothesis does Catherine state (H0 or HA) and which type of t-test does apply? A HA and paired samples B H0 and paired samples C HA and independent samples D H0 and independent samples Exam Sample Item (Category “Application”) 6/65   Nominal? Ordinal? Interval? Ratio? Is a t-test allowed?",
+   "char_count": 550,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-006.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 7,
+   "text": "Bayesian statistics\nMain lesson: Bayesianism is an alternative (or complement) to frequentism. It does not say yes or no \nto a hypothesis, it merely indicates a degree of confidence in the result\nAlong with frequentism, Bayes is another deductive approach to inferential statistics\nThus, Bayes is another form of inferential statistics to draw conclusions and to make \ninferences that go beyond the individual cases\nMind you, the type of conclusions you draw are different from frequentism\nImportant notions in Bayesian classification and Bayesian t-test:\n●Prior\n●Data\n●Posterior\n7/65\n",
+   "text_norm": "Bayesian statistics Main lesson: Bayesianism is an alternative (or complement) to frequentism. It does not say yes or no to a hypothesis, it merely indicates a degree of confidence in the result Along with frequentism, Bayes is another deductive approach to inferential statistics Thus, Bayes is another form of inferential statistics to draw conclusions and to make inferences that go beyond the individual cases Mind you, the type of conclusions you draw are different from frequentism Important notions in Bayesian classification and Bayesian t-test: ●Prior ●Data ●Posterior 7/65",
+   "char_count": 583,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-007.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 8,
+   "text": "Confirmatory data analysis\n●Test theory (freq. vs Bayes)\nNull and Alternative\nMain lesson of Lecture 10: t-test and (M)ANOVA: frequentism is but one view on the data. It cannot \ndo more than rejecting ‘no difference’ or fail to do so. It cannot confirm ‘there is an effect’\nFocus of \nfrequentism\nFocus of \nBayes\nYes or No\nIn or Out\nWith a certain \ndegree of \nconfidence\n8/65\n",
+   "text_norm": "Confirmatory data analysis ●Test theory (freq. vs Bayes) Null and Alternative Main lesson of Lecture 10: t-test and (M)ANOVA: frequentism is but one view on the data. It cannot do more than rejecting ‘no difference’ or fail to do so. It cannot confirm ‘there is an effect’ Focus of frequentism Focus of Bayes Yes or No In or Out With a certain degree of confidence 8/65",
+   "char_count": 371,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-008.png",
+   "flags": [
+    "answer_mark",
+    "main_lesson"
+   ]
+  },
+  {
+   "slide": 9,
+   "text": "Case in point: Media Inequality falsely concluded, \nMou and Xu (2017) hypothesise:\nUsers expose different personality and communication \nwith humans compared to chatbots\nChat with human friends vs. chatbot Microsoft’s Little Ice\nAnd indeed, humans seemed:\nmore open\nmore agreeable\nmore extraverted\nmore conscientious\nmore self-disclosing\nthan with the AI bot\n‘Xiaoice’ for \nChinese \ncommunity \nTest theory: frequentism vs Bayes\nHere’s the catch: results obtained with paired \nt-tests for each stimulus set separately\nusing frequentist statistics\n9/65\n",
+   "text_norm": "Case in point: Media Inequality falsely concluded, Mou and Xu (2017) hypothesise: Users expose different personality and communication with humans compared to chatbots Chat with human friends vs. chatbot Microsoft’s Little Ice And indeed, humans seemed: more open more agreeable more extraverted more conscientious more self-disclosing than with the AI bot ‘Xiaoice’ for Chinese community Test theory: frequentism vs Bayes Here’s the catch: results obtained with paired t-tests for each stimulus set separately using frequentist statistics 9/65",
+   "char_count": 551,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-009.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 10,
+   "text": "Mou and Xu (2017)\n6 x 2 stimulus sets (transcripts of chats \nwith human or AI), rated by N=245 on \nopenness, agreeableness, extraversion, \nconscientiousness, self-disclosure\nWhy is t-test analysis unfair to Media \nEquation hypothesis, which says that \nhumans treat machines like other \nhumans\nBy applying multiple t-tests, authors are \nprone to find differences without \nconsidering:\nCapitalisation on chance (Bonferroni)\nMultiple sources of variance\nTesting the Null\nMedia Inequality falsely concluded\n\n\n\n\n\n\n10/65\n",
+   "text_norm": "Mou and Xu (2017) 6 x 2 stimulus sets (transcripts of chats with human or AI), rated by N=245 on openness, agreeableness, extraversion, conscientiousness, self-disclosure Why is t-test analysis unfair to Media Equation hypothesis, which says that humans treat machines like other humans By applying multiple t-tests, authors are prone to find differences without considering: Capitalisation on chance (Bonferroni) Multiple sources of variance Testing the Null Media Inequality falsely concluded       10/65",
+   "char_count": 516,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L11/slide-010.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 11,
+   "text": "Mou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\nMedia Inequality falsely concluded\n21 comparisons\nper 1 stimulus\nEach tested against\n= .05\nThat means for the \nwhole set of \ncomparisons that \n21 x 5% chance was \nallowed \n= 1.05 (105%)\n\n11/65\n",
+   "text_norm": "Mou and Xu (2017) Capitalisation on chance (rejection area with inflated ) Media Inequality falsely concluded 21 comparisons per 1 stimulus Each tested against = .05 That means for the whole set of comparisons that 21 x 5% chance was allowed = 1.05 (105%)  11/65",
+   "char_count": 268,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-011.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 12,
+   "text": "Mou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\n21 comparisons\nper 1 stimulus\nEach tested against\n= .05\nThat means for the \nwhole set of \ncomparisons that \n21 x 5% chance was \nallowed \n= 1.05 (105%)\n\nTherefore, = .05 should be divided by 21 comparisons \nto avoid differences to be significant coincidentally\n= .05 / 21 = 0.0023809523809524 .0024\nThis is corrected according to Bonferroni\nThat means that all *p and **p should be ignored\nMedia Inequality falsely concluded\n12/65\n",
+   "text_norm": "Mou and Xu (2017) Capitalisation on chance (rejection area with inflated ) 21 comparisons per 1 stimulus Each tested against = .05 That means for the whole set of comparisons that 21 x 5% chance was allowed = 1.05 (105%)  Therefore, = .05 should be divided by 21 comparisons to avoid differences to be significant coincidentally = .05 / 21 = 0.0023809523809524 .0024 This is corrected according to Bonferroni That means that all *p and **p should be ignored Media Inequality falsely concluded 12/65",
+   "char_count": 508,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-012.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 13,
+   "text": "Mou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\n\nHowever, there are 6 of these stimuli for the whole \nexperiment\nMedia Inequality falsely concluded\n13/65\n",
+   "text_norm": "Mou and Xu (2017) Capitalisation on chance (rejection area with inflated )  However, there are 6 of these stimuli for the whole experiment Media Inequality falsely concluded 13/65",
+   "char_count": 183,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-013.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 14,
+   "text": "Mou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\n\nHowever, there are 6 of these stimuli for the whole \nexperiment\nMedia Inequality falsely concluded\n14/65\n",
+   "text_norm": "Mou and Xu (2017) Capitalisation on chance (rejection area with inflated )  However, there are 6 of these stimuli for the whole experiment Media Inequality falsely concluded 14/65",
+   "char_count": 183,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L11/slide-014.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 15,
+   "text": "21 comparisons\ntimes 6 stimuli\nEach tested against\n= .05\nThat means for the \nwhole experiment \nthat \n6 x 21 x 5% chance \nwas allowed \n= 6.3 (630%)\nMou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\n\nHowever, there are 6 of these stimuli for the whole \nexperiment\n\n\n\n\n\nTherefore, = .05 should be divided by 6 x 21 = 126 \ncomparisons to avoid coincidental significance in the \nwhole experiment\n= .05 / 126 = 3.968253968253968e-4 .0003968 \n.0004\nThis is corrected according to Bonferroni for the whole \nexperiment\nThat means that all *p, **p, and probably all ***p should \nbe ignored\nMedia Inequality falsely concluded\n15/65\n",
+   "text_norm": "21 comparisons times 6 stimuli Each tested against = .05 That means for the whole experiment that 6 x 21 x 5% chance was allowed = 6.3 (630%) Mou and Xu (2017) Capitalisation on chance (rejection area with inflated )  However, there are 6 of these stimuli for the whole experiment      Therefore, = .05 should be divided by 6 x 21 = 126 comparisons to avoid coincidental significance in the whole experiment = .05 / 126 = 3.968253968253968e-4 .0003968  .0004 This is corrected according to Bonferroni for the whole experiment That means that all *p, **p, and probably all ***p should be ignored Media Inequality falsely concluded 15/65",
+   "char_count": 651,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L11/slide-015.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 16,
+   "text": "Mou and Xu (2017)\nCapitalisation on chance (rejection area with inflated )\nWith = .0004, probably none of the effects holds\n(the article does not report beyond p < .001)\nThat means that\nprobably no \nsignificant \ndifference \nbetween \nhuman and AI \nwas established\nbeyond chance\nSo what about the\nMedia Equation?\nDunno..\nDoes that make us\nequals?\nMedia Inequality falsely concluded\n16/65\n",
+   "text_norm": "Mou and Xu (2017) Capitalisation on chance (rejection area with inflated ) With = .0004, probably none of the effects holds (the article does not report beyond p < .001) That means that probably no significant difference between human and AI was established beyond chance So what about the Media Equation? Dunno.. Does that make us equals? Media Inequality falsely concluded 16/65",
+   "char_count": 384,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L11/slide-016.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 17,
+   "text": "Mou and Xu (2017)\nRespect multiple sources of variance\nOpenness, agreeableness, extraversion, conscientiousness, and self-disclosure are \nnot independent. They co-vary\nActually there are two times 6 stimuli over which averages should be calculated \nfor each of 5 dependents (and not use the raw scores)\nThen we run a MANOVA with two 5-leveled within-Ss factors:\nHuman (o vs a vs e vs c vs s) vs AI (o vs a vs e vs c vs s)\nAnd all effects should be tested against corrected according to Bonferroni for all \ncomparisons in the experiment\nMedia Inequality falsely concluded\n17/65\n",
+   "text_norm": "Mou and Xu (2017) Respect multiple sources of variance Openness, agreeableness, extraversion, conscientiousness, and self-disclosure are not independent. They co-vary Actually there are two times 6 stimuli over which averages should be calculated for each of 5 dependents (and not use the raw scores) Then we run a MANOVA with two 5-leveled within-Ss factors: Human (o vs a vs e vs c vs s) vs AI (o vs a vs e vs c vs s) And all effects should be tested against corrected according to Bonferroni for all comparisons in the experiment Media Inequality falsely concluded 17/65",
+   "char_count": 576,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-017.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 18,
+   "text": "Mou and Xu (2017)\nBetter test the Null\nHowever, not finding difference\n(do not reject H0) is something different \nfrom assertion of H0\nConfirmation of the Null is not possible \nwith (M)ANOVA or t-test (i.e., with \nfrequentist statistics)\nThe Media Equation makes the Null \ntheoretically relevant and therefore, can \nonly be fairly tested through Bayesian \nstatistics\nMedia Inequality falsely concluded\n18/65\n",
+   "text_norm": "Mou and Xu (2017) Better test the Null However, not finding difference (do not reject H0) is something different from assertion of H0 Confirmation of the Null is not possible with (M)ANOVA or t-test (i.e., with frequentist statistics) The Media Equation makes the Null theoretically relevant and therefore, can only be fairly tested through Bayesian statistics Media Inequality falsely concluded 18/65",
+   "char_count": 403,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-018.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 19,
+   "text": "Media Inequality rightfully concluded\n19/65\n",
+   "text_norm": "Media Inequality rightfully concluded 19/65",
+   "char_count": 44,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-019.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 20,
+   "text": "Why? Because it is the only fair test of any hypothesis that wants to show that \nhumans and robots are perceived in a similar way\nThat is because philosophically, seeing no difference is not the same as seeing \nresemblance\nExtra: it saves us from biased results\nIn human-robot comparisons, conventional (frequentist) statistical techniques \n(e.g., t-test, ANOVA) always compare the data to a null hypothesis (H0)\nThis works fine when one has no idea of what could be going on in the data. \nTabula rasa: Preoccupation with data-driven processes, ignoring concept-driven \napproaches. Anglo-Saxon (analytic) philosophical tradition till far into the 20th\ncentury\nBayesian statistics\n20/65\n",
+   "text_norm": "Why? Because it is the only fair test of any hypothesis that wants to show that humans and robots are perceived in a similar way That is because philosophically, seeing no difference is not the same as seeing resemblance Extra: it saves us from biased results In human-robot comparisons, conventional (frequentist) statistical techniques (e.g., t-test, ANOVA) always compare the data to a null hypothesis (H0) This works fine when one has no idea of what could be going on in the data. Tabula rasa: Preoccupation with data-driven processes, ignoring concept-driven approaches. Anglo-Saxon (analytic) philosophical tradition till far into the 20th century Bayesian statistics 20/65",
+   "char_count": 681,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-020.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 21,
+   "text": "Researchers have theories, expectations, and previous studies to build their case \n(prior knowledge)\nBayesian statistics allows prior knowledge (the prior) to support the estimation \nof a model and to test hypotheses. Using this method, one can build on earlier \nresearch, instead of starting from scratch every time anew\nMoreover, frequentist statistics assume that but one true population parameter \n(fixed) exists in the population\nRejecting the null actually means that in the data significant differences were \nfound between two groups, confirming the H1\nFrequentist analyses favour the dissimilarity hypothesis (H1: robots and humans \nare perceived as significantly different). With H1 rejected and H0 remaining, it \nmerely says ‘we found no difference’ rather than ‘we found similarity’. Hence, to \nbe fair to the similarity hypothesis as well, analyses should also be performed \nwith Bayesian statistics\nBayesian statistics\n21/65\n",
+   "text_norm": "Researchers have theories, expectations, and previous studies to build their case (prior knowledge) Bayesian statistics allows prior knowledge (the prior) to support the estimation of a model and to test hypotheses. Using this method, one can build on earlier research, instead of starting from scratch every time anew Moreover, frequentist statistics assume that but one true population parameter (fixed) exists in the population Rejecting the null actually means that in the data significant differences were found between two groups, confirming the H1 Frequentist analyses favour the dissimilarity hypothesis (H1: robots and humans are perceived as significantly different). With H1 rejected and H0 remaining, it merely says ‘we found no difference’ rather than ‘we found similarity’. Hence, to be fair to the similarity hypothesis as well, analyses should also be performed with Bayesian statistics Bayesian statistics 21/65",
+   "char_count": 929,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-021.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 22,
+   "text": "With Bayes, all unknown parameters can be defined by a probability distribution. \nThus, Bayesian statistics do not result in a point estimate, but rather in an \ninterval with a certain probability that the true coefficient is part of that interval \n(Van de Schoot & Depaoli, 2014)\nBayesian analysis exists of three parts: the prior distribution, the data (the \nlikelihood), and the posterior distribution. The posterior distribution is a \ncombination of the prior distribution and the data, an updated understanding of \nthe theory under consideration (ibid.)\nIn other words, with Bayes the H0 can be tested and if H1 (dissimilarity) is refuted \nand H0 remains, we can assume that robots are treated similarly to humans as \nMedia Equation and its follow-up Computers Are Social Actors (CASA) would \nhave it\nBayesian statistics\n22/65\n",
+   "text_norm": "With Bayes, all unknown parameters can be defined by a probability distribution. Thus, Bayesian statistics do not result in a point estimate, but rather in an interval with a certain probability that the true coefficient is part of that interval (Van de Schoot & Depaoli, 2014) Bayesian analysis exists of three parts: the prior distribution, the data (the likelihood), and the posterior distribution. The posterior distribution is a combination of the prior distribution and the data, an updated understanding of the theory under consideration (ibid.) In other words, with Bayes the H0 can be tested and if H1 (dissimilarity) is refuted and H0 remains, we can assume that robots are treated similarly to humans as Media Equation and its follow-up Computers Are Social Actors (CASA) would have it Bayesian statistics 22/65",
+   "char_count": 823,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-022.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 23,
+   "text": "Conventionally, confirming the H0 is regarded as \ntheoretically uninteresting. That is a huge mistake  \nFrequentist analyses of anthropomorphism, for \nexample, may find no significant differences \nbetween human and robot, but this is not \npublishable\nIf this is a true finding, then theoretically the Media \nEquation and CASA are not testable because results \nare not published\nIf it is a false finding, everybody will repeat the \nsame mistakes because nobody can read that the \nmanipulation does not work\nRobot Tutor Interlude\n23/65\n",
+   "text_norm": "Conventionally, confirming the H0 is regarded as theoretically uninteresting. That is a huge mistake Frequentist analyses of anthropomorphism, for example, may find no significant differences between human and robot, but this is not publishable If this is a true finding, then theoretically the Media Equation and CASA are not testable because results are not published If it is a false finding, everybody will repeat the same mistakes because nobody can read that the manipulation does not work Robot Tutor Interlude 23/65",
+   "char_count": 523,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L11/slide-023.png",
+   "flags": []
+  },
+  {
+   "slide": 24,
+   "text": "If frequentist analyses of anthropomorphism merely \nfind trends, that result is not publishable either\nOnly positive results get published\nWith Bayesian analysis, this is different because the \nstatistical test index, Bayes Factor, offers a range of \nprobability that an effect is present or absent, \nincluding the H0\nIn other words, any result is publishable because we \ngo beyond the strict “yes or no”\nIn other words, Bayes can test for sameness instead \nof difference and is continuous instead of \ndichotomous\nRobot Tutor Interlude\nKonijn, Van de Schoot, Winter, and Ferguson (2015)\n‘Publication bias’\nis a severe \nproblem in science\n24/65\n",
+   "text_norm": "If frequentist analyses of anthropomorphism merely find trends, that result is not publishable either Only positive results get published With Bayesian analysis, this is different because the statistical test index, Bayes Factor, offers a range of probability that an effect is present or absent, including the H0 In other words, any result is publishable because we go beyond the strict “yes or no” In other words, Bayes can test for sameness instead of difference and is continuous instead of dichotomous Robot Tutor Interlude Konijn, Van de Schoot, Winter, and Ferguson (2015) ‘Publication bias’ is a severe problem in science 24/65",
+   "char_count": 635,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L11/slide-024.png",
+   "flags": []
+  },
+  {
+   "slide": 25,
+   "text": "Meaning and interpretation of Bayes Factor\nTo compare the various models (not effects) of equality, you can calculate Bayes \nFactor (BF), which is a non-binary but continuous statistical index that quantifies \nthe evidence for a hypothesis in comparison to the alternative hypothesis\nHence, there are no cut-off points (i.e., the frequentist .05 rejection area), which \nmakes its interpretation context-dependent and not a mere yes or no\nThere are two BFs to reckon with:\nBF01\nBuilds up evidence for H0 compared to H1\nBF10\nBuilds up evidence for H1 compared to H0\nBF4ever\nBuilds up evidence for the one who’s gonna help you\nwith statistics \nBayesian statistics\n25/65\n",
+   "text_norm": "Meaning and interpretation of Bayes Factor To compare the various models (not effects) of equality, you can calculate Bayes Factor (BF), which is a non-binary but continuous statistical index that quantifies the evidence for a hypothesis in comparison to the alternative hypothesis Hence, there are no cut-off points (i.e., the frequentist .05 rejection area), which makes its interpretation context-dependent and not a mere yes or no There are two BFs to reckon with: BF01 Builds up evidence for H0 compared to H1 BF10 Builds up evidence for H1 compared to H0 BF4ever Builds up evidence for the one who’s gonna help you with statistics  Bayesian statistics 25/65",
+   "char_count": 665,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-025.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 26,
+   "text": "For the meaning and interpretation of BF, we follow Lee and Wagenmakers\n(2013, p. 122)’s reading of Jeffreys (1961) that:\n3 < BF10 < 30 is considered moderate to strong evidence for H1 (‘unequal’)\nand\n1/30 < BF10 < 1/3 is moderate to strong evidence for H0 (‘equal’)\nBF10\nInterpretation\n> 100\nExtreme evidence for H1\n30 – 100\nVery strong evidence for H1\n10 – 30\nStrong evidence for H1\n3  – 10\nModerate evidence for H1\n1  – 3\nAnecdotal evidence for H1\n1\nNo evidence\n1/3  – 1\nAnecdotal evidence for H0\n1/3  – 1/10\nModerate evidence for H0\n1/10 – 1/30\nStrong evidence for H0\n1/30 – 1/100\nVery strong evidence for H0\n< 1/100\nExtreme evidence for H0\nBayesian statistics\n26/65\nInequality\nEquality\n",
+   "text_norm": "For the meaning and interpretation of BF, we follow Lee and Wagenmakers (2013, p. 122)’s reading of Jeffreys (1961) that: 3 < BF10 < 30 is considered moderate to strong evidence for H1 (‘unequal’) and 1/30 < BF10 < 1/3 is moderate to strong evidence for H0 (‘equal’) BF10 Interpretation > 100 Extreme evidence for H1 30 – 100 Very strong evidence for H1 10 – 30 Strong evidence for H1 3 – 10 Moderate evidence for H1 1 – 3 Anecdotal evidence for H1 1 No evidence 1/3 – 1 Anecdotal evidence for H0 1/3 – 1/10 Moderate evidence for H0 1/10 – 1/30 Strong evidence for H0 1/30 – 1/100 Very strong evidence for H0 < 1/100 Extreme evidence for H0 Bayesian statistics 26/65 Inequality Equality",
+   "char_count": 687,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-026.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 27,
+   "text": "Turing Test – Speed date with a robot\nVan Vugt, Hoorn, and Konijn (2009)\nPrior knowledge: Interactively Perceiving and Experiencing Fictional Characters (I-PEFiC)\n27/65\n",
+   "text_norm": "Turing Test – Speed date with a robot Van Vugt, Hoorn, and Konijn (2009) Prior knowledge: Interactively Perceiving and Experiencing Fictional Characters (I-PEFiC) 27/65",
+   "char_count": 169,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L11/slide-027.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 28,
+   "text": "Van Vugt, Hoorn, and Konijn (2009) Pontier and Hoorn (2013)\n<translate/>\n<implement/>\n<interact/>\nvalidate\nDoes he think I’m unfair? He \nthinks I’m pretty. I think he likes\nme\nWanna see me \nagain?\nTuring Test – Speed date with a robot\n28/65\n",
+   "text_norm": "Van Vugt, Hoorn, and Konijn (2009) Pontier and Hoorn (2013) <translate/> <implement/> <interact/> validate Does he think I’m unfair? He thinks I’m pretty. I think he likes me Wanna see me again? Turing Test – Speed date with a robot 28/65",
+   "char_count": 240,
+   "has_image": true,
+   "image_count": 209,
+   "png": "assets/img/L11/slide-028.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 29,
+   "text": "29\nHoorn, Konijn, and Pontier (2018)\nEvaluation of emotionally intelligent software\n54 young females speed-dated with ‘Tom’\ndriven by either AI software or human confederates\nParticipants judged how Tom perceived them\nBayesian structural equation modeling\nParticipants did not detect differences in the emotional behaviour of the \nvirtual human and in the way it assumingly perceived them\nParticipants also did not \nrecognise different cognitive-\naffective structures between \nhumans and ‘our robot’\nWhat music do you\nlike?\nTuring Test – Speed date with a robot\n",
+   "text_norm": "29 Hoorn, Konijn, and Pontier (2018) Evaluation of emotionally intelligent software 54 young females speed-dated with ‘Tom’ driven by either AI software or human confederates Participants judged how Tom perceived them Bayesian structural equation modeling Participants did not detect differences in the emotional behaviour of the virtual human and in the way it assumingly perceived them Participants also did not recognise different cognitiveaffective structures between humans and ‘our robot’ What music do you like? Turing Test – Speed date with a robot",
+   "char_count": 557,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-029.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 30,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nParticipants judged the behaviour of Tom\nbut also how they thought Tom perceived them\nThis resembles general speed-dating settings, \nwhere people want to know what their dating \npartner thinks of them\nSs assessed the emotional behaviour of the virtual human and what led \nhim to that emotional behaviour\nThis way, we could check the differences between AI and Human \nconfederate in producing emotional behaviour\nFocus on the relations between the things that Tom perceived \n(according to the Ss) allowed for analysis of the differences in cognitive-\naffective structure (as perceived by Ss) produced by AI or Humans\nWanna eat out?\nTuring Test – Speed date with a robot\n30/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Participants judged the behaviour of Tom but also how they thought Tom perceived them This resembles general speed-dating settings, where people want to know what their dating partner thinks of them Ss assessed the emotional behaviour of the virtual human and what led him to that emotional behaviour This way, we could check the differences between AI and Human confederate in producing emotional behaviour Focus on the relations between the things that Tom perceived (according to the Ss) allowed for analysis of the differences in cognitiveaffective structure (as perceived by Ss) produced by AI or Humans Wanna eat out? Turing Test – Speed date with a robot 30/65",
+   "char_count": 702,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-030.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 31,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nParticipants judged the behaviour of Tom\nbut also how they thought Tom perceived them\nThis resembles general speed-dating settings, \nwhere people want to know what their dating \npartner thinks of them\nSs assessed the emotional behaviour of the virtual human and what led \nhim to that emotional behaviour\nThis way, we could check the differences between AI and Human \nconfederate in producing emotional behaviour\nFocus on the relations between the things that Tom perceived \n(according to the Ss) allowed for analysis of the differences in cognitive-\naffective structure (as perceived by Ss) produced by AI or Humans\nWanna eat out?\nTuring Test – Speed date with a robot\n31/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Participants judged the behaviour of Tom but also how they thought Tom perceived them This resembles general speed-dating settings, where people want to know what their dating partner thinks of them Ss assessed the emotional behaviour of the virtual human and what led him to that emotional behaviour This way, we could check the differences between AI and Human confederate in producing emotional behaviour Focus on the relations between the things that Tom perceived (according to the Ss) allowed for analysis of the differences in cognitiveaffective structure (as perceived by Ss) produced by AI or Humans Wanna eat out? Turing Test – Speed date with a robot 31/65",
+   "char_count": 702,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-031.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 32,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nBayesian structural equation modeling\nMedia Equation in\nTuring Test analysed\nwith Bayes\n‘Equal loadings’ model\n(AI = Human)\nAnalysis strategy:\nOmit relations that are not significant in either the AI or Human group. Continue \nuntil only significant associations remain\nDo you have \nhobbies?\nTuring Test – Speed date with a robot\n32/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Bayesian structural equation modeling Media Equation in Turing Test analysed with Bayes ‘Equal loadings’ model (AI = Human) Analysis strategy: Omit relations that are not significant in either the AI or Human group. Continue until only significant associations remain Do you have hobbies? Turing Test – Speed date with a robot 32/65",
+   "char_count": 367,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-032.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 33,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nBayesian structural equation modeling\nPrior: I-PEFiC\nPosterior: I-PEFiC + data\nRetrieved but not \nentirely\nTuring Test – Speed date with a robot\n33/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Bayesian structural equation modeling Prior: I-PEFiC Posterior: I-PEFiC + data Retrieved but not entirely Turing Test – Speed date with a robot 33/65",
+   "char_count": 184,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-033.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 34,
+   "text": "Human condition\nAI condition\nInfluence\nB\nSD\nCCI95\nB\nSD\nCCI95\nAffordances Relevance\n.349\n.237\n-.118, .816\n.766\n.245\n.284, 1.250\nEthics Involvement\n.147\n.254\n-.354, .648\n.486\n.171\n.148, .825\nValence Involvement\n.541\n.180\n.188, .895\n.251\n.165\n-.074, .575\nRelevance Involvement\n.264\n.168\n-.006, .599\n.261\n.137\n-.007, .533\nRelevance Distance\n-.049\n.490\n-2.006, -.076\n-.102\n.368\n-1.790, -.353\nSimilarity Distance\n-.988\n.584\n-2.111, .192\n-.720\n.487\n-1.629, .247\nSimilarity*Relevance Distance\n.245\n.201\n-.156, .634\n.272\n.137\n-.002, .528\nValence Use Intentions\n.936\n.133\n.672, 1.198\n1.067\n.059\n.950, 1.183\nHuman confederates\nCCIs overlapped\nDIC = 404.40\nHoorn, Konijn, and Pontier (2018)\nAI\nTuring Test – Speed date with a robot\n34/65\n",
+   "text_norm": "Human condition AI condition Influence B SD CCI95 B SD CCI95 Affordances Relevance .349 .237 -.118, .816 .766 .245 .284, 1.250 Ethics Involvement .147 .254 -.354, .648 .486 .171 .148, .825 Valence Involvement .541 .180 .188, .895 .251 .165 -.074, .575 Relevance Involvement .264 .168 -.006, .599 .261 .137 -.007, .533 Relevance Distance -.049 .490 -2.006, -.076 -.102 .368 -1.790, -.353 Similarity Distance -.988 .584 -2.111, .192 -.720 .487 -1.629, .247 Similarity*Relevance Distance .245 .201 -.156, .634 .272 .137 -.002, .528 Valence Use Intentions .936 .133 .672, 1.198 1.067 .059 .950, 1.183 Human confederates CCIs overlapped DIC = 404.40 Hoorn, Konijn, and Pontier (2018) AI Turing Test – Speed date with a robot 34/65",
+   "char_count": 734,
+   "has_image": true,
+   "image_count": 210,
+   "png": "assets/img/L11/slide-034.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 35,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nCentral credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans \noverlapped\nThe model with ‘regression coefficients assumed equal’ fitted the data with \nDeviance Information Criterion DIC = 404.40\nThis was better than model with unrestricted (unequal) regression coefficients \n(DIC = 413.43)\nThe cognitive-affective structure was seen as similar whether \nsimulated by AI or Humans\nMedia Equation?\nDid AI pass the Turing Test? Which?\nBayes?\nTuring Test – Speed date with a robot\n35/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Central credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans overlapped The model with ‘regression coefficients assumed equal’ fitted the data with Deviance Information Criterion DIC = 404.40 This was better than model with unrestricted (unequal) regression coefficients (DIC = 413.43) The cognitive-affective structure was seen as similar whether simulated by AI or Humans Media Equation? Did AI pass the Turing Test? Which? Bayes? Turing Test – Speed date with a robot 35/65",
+   "char_count": 531,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-035.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 36,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nCentral credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans \noverlapped\nThe model with ‘regression coefficients assumed equal’ fitted the data with \nDeviance Information Criterion DIC = 404.40\nThis was better than model with unrestricted (unequal) regression coefficients \n(DIC = 413.43)\nThe cognitive-affective structure was seen as similar whether \nsimulated by AI or Humans\nMedia Equation?\nDid AI pass the Turing Test?\nBayes?\nConfirmed\nTuring Test – Speed date with a robot\n36/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Central credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans overlapped The model with ‘regression coefficients assumed equal’ fitted the data with Deviance Information Criterion DIC = 404.40 This was better than model with unrestricted (unequal) regression coefficients (DIC = 413.43) The cognitive-affective structure was seen as similar whether simulated by AI or Humans Media Equation? Did AI pass the Turing Test? Bayes? Confirmed Turing Test – Speed date with a robot 36/65",
+   "char_count": 534,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-036.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 37,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nCentral credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans \noverlapped\nThe model with ‘regression coefficients assumed equal’ fitted the data with \nDeviance Information Criterion DIC = 404.40\nThis was better than model with unrestricted (unequal) regression coefficients \n(DIC = 413.43)\nThe cognitive-affective structure was seen as similar whether \nsimulated by AI or Humans\nMedia Equation?\nDid AI pass the Turing Test?\nBayes?\nConfirmed\nYes. Adapted \nversion \nTuring Test – Speed date with a robot\n37/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Central credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans overlapped The model with ‘regression coefficients assumed equal’ fitted the data with Deviance Information Criterion DIC = 404.40 This was better than model with unrestricted (unequal) regression coefficients (DIC = 413.43) The cognitive-affective structure was seen as similar whether simulated by AI or Humans Media Equation? Did AI pass the Turing Test? Bayes? Confirmed Yes. Adapted version Turing Test – Speed date with a robot 37/65",
+   "char_count": 555,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-037.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 38,
+   "text": "Hoorn, Konijn, and Pontier (2018)\nCentral credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans \noverlapped\nThe model with ‘regression coefficients assumed equal’ fitted the data with \nDeviance Information Criterion DIC = 404.40\nThis was better than model with unrestricted (unequal) regression coefficients \n(DIC = 413.43)\nThe cognitive-affective structure was seen as similar whether \nsimulated by AI or Humans\nMedia Equation?\nDid AI pass the Turing Test? \nBayes?\nConfirmed\nYes. Adapted \nversion\nWay to go!\nTuring Test – Speed date with a robot\n38/65\n",
+   "text_norm": "Hoorn, Konijn, and Pontier (2018) Central credibility intervals (CCIs) (cf. confidence intervals) of AI and Humans overlapped The model with ‘regression coefficients assumed equal’ fitted the data with Deviance Information Criterion DIC = 404.40 This was better than model with unrestricted (unequal) regression coefficients (DIC = 413.43) The cognitive-affective structure was seen as similar whether simulated by AI or Humans Media Equation? Did AI pass the Turing Test? Bayes? Confirmed Yes. Adapted version Way to go! Turing Test – Speed date with a robot 38/65",
+   "char_count": 566,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-038.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 39,
+   "text": "Exam Sample Item\nCategory “Application”\nEdwards, Edwards, Spence, and Shelton (2014) ran \nMANOVA and found no significant differences \nbetween human vs. twitter bots. They concluded \nthat twitter bots were as credible, attractive, and \nefficient in communication as humans\nWhat is the issue with this conclusion?\nA    They capitalised on chance by not correcting \nB    They did not compare the data to the Null (H0)\nC    In using MANOVA, they could not reject the H0\nbut not confirm H1 either\nD    Their CCIs did not overlap, which worsened data fit\n39/65\n",
+   "text_norm": "Exam Sample Item Category “Application” Edwards, Edwards, Spence, and Shelton (2014) ran MANOVA and found no significant differences between human vs. twitter bots. They concluded that twitter bots were as credible, attractive, and efficient in communication as humans What is the issue with this conclusion? A They capitalised on chance by not correcting  B They did not compare the data to the Null (H0) C In using MANOVA, they could not reject the H0 but not confirm H1 either D Their CCIs did not overlap, which worsened data fit 39/65",
+   "char_count": 540,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-039.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 40,
+   "text": "Exam Sample Item\nCategory “Application”\nEdwards, Edwards, Spence, and Shelton (2014) ran \nMANOVA and found no significant differences \nbetween human vs. twitter bots. They concluded \nthat twitter bots were as credible, attractive, and \nefficient in communication as humans\nWhat is the issue with this conclusion?\nA    They capitalised on chance by not correcting \nB    They did not compare the data to the Null (H0)\nC    In using MANOVA, they could not reject the H0\nbut not confirm H1 either\nD    Their CCIs did not overlap, which worsened data fit\n\n40/65\n",
+   "text_norm": "Exam Sample Item Category “Application” Edwards, Edwards, Spence, and Shelton (2014) ran MANOVA and found no significant differences between human vs. twitter bots. They concluded that twitter bots were as credible, attractive, and efficient in communication as humans What is the issue with this conclusion? A They capitalised on chance by not correcting  B They did not compare the data to the Null (H0) C In using MANOVA, they could not reject the H0 but not confirm H1 either D Their CCIs did not overlap, which worsened data fit  40/65",
+   "char_count": 542,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-040.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 41,
+   "text": "Break\n",
+   "text_norm": "Break",
+   "char_count": 5,
+   "has_image": true,
+   "image_count": 4,
+   "png": "assets/img/L11/slide-041.png",
+   "flags": [
+    "scan_or_image_only"
+   ]
+  },
+  {
+   "slide": 42,
+   "text": "Bayesian classification (need-to-know before discussing Naïve Bayes)\nKomponisto (2010, June 3). Bayes' Theorem illustrated (my way). Available from http://lesswrong.com/lw/2b0/bayes_theorem_illustrated_my_way/\nSuppose you designed a companion robot for older adults. To create it, you had to do \nmany assumptions and in the back of your mind, you maintained a few hypotheses\nActually, you had three hypotheses\nI make a machine that is similar to a...\nH1: human being\nH2: an animal\nH3: a plant\nPrior, Posterior\nBefore designing the product, you actually did not know what it was going to be\nPrior probability for each H1-3 at that early stage of design was ⅓ (33.3%)\n42/65\n",
+   "text_norm": "Bayesian classification (need-to-know before discussing Naïve Bayes) Komponisto (2010, June 3). Bayes' Theorem illustrated (my way). Available from http://lesswrong.com/lw/2b0/bayes_theorem_illustrated_my_way/ Suppose you designed a companion robot for older adults. To create it, you had to do many assumptions and in the back of your mind, you maintained a few hypotheses Actually, you had three hypotheses I make a machine that is similar to a... H1: human being H2: an animal H3: a plant Prior, Posterior Before designing the product, you actually did not know what it was going to be Prior probability for each H1-3 at that early stage of design was ⅓ (33.3%) 42/65",
+   "char_count": 672,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-042.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 43,
+   "text": "Bayesian classification (need-to-know before discussing Naïve Bayes)\nMy machine is similar to a...\nH1: human being\nH2: an animal\nH3: a plant\nBut now that you created your prototype, you have a theory about it\nFor instance,\nP(H1) = 30%, P(H2) = 50%, P(H3) = 20%\nThis is your prior knowledge, the knowledge you start from\nWith this prediction in mind, you are to ask your prospective users if they see the world \nthe same way \nAfter that, we update our prior probabilities and call it posterior probabilities\nPrior, Posterior\n43/65\n",
+   "text_norm": "Bayesian classification (need-to-know before discussing Naïve Bayes) My machine is similar to a... H1: human being H2: an animal H3: a plant But now that you created your prototype, you have a theory about it For instance, P(H1) = 30%, P(H2) = 50%, P(H3) = 20% This is your prior knowledge, the knowledge you start from With this prediction in mind, you are to ask your prospective users if they see the world the same way After that, we update our prior probabilities and call it posterior probabilities Prior, Posterior 43/65",
+   "char_count": 528,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-043.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 44,
+   "text": "Data, Likelihood\nBut before asking your customers, how likely is it that they give you the answer \nyou expect?\nFor each hypothesis, there are 3 possible results (“human,” “animal,” “plant”)\nEach result can occur for each H1-3\nIn other words, it is not about one hypothesis being ‘true’ or ‘false’ because you \nmerely draw a sample of data (messy, full of variability)\nData samples are not the actual world but a hopefully representative part of it\nTherefore, you have to link your hypothesis to the chance that an answer \n(event, signal, phenomenon, target output y) may actually happen; be present \nin your sample; the likelihood that a result will occur\nThat means you must have theory about your sample, about the people you are \ngoing to ask (in this case, older adults)\n44/65\n",
+   "text_norm": "Data, Likelihood But before asking your customers, how likely is it that they give you the answer you expect? For each hypothesis, there are 3 possible results (“human,” “animal,” “plant”) Each result can occur for each H1-3 In other words, it is not about one hypothesis being ‘true’ or ‘false’ because you merely draw a sample of data (messy, full of variability) Data samples are not the actual world but a hopefully representative part of it Therefore, you have to link your hypothesis to the chance that an answer (event, signal, phenomenon, target output y) may actually happen; be present in your sample; the likelihood that a result will occur That means you must have theory about your sample, about the people you are going to ask (in this case, older adults) 44/65",
+   "char_count": 776,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-044.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 45,
+   "text": "You may for 30% be sure your device is humanoid but the chance that you get that \nanswer from your users may be 50% (= your theory about your sample, not about \nyour design)\nThat weakens the probability that your hypothesis will be confirmed with 50%. Fifty \npercent of 30% is 15% chance your “H1 plus the data” (together the posterior) will \nbe right\nFor each hypothesis, there may be a different likelihood of finding what you look \nfor. For instance:\nFor H1, we expect a 50% chance that people will say “human,”\nAlso for H1, we expect a 33.33% chance on hearing the answer “animal”\nAnd again for H1, we expect a 16.17% chance on finding “plant”\nP(human|H1) = 50%, P(animal|H1) = 33.33%, P(plant|H1) = 16.17%\nand for H2 and H3 (percentages are made up):\nP(h|H2) = 10%, P(a|H2) = 70%, P(p|H2) = 20%\nP(h|H3) =  5%, P(a|H3) = 15%, P(p|H3) = 80%\nData, Likelihood\nThis is our prior \nknowledge before \nrunning a user test\nMy hypothesis against what I think they think\n45/65\n",
+   "text_norm": "You may for 30% be sure your device is humanoid but the chance that you get that answer from your users may be 50% (= your theory about your sample, not about your design) That weakens the probability that your hypothesis will be confirmed with 50%. Fifty percent of 30% is 15% chance your “H1 plus the data” (together the posterior) will be right For each hypothesis, there may be a different likelihood of finding what you look for. For instance: For H1, we expect a 50% chance that people will say “human,” Also for H1, we expect a 33.33% chance on hearing the answer “animal” And again for H1, we expect a 16.17% chance on finding “plant” P(human|H1) = 50%, P(animal|H1) = 33.33%, P(plant|H1) = 16.17% and for H2 and H3 (percentages are made up): P(h|H2) = 10%, P(a|H2) = 70%, P(p|H2) = 20% P(h|H3) = 5%, P(a|H3) = 15%, P(p|H3) = 80% Data, Likelihood This is our prior knowledge before running a user test My hypothesis against what I think they think 45/65",
+   "char_count": 962,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-045.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 46,
+   "text": "Visualisation of our prior knowledge before running a user test (drawing a sample):\nOur untested theory of robot design\nH1 = 30%\nH2 = 50%\nH3 = 20%\n33.3%\nhuman  15%\nanimal 10%\nplant   5%\n15%\nhuman   1%\nanimal  3%\nplant  16%\n70%\nhuman   5%\nanimal 35%\nplant  10%\nLikelihoods that test results \noccur\nConjunction of hypothesis and \nlikelihood:\n20% = ⅕ of 50% = 10%\nMy guess is that 50% of the \npeople agree with me\n46/65\n",
+   "text_norm": "Visualisation of our prior knowledge before running a user test (drawing a sample): Our untested theory of robot design H1 = 30% H2 = 50% H3 = 20% 33.3% human 15% animal 10% plant 5% 15% human 1% animal 3% plant 16% 70% human 5% animal 35% plant 10% Likelihoods that test results occur Conjunction of hypothesis and likelihood: 20% = ⅕ of 50% = 10% My guess is that 50% of the people agree with me 46/65",
+   "char_count": 403,
+   "has_image": true,
+   "image_count": 215,
+   "png": "assets/img/L11/slide-046.png",
+   "flags": []
+  },
+  {
+   "slide": 47,
+   "text": "Now you sample a big data set. \nYou let prospective users classify \nwhether the prototype machine \nis human-like, animal-like, or \nplant-like\nYou use those data to test your \nhypotheses\nLet’s say your users tell that you \ncreated a humanoid machine \nThen, after your return, you \ndispose of all the likelihoods of \nthe concurrent test results (here, \nanimal and plant)\nData to test our theory of robot design\nShe talks to me. \nJust like a real \nhuman\n47/65\n",
+   "text_norm": "Now you sample a big data set. You let prospective users classify whether the prototype machine is human-like, animal-like, or plant-like You use those data to test your hypotheses Let’s say your users tell that you created a humanoid machine Then, after your return, you dispose of all the likelihoods of the concurrent test results (here, animal and plant) Data to test our theory of robot design She talks to me. Just like a real human 47/65",
+   "char_count": 444,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-047.png",
+   "flags": []
+  },
+  {
+   "slide": 48,
+   "text": "After testing, likelihoods are dismissed for answers not in line with the hypotheses \n(do this for H1-3). We only ask how much human is it?\nOur almost tested theory of robot design\nH1 = 30%\nH2 = 50%\nH3 = 20%\nhuman  15%\nhuman   1%\nhuman   5%\n%\nanimal   %\nplant    %\n\n\n\n\n\n\n48/65\n",
+   "text_norm": "After testing, likelihoods are dismissed for answers not in line with the hypotheses (do this for H1-3). We only ask how much human is it? Our almost tested theory of robot design H1 = 30% H2 = 50% H3 = 20% human 15% human 1% human 5% % animal % plant %       48/65",
+   "char_count": 271,
+   "has_image": true,
+   "image_count": 211,
+   "png": "assets/img/L11/slide-048.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 49,
+   "text": "These are the probability distributions updated by the data:\nH1 = 15%\nH2 = 5%\nH3 = 1%\nH1 = 71.4%\nH2 = 23.8%\nH3 = 4.76%\n21%\n100%\nrescale\nproportionally\nOur tested theory of robot design\nTold you: more \nhuman than an \nanimal, not so \nmuch a plant\n49/65\n",
+   "text_norm": "These are the probability distributions updated by the data: H1 = 15% H2 = 5% H3 = 1% H1 = 71.4% H2 = 23.8% H3 = 4.76% 21% 100% rescale proportionally Our tested theory of robot design Told you: more human than an animal, not so much a plant 49/65",
+   "char_count": 247,
+   "has_image": true,
+   "image_count": 211,
+   "png": "assets/img/L11/slide-049.png",
+   "flags": []
+  },
+  {
+   "slide": 50,
+   "text": "Steps in Bayesian classification\n\nMy machine is similar to a...\nH1: human being\n__%\nH2: an animal\n__%\nH3: a plant\n__%\nP(H1) = __%, P(H2) = __%, P(H3) = __%\n\nLikelihoods that you will find that answer\nP(h|H1) = __%, P(a|H1) = __%, P(p|H1) = __%\nP(h|H2) = __%, P(a|H2) = __%, P(p|H2) = __%\nP(h|H3) = __%, P(a|H3) = __%, P(p|H3) = __%\n\nConjunction of (here) 3 hypotheses with (here) each 3 expected results (9 times)\nLikelihood__% of Hn__% = __% that “Hnplus data” is right\nH1 = 30%\n33.3%\nhuman  15%\nanimal 10%\nplant   5%\n\n\n\n50/65\n",
+   "text_norm": "Steps in Bayesian classification  My machine is similar to a... H1: human being __% H2: an animal __% H3: a plant __% P(H1) = __%, P(H2) = __%, P(H3) = __%  Likelihoods that you will find that answer P(h|H1) = __%, P(a|H1) = __%, P(p|H1) = __% P(h|H2) = __%, P(a|H2) = __%, P(p|H2) = __% P(h|H3) = __%, P(a|H3) = __%, P(p|H3) = __%  Conjunction of (here) 3 hypotheses with (here) each 3 expected results (9 times) Likelihood__% of Hn__% = __% that “Hnplus data” is right H1 = 30% 33.3% human 15% animal 10% plant 5%    50/65",
+   "char_count": 530,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L11/slide-050.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 51,
+   "text": "Fill out the percentages\nH1 =   %\nH2 =   %\nH3 =   %\n%\nhuman    %\nanimal   %\nplant    %\n%\nhuman    %\nanimal   %\nplant    %\n%\nhuman    %\nanimal   %\nplant    %\nSteps in Bayesian classification\n51/65\n",
+   "text_norm": "Fill out the percentages H1 = % H2 = % H3 = % % human % animal % plant % % human % animal % plant % % human % animal % plant % Steps in Bayesian classification 51/65",
+   "char_count": 166,
+   "has_image": true,
+   "image_count": 215,
+   "png": "assets/img/L11/slide-051.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 52,
+   "text": "\nThe actual \nmeasurement,\nobserved values\n\nStrike out the answers \nthat were ‘wrong’ (all \nH1-3 on previous page)\nH1 = 30%\n33.3%\nhuman  15%\nanimal 10%\nplant   5%\n\n\n\nFor each hypothesis, rescale \npercentages proportionally\nH1 =    %\nH2 =    %\nH3 =    %\n100%\nSteps in Bayesian classification\nNot really ‘wrong’. \nIt has some plant-\nlikeness\n52/65\n",
+   "text_norm": " The actual measurement, observed values  Strike out the answers that were ‘wrong’ (all H1-3 on previous page) H1 = 30% 33.3% human 15% animal 10% plant 5%    For each hypothesis, rescale percentages proportionally H1 = % H2 = % H3 = % 100% Steps in Bayesian classification Not really ‘wrong’. It has some plantlikeness 52/65",
+   "char_count": 330,
+   "has_image": true,
+   "image_count": 211,
+   "png": "assets/img/L11/slide-052.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 53,
+   "text": "‘Naïve’ because it assumes that \npredictors (features x) are \nindependent, thus ignoring possible \nmulticollinearity\nNaïve Bayes classifier\nA robot may be classified as a humanoid if it \nhas eyes, a voice, and is physically present\n(Paauwe et al., 2015)\nSuch features may depend on each other (e.g., \neyes look different on-screen or in real; voice \nsounds different over a speaker) but Naïve \nBayes says they all independently predict \nhuman-likeness (in this case)\nBayes’ Theorem estimates the \nP(c|x)\n= posterior probability, from:\nP(c)\n= prior probability of the class c\nP(x)\n= prior probability of predictor x\nP(x|c) = likelihood\nPaauwe, R. A. Keyson, D. V., Hoorn, J. F., & Konijn, E. (2015). Minimal requirements of realism in social robots – designing for patients with Acquired \nBrain Injury. In B. Begole, J. Kim, K. Inkpen, & W. Woo (Eds.), Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in \nComputing Systems, Seoul, Rep. Korea, April 18 - 23, 2015 (pp. 1-6). New York: ACM. http://dx.doi.org/10.1145/2702613.2732875\n53/65\n",
+   "text_norm": "‘Naïve’ because it assumes that predictors (features x) are independent, thus ignoring possible multicollinearity Naïve Bayes classifier A robot may be classified as a humanoid if it has eyes, a voice, and is physically present (Paauwe et al., 2015) Such features may depend on each other (e.g., eyes look different on-screen or in real; voice sounds different over a speaker) but Naïve Bayes says they all independently predict human-likeness (in this case) Bayes’ Theorem estimates the P(c|x) = posterior probability, from: P(c) = prior probability of the class c P(x) = prior probability of predictor x P(x|c) = likelihood Paauwe, R. A. Keyson, D. V., Hoorn, J. F., & Konijn, E. (2015). Minimal requirements of realism in social robots – designing for patients with Acquired Brain Injury. In B. Begole, J. Kim, K. Inkpen, & W. Woo (Eds.), Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems, Seoul, Rep. Korea, April 18 - 23, 2015 (pp. 1-6). New York: ACM. http://dx.doi.org/10.1145/2702613.2732875 53/65",
+   "char_count": 1062,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-053.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 54,
+   "text": "Naïve Bayes classifier\nFrom a number of features, Naïve Bayes attempts to predict the probability of \nmultiple categories. For instance, out of let’s say the 18 features users mention, \neyes (x) are mentioned 7 times while Humanoid (c) is indicated 11 times\nP(c|x)\n= posterior probability that feature x predicts target class c\nP(x)\n= prior probability of predictor x\nP(c)\n= prior probability of the class c\nP(x|c) = likelihood = probability that x is found in class c\nP(c|x) =\nP(x)\nP(x|c) P(c)\nIn formula:\nHumanoid\neyes\nLet’s test the design assumption that people foremostly look at the eyes to say \nyour robot is humanoid. The class with the highest posterior probability is the \noutcome that confirms/contradicts this prediction\n54/65\n",
+   "text_norm": "Naïve Bayes classifier From a number of features, Naïve Bayes attempts to predict the probability of multiple categories. For instance, out of let’s say the 18 features users mention, eyes (x) are mentioned 7 times while Humanoid (c) is indicated 11 times P(c|x) = posterior probability that feature x predicts target class c P(x) = prior probability of predictor x P(c) = prior probability of the class c P(x|c) = likelihood = probability that x is found in class c P(c|x) = P(x) P(x|c) P(c) In formula: Humanoid eyes Let’s test the design assumption that people foremostly look at the eyes to say your robot is humanoid. The class with the highest posterior probability is the outcome that confirms/contradicts this prediction 54/65",
+   "char_count": 738,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-054.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 55,
+   "text": "Naïve Bayes classifier\nP(c|x) =\nP(x)\nP(x|c) P(c)\nHumanoid\neyes\nData collected\nFeature\nClassified as\nmentioned\neyes\nHumanoid\neyes\nHumanoid\neyes\nHumanoid\neyes\nPlant\neyes\nHumanoid\neyes\nHumanoid\neyes\nHumanoid\nvoice\nHumanoid\nvoice\nHumanoid\nvoice\nHumanoid\nvoice\nPlant\nvoice\nPlant\nleaves\nPlant\nleaves\nHumanoid\nleaves\nPlant\nleaves\nPlant\nleaves\nHumanoid\nleaves\nPlant\nFrequencies\nHumanoid\nPlant\neyes\n6\n1\n7 out of 18 = 39% chance ‘eyes’ are mentioned\nvoice\n3\n2\n5 out of 18 = 28%\nleaves\n2\n4\n6 out of 18 = 33%\nTotal\n11\n7\nout of\nout of\n\n18 = 61%\n18 = 39%\nLikelihoods\nchance they\nthink the robot\nis Humanoid\nP(x|c)\nP(x)\nP(c)\nDesign hypothesis: If it has eyes, it’s a humanoid\nP(Humanoid|eyes) = P(eyes|Humanoid) P(Humanoid) / P(eyes)\nP(eyes|Humanoid) = 6/11 = 0.55, P(Humanoid)= 11/18 = 0.61, \nP(eyes) = 7/18 = 0.39\nThus, P(Humanoid|eyes) = 0.55 0.61 / 0.39 = 0.56, which is the \nslightly higher probability (just 6%)\nDesign hypothesis: If it has eyes, it’s a humanoid\n55/65\n",
+   "text_norm": "Naïve Bayes classifier P(c|x) = P(x) P(x|c) P(c) Humanoid eyes Data collected Feature Classified as mentioned eyes Humanoid eyes Humanoid eyes Humanoid eyes Plant eyes Humanoid eyes Humanoid eyes Humanoid voice Humanoid voice Humanoid voice Humanoid voice Plant voice Plant leaves Plant leaves Humanoid leaves Plant leaves Plant leaves Humanoid leaves Plant Frequencies Humanoid Plant eyes 6 1 7 out of 18 = 39% chance ‘eyes’ are mentioned voice 3 2 5 out of 18 = 28% leaves 2 4 6 out of 18 = 33% Total 11 7 out of out of  18 = 61% 18 = 39% Likelihoods chance they think the robot is Humanoid P(x|c) P(x) P(c) Design hypothesis: If it has eyes, it’s a humanoid P(Humanoid|eyes) = P(eyes|Humanoid) P(Humanoid) / P(eyes) P(eyes|Humanoid) = 6/11 = 0.55, P(Humanoid)= 11/18 = 0.61, P(eyes) = 7/18 = 0.39 Thus, P(Humanoid|eyes) = 0.55 0.61 / 0.39 = 0.56, which is the slightly higher probability (just 6%) Design hypothesis: If it has eyes, it’s a humanoid 55/65",
+   "char_count": 962,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-055.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 56,
+   "text": "Bayesian Independent-Sample Inference\nFor a Bayesian t-test in SPSS, click: Analyze > Bayesian Statistics > Independent Samples Normal\nDefine the values of the grouping variable (e.g., With-Without AI)\nIn the Bayesian Analysis box, tick Use Both Methods: Gives you posterior distribution and Bayes factor\n56/65\n",
+   "text_norm": "Bayesian Independent-Sample Inference For a Bayesian t-test in SPSS, click: Analyze > Bayesian Statistics > Independent Samples Normal Define the values of the grouping variable (e.g., With-Without AI) In the Bayesian Analysis box, tick Use Both Methods: Gives you posterior distribution and Bayes factor 56/65",
+   "char_count": 311,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-056.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 57,
+   "text": "Suppose that, estimated with Naïve Bayes, \nthe probability that users assume a robot \nto be Humanoid based on the eyes alone is \n56%: P(Humanoid|eyes) = 0.56\nWhat does that mean in terms of \nconfidence in the decision, given that 50-\n50% means maximum uncertainty?\nExam Sample Item (Category “Insight”)\nOpen-ended question\n0\n1\n1\n½\n½\nUncertainty\nP(Humanoid|eyes)\nAnswer\nTip: Answer open questions concisely and \nprecisely. Do not write long essays so that your \nteacher has to look for the right answer. That \nmeans you do not know and that does not earn \nyou points\n56%\n57/65\n",
+   "text_norm": "Suppose that, estimated with Naïve Bayes, the probability that users assume a robot to be Humanoid based on the eyes alone is 56%: P(Humanoid|eyes) = 0.56 What does that mean in terms of confidence in the decision, given that 5050% means maximum uncertainty? Exam Sample Item (Category “Insight”) Open-ended question 0 1 1 ½ ½ Uncertainty P(Humanoid|eyes) Answer Tip: Answer open questions concisely and precisely. Do not write long essays so that your teacher has to look for the right answer. That means you do not know and that does not earn you points 56% 57/65",
+   "char_count": 565,
+   "has_image": true,
+   "image_count": 208,
+   "png": "assets/img/L11/slide-057.png",
+   "flags": [
+    "exam_item"
+   ]
+  },
+  {
+   "slide": 58,
+   "text": "Suppose that, estimated with Naïve Bayes, \nthe probability that users assume a robot \nto be Humanoid based on the eyes alone is \n56%: P(Humanoid|eyes) = 0.56\nWhat does that mean in terms of \nconfidence in the decision, given that 50-\n50% means maximum uncertainty?\nExam Sample Item (Category “Insight”)\nOpen-ended question\n0\n1\n1\n½\n½\nUncertainty\nP(Humanoid|eyes)\nAnswer\nWhen P = 0% (not Humanoid) or P = 100% \n(definitely Humanoid), there is no doubt about \nthe decision, so uncertainty = 0. With P = \n56%, uncertainty is almost at its maximum \n(½ = 50%) so the decision for Humanoid is \nvery doubtful\nnot\nHumanoid\ndefinitely\nHumanoid\ndon’t know\n|\nMaximal\nuncertainty\n\n56%\n58/65\n",
+   "text_norm": "Suppose that, estimated with Naïve Bayes, the probability that users assume a robot to be Humanoid based on the eyes alone is 56%: P(Humanoid|eyes) = 0.56 What does that mean in terms of confidence in the decision, given that 5050% means maximum uncertainty? Exam Sample Item (Category “Insight”) Open-ended question 0 1 1 ½ ½ Uncertainty P(Humanoid|eyes) Answer When P = 0% (not Humanoid) or P = 100% (definitely Humanoid), there is no doubt about the decision, so uncertainty = 0. With P = 56%, uncertainty is almost at its maximum (½ = 50%) so the decision for Humanoid is very doubtful not Humanoid definitely Humanoid don’t know | Maximal uncertainty  56% 58/65",
+   "char_count": 667,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-058.png",
+   "flags": [
+    "exam_item",
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 59,
+   "text": "ummary\nSocrates\nMost researchers consider null-hypotheses \nsignificance-testing irrelevant\nHowever, hypotheses of similarity between real and \nvirtual, human and robot, human and AI become \nincreasingly important\nFrequentist analysis does not allow for directly \ntesting a null hypothesis\nFrequentists can only (fail to) reject the null, \nwhereas Bayes offers a balanced decision for both \nthe null and alternative hypotheses\nBayesian statistics are more appropriate than \nfrequentist approaches for use in contemporary \nscience, which increasingly attempts theoretically \nrelevant H0-testing \n59/65\n",
+   "text_norm": "ummary Socrates Most researchers consider null-hypotheses significance-testing irrelevant However, hypotheses of similarity between real and virtual, human and robot, human and AI become increasingly important Frequentist analysis does not allow for directly testing a null hypothesis Frequentists can only (fail to) reject the null, whereas Bayes offers a balanced decision for both the null and alternative hypotheses Bayesian statistics are more appropriate than frequentist approaches for use in contemporary science, which increasingly attempts theoretically relevant H0-testing 59/65",
+   "char_count": 590,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-059.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 60,
+   "text": "ummary\nSocrates\nThe original version of the Turing Test is wanting but \nadapted as diagnostic tool or used in an experiment \nwith structured questionnaires quite useful\nWith ever-advancing AI in chatbots (cf. GPT) and \nhigh-fidelity CGI (cf. DeepFake), improved Turing \nTests become increasingly important not only \ntheoretically but also practically\nEach question about human likeness, \nanthropomorphism, emulation, human superiority \nor inferiority to a computer should be tested for \ndifference with frequentist statistics as well as for \nsimilarity, using Bayes\nMedia Equation is the theory (also when we show \nits limitations), adapted Turing Test the method, \nand Bayes the analysis tool\n60/65\n",
+   "text_norm": "ummary Socrates The original version of the Turing Test is wanting but adapted as diagnostic tool or used in an experiment with structured questionnaires quite useful With ever-advancing AI in chatbots (cf. GPT) and high-fidelity CGI (cf. DeepFake), improved Turing Tests become increasingly important not only theoretically but also practically Each question about human likeness, anthropomorphism, emulation, human superiority or inferiority to a computer should be tested for difference with frequentist statistics as well as for similarity, using Bayes Media Equation is the theory (also when we show its limitations), adapted Turing Test the method, and Bayes the analysis tool 60/65",
+   "char_count": 689,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-060.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 61,
+   "text": "ummary\nSocrates\nBayes’ Theorem works from formulating a theory \nabout your design (the Prior) as well as about your \nusers (the Likelihood). That’s different from all other \nstatistical approaches! The Posterior is an update of \nthe Prior with the actual Data you sampled. In that \nsense, Bayes has ‘memory’ and earlier theory is not \nimmediately wiped clean\nThe Naïve Bayes classifier is ‘naïve’ because it expects \npredictors (features x1, …, n) to be fully independent \n(that’s different from Multiple Regression)\nI’m the \nuser\nI’m the \ndesign\n61/65\n",
+   "text_norm": "ummary Socrates Bayes’ Theorem works from formulating a theory about your design (the Prior) as well as about your users (the Likelihood). That’s different from all other statistical approaches! The Posterior is an update of the Prior with the actual Data you sampled. In that sense, Bayes has ‘memory’ and earlier theory is not immediately wiped clean The Naïve Bayes classifier is ‘naïve’ because it expects predictors (features x1, …, n) to be fully independent (that’s different from Multiple Regression) I’m the user I’m the design 61/65",
+   "char_count": 543,
+   "has_image": true,
+   "image_count": 207,
+   "png": "assets/img/L11/slide-061.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 62,
+   "text": "ummary\nSocrates\nFrom a number of features, Naïve Bayes attempts to predict \nthe probability of multiple categories\nBe careful about the inference you do from the results. For \ninstance, when Naïve Bayes confirms the design hypothesis \nthat “If it has eyes, it’s a humanoid”, you are talking about a \nuser perception that logically is a mistake (although a \ngenuine experience)\nHumans have eyes but not all eyes indicate humans\nEyes may indicate all kinds of animals too and mind you, not \nall humanoid robots have eyes\nA B\nHumans have eyes\nA\nHuman\nB\nThen eyes\nNot:\nA B\nHumans have eyes\nB\nEyes\nA\nThen human\nStrictly speaking, \nNaïve Bayes does \nex-consequentia\nreasoning\nNo eyes\n62/65\n",
+   "text_norm": "ummary Socrates From a number of features, Naïve Bayes attempts to predict the probability of multiple categories Be careful about the inference you do from the results. For instance, when Naïve Bayes confirms the design hypothesis that “If it has eyes, it’s a humanoid”, you are talking about a user perception that logically is a mistake (although a genuine experience) Humans have eyes but not all eyes indicate humans Eyes may indicate all kinds of animals too and mind you, not all humanoid robots have eyes A B Humans have eyes A Human B Then eyes Not: A B Humans have eyes B Eyes A Then human Strictly speaking, Naïve Bayes does ex-consequentia reasoning No eyes 62/65",
+   "char_count": 680,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-062.png",
+   "flags": [
+    "answer_mark"
+   ]
+  },
+  {
+   "slide": 63,
+   "text": "Response session: Three days in advance, you write to me the issues that you \nstill have, which I will explain again in class. That means you already studied \neverything so that your questions are specific and informed\nThis is the time to ask what is main content and what are asides. What is \nregarded as really important and what are little sidesteps. Don’t miss that \nopportunity\nWe will also do a test exam to let you get used to the style of questions\nyou\nme\njohan.f.hoorn@polyu.edu.hk\n63/65\n",
+   "text_norm": "Response session: Three days in advance, you write to me the issues that you still have, which I will explain again in class. That means you already studied everything so that your questions are specific and informed This is the time to ask what is main content and what are asides. What is regarded as really important and what are little sidesteps. Don’t miss that opportunity We will also do a test exam to let you get used to the style of questions you me johan.f.hoorn@polyu.edu.hk 63/65",
+   "char_count": 492,
+   "has_image": true,
+   "image_count": 206,
+   "png": "assets/img/L11/slide-063.png",
+   "flags": []
+  },
+  {
+   "slide": 64,
+   "text": "References 1\nEdwards, C., Edwards, A., Spence, P. R., & Shelton, A. K. (2014). Is that a bot running the social media \nfeed? Testing the differences in perceptions of communication quality for a human agent and a bot \nagent on twitter. Computers in Human Behavior, 33, 372-376.\nFeigenbaum, E. A. (2003) Some challenges and grand challenges for computational intelligence. \nJournal of the Association for Computing Machinery, 50, 32-40.\nFrench, R. M. (2000). The Turing test: the first 50 years. Trends in Cognitive Science, 4, 115–122.\nJeffreys, H. (1961). Theory of probability (3rd ed.). Oxford, UK: Oxford University.\nKonijn, E. A., Van de Schoot, R., Winter, S., & Ferguson, C. J. (2015). Possible solution to publication \nbias through Bayesian statistics, including proper null hypothesis testing. Communication Methods \nand Measures, 9(4), 280-302. doi:10.1080/19312458.2015.1096332.\nLee, M. D., & Wagenmakers, E.-J. (2013). Bayesian modeling for cognitive science: a practical course.\nNew York: Cambridge University.\n64/65\n",
+   "text_norm": "References 1 Edwards, C., Edwards, A., Spence, P. R., & Shelton, A. K. (2014). Is that a bot running the social media feed? Testing the differences in perceptions of communication quality for a human agent and a bot agent on twitter. Computers in Human Behavior, 33, 372-376. Feigenbaum, E. A. (2003) Some challenges and grand challenges for computational intelligence. Journal of the Association for Computing Machinery, 50, 32-40. French, R. M. (2000). The Turing test: the first 50 years. Trends in Cognitive Science, 4, 115–122. Jeffreys, H. (1961). Theory of probability (3rd ed.). Oxford, UK: Oxford University. Konijn, E. A., Van de Schoot, R., Winter, S., & Ferguson, C. J. (2015). Possible solution to publication bias through Bayesian statistics, including proper null hypothesis testing. Communication Methods and Measures, 9(4), 280-302. doi:10.1080/19312458.2015.1096332. Lee, M. D., & Wagenmakers, E.-J. (2013). Bayesian modeling for cognitive science: a practical course. New York: Cambridge University. 64/65",
+   "char_count": 1024,
+   "has_image": true,
+   "image_count": 204,
+   "png": "assets/img/L11/slide-064.png",
+   "flags": []
+  },
+  {
+   "slide": 65,
+   "text": "References 2\nMou, Y., & Xu, K. (2017). The media inequality: Comparing the initial human-human and\nhuman-AI social interactions. Computers in Human Behavior, 72, 432-440.\nPontier, M. A., & Hoorn, J. F. (2013). How women think robots perceive them – as if robots \nwere men. Proceedings of the 5th International Conference on Agents and Artificial \nIntelligence, ICAART’13, February 15-18, 2013, Barcelona, Spain (pp. 496-504). Berlin, \nHeidelberg, GE: Springer.\nVan de Schoot, R., & Depaoli, S. (2014). Bayesian analyses: Where to start and what to report. \nEuropean Health Psychologist, 16(2), 75-84.\nVan Vugt, H. C., Hoorn, J. F., & Konijn, E. A. (2009). Interactive engagement with embodied \nagents: An empirically validated framework. Computer Animation and Virtual Worlds, 20, 195-\n204. doi:10.1002/cav.312\nVon Ahn, L., Blum, M., & Langford, J. (2004). Telling humans and computers apart \nautomatically. Communications of the ACM, 47, 56-60.\n65/65\n",
+   "text_norm": "References 2 Mou, Y., & Xu, K. (2017). The media inequality: Comparing the initial human-human and human-AI social interactions. Computers in Human Behavior, 72, 432-440. Pontier, M. A., & Hoorn, J. F. (2013). How women think robots perceive them – as if robots were men. Proceedings of the 5th International Conference on Agents and Artificial Intelligence, ICAART’13, February 15-18, 2013, Barcelona, Spain (pp. 496-504). Berlin, Heidelberg, GE: Springer. Van de Schoot, R., & Depaoli, S. (2014). Bayesian analyses: Where to start and what to report. European Health Psychologist, 16(2), 75-84. Van Vugt, H. C., Hoorn, J. F., & Konijn, E. A. (2009). Interactive engagement with embodied agents: An empirically validated framework. Computer Animation and Virtual Worlds, 20, 195204. doi:10.1002/cav.312 Von Ahn, L., Blum, M., & Langford, J. (2004). Telling humans and computers apart automatically. Communications of the ACM, 47, 56-60. 65/65",
+   "char_count": 943,
+   "has_image": true,
+   "image_count": 205,
+   "png": "assets/img/L11/slide-065.png",
+   "flags": []
+  }
+ ]
+}
