@@ -141,7 +141,7 @@ def build_mobile_site(ctx):
         '<h1>多媒体娱乐研究方法<br>手机中英对照复习站</h1>'
         '<p>保留老师英文原图排版，逐页附忠实中文对照，研究课词汇已加粗高亮标注原英语；支持单手滑屏翻页与点词看定义。</p>'
         '<div class="m-cta-row">'
-        '<a class="m-btn-primary" href="response.html">🎯 老师重点地图</a>'
+        '<a class="m-btn-primary" href="cram.html">⚡ 考前速背冲刺</a>'
         '<a class="m-btn-ghost" href="exam-items.html">📝 39 组例题</a>'
         '</div></section>'
         f'<div class="m-stats"><div><b>{total_pages}</b><span>中英对照页</span></div>'
